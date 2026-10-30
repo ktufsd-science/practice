@@ -1,0 +1,139 @@
+{
+  "id": "g8-2024-variation-and-corn",
+  "title": "Variation and Corn",
+  "grade": 8,
+  "subject": "Science",
+  "year": "2024",
+  "source": "NYSED 2024 Grade 8 ILS Released Items, Questions 6-11",
+  "pes": ["MS-LS4-5", "MS-LS3-2", "MS-LS3-1", "MS-ETS1-2"],
+  "directions": "Base your answers to questions 6 through 11 on the information below and on your knowledge of science.",
+  "showKeyAfterSubmit": true,
+  "stimuli": {
+    "intro": [
+      { "type": "title", "text": "Variation and Corn" },
+      { "type": "p", "html": "Through a variety of different processes, humans have used technology to alter the genetic make-up of wild plants and animals. Some of these altered organisms are used to produce more food." },
+      { "type": "p", "html": "Early farmers observed that some plants had more favorable characteristics than others, such as being better-tasting, having more seeds, or being easier to grow. Early farmers collected the seeds from the best plants and used them in an attempt to improve their plants. Slowly, the plants were changed over generations to have more favorable traits." },
+      { "type": "p", "html": "One example of a food crop that was altered around 9,000 years ago is corn. Teosinte is the early ancestor of corn. Teosinte is a large plant that has multiple branches with flowers that produce many structures that are not edible. Corn plants have only one main branch that produces flowers, which can develop into one or two large ears of corn that are edible." },
+      {
+        "type": "figures",
+        "items": [
+          { "type": "figure", "caption": "Teosinte", "src": "teosinte.png", "alt": "Drawing of a tall teosinte plant with many branches, a double-headed arrow labeled Produces, and two thin, pointed seed structures.", "width": 250 },
+          { "type": "figure", "caption": "Corn", "src": "corn.png", "alt": "Drawing of a corn plant with one main stalk, a double-headed arrow labeled Produces, and a large ear of corn.", "width": 250 }
+        ]
+      }
+    ],
+    "bt": [
+      { "type": "p", "html": "Insect pests damage a large amount of corn every year. One way scientists have successfully solved this problem is by growing a variety of corn that has an insect-resistant gene, the Bt gene, spliced into its genetic material. The Bt gene is cut from specific bacteria and inserted into the genetic material of corn. Insects feeding on this “Bt corn” get sick and die soon after. The chart below illustrates and describes a part of the process." },
+      {
+        "type": "table",
+        "rows": [
+          ["Genetic Material", "Description"],
+          [
+            { "html": "<img src=\"clusters/g8-2024-variation-and-corn/bt-1.png\" alt=\"Drawing of a double helix of genetic material, labeled Bacterium, with a lighter section labeled Bt gene in the middle.\" style=\"width:230px\">" },
+            "Bt gene from bacterium will help corn resist harmful insects"
+          ],
+          [
+            { "html": "<img src=\"clusters/g8-2024-variation-and-corn/bt-2.png\" alt=\"Drawing of the bacterium genetic material with a gap, with the lighter section labeled Bt gene lifted out of the helix.\" style=\"width:230px\">" },
+            "Bt gene being removed from bacterium genetic material"
+          ],
+          [
+            { "html": "<img src=\"clusters/g8-2024-variation-and-corn/bt-3.png\" alt=\"Drawing of only the lighter double helix section labeled Bt gene.\" style=\"width:230px\">" },
+            "Bt gene isolated from bacterium"
+          ],
+          [
+            { "html": "<img src=\"clusters/g8-2024-variation-and-corn/bt-4.png\" alt=\"Drawing of a double helix of genetic material, labeled Corn, with the lighter section labeled Bt gene in the middle.\" style=\"width:230px\">" },
+            "Bt gene inserted into corn genetic material"
+          ]
+        ]
+      }
+    ],
+    "chrom": [
+      { "type": "p", "html": "Sometimes traits that are not expected show up in organisms such as corn. Some of these traits are desirable, while others are harmful. The model below shows a structural change occurring in a chromosome." },
+      {
+        "type": "table",
+        "rows": [
+          ["Normal Set of Chromosomes", "Set of Chromosomes Showing a Structural Change"],
+          [
+            { "html": "<img src=\"clusters/g8-2024-variation-and-corn/chrom-normal.png\" alt=\"Three pairs of chromosomes in light gray, dark gray, and medium gray, each with matching bands.\" style=\"width:170px\">" },
+            { "html": "<img src=\"clusters/g8-2024-variation-and-corn/chrom-change.png\" alt=\"The same three pairs of chromosomes; in the last pair, a section of one chromosome is marked with a curved arrow labeled Flip.\" style=\"width:195px\">" }
+          ]
+        ]
+      }
+    ],
+    "graph": [
+      { "type": "p", "html": "The graph below shows how the changes in acres of Bt corn grown from 1996 to 2008 have influenced the amount of insecticide used per acre over that same period of time." },
+      {
+        "type": "figure",
+        "caption": "<b>Pounds of Insecticide Active Ingredient (A.I.) per Planted Acre<br>And Percent Acres of Bt Corn (%) from 1996 to 2008</b>",
+        "src": "graph.png",
+        "alt": "Graph with years 1996 to 2008 on the horizontal axis. The left axis shows pounds A.I. per acre from 0.00 to 0.30 and the right axis shows percent acres Bt corn from 0 to 100. A solid line is labeled Pounds of insecticide per acre and a dashed line is labeled Percent acres Bt corn (right axis).",
+        "width": 560
+      }
+    ]
+  },
+  "items": [
+    {
+      "n": 6, "stimulus": ["intro"], "type": "mc", "pe": "MS-LS4-5", "points": 1,
+      "stem": "How were two traits altered that resulted in modern day corn plants?",
+      "options": [
+        "The number of branches and the number of flowers increased.",
+        "The number of branches and the amount of edible food decreased.",
+        "The number of branches decreased, but the amount of edible food increased.",
+        "The number of flowers decreased, but the number of branches increased."
+      ],
+      "key": "C"
+    },
+    {
+      "n": 7, "stimulus": ["intro"], "type": "cr", "pe": "MS-LS4-5", "points": 1,
+      "stem": "Identify the type of technique (<i>selective breeding or genetic engineering</i>) used to produce corn from teosinte and cite the evidence in the information to support your choice. [1]",
+      "parts": [
+        { "label": "Technique:", "short": true, "maxChars": 100, "exemplar": "selective breeding" },
+        { "label": "Evidence:", "exemplar": "Over the years, people chose teosinte plants with desirable characteristics to breed and produce seeds with these desirable traits." }
+      ],
+      "rubric": [
+        "Credit: selective breeding and correct evidence.",
+        "Acceptable responses include, but are not limited to: Over the years, people chose teosinte plants with desirable characteristics to breed and produce seeds with these desirable traits.",
+        "Acceptable responses include, but are not limited to: Selective breeding involves choosing parents with particular characteristics to breed together and produce offspring with more desirable characteristics. This eventually resulted in modern corn."
+      ],
+      "exemplar": "Selective breeding. Over the years, people chose teosinte plants with desirable characteristics to breed and produce seeds with these desirable traits.<br><i>OR</i><br>Selective breeding. Selective breeding involves choosing parents with particular characteristics to breed together and produce offspring with more desirable characteristics. This eventually resulted in modern corn."
+    },
+    {
+      "n": 8, "stimulus": ["intro"], "type": "cr", "pe": "MS-LS3-2", "points": 1,
+      "stem": "Explain, in terms of offspring traits, why sexual reproduction and <b><i>not</i></b> asexual reproduction was used to produce corn plants from teosinte plants. [1]",
+      "rubric": [
+        "Credit: an acceptable explanation.",
+        "Acceptable responses include, but are not limited to: Sexual reproduction allows for variation in offspring traits so the best traits can be obtained, while asexual reproduction leads to the same traits in parents and offspring.",
+        "Acceptable responses include, but are not limited to: Sexual reproduction leads to more variety in traits so better traits can be obtained."
+      ],
+      "exemplar": "Sexual reproduction allows for variation in offspring traits so the best traits can be obtained, while asexual reproduction leads to the same traits in parents and offspring.<br><i>OR</i><br>Sexual reproduction leads to more variety in traits so better traits can be obtained."
+    },
+    {
+      "n": 9, "stimulus": ["bt"], "type": "mc", "pe": "MS-LS4-5", "points": 1,
+      "stem": "Adding the genetic material from the bacterium to the genetic material of the corn is an example of",
+      "options": ["natural selection", "biodiversity", "gene therapy", "genetic modification"],
+      "key": "D"
+    },
+    {
+      "n": 10, "stimulus": ["chrom"], "type": "mc", "pe": "MS-LS3-1", "points": 1,
+      "stem": "Which change would <b><i>not</i></b> result in a new trait being seen in future generations of corn?",
+      "options": [
+        "a mutation in the genetic material of a leaf",
+        "an alteration in the genes of a sex cell",
+        "a change in chromosomes during the production of seeds",
+        "a modification of the genetic material in pollen"
+      ],
+      "key": "A"
+    },
+    {
+      "n": 11, "stimulus": ["graph"], "type": "mc", "pe": "MS-ETS1-2", "points": 1,
+      "stem": "The graph indicates that the design solution of adding the Bt gene into corn plants helps protect the stability of an ecosystem by",
+      "options": [
+        "keeping the amount of insecticide used constant",
+        "keeping the amount of corn grown constant",
+        "decreasing the amount of insecticide used",
+        "decreasing the amount of Bt corn grown"
+      ],
+      "key": "C"
+    }
+  ]
+}

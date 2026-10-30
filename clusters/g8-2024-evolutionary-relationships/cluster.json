@@ -1,0 +1,391 @@
+{
+  "id": "g8-2024-evolutionary-relationships",
+  "title": "Evolutionary Relationships",
+  "grade": 8,
+  "subject": "Science",
+  "year": "2024",
+  "source": "NYSED 2024 Grade 8 ILS Released Items, Questions 23-27",
+  "pes": [
+    "MS-LS4-3",
+    "MS-LS4-2",
+    "MS-LS1-4",
+    "MS-LS4-1"
+  ],
+  "directions": "Base your answers to questions 23 through 27 on the information below and on your knowledge of science.",
+  "showKeyAfterSubmit": true,
+  "stimuli": {
+    "intro": [
+      {
+        "type": "title",
+        "text": "Evolutionary Relationships"
+      },
+      {
+        "type": "p",
+        "html": "The chart below shows the embryonic development of four organisms."
+      },
+      {
+        "type": "figure",
+        "caption": "<b>Stages of Embryonic Development</b>",
+        "src": "stages-chart.png",
+        "alt": "Chart with four rows, labeled Chicken Embryos, Mouse Embryos, Crocodile Embryos, and Snake Embryos. Each row shows photographs of the embryo at four or five stages of development, from small and early to large and late, with labels such as gill pouch, eye, tail, and limb pointing to body structures. Not drawn to scale.",
+        "width": 520
+      },
+      {
+        "type": "p",
+        "html": "The chart below shows embryonic images of four organisms."
+      },
+      {
+        "type": "figure",
+        "caption": "(Not drawn to scale)",
+        "captionBelow": true,
+        "src": "embryonic-images.png",
+        "alt": "Chart with four columns titled Chicken Embryo, Mouse Embryo, Crocodile Embryo, and Snake Embryo. Each column shows one embryo with the skeleton visible and labels pointing to the skull, vertebrae, limbs, and tail where present.",
+        "width": 560
+      }
+    ],
+    "adult": [
+      {
+        "type": "p",
+        "html": "The photographs below show the adult form of the four organisms from the <i>Stages of Embryonic Development</i> chart."
+      },
+      {
+        "type": "figure",
+        "caption": "<b>Images of Adult Organisms</b>",
+        "src": "adult-organisms.png",
+        "alt": "Four photographs in a two-by-two grid labeled Adult chicken, Adult mouse, Adult crocodile, and Adult snake. Not drawn to scale.",
+        "width": 420
+      },
+      {
+        "type": "p",
+        "html": "(Not drawn to scale)"
+      }
+    ],
+    "yingliang": [
+      {
+        "type": "title",
+        "text": "Baby Yingliang"
+      },
+      {
+        "type": "p",
+        "html": "In 2000, a dinosaur embryo fossil was discovered in east China and is now housed in the Yingliang Stone Natural History Museum where it was dubbed &ldquo;Baby Yingliang.&rdquo; Estimated to be 27 centimeters long from head to tail, the creature lies inside a 17-cm-long egg. Paleontologists believe it belongs to a toothless theropod dinosaur, or oviraptorosaur, dating back 72 to 66 million years, within the Cretaceous Period."
+      },
+      {
+        "type": "figures",
+        "items": [
+          {
+            "type": "figure",
+            "caption": "<b>Embryonic Skeleton of Baby Yingliang</b>",
+            "src": "skeleton.png",
+            "alt": "Photograph of a fossil egg containing a curled embryonic skeleton, with labels pointing to the vertebrae, skull, limbs, and tail.",
+            "width": 230
+          },
+          {
+            "type": "figure",
+            "caption": "<b>Scientific Illustration of Baby Yingliang</b>",
+            "src": "illustration.png",
+            "alt": "Illustration of a feathered embryo curled inside an oval egg.",
+            "width": 138
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "html": "(Not drawn to scale)"
+      }
+    ],
+    "nesting": [
+      {
+        "type": "p",
+        "html": "Scientists who study dinosaurs compare not only their embryological development, but also their behavior in how they protect their eggs in which the embryos are found."
+      },
+      {
+        "type": "p",
+        "html": "For millions of years, parents across the animal kingdom have cared for their eggs and young, providing both time and resources. Nest building is a common behavior in many organisms, such as modern day birds and crocodiles. Some of these animals cover their nests entirely and leave them. Others leave their nests open and incubate the eggs by brooding, or sitting on the nest, to keep the eggs warm and protected."
+      },
+      {
+        "type": "p",
+        "html": "The table below lists four dinosaur types and the nesting behaviors thought to be associated with each type."
+      },
+      {
+        "type": "table",
+        "caption": "<b>Nesting Behaviors of Various Dinosaur Types</b>",
+        "rows": [
+          [
+            {
+              "html": "Dinosaur Types",
+              "th": true
+            },
+            {
+              "html": "Nesting Behavior",
+              "th": true
+            }
+          ],
+          [
+            {
+              "html": "<i>Maiasaura</i>",
+              "align": "center"
+            },
+            {
+              "html": "&mdash; nested in large colonies, laying on eggs<br>&mdash; parents may have extensively provided food and protection for their hatchlings",
+              "align": "left"
+            }
+          ],
+          [
+            {
+              "html": "<i>Oviraptor</i>",
+              "align": "center"
+            },
+            {
+              "html": "&mdash; curled up laying on its nest<br>&mdash; protective of eggs",
+              "align": "left"
+            }
+          ],
+          [
+            {
+              "html": "<i>Allosaurus</i>",
+              "align": "center"
+            },
+            {
+              "html": "&mdash; laid between 10 and 20 eggs",
+              "align": "left"
+            }
+          ],
+          [
+            {
+              "html": "<i>Gigantoraptor</i>",
+              "align": "center"
+            },
+            {
+              "html": "&mdash; laid their eggs in a ring around their bodies to incubate eggs without sitting directly on them",
+              "align": "left"
+            }
+          ]
+        ]
+      }
+    ],
+    "model": [
+      {
+        "type": "p",
+        "html": "The Oviraptorosaurus is a descendant of a group of dinosaurs called Maniraptora. The model below represents the evolutionary relationships amongst different groups of organisms. The bars indicate the time on Earth when these groups of organisms lived. The letters <i>A</i>, <i>B</i>, <i>C</i>, and <i>D</i> are descendants of the Maniraptora. Jurassic and Cretaceous refer to time periods in Earth&rsquo;s geologic history when dinosaurs existed."
+      },
+      {
+        "type": "figure",
+        "src": "model.png",
+        "alt": "Branching diagram with time running left to right and the Jurassic (end), Cretaceous, and Present Day marked along the top. Maniraptora branches at points A, B, C, and D into six groups: Therizinosauridea, Alvarezsauridae, Oviraptorosauria, Deinonychosauria, Scansoriopterygidae, and Aves (Birds). Horizontal lines show how long each group lived. Small pictures of the animals appear beside the group names.",
+        "width": 520
+      }
+    ]
+  },
+  "items": [
+    {
+      "n": 23,
+      "stimulus": [
+        "intro"
+      ],
+      "type": "mc",
+      "pe": "MS-LS4-3",
+      "points": 1,
+      "stem": "Which statement can be supported using evidence from the photographs in the <i>Stages of Embryonic Development</i> chart and the embryonic images?",
+      "options": [
+        "Only the crocodile and snake embryos have tails.",
+        "The mouse, chicken, and crocodile embryos develop similar outer coverings.",
+        "Eyes are present during all stages of embryonic development for all four organisms.",
+        "All four organisms have limbs at some point during their embryonic development."
+      ],
+      "key": "D"
+    },
+    {
+      "n": 24,
+      "stimulus": [
+        "intro",
+        "adult"
+      ],
+      "type": "table",
+      "pe": "MS-LS4-3",
+      "points": 1,
+      "stem": "The table below lists the four organisms and structures associated with these organisms. Place checkmarks (&#10003;) in the appropriate boxes to indicate if the structures are found in the Embryo Stage only, the Adult Stage only, or in both the Embryo and Adult stages. [1]",
+      "adapted": "No wording change. On screen, selecting a box in the table places the checkmark in it, so the printed direction still works. One box can be checked in each row.",
+      "table": {
+        "rows": [
+          [
+            {
+              "html": "Organism",
+              "th": true
+            },
+            {
+              "html": "Structure",
+              "th": true
+            },
+            {
+              "html": "Found in Embryo Stage Only",
+              "th": true
+            },
+            {
+              "html": "Found in Adult Stage Only",
+              "th": true
+            },
+            {
+              "html": "Found in Both Embryo and Adult Stages",
+              "th": true
+            }
+          ],
+          [
+            "Chicken",
+            "Gill Pouches",
+            {
+              "check": "a1",
+              "group": "a"
+            },
+            {
+              "check": "a2",
+              "group": "a"
+            },
+            {
+              "check": "a3",
+              "group": "a"
+            }
+          ],
+          [
+            "Mouse",
+            "Four Limbs",
+            {
+              "check": "b1",
+              "group": "b"
+            },
+            {
+              "check": "b2",
+              "group": "b"
+            },
+            {
+              "check": "b3",
+              "group": "b"
+            }
+          ],
+          [
+            "Crocodile",
+            "Eyes",
+            {
+              "check": "c1",
+              "group": "c"
+            },
+            {
+              "check": "c2",
+              "group": "c"
+            },
+            {
+              "check": "c3",
+              "group": "c"
+            }
+          ],
+          [
+            "Snake",
+            "Colored Scales in a Pattern",
+            {
+              "check": "d1",
+              "group": "d"
+            },
+            {
+              "check": "d2",
+              "group": "d"
+            },
+            {
+              "check": "d3",
+              "group": "d"
+            }
+          ]
+        ],
+        "labels": {
+          "a1": "Chicken, Gill Pouches: Found in Embryo Stage Only",
+          "a2": "Chicken, Gill Pouches: Found in Adult Stage Only",
+          "a3": "Chicken, Gill Pouches: Found in Both Embryo and Adult Stages",
+          "b1": "Mouse, Four Limbs: Found in Embryo Stage Only",
+          "b2": "Mouse, Four Limbs: Found in Adult Stage Only",
+          "b3": "Mouse, Four Limbs: Found in Both Embryo and Adult Stages",
+          "c1": "Crocodile, Eyes: Found in Embryo Stage Only",
+          "c2": "Crocodile, Eyes: Found in Adult Stage Only",
+          "c3": "Crocodile, Eyes: Found in Both Embryo and Adult Stages",
+          "d1": "Snake, Colored Scales in a Pattern: Found in Embryo Stage Only",
+          "d2": "Snake, Colored Scales in a Pattern: Found in Adult Stage Only",
+          "d3": "Snake, Colored Scales in a Pattern: Found in Both Embryo and Adult Stages"
+        }
+      },
+      "key": {
+        "a1": true,
+        "b3": true,
+        "c3": true,
+        "d2": true
+      },
+      "rubric": [
+        "Allow 1 credit for <i>four</i> checkmarks: Chicken, Gill Pouches: Found in Embryo Stage Only; Mouse, Four Limbs: Found in Both Embryo and Adult Stages; Crocodile, Eyes: Found in Both Embryo and Adult Stages; Snake, Colored Scales in a Pattern: Found in Adult Stage Only.",
+        "<b>Note</b>: Allow credit if a symbol other than a checkmark is used."
+      ]
+    },
+    {
+      "n": 25,
+      "stimulus": [
+        "yingliang"
+      ],
+      "type": "cr",
+      "pe": "MS-LS4-2",
+      "points": 1,
+      "stem": "Scientists have inferred that Baby Yingliang has a strong evolutionary relationship with the chicken. Identify <b>two</b> pieces of evidence that supports this inference. [1]",
+      "parts": [
+        {
+          "label": "Evidence 1:"
+        },
+        {
+          "label": "Evidence 2:"
+        }
+      ],
+      "rubric": [
+        "Allow 1 credit for <i>two</i> correct pieces of evidence. Acceptable responses include, but are not limited to:",
+        "&mdash; The skulls of the chicken and Baby Yingliang are similar in shape.<br>&mdash; The limbs are similar in the two organisms.<br>&mdash; The shape of the eye sockets are similar in shape.<br>&mdash; Both the chicken and the Baby Yingliang have beaks.<br>&mdash; The chicken and Baby Yingliang both have a tail."
+      ],
+      "exemplar": "The skulls of the chicken and Baby Yingliang are similar in shape.<br><i>AND</i><br>The limbs are similar in the two organisms."
+    },
+    {
+      "n": 26,
+      "stimulus": [
+        "nesting"
+      ],
+      "type": "cr",
+      "pe": "MS-LS1-4",
+      "points": 1,
+      "stem": "Identify and explain how <b>one</b> specific behavior is thought to have helped dinosaurs increase the probability of successful reproduction. [1]",
+      "parts": [
+        {
+          "label": "Behavior:",
+          "short": true
+        },
+        {
+          "label": "Explanation:"
+        }
+      ],
+      "rubric": [
+        "Allow 1 credit for both an acceptable behavior <i>and</i> a supporting explanation. Acceptable responses include, but are not limited to:",
+        "Behavior: nests in large colonies. Explanation: eggs protected by many adults.",
+        "Behavior: laying on eggs. Explanation: keeps eggs warm and protected.",
+        "Behavior: laying eggs in a ring. Explanation: offers warmth and parental protection from predators.",
+        "Behavior: producing more eggs. Explanation: more young will reach adulthood for more successful reproduction."
+      ],
+      "exemplar": "Behavior: laying on eggs<br>Explanation: Keeps eggs warm and protected."
+    },
+    {
+      "n": 27,
+      "stimulus": [
+        "model"
+      ],
+      "type": "mc",
+      "pe": "MS-LS4-1",
+      "points": 1,
+      "stem": "Which statement about the pattern observed in the model is most accurate?",
+      "options": [
+        "There has been no change in life forms throughout much of geologic history.",
+        "There has been little diversity in life forms after the Maniraptora group.",
+        "Members of Oviraptorosauria are all extinct while members of Aves are still in existence.",
+        "All the descendants of Maniraptora have survived to the present day."
+      ],
+      "key": "C"
+    }
+  ]
+}

@@ -1,0 +1,329 @@
+{
+  "id": "g8-2024-energy-of-skateboarders",
+  "title": "Energy of Skateboarders",
+  "grade": 8,
+  "subject": "Science",
+  "year": "2024",
+  "source": "NYSED 2024 Grade 8 ILS Released Items, Questions 12-16",
+  "pes": [
+    "MS-PS3-1",
+    "MS-PS3-2"
+  ],
+  "directions": "Base your answers to questions 12 through 16 on the information below and on your knowledge of science.",
+  "showKeyAfterSubmit": true,
+  "stimuli": {
+    "intro": [
+      {
+        "type": "title",
+        "text": "Energy of Skateboarders"
+      },
+      {
+        "type": "p",
+        "html": "Three skaters, who weighed between 88 pounds (40 kg) and 177 pounds (80 kg), went to a local skate park and each tried the half-pipe. A half-pipe is a U-shaped ramp, as shown below."
+      },
+      {
+        "type": "figure",
+        "src": "ramp-photo.png",
+        "alt": "Photograph from above of a skater on a wooden half-pipe ramp at a skate park.",
+        "width": 420
+      },
+      {
+        "type": "figure",
+        "caption": "<b>Positions on Half-pipe Ramp</b>",
+        "src": "ramp-positions.png",
+        "alt": "Diagram of a U-shaped ramp on a grid with positions numbered 0 through 10 along the ramp from the top left, down to the bottom, and up to the top right. A skater is labeled at the bottom of the half-pipe, at position 5.",
+        "width": 520
+      }
+    ],
+    "graph": [
+      {
+        "type": "p",
+        "html": "Data on the kinetic energy of the three skaters (40 kg, 60 kg, and 80 kg) at ten different positions of the half-pipe ramp were collected and graphed. The locations of the positions on the ramp are shown below."
+      },
+      {
+        "type": "figure",
+        "caption": "<b>Kinetic Energy of Three Skaters on a Half-pipe Ramp at Positions 0 to 10</b>",
+        "src": "ke-graph.png",
+        "alt": "Line graph of kinetic energy in joules, from 0 to 3600, against ramp position, from 0 to 10, with three curves labeled 80 kg, 60 kg, and 40 kg. Each curve starts at 0 at position 0, rises to a peak at position 5, and falls to 0 at position 10.",
+        "width": 380
+      }
+    ],
+    "table": [
+      {
+        "type": "p",
+        "html": "The data table below shows the speed (m/s) and kinetic energy (J) of the 80-kg skater from position 0 to position 5."
+      },
+      {
+        "type": "table",
+        "caption": "Speed and Kinetic Energy of 80-kg Skater",
+        "rows": [
+          [
+            "<b>Position</b>",
+            "<b>Speed</b> (m/s)",
+            "<b>Kinetic Energy</b> (J)"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "1",
+            "4.8",
+            "900"
+          ],
+          [
+            "2",
+            "6.6",
+            "1700"
+          ],
+          [
+            "3",
+            "7.8",
+            "2500"
+          ],
+          [
+            "4",
+            "8.6",
+            "3000"
+          ],
+          [
+            "5",
+            "8.8",
+            "3200"
+          ]
+        ]
+      }
+    ],
+    "elevation": [
+      {
+        "type": "figure",
+        "caption": "<b>Positions on Half-pipe Ramp with Elevation</b>",
+        "src": "ramp-elevation.png",
+        "alt": "Diagram of the U-shaped ramp on a grid with elevation above ground in meters from 0 to 5 on the vertical axis. Positions 0 through 10 are numbered along the ramp, with a skater at the bottom and the ground labeled along the base.",
+        "width": 520
+      }
+    ]
+  },
+  "items": [
+    {
+      "n": 12,
+      "stimulus": [
+        "intro",
+        "graph"
+      ],
+      "type": "cr",
+      "pe": "MS-PS3-1",
+      "points": 1,
+      "stem": "Describe how the kinetic energy of the <b>three</b> skaters was affected as a result of the mass of each skater. Use quantitative information from any <b>one</b> ramp position on the graph to support your answer. [1]",
+      "rubric": [
+        "Credit: an acceptable description of how kinetic energy was affected by mass, supported by correct quantitative information from the graph at any one ramp position.",
+        "Acceptable responses include, but are not limited to: As the mass of the skaters increased, the kinetic energy increased. The 80-kg skater had a kinetic energy of 3200 J at position 5, while the other two skaters were only 2400 J and 1600 J for the same position.",
+        "Acceptable responses include, but are not limited to: Kinetic energy increased as the mass of the skaters increased. At positions 1 through 9 the kinetic energy of the 80-kg skater was always greater than the other two skaters. At position 1 it was 900 J compared to 740 J and 500 J.",
+        "Acceptable responses include, but are not limited to: Kinetic energy is proportional to the mass of the skater. At position 5, the kinetic energy of the 40-kg skater is 1600 J and the kinetic energy of the 80-kg skater is 3200 J.",
+        "Note: The quantitative information used at any point must be correct."
+      ],
+      "exemplar": "As the mass of the skaters increased, the kinetic energy increased. The 80-kg skater had a kinetic energy of 3200 J at position 5, while the other two skaters were only 2400 J and 1600 J for the same position.<br><i>OR</i><br>Kinetic energy increased as the mass of the skaters increased. At positions 1 through 9 the kinetic energy of the 80-kg skater was always greater than the other two skaters. At position 1 it was 900 J compared to 740 J and 500 J.<br><i>OR</i><br>Kinetic energy is proportional to the mass of the skater. At position 5, the kinetic energy of the 40-kg skater is 1600 J and the kinetic energy of the 80-kg skater is 3200 J."
+    },
+    {
+      "n": 13,
+      "stimulus": [
+        "table"
+      ],
+      "type": "dragdrop",
+      "pe": "MS-PS3-1",
+      "points": 1,
+      "stem": "The student wants to show the data for the speed (m/s) and kinetic energy (J) of the 80-kilogram skater from position 0 to position 5. From the choices provided, place the choices in the boxes next to the grid to identify:<ul><li>the names of the correct independent and dependent variable</li><li>the appropriate range and interval (per grid space) for the data</li></ul>[1]",
+      "adapted": "\"fill in the boxes\" changed to \"place the choices in the boxes\" because students drag the printed choices into the boxes. Printed choices and boxes are unchanged. All four boxes must be correct for credit, as in the rating guide.",
+      "bankTitle": "Choices:",
+      "reuse": false,
+      "choices": [
+        {
+          "id": "ke",
+          "text": "Kinetic Energy (J)"
+        },
+        {
+          "id": "pos",
+          "text": "Position Number"
+        },
+        {
+          "id": "sp",
+          "text": "Speed (m/s)"
+        },
+        {
+          "id": "r5",
+          "text": "0-5, with an interval of 1"
+        },
+        {
+          "id": "r9",
+          "text": "0-9, with an interval of 0.2"
+        },
+        {
+          "id": "r3400",
+          "text": "0-3400, with an interval of 100"
+        },
+        {
+          "id": "r4000",
+          "text": "0-4000, with an interval of 50"
+        }
+      ],
+      "target": {
+        "src": "q13-grid.png",
+        "alt": "A blank graph grid with its origin at the lower left, marked 0 on both axes. Two empty boxes labeled Variable and Range & Interval sit to the left of the vertical axis, and two more sit below the horizontal axis.",
+        "width": 560,
+        "zones": [
+          {
+            "id": "z1",
+            "x": 1.2,
+            "y": 17.1,
+            "w": 28.5,
+            "h": 7.7
+          },
+          {
+            "id": "z2",
+            "x": 1.2,
+            "y": 39.8,
+            "w": 28.5,
+            "h": 15.2
+          },
+          {
+            "id": "z3",
+            "x": 34.0,
+            "y": 83.1,
+            "w": 28.6,
+            "h": 7.6
+          },
+          {
+            "id": "z4",
+            "x": 68.3,
+            "y": 83.0,
+            "w": 28.6,
+            "h": 15.2
+          }
+        ],
+        "zoneNames": {
+          "z1": "Variable box next to the vertical axis",
+          "z2": "Range & Interval box next to the vertical axis",
+          "z3": "Variable box below the horizontal axis",
+          "z4": "Range & Interval box below the horizontal axis"
+        }
+      },
+      "key": {
+        "z1": "ke",
+        "z2": "r3400",
+        "z3": "sp",
+        "z4": "r9"
+      }
+    },
+    {
+      "n": 14,
+      "stimulus": [
+        "table"
+      ],
+      "type": "mc",
+      "pe": "MS-PS3-1",
+      "points": 1,
+      "stem": "Which table summarizes the relationship between the speed of a skater and the skater’s kinetic energy?",
+      "options": [
+        "<table style=\"border-collapse:collapse;text-align:center\"><tr><th style=\"border:1px solid #000;padding:2px 14px\">Speed</th><th style=\"border:1px solid #000;padding:2px 14px\">Kinetic Energy</th></tr><tr><td style=\"border:1px solid #000;padding:2px 14px\">Increases</td><td style=\"border:1px solid #000;padding:2px 14px\">Increases</td></tr></table>",
+        "<table style=\"border-collapse:collapse;text-align:center\"><tr><th style=\"border:1px solid #000;padding:2px 14px\">Speed</th><th style=\"border:1px solid #000;padding:2px 14px\">Kinetic Energy</th></tr><tr><td style=\"border:1px solid #000;padding:2px 14px\">Increases</td><td style=\"border:1px solid #000;padding:2px 14px\">Stays the Same</td></tr></table>",
+        "<table style=\"border-collapse:collapse;text-align:center\"><tr><th style=\"border:1px solid #000;padding:2px 14px\">Speed</th><th style=\"border:1px solid #000;padding:2px 14px\">Kinetic Energy</th></tr><tr><td style=\"border:1px solid #000;padding:2px 14px\">Increases</td><td style=\"border:1px solid #000;padding:2px 14px\">Decreases</td></tr></table>",
+        "<table style=\"border-collapse:collapse;text-align:center\"><tr><th style=\"border:1px solid #000;padding:2px 14px\">Speed</th><th style=\"border:1px solid #000;padding:2px 14px\">Kinetic Energy</th></tr><tr><td style=\"border:1px solid #000;padding:2px 14px\">Decreases</td><td style=\"border:1px solid #000;padding:2px 14px\">Stays the Same</td></tr></table>"
+      ],
+      "optionsLayout": "grid",
+      "key": "A"
+    },
+    {
+      "n": 15,
+      "stimulus": [
+        "table"
+      ],
+      "type": "table",
+      "pe": "MS-PS3-1",
+      "points": 1,
+      "stem": "If friction is <b><i>not</i></b> present, the mass of the skateboarder does <b><i>not</i></b> affect their speed at positions on the half-pipe.<p style=\"text-align:center;margin:12px 0 4px\">The formula for Kinetic Energy is:</p><p style=\"text-align:center;margin:0\"><b>KE = &frac12; mv<sup>2</sup></b> &nbsp;&nbsp; KE = Kinetic energy (J); m = mass (kg); v = speed (m/s)</p><p style=\"margin-top:12px\">Use the data from the <i>Speed and Kinetic Energy of 80-kg Skater</i> table to complete the formula and calculate the kinetic energy of a 50-kg skateboarder at the position at the bottom of the ramp (position 5). [1]</p>",
+      "adapted": "Formula text rearranged only: the printed definitions (KE, m, v) are listed in a line. The printed boxes are typing cells; \"complete the formula\" is unchanged.",
+      "table": {
+        "header": false,
+        "rows": [
+          [
+            {
+              "html": "KE = &frac12; (",
+              "th": false,
+              "style": "border:none"
+            },
+            {
+              "in": "m",
+              "width": 5
+            },
+            {
+              "html": "kg)",
+              "style": "border:none"
+            },
+            {
+              "html": "(",
+              "style": "border:none"
+            },
+            {
+              "in": "v",
+              "width": 5
+            },
+            {
+              "html": "m/s)<sup>2</sup>",
+              "style": "border:none"
+            }
+          ],
+          [
+            {
+              "html": "KE =",
+              "style": "border:none"
+            },
+            {
+              "in": "ke",
+              "width": 5,
+              "colspan": 2
+            },
+            {
+              "html": "J",
+              "style": "border:none"
+            }
+          ]
+        ],
+        "labels": {
+          "m": "Mass in kilograms",
+          "v": "Speed in meters per second",
+          "ke": "Kinetic energy in joules"
+        }
+      },
+      "key": {
+        "m": [
+          "50"
+        ],
+        "v": [
+          "8.8"
+        ],
+        "ke": [
+          "1936"
+        ]
+      },
+      "explanation": "KE = ½ (50 kg)(8.8 m/s)² = 1936 J"
+    },
+    {
+      "n": 16,
+      "stimulus": [
+        "elevation"
+      ],
+      "type": "mc",
+      "pe": "MS-PS3-2",
+      "points": 1,
+      "stem": "Which statement explains how the model of the ramp shown would need to be modified in order to <i>increase</i> the potential energy of the skater at position 10?",
+      "options": [
+        "The elevation of the ramp above ground would have to decrease to 2 meters.",
+        "The elevation of the ramp above ground would have to increase to greater than 4 meters.",
+        "The length of the ramp would have to double and remain at the same elevation.",
+        "The length of the ramp would be reduced by half and remain at the same elevation."
+      ],
+      "key": "B"
+    }
+  ]
+}

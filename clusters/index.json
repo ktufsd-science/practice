@@ -271,6 +271,72 @@
       "numbers": "10–13"
     },
     {
+      "id": "g8-2024-energy-of-skateboarders",
+      "grade": 8,
+      "title": "Energy of Skateboarders",
+      "year": "2024",
+      "questions": 5,
+      "pes": [
+        "MS-PS3-1",
+        "MS-PS3-2"
+      ],
+      "numbers": "12–16"
+    },
+    {
+      "id": "g8-2024-energy-transfer-by-waves",
+      "grade": 8,
+      "title": "Energy Transfer by Waves",
+      "year": "2024",
+      "questions": 5,
+      "pes": [
+        "MS-PS4-1",
+        "MS-PS4-2"
+      ],
+      "numbers": "1–5"
+    },
+    {
+      "id": "g8-2024-evolutionary-relationships",
+      "grade": 8,
+      "title": "Evolutionary Relationships",
+      "year": "2024",
+      "questions": 5,
+      "pes": [
+        "MS-LS4-3",
+        "MS-LS4-2",
+        "MS-LS1-4",
+        "MS-LS4-1"
+      ],
+      "numbers": "23–27"
+    },
+    {
+      "id": "g8-2024-reservoirs-and-town-water-districts",
+      "grade": 8,
+      "title": "Reservoirs and Town Water Districts",
+      "year": "2024",
+      "questions": 6,
+      "pes": [
+        "MS-ESS3-3",
+        "MS-ESS3-1",
+        "MS-ESS3-4",
+        "MS-ESS3-2"
+      ],
+      "numbers": "17–22"
+    },
+    {
+      "id": "g8-2024-variation-and-corn",
+      "grade": 8,
+      "title": "Variation and Corn",
+      "year": "2024",
+      "questions": 6,
+      "pes": [
+        "MS-LS4-5",
+        "MS-LS3-2",
+        "MS-LS3-1",
+        "MS-ETS1-2"
+      ],
+      "numbers": "6–11"
+    },
+    {
       "id": "g8-2025-guppies",
       "grade": 8,
       "title": "Behavior and Evolution of Guppies",

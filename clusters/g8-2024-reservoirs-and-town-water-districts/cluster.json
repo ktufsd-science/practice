@@ -1,0 +1,284 @@
+{
+  "id": "g8-2024-reservoirs-and-town-water-districts",
+  "title": "Reservoirs and Town Water Districts",
+  "grade": 8,
+  "subject": "Science",
+  "year": "2024",
+  "source": "NYSED 2024 Grade 8 ILS Released Items, Questions 17-22",
+  "pes": [
+    "MS-ESS3-3",
+    "MS-ESS3-1",
+    "MS-ESS3-4",
+    "MS-ESS3-2"
+  ],
+  "directions": "Base your answers to questions 17 through 22 on the information provided and on your knowledge of science.",
+  "showKeyAfterSubmit": true,
+  "stimuli": {
+    "intro": [
+      {
+        "type": "title",
+        "text": "Reservoirs and Town Water Districts"
+      },
+      {
+        "type": "p",
+        "html": "A town water district provides its residents with drinking water that is safe, plentiful, and able to meet all state and federal health standards. Town water districts obtain water from reservoirs (large bodies of water, such as lakes or ponds), town wells (where groundwater is pumped to the surface), and neighboring towns or cities. The town water district then processes the water received from multiple sources in a treatment plant to ensure it is safe to use. The water is then transported through pipes to homes and businesses."
+      },
+      {
+        "type": "p",
+        "html": "In order to maintain an adequate water supply for businesses, household use, and fire protection, a town water district may restrict water usage to ensure that sufficient water is available for residents and emergency services. In any system, some water is lost. Lost water leaves the system due to leaks, water main breaks, the flushing of hydrants, firefighting, theft, and water meter inaccuracy. A water meter measures the amount of water used in a building."
+      },
+      {
+        "type": "p",
+        "html": "One town water district located near Albany, New York, reported that approximately 100% of the buildings in this town have water meters. The average percentage of water lost in the United States is 16%. The town has been monitoring this lost water in their district. The data table below shows information about this town&rsquo;s water usage over a period of five years."
+      },
+      {
+        "type": "table",
+        "caption": "<b>Town Water District Data for Five Years</b>",
+        "rows": [
+          [
+            "Year",
+            "Population",
+            "Total Water Used<br>(gallons)",
+            "Water Accounted For By Meters<br>(gallons)",
+            "Percentage of Water Lost<br>(%)"
+          ],
+          [
+            "2018",
+            "27,314",
+            "1,088,830,000",
+            "991,272,374",
+            "9"
+          ],
+          [
+            "2017",
+            "27,104",
+            "1,027,626,000",
+            "960,892,349",
+            "6"
+          ],
+          [
+            "2016",
+            "27,023",
+            "1,137,802,000",
+            "1,042,067,658",
+            "8"
+          ],
+          [
+            "2015",
+            "26,636",
+            "1,116,688,000",
+            "1,048,566,701",
+            "6"
+          ],
+          [
+            "2014",
+            "26,315",
+            "1,087,960,000",
+            "962,008,167",
+            "12"
+          ]
+        ]
+      }
+    ],
+    "reservoir": [
+      {
+        "type": "p",
+        "html": "The map below shows the location of the town water district&rsquo;s reservoir. The photograph below shows a portion of the reservoir as seen from a location on the highway heading east."
+      },
+      {
+        "type": "figure",
+        "src": "map.png",
+        "alt": "Map of the area around the reservoir. A white, irregularly shaped reservoir lies in the upper left and center, with small streams entering it. A highway runs diagonally from the upper left to the lower right, with a second highway curving across the lower part of the map. A dot on the highway at the northwest end of the reservoir marks where the photograph was taken. Two park areas, a town water treatment plant, and a north arrow are labeled.",
+        "width": 560
+      },
+      {
+        "type": "figure",
+        "src": "photo.png",
+        "alt": "Black-and-white photograph looking along a paved road with a guardrail on the right. Beyond the guardrail, shrubs and a tall, thin tree stand in front of a wide, flat body of water, with a tree line and low hills in the distance under a cloudy sky.",
+        "width": 460
+      }
+    ],
+    "colorado": [
+      {
+        "type": "p",
+        "html": "A reservoir is an important design method for providing a large continuous source of water. It can also be used to produce electricity. Many areas of the United States have man-made reservoirs. The Colorado River Basin is a significant water source for several states. Dams and reservoirs have been built to provide greater access to this water."
+      },
+      {
+        "type": "p",
+        "html": "Lake Mead, in both Arizona and Nevada is the largest reservoir in the United States. It supplies water to millions of people in seven states. Water levels have been trending downward for the last 22 years. One reason for the decline is the worst drought in 100 years."
+      },
+      {
+        "type": "figure",
+        "caption": "<b>Colorado River Basin</b>",
+        "src": "colorado-map.png",
+        "alt": "Map of the Colorado River Basin across parts of Wyoming, Colorado, Utah, Nevada, California, Arizona, and New Mexico. The Upper Basin and Lower Basin are shaded differently. Rivers, dams, lakes, and cities are labeled, and an X near Lake Mead and Las Vegas marks the site where satellites have been observing water levels. A key and a compass rose are included.",
+        "width": 560
+      }
+    ],
+    "mead": [
+      {
+        "type": "figure",
+        "caption": "<b>Elevation of Surface of Lake Mead from 2000-2022</b>",
+        "src": "lake-mead-graph.png",
+        "alt": "Line graph with shaded area of the elevation of the surface of Lake Mead at Hoover Dam, in feet, from 1025 to 1225, against year from 2000 to 2022. The line starts at January 2000 and ends at June 2022 and has several rises and falls along the way.",
+        "width": 560
+      }
+    ],
+    "satellite": [
+      {
+        "type": "p",
+        "html": "The three satellite images below were taken of the area around location <i>X</i> on the <i>Colorado River Basin</i> map. The lighter areas on the outside of the river are mineral deposits of the lakeshore that were once underwater or dissolved in the water."
+      },
+      {
+        "type": "figure",
+        "src": "satellite.png",
+        "alt": "Three black-and-white satellite images side by side, labeled 2000, 2021, and 2022, each showing the Virgin River and the Overton arm, with a north arrow and a 2 km scale bar. Dark areas are water and lighter areas are land. Mineral deposits are labeled in the 2021 and 2022 images.",
+        "width": 560
+      }
+    ],
+    "supply": [
+      {
+        "type": "p",
+        "html": "The graph below compares the historical water supply and usage to the predicted future water supply and usage for the Colorado River Basin. Volume of water is in million acre-feet. One acre foot is approximately the amount of water needed to cover a football field (about an acre) with one foot of water. Data on historical supply and use was not collected from 1933 to 1944."
+      },
+      {
+        "type": "figure",
+        "src": "supply-graph.png",
+        "alt": "Line graph of volume in million acre-feet, from 0 to 25, against year from 1920 to 2060. A dashed vertical line separates Historical Supply and Use on the left from Projected Future Supply and Demand on the right. The historical part has a line for Water Supply and a line for Water Use, each a 10-year running average. The projected part has a line for Predicted Usage and a line for Predicted Water Supply, a 10-year running average.",
+        "width": 580
+      }
+    ]
+  },
+  "items": [
+    {
+      "n": 17,
+      "stimulus": [
+        "intro"
+      ],
+      "type": "cr",
+      "pe": "MS-ESS3-3",
+      "points": 1,
+      "stem": "Explain how these monitoring methods have made a positive impact on the total water used by comparing the data of 2014 to the data of 2018. [1]",
+      "rubric": [
+        "Credit: an explanation comparing the 2014 data to the 2018 data.",
+        "Acceptable responses include, but are not limited to: A higher population should mean more water is being used, but the usage is almost the same because water lost was cut from 12% in 2014 to 9% in 2018.",
+        "Acceptable responses include, but are not limited to: A lower percentage of water was lost in 2018 than in 2014, even though a similar amount of water was used.",
+        "Acceptable responses include, but are not limited to: Even though population has increased from 2014 to 2018, the water usage has hardly increased at all because the water lost has decreased."
+      ],
+      "exemplar": "A higher population should mean more water is being used, but the usage is almost the same because water lost was cut from 12% in 2014 to 9% in 2018.<br><i>OR</i><br>A lower percentage of water was lost in 2018 than in 2014, even though a similar amount of water was used.<br><i>OR</i><br>Even though population has increased from 2014 to 2018, the water usage has hardly increased at all because the water lost has decreased."
+    },
+    {
+      "n": 18,
+      "stimulus": [
+        "intro",
+        "reservoir"
+      ],
+      "type": "mc",
+      "pe": "MS-ESS3-1",
+      "points": 1,
+      "stem": "Which explanation identifies how past geologic processes are responsible for the distribution of water located in this town?",
+      "options": [
+        "The large amount of water found in the reservoir is a result of land uplift and heavy precipitation over the last 1000 years.",
+        "Rivers that feed into the reservoir were formed by past erosion of land surfaces and are the main source of water for the reservoir.",
+        "Rivers and reservoirs form every year as a result of water coming from melting ice and snow in the springtime.",
+        "Water is distributed equally throughout Albany County because of past mountain building processes caused by tectonic plate motion."
+      ],
+      "key": "B"
+    },
+    {
+      "n": 19,
+      "stimulus": [
+        "intro",
+        "reservoir"
+      ],
+      "type": "mc",
+      "pe": "MS-ESS3-4",
+      "points": 1,
+      "stem": "The location of a road next to the reservoir can pose problems for maintaining water quality and usage. Which argument describes a correct relationship between the need to put salt on roads to keep roads safe in winter and its impact on water quality of the nearby reservoir?",
+      "options": [
+        "Salt from roads can travel to the reservoir and contaminate the water and nearby wells.",
+        "A certain amount of salt is needed by organisms, so putting salt on roads has little effect on water quality, usage, and nearby ecosystems.",
+        "Putting salt on roads for safety reasons also kills plants near the reservoirs, which increases the amount of water in the reservoir that can be used by humans.",
+        "Putting salt on roads in winter will have no effect on water quality and usage because salt and water do not react."
+      ],
+      "key": "A"
+    },
+    {
+      "n": 20,
+      "stimulus": [
+        "colorado",
+        "mead"
+      ],
+      "type": "cr",
+      "pe": "MS-ESS3-2",
+      "points": 1,
+      "stem": "Determine the approximate amount of water, in feet, that has been lost from Lake Mead between January 2000 and June 2022, and based on the trend, describe <b>one</b> action that residents in the seven states could take to limit the negative effects of this change in water level. [1]",
+      "parts": [
+        {
+          "label": "Water lost:",
+          "short": true,
+          "maxChars": 30,
+          "exemplar": "any value from 164 to 180"
+        },
+        {
+          "label": "Action:",
+          "exemplar": "Limit the amount of water used in the household, such as turning off water while brushing teeth, taking shorter showers, and only running the dishwasher infrequently."
+        }
+      ],
+      "rubric": [
+        "Credit: any value from 164 to 180 feet and a correct action.",
+        "Acceptable responses include, but are not limited to: Limit the amount of water used in the household, such as turning off water while brushing teeth, taking shorter showers, and only running the dishwasher infrequently.",
+        "Acceptable responses include, but are not limited to: Plant only native plants outside that require little water.",
+        "Acceptable responses include, but are not limited to: Don&rsquo;t have a grass lawn that needs to be watered.",
+        "Acceptable responses include, but are not limited to: Use a rain barrel to trap and reuse precipitation."
+      ],
+      "exemplar": "Water lost: any value from 164 to 180 ft<br>Action: Limit the amount of water used in the household, such as turning off water while brushing teeth, taking shorter showers, and only running the dishwasher infrequently.<br><i>OR</i><br>Plant only native plants outside that require little water.<br><i>OR</i><br>Don&rsquo;t have a grass lawn that needs to be watered.<br><i>OR</i><br>Use a rain barrel to trap and reuse precipitation.",
+      "adapted": "The printed blank for the amount of water lost ends with the unit ft; on screen it is a short typed box with the answer expected in feet, and the Action lines become one typed box."
+    },
+    {
+      "n": 21,
+      "stimulus": [
+        "colorado",
+        "mead",
+        "satellite"
+      ],
+      "type": "mc",
+      "pe": "MS-ESS3-2",
+      "points": 1,
+      "stem": "Scientists have been using both global and local technologies to monitor the amount of water in the Colorado River Basin. The technologies have helped government agencies to conclude that",
+      "options": [
+        "the amount of water in waterways is influenced by the presence of minerals dissolved in the water requiring more water purification plants",
+        "flood mitigation plans are needed because the amount of water in the Colorado River Basin is increasing at a slow rate",
+        "there was a cyclic trend to the amount of water in the Colorado River Basin between 2000 and 2022 therefore no new mitigation plans are needed",
+        "water conservation plans are needed because water levels in the rivers leading into Lake Mead are a major cause for the downward trend in lake surface elevation"
+      ],
+      "key": "D"
+    },
+    {
+      "n": 22,
+      "stimulus": [
+        "supply"
+      ],
+      "type": "cr",
+      "pe": "MS-ESS3-4",
+      "points": 1,
+      "stem": "Scientists have inferred that the increase in human population is responsible for the pattern of water usage. Construct an argument, supported by evidence, for how this increasing human population will impact the future usage of water in the Colorado River Basin and how this usage will impact the Colorado River Basin. [1]",
+      "parts": [
+        {
+          "label": "Water usage:",
+          "exemplar": "More water will be used."
+        },
+        {
+          "label": "Impact to Colorado River Basin:",
+          "exemplar": "Water levels will drop in the lakes and rivers found in the basin."
+        }
+      ],
+      "rubric": [
+        "Credit: correct responses for water usage and impact to Colorado River Basin.",
+        "Water usage, acceptable responses include, but are not limited to: More water will be used. / There will be a greater usage of water. / It will increase.",
+        "Impact to Colorado River Basin, acceptable responses include, but are not limited to: Water levels will drop in the lakes and rivers found in the basin. / More mineral deposits will be found where rivers once flowed. / The shape of the river channel will change. / The composition of the land surface will change. / Less water is available to other organisms in the ecosystem."
+      ],
+      "exemplar": "Water usage: More water will be used.<br>Impact to Colorado River Basin: Water levels will drop in the lakes and rivers found in the basin."
+    }
+  ]
+}

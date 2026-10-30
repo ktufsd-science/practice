@@ -1,0 +1,154 @@
+{
+  "id": "g8-2024-energy-transfer-by-waves",
+  "title": "Energy Transfer by Waves",
+  "grade": 8,
+  "subject": "Science",
+  "year": "2024",
+  "source": "NYSED 2024 Grade 8 ILS Released Items, Questions 1-5",
+  "pes": ["MS-PS4-1", "MS-PS4-2"],
+  "directions": "Base your answers to questions 1 through 5 on the information below and on your knowledge of science.",
+  "showKeyAfterSubmit": true,
+  "stimuli": {
+    "intro": [
+      { "type": "title", "text": "Energy Transfer by Waves" },
+      { "type": "p", "html": "The electromagnetic spectrum comprises all frequencies of electromagnetic radiation that transmit energy and travel in the form of waves. This spectrum has different portions with different characteristics. The portion of the spectrum that humans can see is called visible light. People use the electromagnetic spectrum every day. Car radios, cell phones, and microwave ovens are just a few examples of devices that use the electromagnetic spectrum." },
+      {
+        "type": "figure",
+        "caption": "<b>Electromagnetic Spectrum</b>",
+        "src": "spectrum.png",
+        "alt": "Diagram of the electromagnetic spectrum as labeled boxes: gamma rays, X rays, ultraviolet, infrared, microwaves, and radio waves, with visible light expanded below as violet, blue, green, yellow, orange, and red. Note: not drawn to scale. A right-pointing arrow is labeled wavelength increases and a left-pointing arrow is labeled frequency increases.",
+        "width": 560
+      }
+    ],
+    "blocks": [
+      { "type": "p", "html": "The models below represent the paths of visible light rays as the visible light rays interact with blocks made of different materials, labeled <i>A</i> and <i>B</i>." },
+      {
+        "type": "figure",
+        "src": "light-blocks.png",
+        "alt": "Two rectangular blocks side by side. A ray of light arrives at the top of the lighter block labeled A and no ray is drawn beyond that point. A ray of light arrives at the top of the darker block labeled B and a ray continues through the block and out the bottom.",
+        "width": 440
+      }
+    ],
+    "metal": [
+      { "type": "p", "html": "The model below represents a visible light ray striking the surface of a block of shiny metal at point <i>X</i>." },
+      {
+        "type": "figure",
+        "src": "metal-given.png",
+        "alt": "A gray rectangle labeled shiny metal block. A short arrow comes down from the upper left and ends at a dot labeled X on the top surface of the block.",
+        "width": 330
+      }
+    ],
+    "phone": [
+      { "type": "p", "html": "The model below shows sound waves being emitted from a cell phone." },
+      {
+        "type": "figure",
+        "src": "cellphone.png",
+        "alt": "Drawing of a cell phone showing the time 8:04pm, labeled cell phone. Below the phone are curved lines of increasing size, labeled sound waves. Note: not drawn to scale.",
+        "width": 300
+      }
+    ]
+  },
+  "items": [
+    {
+      "n": 1,
+      "stimulus": ["intro"],
+      "type": "mc",
+      "pe": "MS-PS4-1",
+      "points": 1,
+      "stem": "Which claim best describes the relationship between the frequency and wavelength of waves in the electromagnetic spectrum?",
+      "options": [
+        "Waves with a higher frequency have a shorter wavelength.",
+        "Waves with a higher frequency have a longer wavelength.",
+        "Waves with a lower frequency have a shorter wavelength.",
+        "There is no relationship between frequency and wavelength of waves."
+      ],
+      "key": "A"
+    },
+    {
+      "n": 2,
+      "stimulus": ["intro"],
+      "type": "mc",
+      "pe": "MS-PS4-2",
+      "points": 1,
+      "stem": "A student wants to develop a model that demonstrates the transmission of waves. Which concept should the student include in the model to show how the transmission of visible light is different from the transmission of sound waves?",
+      "options": [
+        "Light and sound waves can be transmitted through space.",
+        "Light can be transmitted through space and matter, but sound waves can only be transmitted through matter.",
+        "Light can be transmitted through different forms of matter, but sound waves can only be transmitted through space.",
+        "Light can be transmitted only through space, and sound waves can be transmitted through space and matter."
+      ],
+      "key": "B"
+    },
+    {
+      "n": 3,
+      "stimulus": ["blocks"],
+      "type": "mc",
+      "pe": "MS-PS4-2",
+      "points": 1,
+      "stem": "Based on the behavior of these visible light rays, which claim can be made about materials <i>A</i> or <i>B</i>?",
+      "options": [
+        "Material <i>A</i> is transparent because the light ray is transmitted.",
+        "Material <i>A</i> is transparent because the light ray is absorbed.",
+        "Material <i>B</i> is transparent because the light ray is transmitted.",
+        "Material <i>B</i> is transparent because the light ray is absorbed."
+      ],
+      "key": "C"
+    },
+    {
+      "n": 4,
+      "stimulus": ["metal"],
+      "type": "dragdrop",
+      "pe": "MS-PS4-2",
+      "points": 1,
+      "stem": "Place <b>one</b> arrow in a box to show the path of the light ray if the ray was reflected from the shiny metal surface at point <i>X</i>. [1]",
+      "adapted": "The printed arrow choices are dragged into the dashed boxes instead of being drawn or placed on paper. Only one arrow may be placed; placing arrows in more than one box is marked incorrect.",
+      "bankTitle": "Arrow Choices",
+      "reuse": false,
+      "choices": [
+        { "id": "right", "img": "arrow-right.png", "alt": "Arrow pointing right", "width": 44 },
+        { "id": "up", "img": "arrow-up.png", "alt": "Arrow pointing up", "width": 44 },
+        { "id": "down", "img": "arrow-down.png", "alt": "Arrow pointing down", "width": 44 },
+        { "id": "upright", "img": "arrow-upright.png", "alt": "Arrow pointing up and to the right", "width": 44 },
+        { "id": "downright", "img": "arrow-downright.png", "alt": "Arrow pointing down and to the right", "width": 44 },
+        { "id": "upleft", "img": "arrow-upleft.png", "alt": "Arrow pointing up and to the left", "width": 44 }
+      ],
+      "bankColumns": 3,
+      "target": {
+        "src": "reflect-model.png",
+        "alt": "A gray rectangle labeled shiny metal block. Four dashed boxes in a square, two above the top surface and two below it, meet at the dot labeled X on the top surface.",
+        "width": 420,
+        "zones": [
+          { "id": "z1", "x": 50.7, "y": 3.9, "w": 11, "h": 33.7 },
+          { "id": "z2", "x": 61.7, "y": 3.9, "w": 11, "h": 33.7 },
+          { "id": "z3", "x": 50.7, "y": 37.6, "w": 11, "h": 33.7 },
+          { "id": "z4", "x": 61.7, "y": 37.6, "w": 11, "h": 33.7 }
+        ],
+        "zoneNames": {
+          "z1": "Upper left box",
+          "z2": "Upper right box",
+          "z3": "Lower left box",
+          "z4": "Lower right box"
+        }
+      },
+      "key": { "z2": "upright" },
+      "rubric": [
+        "Credit: drawing an arrow that has an angle of reflection approximately the same as the angle of incidence (the arrow pointing up and to the right, in the upper right box).",
+        "Note: The student drawn ray must have an arrow on the end. If the original/given arrow is also drawn, it must be correct."
+      ],
+      "exemplar": "An arrow pointing up and to the right in the upper right box."
+    },
+    {
+      "n": 5,
+      "stimulus": ["phone"],
+      "type": "cr",
+      "pe": "MS-PS4-1",
+      "points": 1,
+      "stem": "Explain what happens to the sound if the amplitude of the waves increases. [1]",
+      "rubric": [
+        "Credit: Allow 1 credit. Acceptable responses include, but are not limited to: The sound becomes louder.",
+        "Acceptable responses include, but are not limited to: The energy of the sound will increase."
+      ],
+      "exemplar": "The sound becomes louder.<br><i>OR</i><br>The energy of the sound will increase."
+    }
+  ]
+}
