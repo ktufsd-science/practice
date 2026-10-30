@@ -271,6 +271,33 @@
       "numbers": "10–13"
     },
     {
+      "id": "g8-2024-death-valley",
+      "grade": 8,
+      "title": "Death Valley",
+      "year": "2024",
+      "questions": 6,
+      "pes": [
+        "MS-ESS2-1",
+        "MS-ESS2-3",
+        "MS-ESS2-4",
+        "MS-ESS3-2"
+      ],
+      "numbers": "33–38"
+    },
+    {
+      "id": "g8-2024-ecosystem-of-the-eastern-bluebird",
+      "grade": 8,
+      "title": "Ecosystem of the Eastern Bluebird",
+      "year": "2024",
+      "questions": 5,
+      "pes": [
+        "MS-LS2-2",
+        "MS-LS2-4",
+        "MS-ESS3-3"
+      ],
+      "numbers": "44–48"
+    },
+    {
       "id": "g8-2024-energy-of-skateboarders",
       "grade": 8,
       "title": "Energy of Skateboarders",
@@ -309,6 +336,20 @@
       "numbers": "23–27"
     },
     {
+      "id": "g8-2024-gravitational-forces",
+      "grade": 8,
+      "title": "Gravitational Forces",
+      "year": "2024",
+      "questions": 5,
+      "pes": [
+        "MS-PS2-4",
+        "MS-PS2-5",
+        "MS-PS2-2",
+        "MS-ESS1-2"
+      ],
+      "numbers": "28–32"
+    },
+    {
       "id": "g8-2024-reservoirs-and-town-water-districts",
       "grade": 8,
       "title": "Reservoirs and Town Water Districts",
@@ -321,6 +362,35 @@
         "MS-ESS3-2"
       ],
       "numbers": "17–22"
+    },
+    {
+      "id": "g8-2024-respiration",
+      "grade": 8,
+      "title": "Respiration",
+      "year": "2024",
+      "questions": 5,
+      "pes": [
+        "MS-LS1-7",
+        "MS-LS1-3",
+        "MS-LS1-2",
+        "MS-LS2-4",
+        "MS-LS4-4"
+      ],
+      "numbers": "39–43"
+    },
+    {
+      "id": "g8-2024-the-chemistry-of-propane",
+      "grade": 8,
+      "title": "The Chemistry of Propane",
+      "year": "2024",
+      "questions": 5,
+      "pes": [
+        "MS-PS1-1",
+        "MS-PS1-2",
+        "MS-PS1-5",
+        "MS-PS1-4"
+      ],
+      "numbers": "49–53"
     },
     {
       "id": "g8-2024-variation-and-corn",

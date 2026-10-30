@@ -1,0 +1,385 @@
+{
+  "id": "g8-2024-the-chemistry-of-propane",
+  "title": "The Chemistry of Propane",
+  "grade": 8,
+  "subject": "Science",
+  "year": "2024",
+  "source": "NYSED 2024 Grade 8 ILS Released Items, Questions 49-53",
+  "pes": [
+    "MS-PS1-1",
+    "MS-PS1-2",
+    "MS-PS1-5",
+    "MS-PS1-4"
+  ],
+  "directions": "Base your answers to questions 49 through 53 on the information below and on your knowledge of science.",
+  "showKeyAfterSubmit": true,
+  "stimuli": {
+    "intro": [
+      {
+        "type": "title",
+        "text": "The Chemistry of Propane"
+      },
+      {
+        "type": "p",
+        "html": "Propane (C<sub>3</sub>H<sub>8</sub>) is a flammable gas at standard temperature and pressure. It can be compressed (put under pressure) and stored in steel containers as a liquid. Propane tanks are often used as the fuel source for barbecue grills, as well as residential (home) heating. A valve on the steel container releases the liquid propane, which vaporizes (turns into gas) when it is returned to standard temperature and pressure."
+      },
+      {
+        "type": "figures",
+        "items": [
+          {
+            "type": "figure",
+            "caption": "<b>Propane Tank</b>",
+            "src": "photo-tank.png",
+            "alt": "Photograph of a white propane tank with a valve on top, shown alone against a plain background.",
+            "width": 97
+          },
+          {
+            "type": "figure",
+            "caption": "<b>Barbecue with Propane Tank</b>",
+            "src": "photo-grill.png",
+            "alt": "Photograph of a barbecue grill on a wooden deck with a white propane tank beside its lower right side.",
+            "width": 139
+          },
+          {
+            "type": "figure",
+            "caption": "<b>Larger Propane Tank Outside Home</b>",
+            "src": "photo-big.png",
+            "alt": "Photograph of a large white propane tank standing outdoors on gravel, with a building behind it.",
+            "width": 108
+          }
+        ]
+      },
+      {
+        "type": "figure",
+        "caption": "<b>Reaction for Propane Combustion (Burning):</b>",
+        "src": "equation.png",
+        "alt": "Chemical equation written in columns: C3H8 propane (gas), plus, 5 O2 oxygen (gas), an arrow, 4 H2O water (liquid), plus, 3 CO2 carbon dioxide (gas), plus, Energy heat/light. A bracket labeled Reactants spans the first two columns and a bracket labeled Products spans the remaining columns.",
+        "width": 520
+      },
+      {
+        "type": "table",
+        "caption": "<b>Key</b>",
+        "rows": [
+          [
+            {
+              "html": "Symbol",
+              "th": true
+            },
+            {
+              "html": "Element name",
+              "th": true
+            }
+          ],
+          [
+            "C",
+            "Carbon"
+          ],
+          [
+            "H",
+            "Hydrogen"
+          ],
+          [
+            "O",
+            "Oxygen"
+          ]
+        ]
+      }
+    ],
+    "model": [
+      {
+        "type": "p",
+        "html": "The model below represents one molecule of propane."
+      },
+      {
+        "type": "figure",
+        "caption": null,
+        "src": "propane-model.png",
+        "alt": "Structural diagram of propane: a horizontal chain of three carbon symbols (C) joined by single lines, with a hydrogen symbol (H) joined by a line to each side of the chain, three above, three below, and one at each end.",
+        "width": 150
+      }
+    ],
+    "containers": [
+      {
+        "type": "p",
+        "html": "Two containers, <i>A</i> and <i>B</i>, are shown below. <i>Container A</i> represents a model of the arrangement of six particles of liquid water. In <i>Container B</i>, a student made a model of these same six particles after thermal energy was added and the water became water vapor. The student&rsquo;s particle diagram was incorrectly drawn."
+      },
+      {
+        "type": "figure",
+        "caption": null,
+        "src": "containers.png",
+        "alt": "Two containers labeled Container A (Liquid water) and Container B (Gas (Water vapor)). An arrow labeled Thermal energy added points from A to B. Container A has six circles touching in a row along the bottom. Container B has six circles touching in a row near the middle.",
+        "width": 440
+      }
+    ]
+  },
+  "items": [
+    {
+      "n": 49,
+      "stimulus": [
+        "intro"
+      ],
+      "type": "mc",
+      "pe": "MS-PS1-1",
+      "points": 1,
+      "stem": "How many different types of atoms make up <b>one</b> molecule of propane?",
+      "options": [
+        "8",
+        "2",
+        "3",
+        "11"
+      ],
+      "key": "B"
+    },
+    {
+      "n": 50,
+      "stimulus": [
+        "intro"
+      ],
+      "type": "cr",
+      "pe": "MS-PS1-2",
+      "points": 1,
+      "stem": "Provide evidence to support the claim that a chemical reaction has occurred during the combustion of propane. [1]",
+      "rubric": [
+        "Allow 1 credit. Acceptable responses include, but are not limited to:",
+        "&mdash; New substances were formed.<br>&mdash; The reactants are different than the products.<br>&mdash; A new gas is formed with different properties than the other substances.<br>&mdash; The atoms of the reactants were rearranged to form the new molecules/products.<br>&mdash; When new molecules were formed heat/light energy was released."
+      ],
+      "exemplar": "New substances were formed."
+    },
+    {
+      "n": 51,
+      "stimulus": [
+        "intro"
+      ],
+      "type": "mc",
+      "pe": "MS-PS1-5",
+      "points": 1,
+      "stem": "The reaction for the burning of propane shows a conservation of matter because",
+      "options": [
+        "water is produced during the reaction",
+        "energy is produced during the reaction",
+        "the mass of the water and carbon dioxide equals the mass of the propane and oxygen",
+        "the volume of the water and carbon dioxide equals the volume of the propane and oxygen"
+      ],
+      "key": "C"
+    },
+    {
+      "n": 52,
+      "stimulus": [
+        "model"
+      ],
+      "type": "dragdrop",
+      "pe": "MS-PS1-1",
+      "points": 1,
+      "stem": "Develop a ball and stick model of <b>one</b> water molecule showing the correct orientation and arrangement of the individual atoms by arranging the symbols in the grid below. Symbols may be used more than once. [1]",
+      "adapted": "No wording change. Symbol tiles are dragged (or tapped, then tapped on a grid box) from Symbol Choices into the Water Molecule Grid; a tile can be used more than once. Self-scored against the rating guide, which accepts the model anywhere in the grid.",
+      "bankTitle": "Symbol Choices",
+      "bankColumns": 6,
+      "reuse": true,
+      "choices": [
+        {
+          "id": "h-downleft",
+          "img": "tile-h-downleft.png",
+          "alt": "Hydrogen, bond down-left",
+          "width": 56
+        },
+        {
+          "id": "h-downright",
+          "img": "tile-h-downright.png",
+          "alt": "Hydrogen, bond down-right",
+          "width": 56
+        },
+        {
+          "id": "h-up",
+          "img": "tile-h-up.png",
+          "alt": "Hydrogen, bonds up-left and up-right",
+          "width": 56
+        },
+        {
+          "id": "h-right",
+          "img": "tile-h-right.png",
+          "alt": "Hydrogen, bond right",
+          "width": 56
+        },
+        {
+          "id": "h-leftright",
+          "img": "tile-h-leftright.png",
+          "alt": "Hydrogen, bonds left and right",
+          "width": 56
+        },
+        {
+          "id": "h-left",
+          "img": "tile-h-left.png",
+          "alt": "Hydrogen, bond left",
+          "width": 56
+        },
+        {
+          "id": "o-downleft",
+          "img": "tile-o-downleft.png",
+          "alt": "Oxygen, bond down-left",
+          "width": 56
+        },
+        {
+          "id": "o-downright",
+          "img": "tile-o-downright.png",
+          "alt": "Oxygen, bond down-right",
+          "width": 56
+        },
+        {
+          "id": "o-up",
+          "img": "tile-o-up.png",
+          "alt": "Oxygen, bonds up-left and up-right",
+          "width": 56
+        },
+        {
+          "id": "o-right",
+          "img": "tile-o-right.png",
+          "alt": "Oxygen, bond right",
+          "width": 56
+        },
+        {
+          "id": "o-leftright",
+          "img": "tile-o-leftright.png",
+          "alt": "Oxygen, bonds left and right",
+          "width": 56
+        },
+        {
+          "id": "o-left",
+          "img": "tile-o-left.png",
+          "alt": "Oxygen, bond left",
+          "width": 56
+        }
+      ],
+      "target": {
+        "src": "grid.png",
+        "title": "Water Molecule Grid",
+        "alt": "Empty grid with three rows and four columns of square boxes.",
+        "width": 310,
+        "zones": [
+          {
+            "id": "r1c1",
+            "x": 1.1,
+            "y": 1.7,
+            "w": 23.4,
+            "h": 31.6
+          },
+          {
+            "id": "r1c2",
+            "x": 25.6,
+            "y": 1.7,
+            "w": 23.4,
+            "h": 31.6
+          },
+          {
+            "id": "r1c3",
+            "x": 50.1,
+            "y": 1.7,
+            "w": 23.4,
+            "h": 31.6
+          },
+          {
+            "id": "r1c4",
+            "x": 74.7,
+            "y": 1.7,
+            "w": 23.4,
+            "h": 31.6
+          },
+          {
+            "id": "r2c1",
+            "x": 1.1,
+            "y": 34.3,
+            "w": 23.4,
+            "h": 31.6
+          },
+          {
+            "id": "r2c2",
+            "x": 25.6,
+            "y": 34.3,
+            "w": 23.4,
+            "h": 31.6
+          },
+          {
+            "id": "r2c3",
+            "x": 50.1,
+            "y": 34.3,
+            "w": 23.4,
+            "h": 31.6
+          },
+          {
+            "id": "r2c4",
+            "x": 74.7,
+            "y": 34.3,
+            "w": 23.4,
+            "h": 31.6
+          },
+          {
+            "id": "r3c1",
+            "x": 1.1,
+            "y": 66.8,
+            "w": 23.4,
+            "h": 31.6
+          },
+          {
+            "id": "r3c2",
+            "x": 25.6,
+            "y": 66.8,
+            "w": 23.4,
+            "h": 31.6
+          },
+          {
+            "id": "r3c3",
+            "x": 50.1,
+            "y": 66.8,
+            "w": 23.4,
+            "h": 31.6
+          },
+          {
+            "id": "r3c4",
+            "x": 74.7,
+            "y": 66.8,
+            "w": 23.4,
+            "h": 31.6
+          }
+        ],
+        "zoneNames": {
+          "r1c1": "Row 1, column 1",
+          "r1c2": "Row 1, column 2",
+          "r1c3": "Row 1, column 3",
+          "r1c4": "Row 1, column 4",
+          "r2c1": "Row 2, column 1",
+          "r2c2": "Row 2, column 2",
+          "r2c3": "Row 2, column 3",
+          "r2c4": "Row 2, column 4",
+          "r3c1": "Row 3, column 1",
+          "r3c2": "Row 3, column 2",
+          "r3c3": "Row 3, column 3",
+          "r3c4": "Row 3, column 4"
+        }
+      },
+      "scoring": "self",
+      "key": {
+        "r1c2": "h-downright",
+        "r1c4": "h-downleft",
+        "r2c3": "o-up"
+      },
+      "rubric": [
+        "Allow 1 credit for a correct model of two hydrogen atom symbols bonded to a central oxygen atom symbol anywhere in the grid, as shown in the examples of a 1-credit response."
+      ],
+      "exemplarImage": "exemplary-52.png"
+    },
+    {
+      "n": 53,
+      "stimulus": [
+        "containers"
+      ],
+      "type": "cr",
+      "pe": "MS-PS1-4",
+      "points": 1,
+      "stem": "Explain how the particles should be drawn to correctly represent the particle arrangement of water vapor. [1]",
+      "rubric": [
+        "Allow 1 credit. Acceptable responses include, but are not limited to:",
+        "&mdash; The particles should have been arranged randomly so that they are not touching each other.<br>&mdash; The particles should be drawn so that they are spaced throughout the container and not touching."
+      ],
+      "exemplar": "The particles should have been arranged randomly so that they are not touching each other."
+    }
+  ]
+}

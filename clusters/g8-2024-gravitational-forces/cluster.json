@@ -1,0 +1,338 @@
+{
+  "id": "g8-2024-gravitational-forces",
+  "title": "Gravitational Forces",
+  "grade": 8,
+  "subject": "Science",
+  "year": "2024",
+  "source": "NYSED 2024 Grade 8 ILS Released Items, Questions 28-32",
+  "pes": [
+    "MS-PS2-4",
+    "MS-PS2-5",
+    "MS-PS2-2",
+    "MS-ESS1-2"
+  ],
+  "directions": "Base your answers to questions 28 through 32 on the information below and on your knowledge of science.",
+  "showKeyAfterSubmit": true,
+  "stimuli": {
+    "intro": [
+      {
+        "type": "title",
+        "text": "Gravitational Forces"
+      },
+      {
+        "type": "p",
+        "html": "Students are investigating the factors that affect the strength of the gravitational force that one object exerts on another object. Students collected data using a computer simulation in order to find the strength of the gravitational force that object <i>R</i> exerted on object <i>S</i>. The masses of <i>R</i> and <i>S</i>, as well as the distance between the centers of <i>R</i> and <i>S</i>, were changed in order to find the effect of these changes on the strength of the gravitational force."
+      },
+      {
+        "type": "figure",
+        "src": "rs-objects.png",
+        "alt": "Two gray circles of the same size side by side, the left one labeled R and the right one labeled S.",
+        "width": 200
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            {
+              "html": "<b>Simulation</b>",
+              "th": true
+            },
+            {
+              "html": "<b>Object R</b> (kg)",
+              "th": true
+            },
+            {
+              "html": "<b>Object S</b> (kg)",
+              "th": true
+            },
+            {
+              "html": "<b>Distance</b> (m)",
+              "th": true
+            },
+            {
+              "html": "<b>Gravitational Force</b> (N)",
+              "th": true
+            }
+          ],
+          [
+            "1",
+            "10",
+            "10",
+            "3",
+            "7.43 &times; 10<sup>&minus;10</sup>"
+          ],
+          [
+            "2",
+            "10",
+            "20",
+            "3",
+            "14.8 &times; 10<sup>&minus;10</sup>"
+          ],
+          [
+            "3",
+            "10",
+            "10",
+            "6",
+            "1.85 &times; 10<sup>&minus;10</sup>"
+          ],
+          [
+            "4",
+            "10",
+            "20",
+            "6",
+            "3.71 &times; 10<sup>&minus;10</sup>"
+          ]
+        ]
+      }
+    ],
+    "satellite": [
+      {
+        "type": "p",
+        "html": "Some satellites that orbit Earth, like the GOES-14 satellite, are geostationary. This geostationary satellite travels over the equator. It moves in the same direction and at the same rate Earth is spinning. From Earth, a geostationary satellite looks like it is standing still since it is always above the same location. In 2022, there were 402 geostationary satellites in orbit around Earth."
+      },
+      {
+        "type": "figure",
+        "caption": "<b>Geostationary Satellite Orbit Around Earth</b>",
+        "src": "geo-orbit.png",
+        "alt": "Gray-toned image of Earth against a dark background with a white elliptical ring around it representing the orbit, and a small satellite with an antenna on the ring at the lower left of Earth.",
+        "width": 340
+      }
+    ],
+    "hubble": [
+      {
+        "type": "p",
+        "html": "The Hubble is a space telescope located in an orbit around Earth. It is powered by solar panels and it is approximately the same size and mass of a large school bus."
+      },
+      {
+        "type": "p",
+        "html": "Fragments from non-functional satellites or even paint flecks from the International Space Station are found in space and called orbital debris. Hubble has evidence of impacts from this debris in the form of tiny impact craters across its solar panels. These tiny particles have struck Hubble at very fast speeds of up to 10 kilometers per second."
+      },
+      {
+        "type": "figures",
+        "items": [
+          {
+            "type": "figure",
+            "caption": "<b>Hubble Space Telescope</b>",
+            "src": "hubble.png",
+            "alt": "Black-and-white picture of the Hubble Space Telescope, a long metallic cylinder with a lid at one end, dark rectangular solar panels, and two small dish antennas on poles.",
+            "width": 200
+          },
+          {
+            "type": "figure",
+            "caption": "<b>2.5-mm Hole in Hubble&rsquo;s Solar Panel</b>",
+            "src": "hubble-hole.png",
+            "alt": "Close-up picture of a solar panel with white lines across it and a roughly round crater-like hole with ragged edges and cracks around it.",
+            "width": 220
+          }
+        ]
+      }
+    ],
+    "orbit": [
+      {
+        "type": "p",
+        "html": "The model below represents the locations of the Sun, Earth, and the Hubble telescope in our solar system. Earth and Hubble complete a trip around the Sun in a year, while Hubble completes a trip around Earth in approximately 95 minutes."
+      },
+      {
+        "type": "figure",
+        "src": "q32-model.png",
+        "alt": "Model with part of the Sun at the left edge. A dashed curve, labeled Orbital path of Earth around Sun, curves from top to bottom at the right. Earth, a small sphere labeled Earth, sits on that dashed curve. A label reading Orbital path of Hubble around Earth has a line pointing to Earth. Not drawn to scale.",
+        "width": 420
+      },
+      {
+        "type": "p",
+        "html": "(Not drawn to scale)"
+      }
+    ]
+  },
+  "items": [
+    {
+      "n": 28,
+      "stimulus": [
+        "intro"
+      ],
+      "type": "mc",
+      "pe": "MS-PS2-4",
+      "points": 1,
+      "stem": "Which pair of simulations can be used as evidence to support the claim that changing the masses of <i>R</i> and <i>S</i>, as well as changing the distance between the masses, affect the strength of the gravitational force that <i>R</i> exerts on <i>S</i>?",
+      "options": [
+        "1 and 2",
+        "2 and 3",
+        "3 and 4",
+        "1 and 3"
+      ],
+      "key": "B"
+    },
+    {
+      "n": 29,
+      "stimulus": [
+        "intro"
+      ],
+      "type": "mc",
+      "pe": "MS-PS2-4",
+      "points": 1,
+      "stem": "Which argument about mass, distance, and gravitational force can be made using evidence from the table?",
+      "options": [
+        "An increase in only the distance between the objects does not affect the strength of the gravitational force.",
+        "An increase in only the mass of one object does not affect the strength of the gravitational force.",
+        "An increase in only the distance between the objects decreases the strength of the gravitational force.",
+        "An increase in only the mass of one object decreases the strength of the gravitational force."
+      ],
+      "key": "C"
+    },
+    {
+      "n": 30,
+      "stimulus": [
+        "satellite"
+      ],
+      "type": "dragdrop",
+      "pe": "MS-PS2-5",
+      "points": 1,
+      "stem": "Complete the model below by placing <b>one</b> arrow, from the four choices given, in a box around each object to indicate the direction of the gravitational force that Earth exerts on GOES-14 <i>and</i> the direction of the gravitational force that GOES-14 exerts on Earth. [1]",
+      "bankTitle": "Choices:",
+      "reuse": false,
+      "bankColumns": 2,
+      "choices": [
+        {
+          "id": "right",
+          "img": "arrow-right.png",
+          "alt": "Arrow pointing right",
+          "width": 50
+        },
+        {
+          "id": "left",
+          "img": "arrow-left.png",
+          "alt": "Arrow pointing left",
+          "width": 50
+        },
+        {
+          "id": "up",
+          "img": "arrow-up.png",
+          "alt": "Arrow pointing up",
+          "width": 22
+        },
+        {
+          "id": "down",
+          "img": "arrow-down.png",
+          "alt": "Arrow pointing down",
+          "width": 22
+        }
+      ],
+      "target": {
+        "title": "Model of Direction of Gravitational Force&mdash;GOES-14 and Earth",
+        "src": "q30-model.png",
+        "alt": "Model with GOES-14 (a small satellite picture) at the left and Earth (a picture of the planet) at the right, each surrounded by four empty boxes: one above, one below, one to the left, and one to the right. Not drawn to scale.",
+        "width": 520,
+        "zones": [
+          {
+            "id": "g_t",
+            "x": 20.1,
+            "y": 4.7,
+            "w": 9.1,
+            "h": 22.6
+          },
+          {
+            "id": "g_l",
+            "x": 4.3,
+            "y": 32.6,
+            "w": 12.9,
+            "h": 15.9
+          },
+          {
+            "id": "g_r",
+            "x": 32.1,
+            "y": 32.6,
+            "w": 12.9,
+            "h": 15.9
+          },
+          {
+            "id": "g_b",
+            "x": 20.1,
+            "y": 54.1,
+            "w": 9.1,
+            "h": 22.8
+          },
+          {
+            "id": "e_t",
+            "x": 69.6,
+            "y": 4.7,
+            "w": 9.1,
+            "h": 22.6
+          },
+          {
+            "id": "e_l",
+            "x": 53.8,
+            "y": 32.6,
+            "w": 12.9,
+            "h": 15.9
+          },
+          {
+            "id": "e_r",
+            "x": 81.7,
+            "y": 32.6,
+            "w": 12.9,
+            "h": 15.9
+          },
+          {
+            "id": "e_b",
+            "x": 69.6,
+            "y": 54.1,
+            "w": 9.1,
+            "h": 22.8
+          }
+        ],
+        "zoneNames": {
+          "g_t": "Box above GOES-14",
+          "g_l": "Box left of GOES-14",
+          "g_r": "Box right of GOES-14",
+          "g_b": "Box below GOES-14",
+          "e_t": "Box above Earth",
+          "e_l": "Box left of Earth",
+          "e_r": "Box right of Earth",
+          "e_b": "Box below Earth"
+        }
+      },
+      "key": {
+        "g_r": "right",
+        "e_l": "left"
+      },
+      "rubric": [
+        "Allow 1 credit for <i>two</i> correctly drawn arrows, as shown in the example: the right arrow in the box to the right of GOES-14 and the left arrow in the box to the left of Earth.",
+        "<b>Note</b>: Credit should be allowed for arrows that show attraction of GOES-14 toward Earth and Earth toward GOES-14."
+      ],
+      "adapted": "The printed direction already says \"placing\" an arrow, so no wording changed. Students drag one arrow into one box around each object. The guide gives one example (the right arrow in the box to the right of GOES-14 and the left arrow in the box to the left of Earth) and says credit should be allowed for other arrows that show attraction, so this item is self-scored against the rubric instead of being auto-scored on that one placement.",
+      "scoring": "self"
+    },
+    {
+      "n": 31,
+      "stimulus": [
+        "hubble"
+      ],
+      "type": "mc",
+      "pe": "MS-PS2-2",
+      "points": 1,
+      "stem": "The force exerted on Hubble during a collision with space debris does <b><i>not</i></b> significantly affect the motion and location of this telescope. Which statement best explains this phenomenon?",
+      "options": [
+        "The sum of the forces acting on Hubble is zero.",
+        "The mass of Hubble is less than the mass of the space debris.",
+        "Hubble exerts a stronger force on the space debris than the force exerted by the space debris on Hubble.",
+        "The mass of Hubble is very large and the strength of the force of impact is relatively small."
+      ],
+      "key": "D"
+    },
+    {
+      "n": 32,
+      "stimulus": [
+        "orbit"
+      ],
+      "type": "cr",
+      "pe": "MS-ESS1-2",
+      "points": 1,
+      "stem": "Explain, in terms of forces, why Hubble stays in its orbit around Earth, <i>and</i> why Earth stays in its orbit around the Sun. Include <b>both</b> Hubble-Earth and Sun-Earth interactions in your answer. [1]",
+      "rubric": [
+        "Allow 1 credit. Acceptable responses include, but are not limited to:",
+        "&mdash; The Sun exerts a gravitational force on Earth, keeping Earth in orbit around the Sun, while Earth exerts a gravitational force on Hubble keeping it in orbit around Earth.<br>&mdash; Earth is held in orbit around the Sun by a gravitational pull exerted by the Sun, and Hubble is held in orbit around Earth by a gravitational pull exerted by Earth."
+      ],
+      "exemplar": "The Sun exerts a gravitational force on Earth, keeping Earth in orbit around the Sun, while Earth exerts a gravitational force on Hubble keeping it in orbit around Earth.<br><i>OR</i><br>Earth is held in orbit around the Sun by a gravitational pull exerted by the Sun, and Hubble is held in orbit around Earth by a gravitational pull exerted by Earth."
+    }
+  ]
+}

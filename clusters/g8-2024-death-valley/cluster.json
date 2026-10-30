@@ -1,0 +1,75 @@
+{
+  "id": "g8-2024-death-valley",
+  "title": "Death Valley",
+  "grade": 8,
+  "subject": "Science",
+  "year": "2024",
+  "source": "NYSED 2024 Grade 8 ILS Released Items, Questions 33-38",
+  "pes": ["MS-ESS2-1", "MS-ESS2-3", "MS-ESS2-4", "MS-ESS3-2"],
+  "directions": "Base your answers to questions 33 through 38 on the information below and on your knowledge of science.",
+  "showKeyAfterSubmit": true,
+  "stimuli": {
+    "intro": [
+      { "type": "title", "text": "Death Valley" },
+      { "type": "p", "html": "Death Valley National Park, located on the border of California (CA) and Nevada (NV), is the largest national park in the continental U.S. It has the lowest elevation in North America at 282 feet below sea level and contains the driest desert in North America. Rock strata in the Death Valley region can provide evidence for the geologic history of the area. The oldest rocks are metamorphic and are approximately 1.7 billion years old. Sedimentary rocks in the valley region are about 500 million years old and are evidence that the area was the site of a warm shallow sea. Igneous rock layers are believed to range from 65.5 to about 2 million years old when volcanic ash and cinder from nearby volcanoes covered the region." },
+      { "type": "figure", "src": "us-map.png", "alt": "Outline map of the continental United States with California and Nevada shaded gray. A small black shape in southeastern California, near the Nevada border, is labeled Death Valley.", "width": 420 }
+    ],
+    "rock": [
+      { "type": "p", "html": "The rock cycle model below shows the formation of rocks as a result of sedimentary, igneous, and metamorphic processes." },
+      { "type": "figure", "src": "rock-cycle.png", "alt": "Circular rock cycle diagram with arrows running clockwise. Sediments, sedimentary rock, metamorphic rock, magma (shown with a volcano photo), and igneous rock are labeled. Boxes along the arrows are labeled Compaction at the top, 1 on the right between sedimentary and metamorphic rock, 2 at the lower right between metamorphic rock and magma, Solidification at the lower left between magma and igneous rock, and 3 on the left between igneous rock and sediments.", "width": 480 }
+    ],
+    "map": [
+      { "type": "p", "html": "The map below shows Death Valley. The arrows on the model below indicate the direction of land movement that produced the valley." },
+      { "type": "figure", "caption": "<b>Map of Death Valley Region</b>", "src": "region-map.png", "alt": "Gray-scale satellite map of the Death Valley region. The Panamint Mountain Range is labeled along the left side, the Aragosa Mountain Range along the right side, and Death Valley is labeled on the long, pale valley floor between them.", "width": 480 },
+      { "type": "figure", "caption": "<b>Model of Death Valley Topography</b>", "src": "faults-model.png", "alt": "Cross-section diagram with the Panamint Mountain Range at upper left and the Aragosa Mountain Range at upper right, each shown as a zigzag line on high ground. Between them is Death Valley, a lower area filled with a gray layer labeled sediment. Below the valley edges are two lines labeled fault, each with a pair of small arrows pointing in opposite directions along the line. A large arrow at the left of the valley points left and a large arrow at the right points right.", "width": 400 },
+      { "type": "p", "html": "<div style=\"text-align:center\"><b>Death Valley Faults</b><br>(Not drawn to scale)</div>" }
+    ],
+    "flats": [
+      { "type": "p", "html": "In February 2005, Badwater Basin in Death Valley received about six inches of rain from streams flowing into the enclosed basin that flooded the area. The photographs below show this region shortly after the flood in February 2005 and again in February 2007, in which mineral salt deposits are clearly visible." },
+      { "type": "figure", "src": "photo-2005.png", "caption": "<span style=\"font-weight:400\">February 2005</span>", "captionBelow": true, "alt": "Gray-scale aerial photograph labeled February 2005 with a north arrow and a 2 km scale bar. A darker flooded area is labeled in the middle of Badwater Basin, salt deposits are labeled on the lighter ground at lower left, Death Valley is labeled at the bottom, and the Amargosa Range is labeled on the dark mountains at the right.", "width": 480 },
+      { "type": "figure", "src": "photo-2007.png", "caption": "<span style=\"font-weight:400\">February 2007</span>", "captionBelow": true, "alt": "Gray-scale aerial photograph labeled February 2007 of the same area, with a north arrow and a 2 km scale bar. Death Valley is labeled at the top, Badwater Basin in the center, salt deposits near the bottom of the bright area, and the Amargosa Range on the dark mountains at the right.", "width": 480 },
+      { "type": "p", "html": "The salt flats region in Death Valley covers over 200 square miles. Salt flat formation requires:" },
+      { "type": "list", "items": ["a large basin where streams carry salts down to the basin", "an enclosed basin, like Death Valley, where the salts dissolved in stream water can be trapped and not wash away", "an arid climate with high temperatures to drive water cycle processes"] },
+      { "type": "p", "html": "The arrows on the water cycle model below represent the ways water changes its state as it moves through multiple pathways." },
+      { "type": "figure", "src": "water-cycle.png", "alt": "Landscape diagram with clouds in the sky, one cloud labeled Clouds and one at the left with dashed rain lines falling to the ground, and a body of water labeled Lakes and rivers in a low area. Four arrows: one points upward from the right side of the water toward a cloud at the right, one points left from that cloud toward the center cloud, one points down and left from the center cloud toward the raining cloud, and one points down and right from the rain toward the ground and the lake.", "width": 420 }
+    ],
+    "climate": [
+      { "type": "p", "html": "The climate graph below shows the average high and low air temperatures and the average monthly precipitation from 1981 through 2010 for Death Valley, California." },
+      { "type": "figure", "src": "climate-graph.png", "alt": "Combined graph by month, January through December. Bars show precipitation in inches on the right axis from 0 to 0.6. A solid line shows low air temperature and a dash-dot line shows high air temperature, in degrees Fahrenheit on the left axis from 0 to 125. Both temperature lines rise from January to a peak in July and August, then fall through December.", "width": 480 }
+    ]
+  },
+  "items": [
+    { "n": 33, "stimulus": ["intro", "rock"], "type": "mc", "pe": "MS-ESS2-1", "points": 1,
+      "stem": "Which list identifies the names of the missing processes, numbered 1 through 3, of the rock cycle?",
+      "options": ["1 = erosion; 2 = deformation; 3 = melting", "1 = deformation; 2 = melting; 3 = erosion", "1 = melting; 2 = deformation; 3 = erosion", "1 = deformation; 2 = erosion; 3 = melting"],
+      "key": "B" },
+    { "n": 34, "stimulus": ["intro", "rock"], "type": "mc", "pe": "MS-ESS2-1", "points": 1,
+      "stem": "Which two sources of energy are responsible for the cycling of Earth materials and the flow of energy, as shown in the rock cycle model?",
+      "options": ["the Sun and Earth&rsquo;s hot interior", "Earth&rsquo;s hot interior and the Moon&rsquo;s hot interior", "evaporation and condensation of water on Earth&rsquo;s surface", "the Sun&rsquo;s energy and Earth&rsquo;s magnetic fields"],
+      "key": "A" },
+    { "n": 35, "stimulus": ["map"], "type": "mc", "pe": "MS-ESS2-3", "points": 1,
+      "stem": "Which piece of evidence would support the claim that Death Valley National Park is the result of past tectonic plate motions?",
+      "options": ["Death Valley is the lowest elevation in North America.", "The locations of the mountain ranges on either side of Death Valley are almost parallel to each other.", "There is thick sediment on the bottom of Death Valley.", "There are uplifted mountain ranges on either side of Death Valley."],
+      "key": "D" },
+    { "n": 36, "stimulus": ["flats"], "type": "cr", "pe": "MS-ESS2-4", "points": 1,
+      "stem": "Identify <b>one</b> water cycle process that is directly responsible for the formation of the large mineral salt flats in Death Valley and explain how this process is driven by energy from the Sun. [1]",
+      "parts": [{ "label": "Process:", "short": true }, { "label": "Explanation:" }],
+      "rubric": [
+        "Allow 1 credit for evaporation and an acceptable explanation. Acceptable responses include, but are not limited to:",
+        "&mdash; Water is heated by energy from the Sun, making water molecules on the surface of the water move faster and escape into the air as water vapor.<br>&mdash; Energy from the Sun warms the surface of the water, causing water molecules to move into the air as a gas, leaving salt behind."
+      ],
+      "exemplar": "Process: evaporation<br>Explanation: Water is heated by energy from the Sun, making water molecules on the surface of the water move faster and escape into the air as water vapor." },
+    { "n": 37, "stimulus": ["climate"], "type": "cr", "pe": "MS-ESS3-2", "points": 1,
+      "stem": "Using the data as evidence, predict the season (<i>spring</i>, <i>summer</i>, <i>fall</i>, or <i>winter</i>) during which a flood is most likely to occur in Death Valley, California. Also, explain how the data provides evidence for your prediction. [1]",
+      "parts": [{ "label": "Season:", "short": true }, { "label": "Explanation:" }],
+      "rubric": [
+        "Allow 1 credit for winter and an acceptable explanation. Acceptable responses include, but are not limited to:",
+        "&mdash; The data shows the greatest precipitation occurring in December, January, February, and March, which are winter months.<br>&mdash; The winter months of December, January, February, and March, have the greatest amounts of precipitation."
+      ],
+      "exemplar": "Season: winter<br>Explanation: The data shows the greatest precipitation occurring in December, January, February, and March, which are winter months." },
+    { "n": 38, "stimulus": ["climate"], "type": "mc", "pe": "MS-ESS3-2", "points": 1,
+      "stem": "Which statement is a reasonable action that could be taken by Death Valley Park officials to mitigate the effects of flash floods or flooding events for park visitors?",
+      "options": ["Based on seasonal rainfall data, place barrels throughout the park to catch some of the extra rainfall.", "Use precipitation data to decide when to post road closures and detours in areas that typically flood.", "When any rainfall occurs, close the entire national park to prevent loss of property and life.", "Build barriers along the sides of all roads in the national park to keep flood waters off the road at times of high precipitation events."],
+      "key": "B" }
+  ]
+}

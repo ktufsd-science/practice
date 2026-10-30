@@ -1,0 +1,105 @@
+{
+  "id": "g8-2024-respiration",
+  "title": "Respiration",
+  "grade": 8,
+  "subject": "Science",
+  "year": "2024",
+  "source": "NYSED 2024 Grade 8 ILS Released Items, Questions 39-43",
+  "pes": ["MS-LS1-7", "MS-LS1-3", "MS-LS1-2", "MS-LS2-4", "MS-LS4-4"],
+  "directions": "Base your answers to questions 39 through 43 on the information below and on your knowledge of science.",
+  "showKeyAfterSubmit": true,
+  "stimuli": {
+    "intro": [
+      {"type": "title", "text": "Respiration"},
+      {"type": "p", "html": "In order for athletes to run, bike, or hike long distances, more oxygen needs to be delivered to their cells. Athletes also need energy from food. Foods high in carbohydrates, such as sugar, provide this energy when the sugar and oxygen react to produce carbon dioxide, water, and energy during cellular respiration. The chemical reaction for this process is modeled below."},
+      {"type": "figure", "src": "reaction-model.png", "alt": "Model of a chemical reaction drawn as labeled shapes joined by plus signs and an arrow. On the left side of the arrow: a hexagon containing C6H12O6, labeled Sugar (glucose), plus a dark circle containing 6O2, labeled Oxygen. On the right side of the arrow: a light circle containing 6CO2, labeled Carbon dioxide, plus a droplet containing 6H2O, labeled Water, plus a starburst containing ATP, labeled Energy.", "width": 560}
+    ],
+    "blood": [
+      {"type": "p", "html": "The transfer of oxygen within the human body is partially shown in the model below. Hemoglobin is the protein that red blood cells use to transport oxygen."},
+      {"type": "figure", "src": "hemoglobin-model.png", "alt": "Model of three red blood cells drawn as ovals, left to right, joined by curved arrows. The first cell contains light circles labeled Hemoglobin molecules, and a large arrow points into it from four dark circles labeled Oxygen molecule from lungs. The second cell contains dark circles labeled Oxygen bonded with hemoglobin molecules. The third cell contains light circles, and a large arrow points out of it toward four dark circles labeled Oxygen released to body cells. The first cell is labeled Red blood cell.", "width": 534}
+    ],
+    "organelle": [
+      {"type": "p", "html": "The model below represents cellular respiration taking place in an organelle within a body cell."},
+      {"type": "figure", "src": "organelle-model.png", "alt": "Model of an oval organelle with a folded inner membrane, labeled Organelle. A circle labeled Food has an arrow pointing to the organelle. An arrow points from the organelle to a starburst labeled ATP, and another arrow points from the organelle to a circle labeled Waste.", "width": 380}
+    ],
+    "sherpa": [
+      {"type": "p", "html": "Sherpas are an ethnic group that live on the high southern slopes of the Himalaya Mountains in eastern Nepal. They are famous for their hiking skills and for guiding experienced hikers to the summit (top) of Mount Everest at 8848 meters (29,032 feet), carrying heavy loads."},
+      {"type": "p", "html": "Sherpas have lived on the high plateau of the Himalayas at an average altitude of more than 4480 meters (14,700 feet) going back at least 6,000 years when the earliest settlement appeared. This is a period of time sufficient to drive the natural selection of genetic variants favoring survival and performance in the low oxygen environment of mountain locations."},
+      {"type": "figure", "caption": "<b>A Sherpa Carrying 15 Ladders for Hikers<br>Trying to Summit Mount Everest</b>", "src": "sherpa-photo.png", "alt": "Black-and-white photograph of a person seen from the front walking over a rocky, snow-patched slope while carrying a large stack of ladders on their back. Cloud-covered snowy mountains are in the background.", "width": 480}
+    ]
+  },
+  "items": [
+    {
+      "n": 39,
+      "stimulus": ["intro"],
+      "type": "cr",
+      "pe": "MS-LS1-7",
+      "points": 1,
+      "stem": "Identify the carbon-based molecule that is formed when a sugar molecule is rearranged during cellular respiration. [1]",
+      "rubric": [
+        "Allow 1 credit for carbon dioxide <i>or</i> CO<sub>2</sub> <i>or</i> ATP.",
+        "Note: Allow credit for upper or lower case letters for carbon dioxide."
+      ],
+      "exemplar": "carbon dioxide <i>OR</i> CO<sub>2</sub> <i>OR</i> ATP"
+    },
+    {
+      "n": 40,
+      "stimulus": ["blood"],
+      "type": "cr",
+      "pe": "MS-LS1-3",
+      "points": 1,
+      "stem": "Use evidence from the model to explain how <b>two</b> organ systems work together to deliver oxygen to body cells for cellular respiration. Include <b>both</b> organ systems in your explanation. [1]",
+      "rubric": [
+        "Allow 1 credit. Acceptable responses include, but are not limited to:",
+        "&mdash; The respiratory system provides oxygen from the lungs to the red blood cells and the circulatory system transports the oxygen to the cells throughout the body.",
+        "&mdash; The respiratory system and circulatory system work together to transfer oxygen from the air to the lungs to the blood, and then to the body cells."
+      ],
+      "exemplar": "The respiratory system provides oxygen from the lungs to the red blood cells and the circulatory system transports the oxygen to the cells throughout the body.<br><i>OR</i><br>The respiratory system and circulatory system work together to transfer oxygen from the air to the lungs to the blood, and then to the body cells."
+    },
+    {
+      "n": 41,
+      "stimulus": ["organelle"],
+      "type": "mc",
+      "pe": "MS-LS1-2",
+      "points": 1,
+      "stem": "Which organelle is represented in the model and is correctly paired with its function for the cell as a whole?",
+      "options": [
+        "nucleus; control center of the cell",
+        "chloroplast; captures energy to make food",
+        "mitochondrion; releases energy from food",
+        "cell membrane; allows food to enter and wastes to leave the cell"
+      ],
+      "key": "C"
+    },
+    {
+      "n": 42,
+      "stimulus": ["sherpa"],
+      "type": "mc",
+      "pe": "MS-LS2-4",
+      "points": 1,
+      "stem": "Which argument describes how the high altitude environment of the Himalayan region has affected the Sherpa population?",
+      "options": [
+        "Sherpas make glucose more efficiently than populations living at lower altitudes.",
+        "Sherpas produce less carbon dioxide during cellular respiration than populations living at lower altitudes.",
+        "Sherpas release more oxygen during cellular respiration than populations living at lower altitudes.",
+        "Sherpas perform cellular respiration more efficiently with less oxygen than populations living at lower altitudes."
+      ],
+      "key": "D"
+    },
+    {
+      "n": 43,
+      "stimulus": ["sherpa"],
+      "type": "mc",
+      "pe": "MS-LS4-4",
+      "points": 1,
+      "stem": "Natural selection has caused a genetic trait of Sherpas to change over a long period of time by",
+      "options": [
+        "decreasing the frequency of a favorable trait through asexual reproduction",
+        "decreasing the frequency of a favorable trait through sexual reproduction",
+        "increasing the frequency of a favorable trait through asexual reproduction",
+        "increasing the frequency of a favorable trait through sexual reproduction"
+      ],
+      "key": "D"
+    }
+  ]
+}

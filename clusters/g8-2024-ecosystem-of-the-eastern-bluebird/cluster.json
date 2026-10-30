@@ -1,0 +1,218 @@
+{
+  "id": "g8-2024-ecosystem-of-the-eastern-bluebird",
+  "title": "Ecosystem of the Eastern Bluebird",
+  "grade": 8,
+  "subject": "Science",
+  "year": "2024",
+  "source": "NYSED 2024 Grade 8 ILS Released Items, Questions 44-48",
+  "pes": [
+    "MS-LS2-2",
+    "MS-LS2-4",
+    "MS-ESS3-3"
+  ],
+  "directions": "Base your answers to questions 44 through 48 on the information below and on your knowledge of science.",
+  "showKeyAfterSubmit": true,
+  "stimuli": {
+    "intro": [
+      {
+        "type": "title",
+        "text": "Ecosystem of the Eastern Bluebird"
+      },
+      {
+        "type": "p",
+        "html": "New York chose the Eastern Bluebird as the state bird in 1970. Bluebirds eat mostly insects and berries. They fly down to the ground or hover in mid-air to catch insects. In winter months when insects are less available, berries are an important food source."
+      },
+      {
+        "type": "p",
+        "html": "It is a migratory bird that is found in open woodlands, farmlands, and fruit orchards. In recent decades, the bluebird population has increased due to the conservation efforts of providing more birdhouses for nesting sites. These houses have been intentionally placed along &ldquo;bluebird trails&rdquo; that follow their migration. They typically fly to the southeast United States or Mexico in winter."
+      },
+      {
+        "type": "figure",
+        "caption": "<b>Eastern Bluebird</b>",
+        "src": "bluebird.png",
+        "alt": "Black-and-white photograph of a small bird perched on top of a post, seen from the side.",
+        "width": 340
+      }
+    ],
+    "foodweb": [
+      {
+        "type": "p",
+        "html": "The model below represents a food web within an ecosystem which includes the bluebird."
+      },
+      {
+        "type": "figure",
+        "src": "food-web.png",
+        "alt": "Food web model with pictures labeled Hawk, Mouse, Snake, Bluebird, Corn, and Cricket, connected by arrows.",
+        "width": 300
+      }
+    ],
+    "sparrow": [
+      {
+        "type": "p",
+        "html": "The house sparrow is another bird commonly found in New York State. These birds frequently take over the nests and destroy the eggs of other birds. Once a male house sparrow establishes a territory, he remains there year-round and defends that territory, preventing other bird species from building nests in the area. House sparrows eat mostly grains and seeds, but, in summer, will eat insects and feed them to their young."
+      },
+      {
+        "type": "figure",
+        "caption": "<b>House Sparrow</b>",
+        "src": "sparrow.png",
+        "alt": "Black-and-white photograph of a small bird with a seed in its beak, perched on a metal wire fence.",
+        "width": 340
+      }
+    ],
+    "maps": [
+      {
+        "type": "p",
+        "html": "The maps below compare the range of the Eastern bluebird for our current worldwide average temperature and the predicted ranges for a worldwide average temperature 2&deg;C greater than at present. A species range is the geographic area where a particular species can be found during its lifetime."
+      },
+      {
+        "type": "p",
+        "html": "Scientists infer a 2&deg;C increase in global temperatures could happen as early as 2050 without mitigation efforts. Rising global temperatures have the potential to alter ecosystems that affect the ranges of many species."
+      },
+      {
+        "type": "figure",
+        "caption": "<b>Eastern Bluebird Range for Present Day Global Temperature</b>",
+        "src": "map-present.png",
+        "alt": "Map of the United States and parts of Canada and Mexico with city names and a north arrow. Part of the map is shaded gray. The key shows a gray box for range maintained (100%) and a lightly textured box for mountains.",
+        "width": 520
+      },
+      {
+        "type": "figure",
+        "caption": "<b>Eastern Bluebird Range with 2&deg;C Global Temperature Increase</b>",
+        "src": "map-2c.png",
+        "alt": "Map of the United States and parts of Canada and Mexico with the same city names and north arrow. Parts of the map are shaded in light gray, medium gray, and black. The key shows a light gray box for range maintained (95%), a medium gray box for range gained (22%), a black box for range lost (3%), and a lightly textured box for mountains.",
+        "width": 520
+      }
+    ],
+    "pesticides": [
+      {
+        "type": "p",
+        "html": "The use of synthetic pesticides in the United States began in the 1930s. These pesticides killed insects that ate food crops. This use continued in the 1950s in order to increase the amount of food produced on farms. Some pesticides were found to have considerable health risks, including causing forms of cancer, and the use of some pesticides has been banned in the United States."
+      },
+      {
+        "type": "figure",
+        "caption": "<b>Farmers Applying Pesticides</b>",
+        "src": "pesticides.png",
+        "alt": "Black-and-white photograph of two people in a field, each wearing a backpack tank and holding a spray wand with mist coming from it.",
+        "width": 340
+      },
+      {
+        "type": "p",
+        "html": "Farmers today have tried to use methods to control insects that are not harmful to the environment. One method is to place bluebird boxes around their crops to encourage bluebirds to live there."
+      },
+      {
+        "type": "figure",
+        "caption": "<b>Bluebird Box and Bluebird on Farm</b>",
+        "src": "bluebird-box.png",
+        "alt": "Black-and-white photograph of a wooden birdhouse mounted on a post at the left, with a small bird perched on top of a large wooden post at the right, in front of rows of plants on a farm.",
+        "width": 340
+      }
+    ]
+  },
+  "items": [
+    {
+      "n": 44,
+      "stimulus": [
+        "intro",
+        "foodweb"
+      ],
+      "type": "mc",
+      "pe": "MS-LS2-2",
+      "points": 1,
+      "stem": "Which table shows a correct interaction that the bluebird has with another organism in this food web?",
+      "options": [
+        "<table class=\"opt-table\" style=\"border-collapse:collapse\"><tr><th style=\"border:1px solid #000;padding:2px 14px\">Predator</th><th style=\"border:1px solid #000;padding:2px 14px\">Prey</th></tr><tr><td style=\"border:1px solid #000;padding:2px 14px;text-align:center\">cricket</td><td style=\"border:1px solid #000;padding:2px 14px;text-align:center\">bluebird</td></tr></table>",
+        "<table class=\"opt-table\" style=\"border-collapse:collapse\"><tr><th style=\"border:1px solid #000;padding:2px 14px\">Predator</th><th style=\"border:1px solid #000;padding:2px 14px\">Prey</th></tr><tr><td style=\"border:1px solid #000;padding:2px 14px;text-align:center\">snake</td><td style=\"border:1px solid #000;padding:2px 14px;text-align:center\">bluebird</td></tr></table>",
+        "<table class=\"opt-table\" style=\"border-collapse:collapse\"><tr><th style=\"border:1px solid #000;padding:2px 14px\">Predator</th><th style=\"border:1px solid #000;padding:2px 14px\">Prey</th></tr><tr><td style=\"border:1px solid #000;padding:2px 14px;text-align:center\">bluebird</td><td style=\"border:1px solid #000;padding:2px 14px;text-align:center\">hawk</td></tr></table>",
+        "<table class=\"opt-table\" style=\"border-collapse:collapse\"><tr><th style=\"border:1px solid #000;padding:2px 14px\">Predator</th><th style=\"border:1px solid #000;padding:2px 14px\">Prey</th></tr><tr><td style=\"border:1px solid #000;padding:2px 14px;text-align:center\">bluebird</td><td style=\"border:1px solid #000;padding:2px 14px;text-align:center\">mouse</td></tr></table>"
+      ],
+      "optionsLayout": "grid",
+      "key": "B"
+    },
+    {
+      "n": 45,
+      "stimulus": [
+        "intro",
+        "foodweb"
+      ],
+      "type": "cr",
+      "pe": "MS-LS2-2",
+      "points": 1,
+      "stem": "A student writes an explanation about the relationship between the bluebird and the corn using information from the food web model. They stated that &ldquo;the corn is a direct food source for the bluebird.&rdquo;<br><br>Revise the explanation to indicate the correct relationship between the bluebird and an organism that is a food source for the bluebird. Use evidence from the food web model to support the revised explanation. [1]",
+      "parts": [
+        {
+          "label": "Revised explanation:"
+        },
+        {
+          "label": "Evidence from model:"
+        }
+      ],
+      "rubric": [
+        "Allow 1 credit for both a correct revised explanation and correct evidence. Acceptable responses include, but are not limited to:",
+        "<b>Revision:</b><br>&mdash; Crickets are the direct source of food for the bluebird.<br>&mdash; Bluebirds eat insects, not corn.",
+        "<b>Evidence:</b><br>&mdash; The arrow points from the cricket to the bluebird, which indicates that bluebirds eat insects for energy.<br>&mdash; The arrows in the model show flow of energy, so energy flows from crickets to bluebirds.<br>&mdash; The model shows an arrow between bluebirds and crickets, so bluebirds eat crickets for energy."
+      ],
+      "exemplar": "<b>Revised explanation:</b> Crickets are the direct source of food for the bluebird.<br><b>Evidence from model:</b> The arrow points from the cricket to the bluebird, which indicates that bluebirds eat insects for energy."
+    },
+    {
+      "n": 46,
+      "stimulus": [
+        "sparrow"
+      ],
+      "type": "cr",
+      "pe": "MS-LS2-2",
+      "points": 1,
+      "stem": "From the list of interactions below, identify the pattern of interaction that a house sparrow would have with a bluebird in a particular ecosystem. Describe <b>two</b> environmental factors that create this pattern of interaction. [1]<div style=\"text-align:center;margin:10px 0\"><u><b>Interactions</b></u><br>competition<br>mutualism<br>parasitism</div>",
+      "parts": [
+        {
+          "label": "Pattern of Interaction:",
+          "short": true
+        },
+        {
+          "label": "Factor 1:"
+        },
+        {
+          "label": "Factor 2:"
+        }
+      ],
+      "rubric": [
+        "Allow 1 credit for competition and two acceptable environmental factors. Acceptable responses include, but are not limited to:",
+        "&mdash; Both birds have a common need for living space and both use nests.<br>&mdash; House sparrows and bluebirds need food and both eat insects."
+      ],
+      "exemplar": "<b>Pattern of Interaction:</b> competition<br><b>Factor 1:</b> Both birds have a common need for living space and both use nests.<br><b>Factor 2:</b> House sparrows and bluebirds need food and both eat insects."
+    },
+    {
+      "n": 47,
+      "stimulus": [
+        "maps"
+      ],
+      "type": "mc",
+      "pe": "MS-LS2-4",
+      "points": 1,
+      "stem": "Which evidence found on the maps supports the argument that changes to worldwide average temperatures affect the range of the Eastern bluebird?",
+      "options": [
+        "The increase in average temperatures will cause the Eastern bluebird range to increase only into the San Antonio region.",
+        "The increase in average temperatures will cause the Eastern bluebird range to decrease only in the Minneapolis-Bismarck region.",
+        "As the climate warms, Eastern bluebird ranges will decrease west of Oklahoma City and shift farther north into the Toronto region.",
+        "As the climate warms, the range of the Eastern bluebird will shift south to Miami and west toward Cheyenne."
+      ],
+      "key": "C"
+    },
+    {
+      "n": 48,
+      "stimulus": [
+        "pesticides"
+      ],
+      "type": "mc",
+      "pe": "MS-ESS3-3",
+      "points": 1,
+      "stem": "How does the use of bluebird boxes on farms minimize the impact of pesticides on the environment?",
+      "options": [
+        "Bluebirds living in bluebird boxes decrease the number of insects on farms with minimal health risks to humans.",
+        "Bluebirds living in bluebird boxes pollinate the plants that would otherwise be pollinated with pesticides.",
+        "Bluebird boxes are more expensive to buy and maintain than buying and using pesticides.",
+        "Bluebird boxes attract other types of birds to the area which discourage insects from eating crops."
+      ],
+      "key": "A"
+    }
+  ]
+}
