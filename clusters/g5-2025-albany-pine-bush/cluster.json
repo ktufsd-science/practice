@@ -1,0 +1,304 @@
+{
+  "id": "g5-2025-albany-pine-bush",
+  "title": "The Albany Pine Bush Ecosystem",
+  "grade": 5,
+  "subject": "Science",
+  "year": "2025",
+  "source": "NYSED 2025 Grade 5 ELS Released Items, Questions 21-25",
+  "pes": [
+    "3-LS1-1",
+    "3-LS4-3",
+    "3-LS4-4",
+    "5-LS2-1",
+    "5-PS3-1"
+  ],
+  "directions": "Base your answers to questions 21 through 25 on the information below and on your knowledge of science.",
+  "showKeyAfterSubmit": true,
+  "split": 50,
+  "stimuli": {
+    "intro": [
+      {
+        "type": "title",
+        "text": "The Albany Pine Bush Ecosystem"
+      },
+      {
+        "type": "p",
+        "html": "The Albany Pine Bush is an inland area located in Albany, New York. Parts of this area are protected from development because it has a very special sandy ecosystem normally found in a coastal region. It is home to two endangered species, the Karner blue butterfly and the wild blue lupine plant. The only food source for the caterpillar of this species of butterfly is the wild blue lupine."
+      },
+      {
+        "type": "html",
+        "html": "<div style=\"display:flex;flex-wrap:wrap;justify-content:center;align-items:flex-start;gap:8px 32px\"><figure class=\"fig\" style=\"margin:16px 0 12px;flex:0 1 240px\"><div class=\"fig-cap\" style=\"height:2.8em;display:flex;align-items:flex-end;justify-content:center\">Karner Blue Butterfly<br>and Caterpillar</div><img src=\"clusters/g5-2025-albany-pine-bush/karner-butterfly-caterpillar.png\" alt=\"Two photographs side by side. Left: a Karner blue butterfly with its wings spread open, resting on a blade of grass. Right: a small, pale Karner blue caterpillar on a leaf.\" style=\"width:240px;max-width:100%\" draggable=\"false\"></figure><figure class=\"fig\" style=\"margin:16px 0 12px;flex:0 1 320px\"><div class=\"fig-cap\" style=\"height:2.8em;display:flex;align-items:flex-end;justify-content:center\">Wild Blue Lupine Plant</div><img src=\"clusters/g5-2025-albany-pine-bush/lupine.png\" alt=\"Photograph of wild blue lupine plants. Each plant has a tall spike covered with many small flowers, and fan-shaped leaves grow near the bottom.\" style=\"width:320px;max-width:100%\" draggable=\"false\"></figure></div>"
+      },
+      {
+        "type": "p",
+        "html": "One of the few confirmed predators of the Karner blue caterpillar is the seven-spotted ladybug. This ladybug feeds only on animals."
+      },
+      {
+        "type": "figure",
+        "caption": "Seven-spotted Ladybug",
+        "src": "ladybug.png",
+        "alt": "Photograph of a seven-spotted ladybug, a small round beetle with dark spots on its shell, resting on a leaf.",
+        "width": 260
+      }
+    ],
+    "lifecycles": [
+      {
+        "type": "p",
+        "html": "The Karner blue butterfly shares its habitat with the frosted elfin butterfly, and both rely on the wild blue lupine for survival. The models below describe the life cycles of each type of butterfly. The Karner blue butterfly has four stages in its life cycle. These four stages are repeated again by its offspring in one year. The frosted elfin butterfly completes only one life cycle each year."
+      },
+      {
+        "type": "figure",
+        "caption": "Life Cycle: Karner Blue Butterfly (Over One Year)",
+        "src": "karner-life-cycle.png",
+        "alt": "Model made of photographs joined by arrows. A caterpillar leads to a pupa, then an adult butterfly, then eggs on a leaf. The eggs lead to a second caterpillar, then a pupa, then an adult butterfly, then eggs on a leaf. A long arrow leads from the last eggs back to the first caterpillar.",
+        "width": 600
+      },
+      {
+        "type": "figure",
+        "caption": "Life Cycle: Frosted Elfin Butterfly (Over One Year)",
+        "src": "frosted-elfin-life-cycle.png",
+        "alt": "Model made of photographs joined by arrows. An adult butterfly leads to an egg on a stem, then a caterpillar, then a pupa. A long arrow leads from the pupa back to the adult butterfly.",
+        "width": 600
+      }
+    ],
+    "preserve": [
+      {
+        "type": "p",
+        "html": "Both species of butterflies live successfully in the Albany Pine Bush Preserve where wild blue lupine are protected. The Pine Bush Preserve is an area that covers about 3000 acres. The Preserve manages and protects the ecosystem. The Karner blue caterpillar feeds on the leaves of the lupine, while the frosted elfin caterpillar feeds on the flowers and seed pods of the lupine plant."
+      },
+      {
+        "type": "p",
+        "html": "The map below shows the range of the Karner blue butterfly habitat and locations where the frosted elfin butterfly have been observed in New York State in 2018."
+      },
+      {
+        "type": "figure",
+        "src": "map.png",
+        "alt": "Outline map of New York State. A darker shaded area near the label Albany shows Karner blue butterfly habitat. Diamond symbols mark places where frosted elfin butterflies were observed: a few in western and central New York, a group around Albany, several along the Hudson Valley, and many across Long Island. A key shows that the dark shaded area is Karner blue butterfly habitat and a diamond means frosted elfin butterfly observed.",
+        "width": 560
+      }
+    ],
+    "burns": [
+      {
+        "type": "p",
+        "html": "Historically, wildfires kept the habitat in the Albany Pine Bush suitable for wild blue lupine and other native plants. Today, however, most wildfires are quickly extinguished to protect homes and other development in the area. Instead, the Albany Pine Bush Preserve Commission uses controlled burns that function like natural wildfires to maintain the Albany Pine Bush ecosystem."
+      },
+      {
+        "type": "figure",
+        "caption": "Firefighters Managing a Controlled Burn",
+        "src": "controlled-burn.png",
+        "alt": "Photograph of thick smoke rising from low plants burning among tall pine trees. A few firefighters stand in the smoke near the bottom of the picture.",
+        "width": 450
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Benefits of Controlled Burns"
+          ],
+          [
+            "<div style=\"text-align:left\">&bull; eliminates invasive species</div>"
+          ],
+          [
+            "<div style=\"text-align:left\">&bull; burns leaves and twigs that cover sandy soil so seeds can grow</div>"
+          ],
+          [
+            "<div style=\"text-align:left\">&bull; prevents areas from being taken over by large trees</div>"
+          ],
+          [
+            "<div style=\"text-align:left\">&bull; causes seed pods of pine trees to open and release seeds</div>"
+          ]
+        ]
+      }
+    ]
+  },
+  "items": [
+    {
+      "n": 21,
+      "stimulus": [
+        "intro"
+      ],
+      "type": "dragdrop",
+      "pe": "5-LS2-1",
+      "points": 1,
+      "stem": "Complete the model below to describe the movement of matter within the Albany Pine Bush ecosystem. Place the name of each of the <b>four</b> organisms in the appropriate box to complete the model. [1]",
+      "bankTitle": "Organisms",
+      "reuse": false,
+      "choices": [
+        {
+          "id": "bacteria",
+          "text": "Bacteria"
+        },
+        {
+          "id": "caterpillar",
+          "text": "Karner blue caterpillar",
+          "html": "Karner<br>blue<br>caterpillar"
+        },
+        {
+          "id": "lupine",
+          "text": "Wild blue lupine",
+          "html": "Wild<br>blue<br>lupine"
+        },
+        {
+          "id": "ladybug",
+          "text": "Seven-spotted ladybug",
+          "html": "Seven-<br>spotted<br>ladybug"
+        }
+      ],
+      "target": {
+        "title": "Movement of Matter Model",
+        "src": "matter-model.png",
+        "alt": "Model with six boxes joined by arrows. Four boxes are empty. An arrow goes up from a box labeled Air and water to an empty box on the left. The left box has arrows to an empty box at the top middle and to an empty box in the center. The top middle box has arrows to an empty box at the top right and to the center box. The top right box has an arrow to the center box. The center box has an arrow down to a box labeled Decomposed material.",
+        "width": 600,
+        "zones": [
+          {
+            "id": "z1",
+            "x": 1.08,
+            "y": 25.97,
+            "w": 20.58,
+            "h": 18.67
+          },
+          {
+            "id": "z2",
+            "x": 32.58,
+            "y": 5.08,
+            "w": 20.58,
+            "h": 18.78
+          },
+          {
+            "id": "z3",
+            "x": 78.33,
+            "y": 1.22,
+            "w": 20.58,
+            "h": 18.78
+          },
+          {
+            "id": "z4",
+            "x": 49.17,
+            "y": 46.19,
+            "w": 20.67,
+            "h": 18.67
+          }
+        ],
+        "zoneNames": {
+          "z1": "Left box (arrow from Air and water)",
+          "z2": "Top middle box",
+          "z3": "Top right box",
+          "z4": "Center box (arrow to Decomposed material)"
+        }
+      },
+      "key": {
+        "z1": "lupine",
+        "z2": "caterpillar",
+        "z3": "ladybug",
+        "z4": "bacteria"
+      },
+      "adapted": "On paper, students write the name of each organism in the empty boxes of the model. On screen, they place each organism name in a box. The stem wording is unchanged."
+    },
+    {
+      "n": 22,
+      "stimulus": [
+        "intro"
+      ],
+      "type": "mc",
+      "pe": "5-PS3-1",
+      "points": 1,
+      "stem": "The wild blue lupine is able to obtain energy from its non-living environment. Which row in the table correctly identifies this source of energy and explains how the wild blue lupine uses this energy?<table class=\"stim-table\" style=\"margin:16px 0 0\"><tr><th>Row</th><th>Source of Energy</th><th>Explanation</th></tr><tr><td><b>1</b></td><td>Sun</td><td style=\"text-align:left\">Energy is converted into motion energy that is transferred to the wild blue lupine.</td></tr><tr><td><b>2</b></td><td>water</td><td style=\"text-align:left\">Energy from water is transferred between the wild blue lupine and the seven-spotted ladybug.</td></tr><tr><td><b>3</b></td><td>soil</td><td style=\"text-align:left\">Energy from soil is chemically combined into matter that is recycled by the wild blue lupine.</td></tr><tr><td><b>4</b></td><td>light</td><td style=\"text-align:left\">Energy is captured and converted into a form usable by the wild blue lupine.</td></tr></table>",
+      "options": [
+        "Row 1",
+        "Row 2",
+        "Row 3",
+        "Row 4"
+      ],
+      "key": "D"
+    },
+    {
+      "n": 23,
+      "stimulus": [
+        "lifecycles"
+      ],
+      "type": "mc",
+      "pe": "3-LS1-1",
+      "points": 1,
+      "stem": "Which claim is supported by the life cycle models of these <b>two</b> organisms?",
+      "options": [
+        "The life cycles of both of these butterflies have the same stages that occur during the same time of year.",
+        "The life cycles of both of these butterflies have different stages that occur multiple times during the year.",
+        "Over a one-year period, both of these butterflies have similar life cycle stages, but their growth rate is different.",
+        "Over a one-year period, both of these butterflies complete one life cycle and their growth rate is the same."
+      ],
+      "key": "C"
+    },
+    {
+      "n": 24,
+      "stimulus": [
+        "preserve"
+      ],
+      "type": "multi",
+      "pe": "3-LS4-3",
+      "points": 1,
+      "stem": "Identify which of these species of butterfly, in New York State, would have a better chance of survival if the Albany Pine Bush Preserve was no longer protected from development. Construct an argument with evidence to support your choice. [1]",
+      "parts": [
+        {
+          "type": "table",
+          "table": {
+            "header": false,
+            "rows": [
+              [
+                "<div style=\"text-align:left\">Karner blue butterfly</div>",
+                {
+                  "check": "kb",
+                  "group": "species"
+                }
+              ],
+              [
+                "<div style=\"text-align:left\">Frosted elfin butterfly</div>",
+                {
+                  "check": "fe",
+                  "group": "species"
+                }
+              ]
+            ],
+            "labels": {
+              "kb": "Karner blue butterfly",
+              "fe": "Frosted elfin butterfly"
+            }
+          },
+          "key": {
+            "fe": true
+          }
+        },
+        {
+          "type": "cr",
+          "label": "Argument with evidence:",
+          "exemplar": "The frosted elfin butterfly has been observed in many areas in New York State while the Karner blue butterfly is only found in one habitat."
+        }
+      ],
+      "rubric": [
+        "Allow 1 credit for frosted elfin butterfly <i>and</i> an acceptable argument with evidence. Acceptable responses include, but are not limited to:",
+        "The frosted elfin butterfly has been observed in many areas in New York State while the Karner blue butterfly is only found in one habitat.",
+        "The Karner blue butterfly is only found in one habitat of New York State but the frosted elfin butterfly is found in many areas of New York State.",
+        "There are more areas where the frosted elfin butterfly lives, which makes it more likely for this butterfly to survive."
+      ],
+      "exemplar": "Frosted elfin butterfly. Argument with evidence: The frosted elfin butterfly has been observed in many areas in New York State while the Karner blue butterfly is only found in one habitat.",
+      "adapted": "On paper, students mark one of the two boxes in the table and write the argument on the lines. On screen, they select a box in the table and type the argument. The stem wording is unchanged."
+    },
+    {
+      "n": 25,
+      "stimulus": [
+        "intro",
+        "burns"
+      ],
+      "type": "mc",
+      "pe": "3-LS4-4",
+      "points": 1,
+      "stem": "Which claim accurately describes how controlled burns affect the Karner blue butterfly?",
+      "options": [
+        "The environment in which the wild blue lupine needs to grow is maintained by controlled burns, allowing food to be produced for the Karner blue butterfly.",
+        "Tall trees and thick underbrush survive after controlled burns and provide a better habitat for the Karner blue butterfly.",
+        "Controlled burns destroy all plants in the environment, prevent wild blue lupine growth for years, and allow more space for the Karner blue butterfly.",
+        "The habitat of the Karner blue butterfly is enlarged by controlled burns since the butterfly needs to move to different locations in New York State."
+      ],
+      "key": "A"
+    }
+  ]
+}

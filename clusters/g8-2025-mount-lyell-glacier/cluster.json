@@ -1,0 +1,218 @@
+{
+  "id": "g8-2025-mount-lyell-glacier",
+  "title": "Mount Lyell and the Lyell Glacier",
+  "grade": 8,
+  "subject": "Science",
+  "year": "2025",
+  "source": "NYSED 2025 Grade 8 ILS Released Items, Questions 6-9",
+  "pes": [
+    "MS-ESS2-4",
+    "MS-ESS3-5",
+    "MS-ESS2-6",
+    "MS-ESS3-2"
+  ],
+  "directions": "Base your answers to questions 6 through 9 on the information below and on your knowledge of science.",
+  "showKeyAfterSubmit": true,
+  "stimuli": {
+    "intro": [
+      {
+        "type": "title",
+        "text": "Mount Lyell and the Lyell Glacier"
+      },
+      {
+        "type": "p",
+        "html": "The photographs below show the Lyell Glacier in 1901 and in 2011. The Lyell Glacier is located in the Sierra Nevada mountains of California within Yosemite National Park. Glaciers are sensitive indicators of climatic changes."
+      },
+      {
+        "type": "figure",
+        "caption": "Mount Lyell and the Lyell Glacier, August 1901",
+        "src": "photo-1901.png",
+        "alt": "Black and white photograph labeled 1901 of a mountain slope with a large white glacier and snow covering most of the surface, with dark rock outcrops and a rocky foreground.",
+        "width": 440
+      },
+      {
+        "type": "figure",
+        "caption": "Same View, September 2011",
+        "src": "photo-2011.png",
+        "alt": "Black and white photograph labeled 2011 of the same mountain view, with a much smaller light-colored glacier on the slope, large areas of dark exposed rock, and a small pool of water in the lower left.",
+        "width": 440
+      }
+    ],
+    "graphs": [
+      {
+        "type": "p",
+        "html": "The graphs below show some information about the Lyell Glacier and about changing global sea level from 1900 to 2020."
+      },
+      {
+        "type": "figure",
+        "caption": "Graph 1: Percent of Glacial Surface Area, Since 1903",
+        "src": "graph1.png",
+        "alt": "Line graph of percent of glacial surface area relative to 1903 total surface area from 1900 to 2020 for Lyell East and Lyell West. Both lines start at 100 percent and decline over time. Lyell East ends near 14 percent. Lyell West ends near 52 percent.",
+        "width": 400
+      },
+      {
+        "type": "figure",
+        "caption": "Graph 2: Global Sea Level Change from 1900 to 2020",
+        "src": "graph2.png",
+        "alt": "Line graph of global sea level change in millimeters from 1900 to 2020. The line fluctuates but rises overall from about 0 millimeters in 1900 to about 210 millimeters near 2018.",
+        "width": 460
+      }
+    ]
+  },
+  "items": [
+    {
+      "n": 6,
+      "stimulus": [
+        "intro"
+      ],
+      "type": "mc",
+      "pe": "MS-ESS2-4",
+      "points": 1,
+      "stem": "Which process in the cycling of water is responsible for the change in size of the Lyell Glacier?",
+      "options": [
+        "condensation of water vapor from the atmosphere",
+        "melting of ice from the surface of the glacier",
+        "precipitation of snow on the top of the glacier",
+        "transpiration from the nearby forests"
+      ],
+      "key": "B"
+    },
+    {
+      "n": 7,
+      "stimulus": [
+        "intro"
+      ],
+      "type": "mc",
+      "pe": "MS-ESS3-5",
+      "points": 1,
+      "stem": "A student makes a claim that the Lyell Glacier changed in size between 1901 and 2011 because there was a rise in global temperatures. Which question, when investigated, includes a factor that caused the initial rise in global temperatures?",
+      "options": [
+        "How did planting more trees impact global temperatures?",
+        "What effect did changes in glacial ice have on global temperatures?",
+        "Which season most affected global temperatures?",
+        "How did the burning of fossil fuels affect global temperatures?"
+      ],
+      "key": "D"
+    },
+    {
+      "n": 8,
+      "stimulus": [
+        "intro"
+      ],
+      "type": "cr",
+      "pe": "MS-ESS2-6",
+      "points": 1,
+      "stem": "The heating of glacial ice is unequal to the heating of exposed land surfaces. Explain how this contributes to the continued change in the size of the Lyell Glacier <i>and</i> will most likely cause there to be a warmer local climate. [1]",
+      "rubric": [
+        "Credit: The decrease in the size of the glacier decreases the amount of light reflected by the white glacial surface, causing more of it to be converted into heat, which will eventually warm the climate.",
+        "Credit: As more of the glacier melts, more of the dark surface will be exposed, increasing the amount of energy that will be absorbed, warming the climate of the area."
+      ],
+      "exemplar": "The decrease in the size of the glacier decreases the amount of light reflected by the white glacial surface, causing more of it to be converted into heat, which will eventually warm the climate."
+    },
+    {
+      "n": 9,
+      "stimulus": [
+        "graphs"
+      ],
+      "type": "multi",
+      "pe": "MS-ESS3-2",
+      "points": 1,
+      "stem": "Use evidence from the graphs and your knowledge of science to select <b>one</b> statement in <i>each</i> table to indicate:<ul><li>how changes in glacial surface area affect global sea level</li><li>one action that would best mitigate this effect if the patterns in Graphs 1 and 2 continue [1]</li></ul>",
+      "parts": [
+        {
+          "type": "table",
+          "table": {
+            "header": false,
+            "caption": "Effect of Glacial Surface Area on Global Sea Level",
+            "rows": [
+              [
+                "<div style=\"text-align:left\">Glacial surface area increased<br>while global sea level decreased</div>",
+                {
+                  "check": "e1",
+                  "group": "e"
+                }
+              ],
+              [
+                "<div style=\"text-align:left\">Glacial surface area increased<br>while global sea level increased</div>",
+                {
+                  "check": "e2",
+                  "group": "e"
+                }
+              ],
+              [
+                "<div style=\"text-align:left\">Glacial surface area decreased<br>while global sea level increased</div>",
+                {
+                  "check": "e3",
+                  "group": "e"
+                }
+              ],
+              [
+                "<div style=\"text-align:left\">Glacial surface area decreased<br>while global sea level decreased</div>",
+                {
+                  "check": "e4",
+                  "group": "e"
+                }
+              ]
+            ],
+            "labels": {
+              "e1": "Glacial surface area increased while global sea level decreased",
+              "e2": "Glacial surface area increased while global sea level increased",
+              "e3": "Glacial surface area decreased while global sea level increased",
+              "e4": "Glacial surface area decreased while global sea level decreased"
+            }
+          },
+          "key": {
+            "e3": true
+          }
+        },
+        {
+          "type": "table",
+          "table": {
+            "header": false,
+            "caption": "Mitigation Action",
+            "rows": [
+              [
+                "<div style=\"text-align:left\">Plant trees around all glaciers to provide shade from the Sun.</div>",
+                {
+                  "check": "m1",
+                  "group": "m"
+                }
+              ],
+              [
+                "<div style=\"text-align:left\">Increase the temperatures of the oceans to increase evaporation of the ocean surface.</div>",
+                {
+                  "check": "m2",
+                  "group": "m"
+                }
+              ],
+              [
+                "<div style=\"text-align:left\">Cover all glaciers with dark material to stop changes to glacial surface area.</div>",
+                {
+                  "check": "m3",
+                  "group": "m"
+                }
+              ],
+              [
+                "<div style=\"text-align:left\">Build seawalls along coastal areas to prevent flooding.</div>",
+                {
+                  "check": "m4",
+                  "group": "m"
+                }
+              ]
+            ],
+            "labels": {
+              "m1": "Plant trees around all glaciers to provide shade from the Sun.",
+              "m2": "Increase the temperatures of the oceans to increase evaporation of the ocean surface.",
+              "m3": "Cover all glaciers with dark material to stop changes to glacial surface area.",
+              "m4": "Build seawalls along coastal areas to prevent flooding."
+            }
+          },
+          "key": {
+            "m4": true
+          }
+        }
+      ],
+      "adapted": "The empty box beside each statement is a select-to-check cell (one choice per table). The two tables are two parts of one 1-credit question, and a correct statement in each table is required for credit."
+    }
+  ]
+}

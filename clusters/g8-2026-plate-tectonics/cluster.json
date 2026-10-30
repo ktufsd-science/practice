@@ -1,0 +1,149 @@
+{
+  "id": "g8-2026-plate-tectonics",
+  "title": "Plate Tectonics",
+  "grade": 8,
+  "subject": "Science",
+  "year": "2026",
+  "source": "NYSED 2026 Grade 8 ILS Released Items, Questions 34-38",
+  "pes": [
+    "MS-ESS2-3",
+    "MS-ESS2-1"
+  ],
+  "directions": "Base your answers to questions 34 through 38 on the information below and on your knowledge of science.",
+  "showKeyAfterSubmit": true,
+  "stimuli": {
+    "intro": [
+      {
+        "type": "title",
+        "text": "Plate Tectonics"
+      },
+      {
+        "type": "p",
+        "html": "The model below shows a portion of the Atlantic Ocean seafloor located between South America and Africa. The distance between these two continents is approximately 1600 miles at the closest point. The approximate ages, in millions of years, of the ocean seafloor rocks are indicated by lines on either side of the Mid-Atlantic Ridge."
+      },
+      {
+        "type": "figure",
+        "caption": "Model of Mid-Atlantic Ridge",
+        "src": "ridge-model.png",
+        "alt": "Map-style model of part of the Atlantic Ocean seafloor with South America on the left, Africa on the right, and a north arrow. A bold line labeled Mid-Atlantic Ridge runs from the top of the model down the center. Thin curved lines run roughly parallel to the ridge on both sides and are labeled with ages in millions of years. Along the bottom, from left to right, the labels are 118, 83, 68, 40, 10, 0 (at the ridge), 10, 40, 68, 83, and 118.",
+        "width": 560
+      }
+    ],
+    "map": [
+      {
+        "type": "p",
+        "html": "The map below shows the positions of some continents in relationship to each other in the present day. Additional information about these land masses is found in the key."
+      },
+      {
+        "type": "figure",
+        "caption": "Relative Positions of Present-Day Land Masses",
+        "src": "land-masses-map.png",
+        "alt": "Map of present-day South America, Africa, India, Australia, New Zealand, and Antarctica, with a north arrow and the South Pole (SP) marked on Antarctica. Symbols from the key appear on the land masses: leaf shapes for Glossopteris, an animal silhouette for Lystrosaurus, speckled areas for rocks of similar age, and solid black areas for rocks with similar structure. Glossopteris symbols appear on South America, southern Africa, India, Australia, New Zealand, and Antarctica. Lystrosaurus symbols appear on southern Africa, India, Antarctica, and just north of Australia. Speckled areas appear in western Africa, southern Africa, and eastern South America. Solid black areas run along western South America, the edge of Antarctica nearest South America, and small areas near eastern Australia and New Zealand. A key at the lower right explains the symbols.",
+        "width": 520
+      }
+    ],
+    "model": [
+      {
+        "type": "p",
+        "html": "The model below represents some information about processes occurring at the Mid-Atlantic Ridge."
+      },
+      {
+        "type": "figure",
+        "caption": "Model of Energy Flow and Cycling of Earth Materials",
+        "src": "energy-model.png",
+        "alt": "Block diagram of a section of ocean floor at the Mid-Atlantic Ridge. The top surface is labeled Igneous rocks (on surface) and Oceanic plate, with a ridge running across it labeled Mid-Atlantic Ridge. The front edge is labeled Ocean floor. Below the ridge, a narrow column labeled Molten rock extends from low in the block up to the ridge, and white arrows curve outward to either side near the top of the column. A key shows that the curved white arrow means heat flow.",
+        "width": 420
+      }
+    ]
+  },
+  "items": [
+    {
+      "n": 34,
+      "stimulus": [
+        "intro"
+      ],
+      "type": "mc",
+      "pe": "MS-ESS2-3",
+      "points": 1,
+      "stem": "Based on the evidence in the model, the entire Mid-Atlantic Ridge is an area where",
+      "options": [
+        "two tectonic plates are colliding",
+        "two tectonic plates are spreading apart",
+        "one tectonic plate is moving faster than the other tectonic plate",
+        "one tectonic plate is moving north and one tectonic plate is moving south"
+      ],
+      "key": "B"
+    },
+    {
+      "n": 35,
+      "stimulus": [
+        "intro"
+      ],
+      "type": "cr",
+      "pe": "MS-ESS2-3",
+      "points": 1,
+      "stem": "Describe the evidence that supports the claim that patterns in the ages of rocks on the seafloor indicate past plate motions between South America and Africa. [1]",
+      "rubric": [
+        "Credit: The description provided identifies the age pattern seen and how it shows past plate motion.",
+        "Credit: The description provided identifies the age pattern seen, and the use of the term \u201cdivergent\u201d implies past plate motion.",
+        "No credit: The description provided includes the past plate motion, but it does not identify the age pattern seen. This response is insufficient for credit due to an incomplete description.",
+        "No credit: The description provided identifies the age pattern seen, but it fails to link that pattern to past plate motion. This response is insufficient for credit due to an incomplete description.",
+        "No credit: The description provided includes the past plate motion, but mentions the \u201clines\u201d without identifying the age pattern seen. This response is insufficient for credit due to an incomplete description."
+      ],
+      "exemplar": "The ocean floor gets older the farther you move away from the ridge, so new ocean floor must be created at the ridge and then move away from the ridge.<br><i>OR</i><br>The pattern of youngest-aged rocks at the ridge to older-aged rocks farther from the ridge is evidence the ocean floor moves.<br><i>OR</i><br>The ocean crust must be moving since the age of the ocean floor increases as you move farther out from the ridge.<br><i>OR other valid response</i>"
+    },
+    {
+      "n": 36,
+      "stimulus": [
+        "map"
+      ],
+      "type": "mc",
+      "pe": "MS-ESS2-3",
+      "points": 1,
+      "stem": "The <i>Glossopteris</i> was a shrub-like land plant with leaves that grew on many continents 350\u2013320 million years ago. Today, fossils of this plant are also found on Antarctica. Which claim is most likely correct about Antarctica 350\u2013320 million years ago?",
+      "options": [
+        "Antarctica was covered by a large ocean.",
+        "Antarctica was located in a cold, dry climate zone near the South Pole.",
+        "Antarctica was located in a warmer climate zone closer to the equator.",
+        "Antarctica has not moved in its geologic past."
+      ],
+      "key": "C"
+    },
+    {
+      "n": 37,
+      "stimulus": [
+        "map"
+      ],
+      "type": "mc",
+      "pe": "MS-ESS2-3",
+      "points": 1,
+      "stem": "Which pieces of evidence from fossils and rock strata accurately support the claim that the two land masses listed were once joined together?",
+      "options": [
+        "<table style=\"width:100%\"><tr><th style=\"width:42%;padding:6px\">Land Masses</th><th style=\"padding:6px\">Evidence</th></tr><tr><td style=\"padding:6px\">Antarctica and Africa</td><td style=\"text-align:left;padding:6px\">&bull; same plant and animal fossils<br>&bull; rocks with similar structure</td></tr></table>",
+        "<table style=\"width:100%\"><tr><th style=\"width:42%;padding:6px\">Land Masses</th><th style=\"padding:6px\">Evidence</th></tr><tr><td style=\"padding:6px\">Antarctica and Australia</td><td style=\"text-align:left;padding:6px\">&bull; same plant and animal fossils<br>&bull; rocks with similar structure</td></tr></table>",
+        "<table style=\"width:100%\"><tr><th style=\"width:42%;padding:6px\">Land Masses</th><th style=\"padding:6px\">Evidence</th></tr><tr><td style=\"padding:6px\">India and Australia</td><td style=\"text-align:left;padding:6px\">&bull; same animal fossils<br>&bull; rocks of similar age</td></tr></table>",
+        "<table style=\"width:100%\"><tr><th style=\"width:42%;padding:6px\">Land Masses</th><th style=\"padding:6px\">Evidence</th></tr><tr><td style=\"padding:6px\">South America and Antarctica</td><td style=\"text-align:left;padding:6px\">&bull; same plant fossils<br>&bull; rocks of similar structure</td></tr></table>"
+      ],
+      "key": "D"
+    },
+    {
+      "n": 38,
+      "stimulus": [
+        "model"
+      ],
+      "type": "cr",
+      "pe": "MS-ESS2-1",
+      "points": 1,
+      "stem": "Use the model to describe a process that cycles Earth materials that creates the rocks of the ocean floor at the Mid-Atlantic Ridge. [1]",
+      "rubric": [
+        "Credit: A description of molten rock rising up and forming new rock is provided.",
+        "Credit: A description of molten rock rising up (as lava) and cooling off to form new rock is provided.",
+        "Credit: A description of molten rock rising up (as volcanic eruptions) and cooling to form new rock is provided.",
+        "No credit: The response names molten rock as the material that creates the rocks of the ocean floor, but it does not describe a process that cycles. This response is insufficient for credit due to an incomplete description.",
+        "No credit: A description of molten rock rising is provided, but it does not include the the cycling of materials. This response is insufficient for credit due to an incomplete description.",
+        "No credit: The response uses text from the model title and question but does not answer the question. This response is insufficient for credit because it does not answer the question."
+      ],
+      "exemplar": "Rising magma below Earth\u2019s surface occurs at mid-ocean ridges, creating new igneous ocean floor.<br><i>OR</i><br>Heat causes molten rock below Earth\u2019s surface to rise and cool/harden.<br><i>OR</i><br>Convection currents cause molten rock to rise and solidify.<br><i>OR other valid response</i>"
+    }
+  ]
+}

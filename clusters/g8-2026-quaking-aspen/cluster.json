@@ -1,0 +1,292 @@
+{
+  "id": "g8-2026-quaking-aspen",
+  "title": "Quaking Aspen",
+  "grade": 8,
+  "subject": "Science",
+  "year": "2026",
+  "source": "NYSED 2026 Grade 8 ILS Released Items, Questions 20-24",
+  "pes": [
+    "MS-LS1-5",
+    "MS-LS1-4",
+    "MS-LS3-2",
+    "MS-LS1-6",
+    "MS-ETS1-2"
+  ],
+  "directions": "Base your answers to questions 20 through 24 on the information below and on your knowledge of science.",
+  "showKeyAfterSubmit": true,
+  "stimuli": {
+    "intro": [
+      {
+        "type": "title",
+        "text": "Quaking Aspen"
+      },
+      {
+        "type": "p",
+        "html": "The quaking aspen is a species of tree that is abundant in the north central and northeastern United States. It is named for its leaves that tremble in light breezes. During the winter months, after leaves have fallen off the tree, photosynthesis can still occur. The thin bark of the quaking aspen allows sunlight to pass through to cells that can perform photosynthesis. The quaking aspen grow more rapidly than many other tree species, averaging between two and three feet per year. They thrive in cool, moist, and sunny environments."
+      },
+      {
+        "type": "figure",
+        "caption": "Quaking Aspen",
+        "src": "aspen-photo.png",
+        "alt": "Black-and-white photograph of three tall quaking aspen trees with pale trunks and bare branches, with other leafless trees in the background.",
+        "width": 300
+      }
+    ],
+    "reproduction": [
+      {
+        "type": "p",
+        "html": "The quaking aspen is capable of reproducing both sexually and asexually. In early spring, the quaking aspen produces small strings of flowers. Some are male, producing pollen, while others are female, producing eggs. After pollination, a cell within the seed of a quaking aspen has 38 chromosomes."
+      },
+      {
+        "type": "p",
+        "html": "A quaking aspen can also reproduce using a shared root system. Stems of new trees can sprout from outgrowths on roots that grow away from the parent plant."
+      },
+      {
+        "type": "figures",
+        "items": [
+          {
+            "type": "figure",
+            "caption": "Flowers of Quaking Aspen",
+            "src": "flowers.png",
+            "alt": "Line drawing of a quaking aspen branch with leaves. A male flowering branch with hanging clusters of small flowers is labeled at the upper left, a female flowering branch is labeled at the upper right, and long hanging strings labeled flowering branch with seeds hang below the leaves.",
+            "width": 270
+          },
+          {
+            "type": "figure",
+            "caption": "Root Outgrowths of Quaking Aspen",
+            "src": "root-outgrowths.png",
+            "alt": "Drawing of a large parent tree at the left with roots spreading underground to the right. Along the roots, a row of smaller and smaller new trees sprouts from outgrowths of the roots.",
+            "width": 365
+          }
+        ]
+      }
+    ],
+    "girdling": [
+      {
+        "type": "p",
+        "html": "In some areas of New York State, the quaking aspen is considered an invasive species. In areas where vegetation has been removed, such as land cleared for houses or by a wildfire, the quaking aspen is quick to grow. It often outcompetes other tree species for resources."
+      },
+      {
+        "type": "p",
+        "html": "One technique used to protect the stability of habitats from the quaking aspen is girdling. Girdling involves the removal of an entire circumference of bark from a section of the tree trunk, including the tissue that transports natural resources within the tree."
+      },
+      {
+        "type": "figure",
+        "caption": "Quaking Aspen with Girdling",
+        "src": "girdling.png",
+        "alt": "Black-and-white photograph of a quaking aspen trunk with a band of bark removed around it, leaving a smooth, pale band. A label with a line points to the smooth band: Girdled section.",
+        "width": 420
+      }
+    ],
+    "techniques": [
+      {
+        "type": "p",
+        "html": "In addition to girdling, there are other design solutions used to control the spread or eliminate quaking aspen in environments where this tree is considered an invasive species. The table below identifies some of these techniques and describes their impacts."
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            {
+              "html": "Technique",
+              "th": true,
+              "style": "width:20%"
+            },
+            {
+              "html": "Description",
+              "th": true
+            }
+          ],
+          [
+            "control burn",
+            {
+              "html": "intentionally set fire to a small area of land in order to clear the area of all plants",
+              "align": "left"
+            }
+          ],
+          [
+            "inject herbicide",
+            {
+              "html": "chemical applied to only the roots of quaking aspen that destroys plant tissue and eventually destroys the plant",
+              "align": "left"
+            }
+          ],
+          [
+            "introduction of invasive insect",
+            {
+              "html": "insect intentionally brought into environment to limit the growth of a variety of trees and shrubs",
+              "align": "left"
+            }
+          ],
+          [
+            "relocation of grazing animals",
+            {
+              "html": "cattle and sheep brought to eat grasses, seeds, and the new growth of trees in an area",
+              "align": "left"
+            }
+          ]
+        ]
+      }
+    ]
+  },
+  "items": [
+    {
+      "n": 20,
+      "stimulus": [
+        "intro"
+      ],
+      "type": "mc",
+      "pe": "MS-LS1-5",
+      "points": 1,
+      "stem": "Which statement provides evidence for how a genetic factor influences the growth of quaking aspen?",
+      "options": [
+        "The quaking aspen can produce sugars that are needed for growth year round.",
+        "The limited sunlight in winter causes the quaking aspen to produce less energy, preventing growth.",
+        "The trembling of the leaves of the quaking aspen in light breezes creates a cool environment.",
+        "The availability of water during a drought would decrease the height of a quaking aspen."
+      ],
+      "key": "A"
+    },
+    {
+      "n": 21,
+      "stimulus": [
+        "reproduction"
+      ],
+      "type": "mc",
+      "pe": "MS-LS1-4",
+      "points": 1,
+      "stem": "The outgrowth from roots produced by quaking aspen increases the probability of successful reproduction by increasing",
+      "options": [
+        "the amount of resources required by each quaking aspen",
+        "the number of offspring that quaking aspen can produce",
+        "the number of seeds a quaking aspen needs to produce during reproduction",
+        "the need for animals to distribute the seeds that are produced by quaking aspen"
+      ],
+      "key": "B"
+    },
+    {
+      "n": 22,
+      "stimulus": [
+        "reproduction"
+      ],
+      "type": "multi",
+      "pe": "MS-LS3-2",
+      "points": 1,
+      "stem": "Complete the models below by placing the correct number of chromosomes, from the choices provided, to show each reproduction method exhibited by the quaking aspen. Choices for number of chromosomes may be used more than once.",
+      "parts": [
+        {
+          "type": "dragdrop",
+          "bankTitle": "Choices for Number of Chromosomes:",
+          "reuse": true,
+          "choices": [
+            {
+              "id": "19",
+              "text": "19"
+            },
+            {
+              "id": "38",
+              "text": "38"
+            },
+            {
+              "id": "76",
+              "text": "76"
+            }
+          ],
+          "target": {
+            "src": "model-table.png",
+            "alt": "Table with two rows under the headings Reproduction Method Used by Quaking Aspen and Model. In the row for seed produced by pollination, two empty dashed circles have lines that join into one arrow pointing to a circle containing 38. In the row for outgrowth from root system, one empty dashed circle has an arrow pointing to a circle containing 38.",
+            "width": 460,
+            "zones": [
+              {
+                "id": "z1",
+                "x": 64.4,
+                "y": 16.5,
+                "w": 11.2,
+                "h": 13.4
+              },
+              {
+                "id": "z2",
+                "x": 82.9,
+                "y": 16.5,
+                "w": 11.2,
+                "h": 13.4
+              },
+              {
+                "id": "z3",
+                "x": 73.7,
+                "y": 60.8,
+                "w": 11.2,
+                "h": 13.4
+              }
+            ],
+            "zoneNames": {
+              "z1": "Seed produced by pollination, left circle",
+              "z2": "Seed produced by pollination, right circle",
+              "z3": "Outgrowth from root system"
+            }
+          },
+          "key": {
+            "z1": "19",
+            "z2": "19",
+            "z3": "38"
+          }
+        },
+        {
+          "type": "cr",
+          "label": "Explain why sexual reproduction results in offspring with more genetic variation compared to asexual reproduction. [1]",
+          "exemplar": "Unlike asexual reproduction, chromosomes of both parent trees are inherited in sexual reproduction, resulting in genetic variation.<br><i>OR</i><br>During sexual reproduction, traits from both parents are inherited.<br><i>OR</i><br>When seeds are produced by pollination, each parent contributes half the genes acquired by the offspring.<br><i>OR</i><br>Different traits from each parent can be inherited.<br><i>OR other valid response</i>"
+        }
+      ],
+      "rubric": [
+        "Credit: The models are correctly completed and the explanation addresses that receiving DNA from two parents results in greater variation.",
+        "Credit: The models are correctly completed and the explanation addresses that receiving a mix of genes from two parents results in greater variation.",
+        "Credit: The models are correctly completed and the explanation implies receiving &ldquo;diffrent gentics&rdquo; from two parents results in greater variation.",
+        "No credit: The models are correctly completed and the explanation does not specify that genetics, DNA, traits, chromosomes, or genes are inherited from each parent.",
+        "No credit: The models are correctly completed and the explanation does not indicate what happens during pollination to increase variation.",
+        "No credit: The models are correctly completed and the explanation does not specify that the chromosomes that &ldquo;add together&rdquo; come from different parents, which results in more variation."
+      ],
+      "exemplar": "Unlike asexual reproduction, chromosomes of both parent trees are inherited in sexual reproduction, resulting in genetic variation.<br><i>OR</i><br>During sexual reproduction, traits from both parents are inherited.<br><i>OR</i><br>When seeds are produced by pollination, each parent contributes half the genes acquired by the offspring.<br><i>OR</i><br>Different traits from each parent can be inherited.<br><i>OR other valid response</i>",
+      "adapted": "No wording change. On paper, students write the numbers in the dashed circles and write the explanation on lines. On screen, they place the number choices in the circles and type the explanation. The models and the explanation are two parts of one 1-credit question, and both must be correct for credit.",
+      "exemplarImage": "q22-exemplary.png"
+    },
+    {
+      "n": 23,
+      "stimulus": [
+        "girdling"
+      ],
+      "type": "ms",
+      "pe": "MS-LS1-6",
+      "points": 1,
+      "stem": "Select the <b>two</b> statements that help to explain why girdling prevents the quaking aspen from directly using photosynthesis to cycle matter and energy. [1]",
+      "options": [
+        "Dissolved minerals from the soil cannot enter the roots.",
+        "Sunlight cannot be absorbed by the leaves.",
+        "Water from the roots cannot travel to the leaves.",
+        "Carbon dioxide from the air cannot enter the leaves.",
+        "Sugars cannot move to all of the cells in the tree."
+      ],
+      "letters": false,
+      "key": [
+        "C",
+        "E"
+      ]
+    },
+    {
+      "n": 24,
+      "stimulus": [
+        "techniques"
+      ],
+      "type": "mc",
+      "pe": "MS-ETS1-2",
+      "points": 1,
+      "stem": "Which technique would <i>best</i> maintain biodiversity while controlling the quaking aspen?",
+      "options": [
+        "control burn",
+        "inject herbicide",
+        "introduction of invasive insect",
+        "relocation of grazing animals"
+      ],
+      "key": "B"
+    }
+  ]
+}

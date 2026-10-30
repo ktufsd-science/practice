@@ -1,0 +1,221 @@
+{
+  "id": "g5-2025-solar-system-patterns",
+  "title": "Solar System Patterns",
+  "grade": 5,
+  "subject": "Science",
+  "year": "2025",
+  "source": "NYSED 2025 Grade 5 ELS Released Items, Questions 26-30",
+  "pes": [
+    "5-ESS1-1",
+    "5-ESS1-2"
+  ],
+  "directions": "Base your answers to questions 26 through 30 on the information below and on your knowledge of science.",
+  "showKeyAfterSubmit": true,
+  "stimuli": {
+    "intro": [
+      {
+        "type": "title",
+        "text": "Solar System Patterns"
+      },
+      {
+        "type": "p",
+        "html": "Our solar system includes planets, moons, and other space objects that orbit our star, the Sun. Movements of Earth, the Sun, and the Moon cause daily, monthly, and seasonal patterns to occur. Many other stars are visible in the night sky but are located outside our solar system."
+      },
+      {
+        "type": "p",
+        "html": "The photographs show some stars visible from Earth. Alpha Centauri A and B are two stars that orbit each other and appear as one star in the night sky. Alpha Centauri A is slightly larger than the Sun while Alpha Centauri B is slightly smaller than the Sun. Another star seen at night, Beta Pavonis, is about 2.3 times larger than the Sun. The table shows the distances of these stars from Earth."
+      },
+      {
+        "type": "table",
+        "caption": "Star Distance from Earth",
+        "rows": [
+          [
+            "Star",
+            "Distance from Earth (AU)"
+          ],
+          [
+            "Sun",
+            "1"
+          ],
+          [
+            "Alpha Centauri A &amp; B",
+            "13,000"
+          ],
+          [
+            "Beta Pavonis",
+            "8,600,000"
+          ]
+        ]
+      },
+      {
+        "type": "html",
+        "html": "<p style=\"text-align:center;font-size:.9em;margin:-6px 0 12px\">1 AU (Astronomical Unit) = Distance from Earth to Sun</p>"
+      },
+      {
+        "type": "figure",
+        "caption": "Stars Viewed from Earth",
+        "src": "stars-photo.png",
+        "alt": "Photograph of the night sky full of stars above tall grass. One label, Alpha Centauri A & B, points to a star near the top center of the sky. Another label, Beta Pavonis, points to a star lower on the left, just above the grass.",
+        "width": 420
+      }
+    ],
+    "sun": [
+      {
+        "type": "figure",
+        "caption": "The Sun Viewed from Earth",
+        "src": "sun-photo.jpg",
+        "alt": "Photograph of the Sun shining in the daytime sky above a grassy field of dandelions, with a few clouds.",
+        "width": 420
+      }
+    ],
+    "constellations": [
+      {
+        "type": "p",
+        "html": "Some stars appear to form patterns called constellations. Students noticed that some constellations are only seen at certain times of the year."
+      },
+      {
+        "type": "p",
+        "html": "The model below represents some constellations that are visible in the night sky during different months as viewed from New York State. The beginning of each season is indicated."
+      },
+      {
+        "type": "figure",
+        "caption": "Some Constellations Seen from New York State",
+        "src": "constellations-model.png",
+        "alt": "Model with the Sun in the center and an oval line labeled Earth's positions in orbit, with arrows showing Earth moving counterclockwise. Twelve gray dots on the oval mark Earth's positions on the 21st of each month. Sept 21 (Fall) is at the top, Dec 21 (Winter) is at the left, Mar 21 (Spring) is at the bottom, and June 21 (Summer) is at the right, with the other months in between. Twelve constellations, each drawn as dots joined by lines, form a ring around the outside of the oval. Going clockwise from Aries, near the top, they are Aries, Pisces, Aquarius, Capricornus, Sagittarius, Scorpius, Libra, Virgo, Leo, Cancer, Gemini, and Taurus. The model is not drawn to scale.",
+        "width": 620
+      }
+    ],
+    "earthOrbit": [
+      {
+        "type": "p",
+        "html": "Students made the model below, which represents Earth in four positions in its orbit around the Sun. The shaded part of Earth represents nighttime."
+      },
+      {
+        "type": "figure",
+        "caption": "Model of Earth Orbiting the Sun",
+        "src": "earth-orbit-model.png",
+        "alt": "Model with the Sun in the center and a dashed oval labeled Earth's orbit, with arrows showing Earth moving counterclockwise. Earth is drawn at four places on the orbit: top, left (labeled June 21), bottom, and right (labeled December 21). Each Earth has a tilted axis line and an equator line, and the axis is tilted the same way at every position, with its top end leaning toward the right side of the model. Labels on the top Earth point to the North Pole and the Equator. On the June 21 Earth the left half is shaded, and on the December 21 Earth the right half is shaded. The top Earth is unshaded and the bottom Earth is fully shaded. The model is not drawn to scale.",
+        "width": 680
+      }
+    ],
+    "moon": [
+      {
+        "type": "p",
+        "html": "The group of students in New York State took photographs of the Moon and recorded them for one month. The calendar below shows the photographs of the appearance of the Moon phases taken by the students in June 2018."
+      },
+      {
+        "type": "figure",
+        "caption": "June 2018 Moon Phases",
+        "src": "moon-calendar.png",
+        "alt": "Calendar for June 2018 with columns Sun, Mon, Tue, Wed, Thu, Fri, and Sat. June 1 is a Friday and June 30 is a Saturday. Each date has a photograph of the Moon. June 1 and 2: full or nearly full Moon. June 3 to 5: mostly lit, right side dark. June 6 and 7: about half lit (left half). June 8 and 9: crescent lit on the left. June 10 to 12: thin crescents on the left. June 13 and 14: almost no lit Moon. June 15 and 16: thin crescents on the right. June 17 to 19: crescents lit on the right. June 20 and 21: about half lit (right half). June 22 and 23: mostly lit. June 24 to 30: full or nearly full Moon.",
+        "width": 480
+      }
+    ]
+  },
+  "items": [
+    {
+      "n": 26,
+      "stimulus": [
+        "intro",
+        "sun"
+      ],
+      "type": "cr",
+      "pe": "5-ESS1-1",
+      "points": 1,
+      "stem": "Use numerical evidence to support the argument that the Sun appears brighter and larger than Alpha Centauri A and B and Beta Pavonis because of its relative distance and <b><i>not</i></b> its size. [1]",
+      "rubric": [
+        "Allow 1 credit. Acceptable responses include, but are not limited to:",
+        "Closer stars appear brighter, and the Sun, though smaller than Alpha Centauri A, is only 1 AU from Earth while the other stars are thousands of AU away, making them appear dimmer.",
+        "The Sun is close to Earth, while the other stars are far away from Earth. This makes the Sun look bigger and brighter, even though Beta Pavonis is 2.3 times larger.",
+        "The Sun appears bigger and brighter because it is 1 AU away from Earth, which is less than 13,000 and 8,600,000 AU for the other stars."
+      ],
+      "exemplar": "The Sun appears bigger and brighter because it is 1 AU away from Earth, which is less than 13,000 and 8,600,000 AU for the other stars."
+    },
+    {
+      "n": 27,
+      "stimulus": [
+        "constellations"
+      ],
+      "type": "mc",
+      "pe": "5-ESS1-2",
+      "points": 1,
+      "stem": "Which table correctly shows a pattern of constellations seen throughout the year from New York State?",
+      "options": [
+        "<table><tr><th>Summer</th><th>Fall</th><th>Winter</th><th>Spring</th></tr><tr><td>Pisces</td><td>Sagittarius</td><td>Virgo</td><td>Gemini</td></tr></table>",
+        "<table><tr><th>Summer</th><th>Fall</th><th>Winter</th><th>Spring</th></tr><tr><td>Gemini</td><td>Virgo</td><td>Pisces</td><td>Sagittarius</td></tr></table>",
+        "<table><tr><th>Summer</th><th>Fall</th><th>Winter</th><th>Spring</th></tr><tr><td>Virgo</td><td>Gemini</td><td>Sagittarius</td><td>Pisces</td></tr></table>",
+        "<table><tr><th>Summer</th><th>Fall</th><th>Winter</th><th>Spring</th></tr><tr><td>Sagittarius</td><td>Pisces</td><td>Gemini</td><td>Virgo</td></tr></table>"
+      ],
+      "key": "D",
+      "adapted": "On paper the four answer tables are arranged two by two (A and C on top, B and D below) with each letter printed under its table. On screen they are listed A, B, C, D with the letter beside each table. No wording changed."
+    },
+    {
+      "n": 28,
+      "stimulus": [
+        "constellations"
+      ],
+      "type": "cr",
+      "pe": "5-ESS1-2",
+      "points": 1,
+      "stem": "Describe the cause of the repeating yearly pattern of these constellations, which makes the constellations visible to an observer in New York State. [1]",
+      "rubric": [
+        "Allow 1 credit. Acceptable responses include, but are not limited to:",
+        "The nighttime side of Earth faces different regions of space as Earth revolves around the Sun, so New York State observers see different constellations in the nighttime sky.",
+        "Earth orbits the Sun, so different constellations are visible at different times of the year."
+      ],
+      "exemplar": "Earth orbits the Sun, so different constellations are visible at different times of the year."
+    },
+    {
+      "n": 29,
+      "stimulus": [
+        "earthOrbit"
+      ],
+      "type": "mc",
+      "pe": "5-ESS1-2",
+      "points": 1,
+      "stem": "Compared to the amount of daylight at the North Pole on June 21, the amount of daylight at the North Pole on December 21 is",
+      "options": [
+        "less because Earth is tilted on its axis",
+        "less because Earth rotates on its axis",
+        "greater because Earth is tilted on its axis",
+        "greater because Earth rotates on its axis"
+      ],
+      "key": "A"
+    },
+    {
+      "n": 30,
+      "stimulus": [
+        "moon"
+      ],
+      "type": "mc",
+      "pe": "5-ESS1-2",
+      "points": 1,
+      "stem": "Which graph best represents the pattern of the visible part of the Moon observed from New York State in June 2018?",
+      "options": [
+        {
+          "img": "graph-a.png",
+          "alt": "Graph with the y-axis labeled Part of Moon Visible from Earth and the x-axis labeled June 2018, running from 1 to 30. A straight line rises from low on June 1 to high on June 30.",
+          "width": 170
+        },
+        {
+          "img": "graph-b.png",
+          "alt": "Graph with the y-axis labeled Part of Moon Visible from Earth and the x-axis labeled June 2018, running from 1 to 30. A straight line falls from high on June 1 to low on June 30.",
+          "width": 170
+        },
+        {
+          "img": "graph-c.png",
+          "alt": "Graph with the y-axis labeled Part of Moon Visible from Earth and the x-axis labeled June 2018, running from 1 to 30. A curve starts low on June 1, rises to a high point in the middle of the month, and falls back to low on June 30.",
+          "width": 170
+        },
+        {
+          "img": "graph-d.png",
+          "alt": "Graph with the y-axis labeled Part of Moon Visible from Earth and the x-axis labeled June 2018, running from 1 to 30. A curve starts high on June 1, falls to a low point in the middle of the month, and rises back to high on June 30.",
+          "width": 170
+        }
+      ],
+      "optionsLayout": "grid",
+      "key": "D",
+      "adapted": "On paper the four graphs are printed side by side in one row with each letter under its graph. On screen they are shown in two rows of two (A, B above C, D) with the letter beside each graph. No wording changed."
+    }
+  ]
+}

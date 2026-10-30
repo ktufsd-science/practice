@@ -1,0 +1,247 @@
+{
+  "id": "g5-2024-motion-of-golf-balls",
+  "title": "Motion of Golf Balls",
+  "grade": 5,
+  "subject": "Science",
+  "year": "2024",
+  "source": "NYSED 2024 Grade 5 ELS Released Items, Questions 5-9",
+  "pes": [
+    "3-5-ETS1-2",
+    "3-PS2-1",
+    "4-PS3-1",
+    "4-PS3-2",
+    "4-PS3-3"
+  ],
+  "directions": "Base your answers to questions 5 through 9 on the information below and on your knowledge of science.",
+  "showKeyAfterSubmit": true,
+  "stimuli": {
+    "intro": [
+      {
+        "type": "title",
+        "text": "Motion of Golf Balls"
+      },
+      {
+        "type": "p",
+        "html": "A group of students dropped a golf ball from different heights above a level concrete floor. The ball hit the floor and bounced directly upwards. The teacher calculated the speed of the ball when it hit the floor. The students measured the height of the bounce with a tape measure."
+      },
+      {
+        "type": "figure",
+        "src": "drop-setup.png",
+        "alt": "Photograph of a tall wooden board standing on a concrete floor with a tape measure running down its middle. A hand holds a golf ball against the board near the top. On the right, a dotted line runs from the ball to the label Release height and then down, ending in a downward arrowhead at a solid line level with the bottom of the board, labeled Floor. A second dotted line rises from the floor to an upward arrowhead labeled Bounce height.",
+        "width": 380
+      },
+      {
+        "type": "p",
+        "html": "The data table below shows the results of this investigation."
+      },
+      {
+        "type": "table",
+        "caption": "Data Table 1",
+        "rows": [
+          [
+            "Release Height<br><span style=\"font-weight:400\">(m)</span>",
+            "Speed of Ball When<br>Ball Hits Floor<br><span style=\"font-weight:400\">(m/s)</span>",
+            "Bounce Height<br><span style=\"font-weight:400\">(m)</span>"
+          ],
+          [
+            "1.00",
+            "4.43",
+            "0.73"
+          ],
+          [
+            "1.00",
+            "4.43",
+            "0.74"
+          ],
+          [
+            "1.00",
+            "4.43",
+            "0.71"
+          ],
+          [
+            "1.50",
+            "5.42",
+            "1.13"
+          ],
+          [
+            "1.50",
+            "5.42",
+            "1.15"
+          ],
+          [
+            "1.50",
+            "5.42",
+            "1.12"
+          ],
+          [
+            "2.00",
+            "6.26",
+            "1.42"
+          ],
+          [
+            "2.00",
+            "6.26",
+            "1.40"
+          ],
+          [
+            "2.00",
+            "6.26",
+            "1.45"
+          ]
+        ]
+      }
+    ],
+    "trackSetup": [
+      {
+        "type": "p",
+        "html": "After completing the golf ball investigation, a student decided to investigate how to get a golf ball to travel from the beginning of a toy car track to the end of the toy car track."
+      },
+      {
+        "type": "figure",
+        "caption": "Original Setup",
+        "src": "original-setup.jpg",
+        "alt": "Photograph of a toy car track. The track starts at the top of a chair, curves down a ramp to the floor, runs into a vertical loop, and continues a short way past the loop. A golf ball sits at the top of the ramp.",
+        "width": 420
+      },
+      {
+        "type": "p",
+        "html": "The student placed a golf ball at the top of the ramp and observed that the ball rolled down the track, began to go up the loop, then fell off the track. In order to solve this problem of the golf ball not reaching the end of the track, the student came up with two solutions."
+      }
+    ],
+    "solutions": [
+      {
+        "type": "p",
+        "html": "<b>Solution 1:</b> Increase the length of the track between the ramp and the loop, keeping the height the same."
+      },
+      {
+        "type": "figure",
+        "src": "solution-1.jpg",
+        "alt": "Photograph of the toy car track with a longer stretch of track between the bottom of the ramp and the loop. The ramp starts at the top of the chair, and a golf ball sits at the top of the ramp.",
+        "width": 500
+      },
+      {
+        "type": "p",
+        "html": "<b>Solution 2:</b> Increase the height of the ramp, keeping the length of the track the same as the original setup."
+      },
+      {
+        "type": "figure",
+        "src": "solution-2.jpg",
+        "alt": "Photograph of the toy car track with the top of the ramp clamped higher up, on a tall stool. The ramp curves steeply down to the loop. A golf ball sits at the top of the ramp.",
+        "width": 420
+      }
+    ],
+    "ball2": [
+      {
+        "type": "p",
+        "html": "The student returns the track to the original set up. This time, an identical golf ball (Ball 2) has been left at the base of the loop."
+      },
+      {
+        "type": "figure",
+        "src": "ball-2-setup.jpg",
+        "alt": "Photograph of the original toy car track setup. One golf ball sits at the top of the ramp on the chair, and a second golf ball sits on the track at the base of the loop.",
+        "width": 580
+      }
+    ]
+  },
+  "items": [
+    {
+      "n": 5,
+      "stimulus": [
+        "intro"
+      ],
+      "type": "cr",
+      "pe": "4-PS3-1",
+      "points": 1,
+      "stem": "Explain, using evidence from <i>Data Table 1</i>, how the speed of the golf ball affects the energy of the golf ball. [1]",
+      "rubric": [
+        "Allow 1 credit. Acceptable responses include, but are not limited to:",
+        "The speed of the ball increased from 4.43 to 6.26 m/s, and when an object is moving faster, it has more energy.",
+        "Balls dropped from an increased height of 1 m to 2 m have a greater speed, indicating a greater amount of energy.",
+        "Balls that bounce higher have a greater energy, and were the ones that had a greater speed at impact with the floor.",
+        "Balls with greater speed have more energy because they bounced higher."
+      ],
+      "exemplar": "The speed of the ball increased from 4.43 to 6.26 m/s, and when an object is moving faster, it has more energy."
+    },
+    {
+      "n": 6,
+      "stimulus": [
+        "intro"
+      ],
+      "type": "mc",
+      "pe": "3-PS2-1",
+      "points": 1,
+      "stem": "Which statement about forces acting on the golf ball is supported by the evidence in <i>Data Table 1</i>?",
+      "options": [
+        "Balanced forces cause the golf ball&rsquo;s speed to increase as height of the bounce increases.",
+        "Unbalanced forces cause the golf ball&rsquo;s speed to increase as the ball falls.",
+        "Forces on the ball are balanced when the golf ball hits the floor and bounces up.",
+        "Unbalanced forces cause the golf ball&rsquo;s speed to decrease as the ball falls."
+      ],
+      "key": "B"
+    },
+    {
+      "n": 7,
+      "stimulus": [
+        "intro"
+      ],
+      "type": "mc",
+      "pe": "4-PS3-2",
+      "points": 1,
+      "stem": "A student claims that the energy of the golf ball was converted from one form to another when the ball hit the floor. Which table accurately describes an energy conversion that occurred when the ball hit the floor and the supporting evidence?",
+      "options": [
+        "<table style=\"width:100%\"><tr><th style=\"width:45%\">Energy Conversion</th><th>Evidence</th></tr><tr><td style=\"text-align:left\">heat energy into motion energy</td><td style=\"text-align:left\">the ball got faster when it hit the floor</td></tr></table>",
+        "<table style=\"width:100%\"><tr><th style=\"width:45%\">Energy Conversion</th><th>Evidence</th></tr><tr><td style=\"text-align:left\">sound energy into motion energy</td><td style=\"text-align:left\">the ball made a noise when it hit the floor</td></tr></table>",
+        "<table style=\"width:100%\"><tr><th style=\"width:45%\">Energy Conversion</th><th>Evidence</th></tr><tr><td style=\"text-align:left\">motion energy into heat energy</td><td style=\"text-align:left\">the temperature of the ball decreased when the ball hit the floor</td></tr></table>",
+        "<table style=\"width:100%\"><tr><th style=\"width:45%\">Energy Conversion</th><th>Evidence</th></tr><tr><td style=\"text-align:left\">motion energy into sound energy</td><td style=\"text-align:left\">the ball made a noise when it hit the floor</td></tr></table>"
+      ],
+      "key": "D"
+    },
+    {
+      "n": 8,
+      "stimulus": [
+        "trackSetup",
+        "solutions"
+      ],
+      "type": "cr",
+      "pe": "3-5-ETS1-2",
+      "points": 1,
+      "stem": "Identify the solution that <i>best</i> solves the problem and allows the golf ball to travel around the loop to the end of the track. Using scientific reasoning, explain why this solution will best solve the problem. [1]",
+      "parts": [
+        {
+          "label": "Solution Number:",
+          "short": true,
+          "maxChars": 100,
+          "exemplar": "2"
+        },
+        {
+          "label": "Explanation:",
+          "exemplar": "Increasing the height of the ramp will solve the problem because the ball will gain more speed/have more energy to travel around the loop and get to the end of the track."
+        }
+      ],
+      "rubric": [
+        "Allow 1 credit for indicating solution 2 and an acceptable explanation. Acceptable responses include, but are not limited to:",
+        "Increasing the height of the ramp will solve the problem because the ball will gain more speed/have more energy to travel around the loop and get to the end of the track.",
+        "The ball is released from a greater height causing it to speed up more than the original set up."
+      ],
+      "exemplar": "Solution Number: 2. Explanation: Increasing the height of the ramp will solve the problem because the ball will gain more speed/have more energy to travel around the loop and get to the end of the track."
+    },
+    {
+      "n": 9,
+      "stimulus": [
+        "ball2",
+        "trackSetup"
+      ],
+      "type": "mc",
+      "pe": "4-PS3-3",
+      "points": 1,
+      "stem": "The student asks the question, &ldquo;What will happen to the energy and motion of the two golf balls when Ball 1 is released down the toy car track?&rdquo; Which table correctly predicts the changes in energy and motion that will occur when the two golf balls collide?",
+      "options": [
+        "<table style=\"width:100%\"><tr><th style=\"width:43%\">Change in Energy</th><th>Change in Motion</th></tr><tr><td style=\"text-align:left\">Ball 1 will transfer no energy to Ball 2.</td><td style=\"text-align:left\">Ball 1 will push Ball 2 until they both come to a stop.</td></tr></table>",
+        "<table style=\"width:100%\"><tr><th style=\"width:43%\">Change in Energy</th><th>Change in Motion</th></tr><tr><td style=\"text-align:left\">Ball 1 will transfer no energy to Ball 2.</td><td style=\"text-align:left\">Ball 1 will come to a stop while Ball 2 will move at the same speed that Ball 1 moved before the collision.</td></tr></table>",
+        "<table style=\"width:100%\"><tr><th style=\"width:43%\">Change in Energy</th><th>Change in Motion</th></tr><tr><td style=\"text-align:left\">Ball 1 will transfer some of its energy to Ball 2.</td><td style=\"text-align:left\">Ball 1 will lose speed, while Ball 2 will gain speed.</td></tr></table>",
+        "<table style=\"width:100%\"><tr><th style=\"width:43%\">Change in Energy</th><th>Change in Motion</th></tr><tr><td style=\"text-align:left\">Ball 1 will transfer some of its energy to Ball 2.</td><td style=\"text-align:left\">Ball 1 will move at its original speed, while Ball 2 will gain speed.</td></tr></table>"
+      ],
+      "key": "C"
+    }
+  ]
+}

@@ -1,0 +1,296 @@
+{
+  "id": "g5-2026-minerals",
+  "title": "Minerals of New York State",
+  "grade": 5,
+  "subject": "Science",
+  "year": "2026",
+  "source": "NYSED 2026 Grade 5 ELS Released Items, Questions 5-9",
+  "pes": [
+    "5-PS1-2",
+    "5-PS1-3",
+    "5-PS1-4"
+  ],
+  "directions": "Base your answers to questions 5 through 9 on the information below and on your knowledge of science.",
+  "showKeyAfterSubmit": true,
+  "stimuli": {
+    "table": [
+      {
+        "type": "title",
+        "text": "Minerals of New York State"
+      },
+      {
+        "type": "p",
+        "html": "A variety of minerals are found in New York State. Many minerals are mined and taken out of rock formations. They are used in industry, construction, computers, medicine, and jewelry."
+      },
+      {
+        "type": "p",
+        "html": "During a unit of study, a teacher gave students five different mineral samples that can be found in New York State. The students used appropriate safety equipment and followed safety procedures as they made observations and performed tests on these minerals to determine their properties. Their observations are shown in the table below."
+      },
+      {
+        "type": "table",
+        "caption": "Minerals of New York State and Their Observed Properties",
+        "rows": [
+          [
+            "Mineral",
+            "Color",
+            "Streak<br>(color in powdered form)",
+            "Hardness",
+            "Surface Reflectivity",
+            "Crystal Shape"
+          ],
+          [
+            "calcite",
+            "clear/many colors",
+            "clear/white",
+            "3",
+            "non-metallic",
+            "cubic"
+          ],
+          [
+            "garnet",
+            "red-brown",
+            "clear",
+            "7",
+            "non-metallic",
+            "cubic"
+          ],
+          [
+            "halite",
+            "clear/white/gray",
+            "clear/white",
+            "2-2.5",
+            "non-metallic",
+            "cubic"
+          ],
+          [
+            "hematite",
+            "red-brown",
+            "red-brown",
+            "5-6.5",
+            "non-metallic",
+            "hexagonal"
+          ],
+          [
+            "talc",
+            "pearly white",
+            "white",
+            "1",
+            "non-metallic",
+            "not observable"
+          ]
+        ]
+      }
+    ],
+    "vinegar": [
+      {
+        "type": "p",
+        "html": "The students then investigated how vinegar affects these minerals. They placed equal amounts of each mineral into beakers with equal amounts of vinegar."
+      },
+      {
+        "type": "p",
+        "html": "The students made a model, shown below, of the results of the investigation."
+      },
+      {
+        "type": "figure",
+        "caption": "Model of Investigation Results",
+        "src": "beakers.png",
+        "alt": "Five beakers, each with 30 grams of vinegar and 10 grams of a mineral. Beaker 1, halite: only liquid, no pieces visible. Beaker 2, calcite: liquid with bubbles and calcite pieces at the bottom. Beaker 3, hematite: liquid with hematite pieces at the bottom. Beaker 4, talc: liquid with talc pieces at the bottom. Beaker 5, garnet: liquid with garnet pieces at the bottom.",
+        "width": 660
+      }
+    ]
+  },
+  "items": [
+    {
+      "n": 5,
+      "stimulus": [
+        "table"
+      ],
+      "type": "mc",
+      "pe": "5-PS1-3",
+      "points": 1,
+      "stem": "Which mineral observations could <i>both</i> be used to determine that a sample of talc is different from calcite or halite?",
+      "options": [
+        "hardness and crystal shape",
+        "streak and crystal shape",
+        "hardness and surface reflectivity",
+        "streak and surface reflectivity"
+      ],
+      "key": "A"
+    },
+    {
+      "n": 6,
+      "stimulus": [
+        "table"
+      ],
+      "type": "dragdrop",
+      "pe": "5-PS1-3",
+      "points": 1,
+      "stem": "The model represents how three properties can be used to classify these minerals. The areas of overlap show shared properties. Based on the properties shown in <i>Minerals of New York State and Their Observed Properties</i>, place the names of <b>four</b> of the minerals from the choices below in the correct boxes within the model. [1]",
+      "bankTitle": "Minerals:",
+      "reuse": false,
+      "choices": [
+        {
+          "id": "hematite",
+          "text": "Hematite"
+        },
+        {
+          "id": "garnet",
+          "text": "Garnet"
+        },
+        {
+          "id": "talc",
+          "text": "Talc"
+        },
+        {
+          "id": "halite",
+          "text": "Halite"
+        },
+        {
+          "id": "calcite",
+          "text": "Calcite"
+        }
+      ],
+      "target": {
+        "src": "venn.png",
+        "alt": "Venn diagram with three overlapping circles: Hardness (less than 3), Surface Reflectivity (non-metallic), and Color (red-brown). Two empty boxes are in the overlap of Hardness and Surface Reflectivity. Two empty boxes are in the overlap of Surface Reflectivity and Color.",
+        "width": 500,
+        "zones": [
+          {
+            "id": "z1",
+            "x": 41.8,
+            "y": 17.5,
+            "w": 15.9,
+            "h": 4.7
+          },
+          {
+            "id": "z2",
+            "x": 41.8,
+            "y": 25.0,
+            "w": 15.9,
+            "h": 4.7
+          },
+          {
+            "id": "z3",
+            "x": 62.0,
+            "y": 51.0,
+            "w": 15.9,
+            "h": 4.8
+          },
+          {
+            "id": "z4",
+            "x": 62.0,
+            "y": 58.6,
+            "w": 15.9,
+            "h": 4.8
+          }
+        ],
+        "zoneNames": {
+          "z1": "Hardness and Reflectivity, box 1",
+          "z2": "Hardness and Reflectivity, box 2",
+          "z3": "Reflectivity and Color, box 1",
+          "z4": "Reflectivity and Color, box 2"
+        }
+      },
+      "key": {
+        "z1": [
+          "talc",
+          "halite"
+        ],
+        "z2": [
+          "talc",
+          "halite"
+        ],
+        "z3": [
+          "garnet",
+          "hematite"
+        ],
+        "z4": [
+          "garnet",
+          "hematite"
+        ]
+      },
+      "explanation": "OR a complete model with the same mineral names indicated in a different order within the same region of the model"
+    },
+    {
+      "n": 7,
+      "stimulus": [
+        "vinegar"
+      ],
+      "type": "mc",
+      "pe": "5-PS1-2",
+      "points": 1,
+      "stem": "Which graph correctly shows the total mass of the contents of two of the beakers in the <i>Model of Investigation Results</i>?",
+      "options": [
+        {
+          "img": "graph-a.png",
+          "alt": "Bar graph: beaker 1 is 30 grams, beaker 3 is 40 grams.",
+          "width": 260
+        },
+        {
+          "img": "graph-b.png",
+          "alt": "Bar graph: beaker 1 is 40 grams, beaker 5 is 40 grams.",
+          "width": 260
+        },
+        {
+          "img": "graph-c.png",
+          "alt": "Bar graph: beaker 1 is 10 grams, beaker 4 is 30 grams.",
+          "width": 260
+        },
+        {
+          "img": "graph-d.png",
+          "alt": "Bar graph: beaker 1 is about 32 grams, beaker 2 is about 11 grams.",
+          "width": 260
+        }
+      ],
+      "key": "B"
+    },
+    {
+      "n": 8,
+      "stimulus": [
+        "vinegar"
+      ],
+      "type": "cr",
+      "pe": "5-PS1-4",
+      "points": 1,
+      "stem": "A student claimed that one of the beakers showed evidence that the mixing of substances resulted in a new substance. Identify the beaker number in which a new substance was formed. Then identify the evidence in the model that supports your choice. [1]",
+      "parts": [
+        {
+          "label": "Beaker number:",
+          "short": true,
+          "maxChars": 100,
+          "exemplar": "2"
+        },
+        {
+          "label": "Evidence in model:",
+          "exemplar": "Bubbles of gas were produced from the calcite pieces in vinegar. The gas is the new substance."
+        }
+      ],
+      "rubric": [
+        "Beaker number: 2/two/the second one",
+        "Evidence in model: The calcite pieces bubbled in vinegar, which means there is a new substance. <i>OR</i> Bubbles of gas were produced from the calcite pieces in vinegar. The gas is the new substance. <i>OR</i> Bubbles/gas formed <i>OR other valid response</i>",
+        "Credit: The response correctly identifies the appearance of a gas as evidence of a new substance being formed. The response correctly identifies the appearance of bubbles as evidence of a new substance being formed.",
+        "No credit: The response incorrectly describes the bubbles as air rather than gas.",
+        "No credit: The response demonstrates a misunderstanding of the bubbles as a reactant and not as the new substance formed.",
+        "No credit: The response lists everything in the beaker directly from the model and fails to identify bubbles as the new substance formed."
+      ],
+      "exemplar": "Beaker number: 2 Evidence in model: Bubbles of gas were produced from the calcite pieces in vinegar. The gas is the new substance."
+    },
+    {
+      "n": 9,
+      "stimulus": [
+        "vinegar"
+      ],
+      "type": "mc",
+      "pe": "5-PS1-3",
+      "points": 1,
+      "stem": "Which piece of evidence correctly identifies an example of solubility?",
+      "options": [
+        "The halite is not visible in the vinegar.",
+        "The calcite pieces settled to the bottom of the beaker.",
+        "The hematite pieces became more rounded.",
+        "The garnet pieces had an increase in reflectivity."
+      ],
+      "key": "A"
+    }
+  ]
+}

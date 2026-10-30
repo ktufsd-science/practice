@@ -1,0 +1,186 @@
+{
+  "id": "g5-2024-most-important-fish",
+  "title": "The Most Important Fish in the Ocean",
+  "grade": 5,
+  "subject": "Science",
+  "year": "2024",
+  "source": "NYSED 2024 Grade 5 ELS Released Items, Questions 15-18",
+  "pes": [
+    "4-ESS2-2",
+    "5-ESS3-1"
+  ],
+  "directions": "Base your answers to questions 15 through 18 on the information below and on your knowledge of science.",
+  "showKeyAfterSubmit": true,
+  "stimuli": {
+    "intro": [
+      {
+        "type": "title",
+        "text": "The Most Important Fish in the Ocean"
+      },
+      {
+        "type": "figure",
+        "src": "fish.png",
+        "caption": "Atlantic Menhaden",
+        "captionBelow": true,
+        "alt": "Black-and-white photograph of an Atlantic menhaden, a silvery fish with a row of dark spots along its side and a forked tail.",
+        "width": 300
+      },
+      {
+        "type": "p",
+        "html": "The Atlantic menhaden fish is found along the east coast from Canada to Florida. Some scientists consider menhaden &ldquo;the most important fish in the ocean&rdquo; because it is the little fish that is eaten by sea birds and bigger fish such as bass, bluefish, tuna, and even dolphins and whales. It is considered a keystone species, a fish that many other fish in the ocean ecosystem depend on for a healthy ocean. If there are not enough menhaden, many other species of fish will starve and populations will decrease, threatening the ocean ecosystem."
+      },
+      {
+        "type": "p",
+        "html": "For this reason, 15 states, including New York, have agreed to a plan to manage and maintain menhaden populations based on the needs of the fish that feed on them. Around Long Island, scientists, commercial fishermen, recreational boaters, and even bird watchers have all agreed to monitor and limit how many menhaden can be caught by humans. Menhaden that are caught are processed in fish factories for fertilizer, chicken feed, and fish oil."
+      }
+    ],
+    "factories": [
+      {
+        "type": "p",
+        "html": "The map below shows the range of the menhaden along the east coast. The bar graph shows the number of fish factories that processed menhaden over a 60-year period in different coastal regions."
+      },
+      {
+        "type": "figure",
+        "caption": "Locations of Menhaden Populations",
+        "src": "range-map.png",
+        "alt": "Map of the east coast of the United States and part of Canada, with state labels ME, NH, MA, CT, RI, New York, New Jersey, DE, MD, VA, NC, SC, GA, and FL, and the Atlantic Ocean. A dark shaded band along the coast marks locations of menhaden fish populations. A scale bar shows 0 to 500 km, and an arrow points north.",
+        "width": 360
+      },
+      {
+        "type": "figure",
+        "caption": "Number of Fish Factories by Coastal Region",
+        "src": "factories-graph.png",
+        "alt": "Bar graph of the number of fish factories, from 0 to 20, for the years 1955, 1965, 1975, 1985, 1995, 2005, and 2015. Each year has bars for up to four coastal regions. The key shows South Atlantic (FL-NC) as striped bars, Mid-Atlantic (DE-NY) as dotted bars, Chesapeake Bay (VA-MD) as gray bars, and North Atlantic (CT-ME) as black bars.",
+        "width": 580
+      }
+    ],
+    "fisheries": [
+      {
+        "type": "p",
+        "html": "Industrial fisheries use the menhaden for the production of paints, animal feed, and vitamins. Commercial fisheries use menhaden for crab, lobster, and recreational fishing bait."
+      },
+      {
+        "type": "p",
+        "html": "The graphs below show the yearly amount of menhaden caught by these types of fisheries."
+      },
+      {
+        "type": "figure",
+        "caption": "Amount of Menhaden Fish Caught by<br>Industrial Fisheries",
+        "src": "industrial-graph.png",
+        "alt": "Line graph with a point for each of the years 1940, 1950, 1960, 1970, 1980, 1990, 2000, and 2010. The vertical axis is Amount of Fish Caught (Metric ton), from 0 to 800,000.",
+        "width": 480
+      },
+      {
+        "type": "figure",
+        "caption": "Amount of Menhaden Fish Caught by<br>Commercial Bait Fisheries",
+        "src": "bait-graph.png",
+        "alt": "Line graph with a point for each of the years 1986, 1996, 2006, and 2016. The vertical axis is Amount of Fish Caught (Metric ton), from 0 to 70,000.",
+        "width": 410
+      }
+    ],
+    "depthmap": [
+      {
+        "type": "p",
+        "html": "The special type of topographic map below shows the depth of the ocean floor in meters along the coast of New York and New Jersey, where some menhaden fish populations occur. Letters <i>A</i>, <i>B</i>, <i>C</i>, and <i>D</i> indicate locations along the ocean floor."
+      },
+      {
+        "type": "figure",
+        "caption": "Ocean Depth (in meters) off Coast of New York and New Jersey",
+        "src": "depth-map.png",
+        "alt": "Map of the ocean off the coasts of New York, Long Island, and New Jersey. Land is gray. Curved isolines in the ocean are labeled with depths of 20, 30, 40, 50, and 60 meters. Circled letters A, B, C, and D mark four locations on the ocean floor. An arrow points north.",
+        "width": 620
+      }
+    ]
+  },
+  "items": [
+    {
+      "n": 15,
+      "stimulus": [
+        "factories"
+      ],
+      "type": "mc",
+      "pe": "5-ESS3-1",
+      "points": 1,
+      "stem": "Which coastal region has shown the greatest <b><i>decrease</i></b> in the number of processing factories for menhaden fish from 1955 to 2015?",
+      "options": [
+        "North Atlantic",
+        "Mid-Atlantic",
+        "Chesapeake Bay",
+        "South Atlantic"
+      ],
+      "key": "D"
+    },
+    {
+      "n": 16,
+      "stimulus": [
+        "intro"
+      ],
+      "type": "cr",
+      "pe": "5-ESS3-1",
+      "points": 1,
+      "stem": "Identify <b>one</b> method that the Long Island community of scientists, fishermen, and recreational boaters have used to protect the menhaden fish population. Using scientific reasoning, explain how this method protects the ecosystem of coastal waters. [1]",
+      "parts": [
+        {
+          "label": "Method:",
+          "exemplar": "Limit the amount of menhaden that can be caught."
+        },
+        {
+          "label": "Explanation:",
+          "exemplar": "This will keep the population of menhaden stable, providing enough food for other fish in the ecosystem."
+        }
+      ],
+      "rubric": [
+        "Allow 1 credit for <i>both</i> a correct method and a supporting explanation. Acceptable responses include, but are not limited to:",
+        "Method: Limit the amount of menhaden that can be caught.<br>Explanation: This will keep the population of menhaden stable, providing enough food for other fish in the ecosystem.",
+        "Method: Identify menhaden as a keystone species.<br>Explanation: The population of menhaden is monitored and controlled because of its importance as a food source for other organisms."
+      ],
+      "exemplar": "Method: Limit the amount of menhaden that can be caught. Explanation: This will keep the population of menhaden stable, providing enough food for other fish in the ecosystem."
+    },
+    {
+      "n": 17,
+      "stimulus": [
+        "fisheries"
+      ],
+      "type": "cr",
+      "pe": "5-ESS3-1",
+      "points": 1,
+      "stem": "Identify the type of fishery (<i>Industrial</i> or <i>Commercial Bait</i>) that most likely had the <b>greatest</b> impact on the menhaden population and the health of the ocean ecosystem during the time period 1986-2010. Provide the numerical evidence from the graphs that supports your choice. [1]",
+      "parts": [
+        {
+          "label": "Fishery type:",
+          "short": true,
+          "maxChars": 100,
+          "exemplar": "Industrial"
+        },
+        {
+          "label": "Evidence:",
+          "exemplar": "For that time period, industrial fisheries took from about 350,000 to about 145,000 metric tons, while bait fisheries took from about 15,000 to about 30,000 metric tons."
+        }
+      ],
+      "rubric": [
+        "Allow 1 credit for indicating industrial fisheries and acceptable numerical evidence. Acceptable responses include, but are not limited to:",
+        "For that time period, industrial fisheries took from about 350,000 to about 145,000 metric tons, while bait fisheries took from about 15,000 to about 30,000 metric tons.",
+        "During that time period, industrial fishery catches decreased to about 150,000 metric tons, while bait fishery catches increased to about 30,000 metric tons.",
+        "During this time period, the metric tons of industrial catches were in the 100,000s, while bait fishery catches were only in the 10,000s."
+      ],
+      "exemplar": "Fishery type: Industrial. Evidence: For that time period, industrial fisheries took from about 350,000 to about 145,000 metric tons, while bait fisheries took from about 15,000 to about 30,000 metric tons."
+    },
+    {
+      "n": 18,
+      "stimulus": [
+        "depthmap"
+      ],
+      "type": "mc",
+      "pe": "4-ESS2-2",
+      "points": 1,
+      "stem": "Using the ocean depth data from the map and your knowledge of topographic maps, which table correctly summarizes the ocean features and evidence for one of the lettered locations?",
+      "options": [
+        "<table style=\"table-layout:fixed;width:330px\"><colgroup><col style=\"width:38%\"><col style=\"width:31%\"><col style=\"width:31%\"></colgroup><tr><th colspan=\"3\">Location A</th></tr><tr><th><span style=\"white-space:nowrap\">Ocean Depth</span><br><span style=\"font-weight:400\">(m)</span></th><th>Ocean<br>Bottom<br>Surface</th><th>Evidence</th></tr><tr><td>between<br>10 and 20</td><td>relatively<br>flat</td><td>isolines<br>close<br>together</td></tr></table>",
+        "<table style=\"table-layout:fixed;width:330px\"><colgroup><col style=\"width:38%\"><col style=\"width:31%\"><col style=\"width:31%\"></colgroup><tr><th colspan=\"3\">Location B</th></tr><tr><th><span style=\"white-space:nowrap\">Ocean Depth</span><br><span style=\"font-weight:400\">(m)</span></th><th>Ocean<br>Bottom<br>Surface</th><th>Evidence</th></tr><tr><td>between<br>20 and 30</td><td>relatively<br>flat</td><td>isolines<br>far apart</td></tr></table>",
+        "<table style=\"table-layout:fixed;width:330px\"><colgroup><col style=\"width:38%\"><col style=\"width:31%\"><col style=\"width:31%\"></colgroup><tr><th colspan=\"3\">Location C</th></tr><tr><th><span style=\"white-space:nowrap\">Ocean Depth</span><br><span style=\"font-weight:400\">(m)</span></th><th>Ocean<br>Bottom<br>Surface</th><th>Evidence</th></tr><tr><td>between<br>30 and 40</td><td>steep<br>slope</td><td>isolines<br>close<br>together</td></tr></table>",
+        "<table style=\"table-layout:fixed;width:330px\"><colgroup><col style=\"width:38%\"><col style=\"width:31%\"><col style=\"width:31%\"></colgroup><tr><th colspan=\"3\">Location D</th></tr><tr><th><span style=\"white-space:nowrap\">Ocean Depth</span><br><span style=\"font-weight:400\">(m)</span></th><th>Ocean<br>Bottom<br>Surface</th><th>Evidence</th></tr><tr><td>between<br>40 and 50</td><td>steep<br>slope</td><td>isolines<br>far apart</td></tr></table>"
+      ],
+      "key": "B"
+    }
+  ]
+}

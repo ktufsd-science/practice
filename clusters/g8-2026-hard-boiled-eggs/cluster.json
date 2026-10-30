@@ -1,0 +1,397 @@
+{
+  "id": "g8-2026-hard-boiled-eggs",
+  "title": "Hard-Boiled Eggs",
+  "grade": 8,
+  "subject": "Science",
+  "year": "2026",
+  "source": "NYSED 2026 Grade 8 ILS Released Items, Questions 39-43",
+  "pes": [
+    "MS-PS1-2",
+    "MS-PS1-4",
+    "MS-PS1-5",
+    "MS-PS3-4"
+  ],
+  "directions": "Base your answers to questions 39 through 43 on the information below and on your knowledge of science.",
+  "showKeyAfterSubmit": true,
+  "split": 50,
+  "stimuli": {
+    "intro": [
+      {
+        "type": "title",
+        "text": "Hard-Boiled Eggs"
+      },
+      {
+        "type": "p",
+        "html": "A student wanted to enter the New York State Fair 4-H Egg Preparation Demonstration Contest. The student researched the best way to prepare hard-boiled eggs. The student practiced various ways of hard-boiling eggs in the time limit allowed during the contest."
+      },
+      {
+        "type": "p",
+        "html": "The student used four uncooked eggs, but dropped and cracked one on the kitchen counter while putting the other three eggs in a pot of room temperature water. The student used a stove to boil the water and cook the eggs. After cooking the three eggs, the eggs were taken out of the pot, allowed to cool, and the shells were removed. The eggs were then cut in half."
+      },
+      {
+        "type": "figure",
+        "caption": "Model of Boiling Water and Eggs",
+        "src": "boiling-model.png",
+        "alt": "Three drawings of the same pot with arrows between them. In the first drawing the pot holds water, and the pot and the water level are labeled. In the second drawing the water is full of bubbles and three eggs sit in it; the bubbles and the eggs are labeled. In the third drawing bubbles rise from the bottom of the pot and water vapor rises above it; the water vapor, the water level, and the bubbles are labeled.",
+        "width": 540
+      }
+    ],
+    "observations": [
+      {
+        "type": "p",
+        "html": "The table below shows some observations made by the student of both the egg that was dropped before boiling and the hard-boiled eggs."
+      },
+      {
+        "type": "table",
+        "caption": "Observations of Eggs",
+        "rows": [
+          [
+            "Object/Substance Observed",
+            "Observations"
+          ],
+          [
+            "uncooked egg",
+            {
+              "html": "–clear, thick, cool liquid<br>–round, cool, yellow liquid<br>–broken, cool egg shell",
+              "align": "left"
+            }
+          ],
+          [
+            "hard-boiled eggs",
+            {
+              "html": "–warm, white solid<br>–warm, yellow solid<br>–broken, warm egg shell",
+              "align": "left"
+            }
+          ]
+        ]
+      }
+    ],
+    "cooktime": [
+      {
+        "type": "p",
+        "html": "The cooking time for an egg (time required to raise the temperature from 21°C to 65°C in boiling water) depends on the properties of the egg. The graph below shows the effect of one property of an egg on this cooking time."
+      },
+      {
+        "type": "figure",
+        "caption": "Relationship between Egg Cooking Time and Egg Mass",
+        "src": "egg-mass-graph.png",
+        "alt": "Line graph. The horizontal axis is Egg Mass in grams, labeled from 40 to 90. The vertical axis is Egg Cooking Time in minutes, labeled from 1 to 6. A single smooth line starts at about 2.4 minutes at the left edge of the graph and rises gradually to about 5.3 minutes at the right edge.",
+        "width": 440
+      }
+    ],
+    "masses": [
+      {
+        "type": "p",
+        "html": "The data table below shows some information about the eggs that the student hard-boiled."
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            {
+              "html": "",
+              "th": false,
+              "rowspan": 2,
+              "style": "border:none"
+            },
+            {
+              "html": "Mass <span style=\"font-weight:400\">(g)</span>",
+              "th": true,
+              "colspan": 4
+            }
+          ],
+          [
+            {
+              "html": "Uncooked<br>Egg<br>(Before<br>Boiling)",
+              "th": true
+            },
+            {
+              "html": "Hard-Boiled Egg<br>(After Boiling)",
+              "th": true,
+              "colspan": 3
+            }
+          ],
+          [
+            {
+              "html": "Egg<br>Number",
+              "th": true
+            },
+            {
+              "html": "Whole<br>Egg",
+              "th": true
+            },
+            {
+              "html": "Shell",
+              "th": true
+            },
+            {
+              "html": "Egg<br>White",
+              "th": true
+            },
+            {
+              "html": "Yolk",
+              "th": true
+            }
+          ],
+          [
+            "1",
+            "56.8",
+            "4.7",
+            "34.5",
+            "17.6"
+          ],
+          [
+            "2",
+            "56.6",
+            "4.5",
+            "34.5",
+            "17.6"
+          ],
+          [
+            "3",
+            "56.3",
+            "4.7",
+            "34.1",
+            "17.5"
+          ]
+        ]
+      },
+      {
+        "type": "figure",
+        "caption": "Parts of a Hard-Boiled Egg",
+        "src": "egg-parts.png",
+        "alt": "Black-and-white photograph of a plate with pieces of eggshell at the upper left, two hard-boiled egg halves cut open in the center, part of another cut egg at the right edge, and a whole egg at the lower right. Labels with lines point to the Shell, the Egg white, and the Yolk.",
+        "width": 250
+      }
+    ],
+    "elevation": [
+      {
+        "type": "p",
+        "html": "The environment can also affect the time needed to hard-boil an egg. The student practiced for the competition at their home in Caroga Lake, New York. The New York State Fair takes place near Onondaga Lake."
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Location",
+            "Elevation Above Sea Level<br><span style=\"font-weight:400\">(m)</span>"
+          ],
+          [
+            "Caroga Lake",
+            "450"
+          ],
+          [
+            "Onondaga Lake",
+            "110"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "html": "The graphs below represent some information about the temperature of boiling water and extra time required to hard-boil an uncooked egg at different elevations."
+      },
+      {
+        "type": "figures",
+        "items": [
+          {
+            "caption": "Effect of Elevation on<br>Boiling Point of Water",
+            "src": "boiling-point-graph.png",
+            "alt": "Line graph. The horizontal axis is Height Above Sea Level in meters, labeled from -500 to 2000. The vertical axis is Water Boiling Temperature in degrees Celsius, labeled from 70 to 105. A straight line slopes gradually downward from just above 100 degrees Celsius at its left end, a little to the left of 0 meters, to about 93 degrees Celsius at 2000 meters.",
+            "width": 270
+          },
+          {
+            "caption": "Effect of Elevation on<br>Time to Hard-Boil an<br>Uncooked Egg",
+            "src": "extra-time-graph.png",
+            "alt": "Line graph. The horizontal axis is Height Above Sea Level in meters, labeled from -500 to 2000. The vertical axis is Extra Time Required in percent, labeled from -10 to 50. A line rises from left to right, from about -6 percent at about -250 meters to about 48 percent at 2000 meters.",
+            "width": 250
+          }
+        ]
+      }
+    ]
+  },
+  "items": [
+    {
+      "n": 39,
+      "stimulus": [
+        "intro"
+      ],
+      "type": "multi",
+      "pe": "MS-PS1-4",
+      "points": 1,
+      "stem": "The diagrams below represent the position and movement of particles of water in three different phases. Place the letters of the correct particle phase diagrams, from the choices below, into the correct boxes to complete the model of heating water used to hard-boil the eggs. The numbers <i>1</i> and <i>2</i> indicate different periods of time during which the water is heated.",
+      "parts": [
+        {
+          "type": "dragdrop",
+          "bankTitle": "Phase Diagram Choices for Water Particles:",
+          "reuse": true,
+          "choices": [
+            {
+              "id": "a",
+              "html": "<div style=\"display:flex;flex-direction:column;align-items:center;justify-content:center;width:100%;height:100%;min-height:0\"><img src=\"clusters/g8-2026-hard-boiled-eggs/phase-a.png\" alt=\"\" draggable=\"false\" style=\"display:block;width:72px;max-width:100%;max-height:calc(100% - 22px);object-fit:contain\"><span style=\"font-weight:700;margin-top:3px;line-height:1.2\">A</span></div>",
+              "text": "A",
+              "alt": "Diagram A: a box with 20 particles in 4 neat rows of 5, each circle touching its neighbors, with small curved marks beside a few of them."
+            },
+            {
+              "id": "b",
+              "html": "<div style=\"display:flex;flex-direction:column;align-items:center;justify-content:center;width:100%;height:100%;min-height:0\"><img src=\"clusters/g8-2026-hard-boiled-eggs/phase-b.png\" alt=\"\" draggable=\"false\" style=\"display:block;width:72px;max-width:100%;max-height:calc(100% - 22px);object-fit:contain\"><span style=\"font-weight:700;margin-top:3px;line-height:1.2\">B</span></div>",
+              "text": "B",
+              "alt": "Diagram B: a box with 5 particles spread far apart from one another, each with several curved motion marks beside it."
+            },
+            {
+              "id": "c",
+              "html": "<div style=\"display:flex;flex-direction:column;align-items:center;justify-content:center;width:100%;height:100%;min-height:0\"><img src=\"clusters/g8-2026-hard-boiled-eggs/phase-c.png\" alt=\"\" draggable=\"false\" style=\"display:block;width:72px;max-width:100%;max-height:calc(100% - 22px);object-fit:contain\"><span style=\"font-weight:700;margin-top:3px;line-height:1.2\">C</span></div>",
+              "text": "C",
+              "alt": "Diagram C: a box with particles close together in an irregular, loosely packed arrangement, with curved marks beside some of them."
+            }
+          ],
+          "target": {
+            "title": "Model of Heating Water Sequence",
+            "src": "heating-model.png",
+            "alt": "Diagram. A box labeled Water at room temperature has an arrow labeled Time Period 1 pointing to a dashed empty box that is printed with the word Letter and a blank line; under it is the label Liquid water at boiling point. A second arrow labeled Time Period 2 points to another dashed empty box printed with the word Letter and a blank line; under it is the label Water vapor at boiling point.",
+            "width": 620,
+            "zones": [
+              {
+                "id": "z1",
+                "x": 31.7,
+                "y": 1.9,
+                "w": 25.5,
+                "h": 75.1
+              },
+              {
+                "id": "z2",
+                "x": 73.1,
+                "y": 1.9,
+                "w": 25.5,
+                "h": 75.1
+              }
+            ],
+            "zoneNames": {
+              "z1": "Time Period 1 box (liquid water at boiling point)",
+              "z2": "Time Period 2 box (water vapor at boiling point)"
+            }
+          },
+          "key": {
+            "z1": "c",
+            "z2": "b"
+          }
+        },
+        {
+          "type": "table",
+          "label": "Select <i>either</i> Time Period 1 or Time Period 2 to indicate when <i>each</i> change in water took place. [1]",
+          "table": {
+            "rows": [
+              [
+                "Changes in Water",
+                "Time Period 1",
+                "Time Period 2"
+              ],
+              [
+                "<div style=\"text-align:left\">Temperature increased</div>",
+                {
+                  "check": "temp1",
+                  "group": "temp"
+                },
+                {
+                  "check": "temp2",
+                  "group": "temp"
+                }
+              ],
+              [
+                "<div style=\"text-align:left\">Phase changed</div>",
+                {
+                  "check": "phase1",
+                  "group": "phase"
+                },
+                {
+                  "check": "phase2",
+                  "group": "phase"
+                }
+              ]
+            ],
+            "labels": {
+              "temp1": "Temperature increased, Time Period 1",
+              "temp2": "Temperature increased, Time Period 2",
+              "phase1": "Phase changed, Time Period 1",
+              "phase2": "Phase changed, Time Period 2"
+            }
+          },
+          "key": {
+            "temp1": true,
+            "phase2": true
+          }
+        }
+      ],
+      "adapted": "No wording change. On paper, students write the letter of a diagram on the line in each dashed box. On screen, they drag the diagram, labeled with its letter, into each box, as the exemplary response shows. A choice may be used in both boxes, as a letter may be written twice on paper. The printed \"Letter:\" prompt stays in the cropped figure as printed and is covered when a diagram is placed. The two parts are one 1-credit question, and both must be correct for credit."
+    },
+    {
+      "n": 40,
+      "stimulus": [
+        "observations"
+      ],
+      "type": "cr",
+      "pe": "MS-PS1-2",
+      "points": 1,
+      "stem": "The student made a claim that a chemical change occurred while the eggs were boiled. Analyze the given information and identify the evidence that supports this claim. [1]",
+      "rubric": [
+        "Credit: The provided evidence indicates a color change and production of a solid (when heated). This response is complete and correct. Sample responses: “The clear liquid egg turning into a white solid could be a possible chemical reaction.” / “A chemical change was made while the eggs were boiling. The color of the egg turned from clear to white, and the yolk turned from yellow liquid to yellow solid.”",
+        "Credit: Color change is identified, but because not all parts of the egg changed color and no part of the egg is specified, this portion of the response was not enough for credit. However, the provided evidence indicates the production of a solid (when heated). This response is sufficient for credit. Sample response: “the color of the egg changed and the inside went from a liquid to a solid”",
+        "No credit: Because nearly all of the observations from the table are provided, it is not possible to know which is being provided as evidence of chemical change. This response is insufficient for credit due to lack of specific evidence.",
+        "No credit: The physical change of the shell breaking is incorrectly provided as evidence of chemical change, and the discussion of chemical change does not include evidence from the table. This response is insufficient for credit due to lack of evidence.",
+        "No credit: While the response indicates that a new substance was made, no evidence from the table is provided. This response is insufficient for credit due to lack of evidence."
+      ],
+      "exemplar": "The clear, thick liquid of the egg turned white.<br><i>OR</i><br>The soft, yellow yolk became a solid and will not go back to an uncooked egg.<br><i>OR other valid response</i>"
+    },
+    {
+      "n": 41,
+      "stimulus": [
+        "cooktime"
+      ],
+      "type": "mc",
+      "pe": "MS-PS3-4",
+      "points": 1,
+      "stem": "Which statement is supported by evidence in the graph?",
+      "options": [
+        "A greater amount of time is needed to transfer more energy to cook an egg with more mass.",
+        "Eggs with more mass require less time and less energy to be transferred in order to be cooked.",
+        "The phase of the egg affects the egg’s mass and the amount of cooking time and energy transferred to the egg.",
+        "Time needed increases for eggs with more mass because less energy needs to be transferred to cook the egg."
+      ],
+      "key": "A"
+    },
+    {
+      "n": 42,
+      "stimulus": [
+        "masses"
+      ],
+      "type": "mc",
+      "pe": "MS-PS1-5",
+      "points": 1,
+      "stem": "Which claim is supported by the evidence in the table?",
+      "options": [
+        "As the egg is hard-boiled, the mass of the egg white increases as the mass of the egg shell decreases.",
+        "The mass of the egg is conserved as the egg is hard-boiled because the mass of the yolk increases as the mass of the egg white decreases.",
+        "The total mass of the egg increases as the egg boils because water gets trapped in the egg shell.",
+        "The total mass of the egg is conserved when the egg is cooked and becomes hard-boiled."
+      ],
+      "key": "D"
+    },
+    {
+      "n": 43,
+      "stimulus": [
+        "elevation"
+      ],
+      "type": "mc",
+      "pe": "MS-PS3-4",
+      "points": 1,
+      "stem": "Which table contains the terms that correctly complete the statement below?<p style=\"margin:12px 0 0 20px;line-height:1.9\">The boiling point of water at Caroga Lake is <span style=\"display:inline-block;min-width:4em;border-bottom:1px solid currentColor;text-align:center;line-height:1.2\">1</span> than the boiling point of water at the location of the New York State Fair near Onondaga Lake. In order to transfer enough energy to the egg at Caroga Lake, <span style=\"display:inline-block;min-width:4em;border-bottom:1px solid currentColor;text-align:center;line-height:1.2\">2</span> time is needed to <span style=\"display:inline-block;min-width:4em;border-bottom:1px solid currentColor;text-align:center;line-height:1.2\">3</span> the temperature of the egg.</p>",
+      "options": [
+        "<table style=\"table-layout:fixed;width:230px\"><colgroup><col style=\"width:14%\"><col></colgroup><tr><td>1</td><td>greater</td></tr><tr><td>2</td><td>more</td></tr><tr><td>3</td><td>increase</td></tr></table>",
+        "<table style=\"table-layout:fixed;width:230px\"><colgroup><col style=\"width:14%\"><col></colgroup><tr><td>1</td><td>less</td></tr><tr><td>2</td><td>more</td></tr><tr><td>3</td><td>increase</td></tr></table>",
+        "<table style=\"table-layout:fixed;width:230px\"><colgroup><col style=\"width:14%\"><col></colgroup><tr><td>1</td><td>greater</td></tr><tr><td>2</td><td>less</td></tr><tr><td>3</td><td>decrease</td></tr></table>",
+        "<table style=\"table-layout:fixed;width:230px\"><colgroup><col style=\"width:14%\"><col></colgroup><tr><td>1</td><td>less</td></tr><tr><td>2</td><td>less</td></tr><tr><td>3</td><td>decrease</td></tr></table>"
+      ],
+      "key": "B",
+      "adapted": "On paper the four answer tables are arranged in a row with each letter printed under its table. On screen they are listed A, B, C, D with the letter beside each table. No wording changed."
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "id": "g5-2025-investigations-with-balloons",
+  "title": "Investigations with Balloons",
+  "grade": 5,
+  "subject": "Science",
+  "year": "2025",
+  "source": "NYSED 2025 Grade 5 ELS Released Items, Questions 31-36",
+  "pes": [
+    "3-PS2-1",
+    "3-PS2-3",
+    "3-5-ETS1-3",
+    "4-PS3-2"
+  ],
+  "directions": "Base your answers to questions 31 through 36 on the information below and on your knowledge of science.",
+  "showKeyAfterSubmit": true,
+  "stimuli": {
+    "intro": [
+      {
+        "type": "title",
+        "text": "Investigations with Balloons"
+      },
+      {
+        "type": "p",
+        "html": "A student performed three investigations using balloons and other materials."
+      },
+      {
+        "type": "p",
+        "html": "In the first investigation, the student used two balloons on strings and wool cloths. The balloons were hung from a ceiling with string. The entire surface of each balloon was rubbed with a wool cloth. The student observed the interaction between the two balloons. The letter <i>X</i> represents the location of the center of each balloon."
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Figure 1",
+            "Figure 2",
+            "Figure 3"
+          ],
+          [
+            "<img src=\"clusters/g5-2025-investigations-with-balloons/fig1.png\" alt=\"Two balloons, one black and one gray, each marked with an X, hang straight down side by side on strings from a bar.\" style=\"width:205px\">",
+            "<img src=\"clusters/g5-2025-investigations-with-balloons/fig2.png\" alt=\"The same two balloons hang side by side from the bar. Two hands, each holding a wool cloth, rub the outer side of each balloon.\" style=\"width:205px\">",
+            "<img src=\"clusters/g5-2025-investigations-with-balloons/fig3.png\" alt=\"The two balloons hang from the bar on strings that slant outward, with the balloons far apart near the two ends of the bar.\" style=\"width:225px\">"
+          ],
+          [
+            "Balloons are<br>at rest",
+            "Both balloons are rubbed<br>with a wool cloth in<br>the same direction",
+            "Resulting position<br>of balloons"
+          ]
+        ]
+      }
+    ],
+    "investigation2": [
+      {
+        "type": "p",
+        "html": "Then, the student discovered that small pieces of paper will stick to a balloon that has been rubbed with a wool cloth."
+      },
+      {
+        "type": "figure",
+        "src": "paper-balloon.png",
+        "alt": "Diagram of a dark balloon hanging from a string, with many small pieces of paper stuck to the lower part of the balloon and more pieces of paper piled below it. Labels point to the String, the Balloon, and the Pieces of paper.",
+        "width": 190
+      },
+      {
+        "type": "p",
+        "html": "In the second investigation, the papers were removed from the balloon and placed on a table as shown in the diagram below. The entire balloon was rubbed with the wool cloth in the same way as the previous investigation. The balloon was then lowered near these small, equally-sized pieces of paper lying on top of a table. The student observed the interaction between the balloon and the paper. The student stopped lowering the balloon as soon as the pieces of paper traveled upward to the balloon. Arrows represent the motion of the paper."
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Figure 4",
+            "Figure 5",
+            "Figure 6"
+          ],
+          [
+            "<img src=\"clusters/g5-2025-investigations-with-balloons/fig4.png\" alt=\"A dark balloon hangs on a string high above a table. Small pieces of paper lie on the tabletop.\" style=\"width:225px\">",
+            "<img src=\"clusters/g5-2025-investigations-with-balloons/fig5.png\" alt=\"The balloon hangs at the same height above the table and the pieces of paper while a hand rubs it with a wool cloth.\" style=\"width:225px\">",
+            "<img src=\"clusters/g5-2025-investigations-with-balloons/fig6.png\" alt=\"The balloon hangs lower, closer to the table. Arrows point upward from pieces of paper on the table and in the air toward the bottom of the balloon.\" style=\"width:225px\">"
+          ]
+        ]
+      }
+    ],
+    "investigation3": [
+      {
+        "type": "p",
+        "html": "In the third investigation, the student rubbed another balloon with a wool cloth and held it near a metal can lying on a table. The balloon was brought near the can and held 10 centimeters (cm) away. The student observed that, when the balloon was held at this distance, the can rolled toward the balloon. The arrow indicates the direction the can rolled."
+      },
+      {
+        "type": "figure",
+        "src": "can.png",
+        "alt": "A hand holds a dark balloon on a tabletop. A metal can lies on its side on the table to the right of the balloon, with curved motion lines beside it and an arrow pointing from the can toward the balloon.",
+        "width": 440
+      }
+    ]
+  },
+  "items": [
+    {
+      "n": 31,
+      "stimulus": [
+        "intro"
+      ],
+      "type": "multi",
+      "pe": "3-PS2-1",
+      "points": 1,
+      "stem": "<i>Figure 1</i> represents the initial position of the balloons. Identify the forces acting on <b>one</b> of the balloons in <i>Figure 1</i> as being balanced or unbalanced.",
+      "parts": [
+        {
+          "type": "table",
+          "table": {
+            "header": false,
+            "rows": [
+              [
+                "<div style=\"text-align:left\">Balanced</div>",
+                {
+                  "check": "bal",
+                  "group": "forces"
+                }
+              ],
+              [
+                "<div style=\"text-align:left\">Unbalanced</div>",
+                {
+                  "check": "unbal",
+                  "group": "forces"
+                }
+              ]
+            ],
+            "labels": {
+              "bal": "Balanced",
+              "unbal": "Unbalanced"
+            }
+          },
+          "key": {
+            "bal": true
+          }
+        },
+        {
+          "type": "cr",
+          "label": "Describe the evidence from <i>Figure 1</i> that supports your choice. [1]",
+          "parts": [
+            {
+              "label": "Evidence:",
+              "exemplar": "The balloon is at rest."
+            }
+          ]
+        }
+      ],
+      "rubric": [
+        "Allow 1 credit for Balanced <i>and</i> appropriate evidence. Acceptable responses include, but are not limited to:",
+        "The balloon is at rest.",
+        "The balloon is not moving.",
+        "There is no change in the balloon&rsquo;s motion in Figure 1."
+      ],
+      "exemplar": "Balanced. Evidence: The balloon is at rest.",
+      "adapted": "On paper, students mark one of the two boxes in the table and write the evidence on the lines. On screen, they select a box in the table and type the evidence. The stem wording is unchanged."
+    },
+    {
+      "n": 32,
+      "stimulus": [
+        "intro"
+      ],
+      "type": "mc",
+      "pe": "3-PS2-3",
+      "points": 1,
+      "stem": "Which statement correctly identifies the result of rubbing the balloons with the wool cloth?",
+      "options": [
+        "Each balloon became electrically charged and moved away from the other balloon.",
+        "Each balloon became magnetic and moved away from the other balloon.",
+        "The wool cloth transferred electric charge from one balloon to the other balloon, causing the balloons to move apart.",
+        "The wool cloth caused the magnetic properties of each balloon to be the opposite of the other balloon, causing the balloons to move apart."
+      ],
+      "key": "A"
+    },
+    {
+      "n": 33,
+      "stimulus": [
+        "investigation2"
+      ],
+      "type": "cr",
+      "pe": "3-PS2-3",
+      "points": 1,
+      "stem": "Identify the variable that is being changed in this second investigation.",
+      "parts": [
+        {
+          "label": "Variable:",
+          "short": true,
+          "maxChars": 100,
+          "exemplar": "distance"
+        },
+        {
+          "label": "Write a question that the student is trying to answer in this second investigation that includes this variable. [1]",
+          "exemplar": "What effect does distance have on the interaction between the balloon and the paper?"
+        }
+      ],
+      "rubric": [
+        "Allow 1 credit for an appropriate variable <i>and</i> an acceptable question. Acceptable responses include, but are not limited to:",
+        "Variable:<br>&mdash; height<br>&mdash; distance<br>&mdash; length<br>&mdash; range<br>&mdash; closeness",
+        "Question:<br>&mdash; What effect does distance have on the interaction between the balloon and the paper?<br>&mdash; What effect does distance have on electrical forces?<br>&mdash; Is there more electrical force on the paper as a charged balloon gets closer to the paper?<br>&mdash; At what height will the papers be lifted up?",
+        "<b>Note</b>: Questions must include a questioning word and/or a question mark."
+      ],
+      "exemplar": "Variable: distance. Question: What effect does distance have on the interaction between the balloon and the paper?"
+    },
+    {
+      "n": 34,
+      "stimulus": [
+        "investigation2"
+      ],
+      "type": "mc",
+      "pe": "3-PS2-1",
+      "points": 1,
+      "stem": "Which statement explains why the pieces of paper moved toward the balloon in <i>Figure 6</i>?",
+      "options": [
+        "The sum of the forces on the pieces of paper resulted in a zero net force.",
+        "The forces on the balloon and on the paper were equal and acted in opposite directions.",
+        "The force of friction on the paper pushed the paper toward the balloon.",
+        "The force exerted by the balloon on the paper was greater than the force exerted by gravity on the paper."
+      ],
+      "key": "D"
+    },
+    {
+      "n": 35,
+      "stimulus": [
+        "investigation2"
+      ],
+      "type": "mc",
+      "pe": "3-5-ETS1-3",
+      "points": 1,
+      "stem": "The student wanted to repeat this second investigation with another balloon. Both balloons were made of the same material and were the same size and color. Why should the student complete another trial of this investigation?",
+      "options": [
+        "to test the material and size of the balloon",
+        "to check the reliability of the results of the first trial",
+        "because repeating trials allows for less data to be considered",
+        "because all scientific investigations must have only two trials"
+      ],
+      "key": "B"
+    },
+    {
+      "n": 36,
+      "stimulus": [
+        "investigation3"
+      ],
+      "type": "mc",
+      "pe": "4-PS3-2",
+      "points": 1,
+      "stem": "Which statement is evidence that energy was converted from one form to another in this third investigation?",
+      "options": [
+        "The balloon was held near the can.",
+        "The volume of air in the balloon decreased.",
+        "The can moved across the table.",
+        "The can was positioned on top of a table."
+      ],
+      "key": "C"
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "id": "g5-2026-locust-trees",
+  "title": "Locust Trees",
+  "grade": 5,
+  "subject": "Science",
+  "year": "2026",
+  "source": "NYSED 2026 Grade 5 ELS Released Items, Questions 28-31",
+  "pes": [
+    "3-LS3-1",
+    "4-LS1-1",
+    "5-LS2-1"
+  ],
+  "directions": "Base your answers to questions 28 through 31 on the information below and on your knowledge of science.",
+  "showKeyAfterSubmit": true,
+  "stimuli": {
+    "intro": [
+      {
+        "type": "title",
+        "text": "Locust Trees"
+      },
+      {
+        "type": "p",
+        "html": "Locust trees are native to North America. They are found in various locations across the United States. There are many different types of locust trees, such as the honey locust. This tree gets its name from the honey-like substance found in its seed pods. The sweet seed pods of honey locusts are an important food source. White-tailed deer, rabbits, squirrels, and foxes will eat the honey locust seed pods. Deer will also eat the bark of the honey locust tree in the winter when other food sources are scarce."
+      },
+      {
+        "type": "html",
+        "html": "<figure class=\"fig\" style=\"display:grid;grid-template-columns:repeat(2,minmax(0,270px));justify-content:center;column-gap:26px;row-gap:8px;margin:16px 0 12px\"><div class=\"fig-cap\" style=\"align-self:end;margin:0\">Honey Locust Tree</div><div class=\"fig-cap\" style=\"align-self:end;margin:0\">Seed Pod of a Honey Locust Tree</div><img draggable=\"false\" src=\"clusters/g5-2026-locust-trees/honey-locust-tree.jpg\" alt=\"Black-and-white photograph of a honey locust tree standing alone in a grassy park. Long, thin seed pods hang among its feathery leaves.\" style=\"width:100%;align-self:start;border:1px solid #000;box-sizing:border-box\"><img draggable=\"false\" src=\"clusters/g5-2026-locust-trees/seed-pod.jpg\" alt=\"Close-up black-and-white photograph of several long, flat, dark seed pods hanging from a honey locust branch among small leaflets.\" style=\"width:100%;align-self:start;border:1px solid #000;box-sizing:border-box\"></figure>"
+      }
+    ],
+    "thorns": [
+      {
+        "type": "p",
+        "html": "Many mature honey locust trees have long thorns on their trunks and smaller thorns on their branches. Not all honey locust trees have thorns. The thornless variety of this tree has similar seed pods, leaves, and flowers to the variety with thorns. Honey locust trees are often planted in cities due to their ability to survive in poor air quality and periods of dryness. Seeds from honey locust trees with thorns may grow into trees without thorns. Likewise, seeds from honey locust trees without thorns may grow into trees with thorns."
+      },
+      {
+        "type": "html",
+        "html": "<figure class=\"fig\" style=\"display:grid;grid-template-columns:repeat(2,minmax(0,270px));justify-content:center;column-gap:26px;row-gap:8px;margin:16px 0 12px\"><div class=\"fig-cap\" style=\"align-self:end;margin:0\">Trunk of Honey Locust<br>Tree without Thorns</div><div class=\"fig-cap\" style=\"align-self:end;margin:0\">Trunk of Honey Locust<br>Tree with Thorns</div><img draggable=\"false\" src=\"clusters/g5-2026-locust-trees/trunk-without-thorns.jpg\" alt=\"Black-and-white photograph of the trunk of a honey locust tree with rough, deeply grooved bark and no thorns, standing on a lawn.\" style=\"width:100%;align-self:start;border:1px solid #000;box-sizing:border-box\"><img draggable=\"false\" src=\"clusters/g5-2026-locust-trees/trunk-with-thorns.jpg\" alt=\"Black-and-white photograph of the trunk of a honey locust tree covered with many long, branching thorns that stick out in all directions.\" style=\"width:100%;align-self:start;border:1px solid #000;box-sizing:border-box\"></figure>"
+      }
+    ],
+    "blackLocust": [
+      {
+        "type": "p",
+        "html": "The black locust is a tree similar to the honey locust. The map below shows the original range for the black locust in the United States. This range was primarily in the Appalachian Mountains and the Ozark Plateau."
+      },
+      {
+        "type": "figure",
+        "caption": "Original Black Locust Range",
+        "src": "black-locust-map.png",
+        "alt": "Map of the central and eastern United States with state borders and a compass rose showing north, south, east, and west. Light gray areas show the original black locust range: a smaller area labeled Ozark Plateau in the south-central part of the map, a larger area labeled Appalachian Mountains stretching from the southeast toward the northeast, and a very small area between them. New York is labeled at the top right, north of the range. A key shows that light gray means Original Black Locust Range.",
+        "width": 460
+      },
+      {
+        "type": "p",
+        "html": "The distribution of the black locust has now spread in the United States to the Midwest and Northeast, including New York State. This tree has a fast growth rate and grows in groups. These groups decrease land surface temperatures. The groups also decrease the amount of light that can reach low-growing plants of grasslands and prairies."
+      }
+    ]
+  },
+  "items": [
+    {
+      "n": 28,
+      "stimulus": [
+        "intro"
+      ],
+      "type": "cr",
+      "pe": "4-LS1-1",
+      "points": 1,
+      "stem": "Explain how the taste of the honey locust seed pods contributes to the reproduction of the honey locust trees. [1]",
+      "rubric": [
+        "1 credit. The explanation includes both attraction caused by the sweet taste and the resulting seed spread.",
+        "An explanation that includes both attraction caused by taste and the resulting seed spread is sufficient for credit.",
+        "An explanation that implies attraction caused by taste and the resulting seed spread is sufficient for credit.",
+        "Exemplary response: The sweet taste of the seed pods attracts animals to eat them and spread the seeds. <i>OR</i> Animals are attracted to the sweet taste of the seed pods. These seeds are eaten and eliminated in animal waste. <i>OR other valid response</i>",
+        "No credit: An explanation that includes attraction caused by taste, but includes how reproduction is reduced rather than supported, does not address contribution to reproduction.",
+        "No credit: An explanation that does not include attraction caused by taste but does include seed spread does not address why the seed pods are eaten.",
+        "No credit: An explanation that includes implied attraction caused by honey taste but does not adequately describe reproduction does not address contribution to reproduction."
+      ],
+      "exemplar": "The sweet taste of the seed pods attracts animals to eat them and spread the seeds."
+    },
+    {
+      "n": 29,
+      "stimulus": [
+        "thorns"
+      ],
+      "type": "mc",
+      "pe": "3-LS3-1",
+      "points": 1,
+      "stem": "Which statement describes a variation in a trait that exists in honey locust trees?",
+      "options": [
+        "Honey locust trees are often planted in cities.",
+        "All honey locust trees have seed pods.",
+        "Some honey locust trees have thorns.",
+        "Honey locust trees can live in areas with poor air quality."
+      ],
+      "key": "C"
+    },
+    {
+      "n": 30,
+      "stimulus": [
+        "intro",
+        "thorns"
+      ],
+      "type": "mc",
+      "pe": "4-LS1-1",
+      "points": 1,
+      "stem": "Which argument supports the claim that honey locust trees with thorns are more likely to survive than honey locust trees without thorns?",
+      "options": [
+        "The thorns of these trees will produce more food for the tree.",
+        "The thorns of these trees help absorb more water for growth.",
+        "The thorns of these trees provide habitats for moths and caterpillars.",
+        "The thorns of these trees make it difficult to eat the tree&rsquo;s bark."
+      ],
+      "key": "D"
+    },
+    {
+      "n": 31,
+      "stimulus": [
+        "blackLocust"
+      ],
+      "type": "mc",
+      "pe": "5-LS2-1",
+      "points": 1,
+      "stem": "<p>Which set of terms correctly completes the passage below?</p><p style=\"line-height:1.9\">The introduction of the black locust to the Midwest prairie ecosystem could <span style=\"display:inline-block;min-width:3.4em;border-bottom:1px solid currentColor;text-align:center;line-height:1.2\">1</span> the amount of grass and clover, resulting in a(n) <span style=\"display:inline-block;min-width:3.4em;border-bottom:1px solid currentColor;text-align:center;line-height:1.2\">2</span> in the number of grasshoppers and owls because the black locust could <span style=\"display:inline-block;min-width:3.4em;border-bottom:1px solid currentColor;text-align:center;line-height:1.2\">3</span> the balance of the ecosystem.</p>",
+      "options": [
+        "<table style=\"table-layout:fixed;width:180px\"><colgroup><col style=\"width:28%\"><col></colgroup><tr><td>1</td><td>increase</td></tr><tr><td>2</td><td>decrease</td></tr><tr><td>3</td><td>upset</td></tr></table>",
+        "<table style=\"table-layout:fixed;width:180px\"><colgroup><col style=\"width:28%\"><col></colgroup><tr><td>1</td><td>decrease</td></tr><tr><td>2</td><td>decrease</td></tr><tr><td>3</td><td>upset</td></tr></table>",
+        "<table style=\"table-layout:fixed;width:180px\"><colgroup><col style=\"width:28%\"><col></colgroup><tr><td>1</td><td>decrease</td></tr><tr><td>2</td><td>increase</td></tr><tr><td>3</td><td>improve</td></tr></table>",
+        "<table style=\"table-layout:fixed;width:180px\"><colgroup><col style=\"width:28%\"><col></colgroup><tr><td>1</td><td>increase</td></tr><tr><td>2</td><td>increase</td></tr><tr><td>3</td><td>improve</td></tr></table>"
+      ],
+      "key": "B"
+    }
+  ]
+}

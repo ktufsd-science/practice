@@ -1,0 +1,123 @@
+{
+  "id": "g8-2025-practical-applications-of-magnetism",
+  "title": "Practical Applications of Magnetism",
+  "grade": 8,
+  "subject": "Science",
+  "year": "2025",
+  "source": "NYSED 2025 Grade 8 ILS Released Items, Questions 42-46",
+  "pes": ["MS-PS2-2", "MS-PS2-3", "MS-PS2-5", "MS-PS3-5"],
+  "directions": "Base your answers to questions 42 through 46 on the information below and on your knowledge of science.",
+  "showKeyAfterSubmit": true,
+  "stimuli": {
+    "intro": [
+      {"type": "title", "text": "Practical Applications of Magnetism"},
+      {"type": "p", "html": "A team of students investigated factors that affect the strength of magnets and electromagnets. In addition, this team studied how magnetic forces can be used in practical applications. The team used appropriate safety equipment and followed all safety procedures as they worked."},
+      {"type": "p", "html": "The team determined the number of steel washers that a neodymium magnet could pick up when the magnet was kept at five different temperatures."},
+      {"type": "figure", "caption": "Relationship Between Temperature and<br>Number of Washers Picked Up", "src": "graph.png", "alt": "Scatter graph of number of washers picked up, from 0 to 40, versus temperature in degrees Celsius, from negative 25 to 100. Five points are plotted.", "width": 440}
+    ],
+    "electromagnet": [
+      {"type": "p", "html": "The team then investigated factors that affected the strength of the magnetic force exerted by an electromagnet. The model of the experimental setup and data taken are shown below. The current through the electromagnet was measured in amperes (A). The electromagnet was used to lift iron filings from a pile on a table. The mass of the iron filings lifted was measured in grams."},
+      {"type": "figure", "src": "setup.png", "alt": "Model of the experimental setup. A current source with a dial is connected by wires with clips to a coiled wire wrapped around a metal bar. A pile of iron filings sits on the table to the right of the bar. Labels: Metal bar, Coiled wire, Current source, Iron filings.", "width": 520},
+      {"type": "table", "caption": "Data Table 1", "rows": [
+        [{"html": "Current Through Electromagnet <span style=\"font-weight:normal\">(A)</span>", "th": true}, {"html": "Number of Turns of Coiled Wire", "th": true}, {"html": "Type of Metal Bar", "th": true}, {"html": "Mass of Iron Filings Lifted <span style=\"font-weight:normal\">(g)</span>", "th": true}],
+        [{"html": "2", "align": "center"}, {"html": "50", "align": "center"}, {"html": "Iron", "align": "center"}, {"html": "10.5", "align": "center"}],
+        [{"html": "3", "align": "center"}, {"html": "50", "align": "center"}, {"html": "Iron", "align": "center"}, {"html": "15.0", "align": "center"}],
+        [{"html": "4", "align": "center"}, {"html": "50", "align": "center"}, {"html": "Iron", "align": "center"}, {"html": "21.5", "align": "center"}],
+        [{"html": "5", "align": "center"}, {"html": "10", "align": "center"}, {"html": "Iron", "align": "center"}, {"html": "5.0", "align": "center"}],
+        [{"html": "5", "align": "center"}, {"html": "20", "align": "center"}, {"html": "Iron", "align": "center"}, {"html": "10.5", "align": "center"}],
+        [{"html": "5", "align": "center"}, {"html": "30", "align": "center"}, {"html": "Iron", "align": "center"}, {"html": "15.5", "align": "center"}],
+        [{"html": "5", "align": "center"}, {"html": "50", "align": "center"}, {"html": "Iron", "align": "center"}, {"html": "26.5", "align": "center"}],
+        [{"html": "5", "align": "center"}, {"html": "50", "align": "center"}, {"html": "Nickel", "align": "center"}, {"html": "25.0", "align": "center"}],
+        [{"html": "5", "align": "center"}, {"html": "50", "align": "center"}, {"html": "Copper", "align": "center"}, {"html": "24.5", "align": "center"}]
+      ]}
+    ],
+    "separator": [
+      {"type": "p", "html": "Engineers design recycling plants that use magnetic forces to sort metals like steel and iron from plastics, paper, and glass. The team of students investigated the recycling process that the engineers designed and developed."},
+      {"type": "p", "html": "Their model below represents a built-in magnet separator used in recycling. The separator is composed of two conveyor belt mechanisms. Ferrous metal (containing iron), glass, plastics, and paper travel on a lower conveyor belt in the direction shown. Ferrous metal is attracted to a magnet located inside the upper conveyor belt mechanism and travels in the direction shown. The various objects eventually fall into separate containers below."},
+      {"type": "figure", "caption": "Recycling Separator with Built-In Magnet", "src": "separator.png", "alt": "Model of a recycling separator. Objects travel on a lower conveyor belt moving toward an upper conveyor belt that contains a magnet. Some objects travel along the upper conveyor belt and fall into a container labeled Ferrous metal. Other objects fall from the end of the lower conveyor belt into a container labeled Other objects. Arrows show belt directions.", "width": 460}
+    ],
+    "crane": [
+      {"type": "p", "html": "Electromagnets are used to lift and move magnetic metals in recycling facilities. These metals may be sharp and very heavy, but with the use of an electromagnetic crane, the metal can be moved safely and easily. The team of students investigated the types of objects that were able to be lifted by the electromagnetic crane."},
+      {"type": "figure", "caption": "Model of Electromagnetic Crane", "src": "crane.png", "alt": "Model of a crane with an electromagnet at the end of its arm holding a car above the ground. A bus sits on the ground to the right of the crane. Labels: Crane, Electromagnet, Car, Bus.", "width": 500}
+    ]
+  },
+  "items": [
+    {
+      "n": 42,
+      "stimulus": ["intro"],
+      "type": "cr",
+      "pe": "MS-PS2-3",
+      "points": 1,
+      "stem": "Write a question that this team could ask to determine if a variable represented in the graph affects the strength of this magnetic force. [1]",
+      "parts": [{"label": "Question:", "short": false, "exemplar": "How does the temperature of the magnet affect the strength of the magnetic force exerted by the magnet?"}],
+      "rubric": [
+        "Credit: Allow 1 credit. Acceptable responses include, but are not limited to: How does the temperature of the magnet affect the strength of the magnetic force exerted by the magnet? What is the effect of the magnet temperature on the strength of the magnetic force? When the temperature of a magnet changes, how does the number of washers it can pick up change?",
+        "Note: Questions must include a questioning word or a question mark."
+      ],
+      "exemplar": "How does the temperature of the magnet affect the strength of the magnetic force exerted by the magnet?",
+      "adapted": "\"Write\" is kept because students type the question on screen; the printed answer lines became a typing box labeled Question:."
+    },
+    {
+      "n": 43,
+      "stimulus": ["electromagnet"],
+      "type": "ms",
+      "pe": "MS-PS2-3",
+      "points": 1,
+      "stem": "The list below contains variables that can be manipulated in this investigation. Select the <b>three</b> variables that the team investigated in order for them to determine each variable’s effect on the strength of the magnetic force exerted by the electromagnet. [1]",
+      "options": [
+        "the number of turns of wire around the metal bar",
+        "the type of metal filings",
+        "the mass of metal filings lifted",
+        "the amount of current through the wire",
+        "the type of metal bar"
+      ],
+      "letters": false,
+      "key": ["A", "D", "E"]
+    },
+    {
+      "n": 44,
+      "stimulus": ["separator"],
+      "type": "mc",
+      "pe": "MS-PS2-5",
+      "points": 1,
+      "stem": "Which statement provides evidence that the objects that need to be sorted are in a magnetic field created by the magnet located inside the upper conveyor belt mechanism?",
+      "options": [
+        "Ferrous metals are pulled upward from the lower conveyor belt by a magnetic force exerted by the magnet that is not in contact with these metals.",
+        "Plastics and paper remain on the lower conveyor belt because they are not in the magnetic field produced by the magnet.",
+        "All the objects eventually fall off the conveyor belts due to a force exerted by the magnet.",
+        "The magnetic force creates friction that holds the objects in place as the objects move along both conveyor belts."
+      ],
+      "key": "A"
+    },
+    {
+      "n": 45,
+      "stimulus": ["crane"],
+      "type": "mc",
+      "pe": "MS-PS2-2",
+      "points": 1,
+      "stem": "The team of students observed that the crane was able to lift the car. When the electromagnet was placed on the more massive bus, the crane was <b><i>not</i></b> able to lift it. Which argument is supported by this evidence?",
+      "options": [
+        "The gravitational force on the bus is greater than the gravitational force on the car but less than the magnetic force exerted by the crane.",
+        "The gravitational force on the bus is greater than the gravitational force on the car and greater than the magnetic force exerted by the crane.",
+        "The gravitational force on the bus is less than the gravitational force on the car but greater than the magnetic force exerted by the crane.",
+        "The gravitational force on the bus is less than the gravitational force on the car and less than the magnetic force exerted by the crane."
+      ],
+      "key": "B"
+    },
+    {
+      "n": 46,
+      "stimulus": ["crane"],
+      "type": "mc",
+      "pe": "MS-PS3-5",
+      "points": 1,
+      "stem": "The team of students claimed that the electromagnetic crane has done work on the car because they observed that the car was lifted from Earth’s surface to the position shown in the model. Which argument about the energy of the Earth-car system best supports this claim?",
+      "options": [
+        "The work done by the crane decreased the amount of energy of the Earth-car system.",
+        "The work done by the crane did not transfer energy to the Earth-car system.",
+        "The work done by the crane increased the potential energy of the Earth-car system.",
+        "The work done by the crane changed the thermal energy of the Earth-car system."
+      ],
+      "key": "C"
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "id": "g5-2026-natural-energy-resources",
+  "title": "Natural Energy Resources",
+  "grade": 5,
+  "subject": "Science",
+  "year": "2026",
+  "source": "NYSED 2026 Grade 5 ELS Released Items, Questions 32-35",
+  "pes": [
+    "5-ESS2-1",
+    "4-ESS3-1",
+    "5-ESS3-1",
+    "4-PS3-2"
+  ],
+  "directions": "Base your answers to questions 32 through 35 on the information below and on your knowledge of science.",
+  "showKeyAfterSubmit": true,
+  "stimuli": {
+    "intro": [
+      {
+        "type": "title",
+        "text": "Natural Energy Resources"
+      },
+      {
+        "type": "p",
+        "html": "Humans use many types of natural resources to provide energy for their daily lives. Petroleum, also called crude oil or oil, is a fossil fuel formed millions of years ago. It is an important fuel source used around the world. Oil can be refined to produce heating fuel and gasoline. It can also be used to produce electrical energy."
+      },
+      {
+        "type": "p",
+        "html": "Oil is found in pockets under Earth&rsquo;s surface. The photograph below shows an oil seep. Oil seeps occur when crude oil leaks through natural cracks in the ocean floor."
+      },
+      {
+        "type": "figure",
+        "src": "oil-seep-photo.png",
+        "alt": "Black-and-white underwater photograph of a sandy ocean floor. A large dark mass of oil spreads over the floor and a thin dark stream rises from it. Labels point to the oil seep and the ocean floor.",
+        "width": 420
+      }
+    ],
+    "oilSeepModel": [
+      {
+        "type": "p",
+        "html": "The model below represents the positions of both the oil pocket and oil seep in relation to the ocean floor. The direction of motion of oil droplets in the ocean is indicated."
+      },
+      {
+        "type": "figure",
+        "caption": "Model of Movement of Oil in an Oil Seep",
+        "src": "oil-seep-model.png",
+        "alt": "Cutaway box model. At the bottom, an oil pocket sits under a thick gray layer. A crack in the ocean floor branches upward from the oil pocket to an oil seep on the ocean floor layer. Dots with an upward arrow rise from the oil seep through the ocean water to a dark patch labeled oil on surface at the top of the water.",
+        "width": 400
+      }
+    ],
+    "offshoreMap": [
+      {
+        "type": "p",
+        "html": "Offshore drilling is a way of obtaining underground oil from Earth by drilling into the ocean floor where oil pockets have been found. In 2019, New York State passed a law banning offshore drilling in the ocean floor within three miles of the state&rsquo;s shoreline."
+      },
+      {
+        "type": "figure",
+        "caption": "New York&rsquo;s Marine and Coastal District Waters",
+        "src": "ny-waters-map.png",
+        "alt": "Map of the area around New York City and Long Island. Gray land areas are labeled Connecticut, New York, New Jersey, and Long Island. Long Island Sound lies between Connecticut and Long Island, and the Atlantic Ocean lies to the south. A thick black line in the ocean follows the coastline a short distance offshore and also circles a small island to the east. Two pointer lines label it Federal Water Boundary Line (Begins 3 miles from coastline). A compass rose shows north, south, east, and west.",
+        "width": 560
+      }
+    ],
+    "windFarm": [
+      {
+        "type": "p",
+        "html": "Wind is another natural resource that humans use to provide energy for their daily lives. Wind is used to produce electricity with large windmills called wind turbines. A wind farm is a group of wind turbines in the same location. The photograph below shows Maple Ridge Wind Farm, located in Lewis County, New York."
+      },
+      {
+        "type": "figure",
+        "src": "wind-farm.jpg",
+        "alt": "Black-and-white photograph of several tall white wind turbines standing on a forested ridge. Farm fields, a barn, and silos are in the valley below.",
+        "width": 460
+      }
+    ],
+    "turbineModel": [
+      {
+        "type": "p",
+        "html": "The model below shows how a wind turbine functions to produce electrical energy."
+      },
+      {
+        "type": "figure",
+        "caption": "Model of How a Wind Turbine Works",
+        "src": "turbine-model.png",
+        "alt": "Model in four panels joined by an arrow path. Panel 1 shows arrows of wind blowing toward a wind turbine. Panel 2 shows a close-up inside the top of the turbine with gears and a generator. Panel 3 shows transformers at a substation. Panel 4 shows a power line tower.",
+        "width": 580
+      },
+      {
+        "type": "html",
+        "html": "<table class=\"stim-table\" style=\"width:580px;max-width:100%;table-layout:fixed;margin:-18px auto 18px\"><tr><td style=\"width:25%;vertical-align:top;font-size:.85em\"><b>1</b><br>Wind turns blades of the wind turbine.</td><td style=\"width:25%;vertical-align:top;font-size:.85em\"><b>2</b><br>Turbines turn gears in generators, making electrical energy.</td><td style=\"width:25%;vertical-align:top;font-size:.85em\"><b>3</b><br>Transformers at substations store electrical energy for use.</td><td style=\"width:25%;vertical-align:top;font-size:.85em\"><b>4</b><br>Electrical energy joins power grid and is distributed.</td></tr></table>"
+      }
+    ]
+  },
+  "items": [
+    {
+      "n": 32,
+      "stimulus": [
+        "intro",
+        "oilSeepModel"
+      ],
+      "type": "mc",
+      "pe": "5-ESS2-1",
+      "points": 1,
+      "stem": "Which two Earth spheres are shown interacting in the model as a result of this oil seep?",
+      "options": [
+        "hydrosphere and atmosphere",
+        "biosphere and geosphere",
+        "geosphere and hydrosphere",
+        "atmosphere and biosphere"
+      ],
+      "key": "C"
+    },
+    {
+      "n": 33,
+      "stimulus": [
+        "offshoreMap",
+        "intro",
+        "oilSeepModel"
+      ],
+      "type": "cr",
+      "pe": "4-ESS3-1",
+      "points": 1,
+      "stem": "Offshore drilling can have negative effects on the environment. Describe <b>one <i>negative</i></b> effect that may have led New York State to ban offshore drilling. [1]",
+      "rubric": [
+        "Credit: An appropriate negative effect on the environment is provided.",
+        "Exemplary response: Offshore drilling can cause oil spills on the ocean surface, which pollutes the water. <i>OR</i> Offshore drilling can cause noise pollution, which affects ocean animals and people living near the shore. <i>OR</i> Offshore drilling can interfere with the habitat of fish/birds. <i>OR</i> Oil spills can harm the animals/plants in the environment. <i>OR other valid response</i>",
+        "An adequate negative effect on the environment, such as that offshore drilling can pollute the ocean or that it is destroying animals&rsquo; habitats, is sufficient for credit.",
+        "No credit: An effect described so generally that it is not clear that it is specifically a negative effect, such as that offshore drilling might affect an animal&rsquo;s habitat.",
+        "No credit: An effect that is not linked with a negative effect on the environment, such as that offshore drilling could take away the oil from underground.",
+        "No credit: Naming an oil seep and restating that it occurs when crude oil leaks through natural cracks in the ocean floor is not linked to an associated negative effect on the environment."
+      ],
+      "exemplar": "Offshore drilling can cause oil spills on the ocean surface, which pollutes the water."
+    },
+    {
+      "n": 34,
+      "stimulus": [
+        "windFarm"
+      ],
+      "type": "cr",
+      "pe": "5-ESS3-1",
+      "points": 1,
+      "stem": "Describe how the Maple Ridge Wind Farm helps protect the environment. [1]",
+      "rubric": [
+        "Exemplary response: Wind turbines do not produce air pollutants. <i>OR</i> Wind turbines do not disturb animal habitats significantly. <i>OR</i> Wind turbines produce electricity without burning fossil fuels, which pollute the environment. <i>OR other valid response</i>",
+        "Credit: A description that animal habitats would not be lost, of less pollution, of less harm to Earth&rsquo;s surface, or of less global warming adequately explains how the environment is protected and is sufficient for credit.",
+        "No credit: A description of the function of windmills (such as making more electricity with large windmills called wind turbines) and not how they protect the environment.",
+        "No credit: A description that is too general and does not specify how the environment is protected, such as helping conserve Earth&rsquo;s natural resources or not damaging things."
+      ],
+      "exemplar": "Wind turbines produce electricity without burning fossil fuels, which pollute the environment."
+    },
+    {
+      "n": 35,
+      "stimulus": [
+        "turbineModel"
+      ],
+      "type": "mc",
+      "pe": "4-PS3-2",
+      "points": 1,
+      "stem": "What type of energy is the wind turbine converting into electrical energy?",
+      "options": [
+        "light",
+        "heat",
+        "motion",
+        "sound"
+      ],
+      "key": "C"
+    }
+  ]
+}

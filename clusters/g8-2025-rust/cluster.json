@@ -1,0 +1,326 @@
+{
+  "id": "g8-2025-rust",
+  "title": "Rust",
+  "grade": 8,
+  "subject": "Science",
+  "year": "2025",
+  "source": "NYSED 2025 Grade 8 ILS Released Items, Questions 24-27",
+  "pes": [
+    "MS-PS1-2",
+    "MS-PS1-5",
+    "MS-ETS1-2"
+  ],
+  "directions": "Base your answers to questions 24 through 27 on the information below and on your knowledge of science.",
+  "showKeyAfterSubmit": true,
+  "stimuli": {
+    "intro": [
+      {
+        "type": "title",
+        "text": "Rust"
+      },
+      {
+        "type": "p",
+        "html": "A student in New York State left their bicycle outside all winter in the rain and the snow. When they went to ride it on a spring day, they noticed the bike chain was rusted. It took some time to remove the rust."
+      },
+      {
+        "type": "figure",
+        "caption": "Bike Chain with Rust After One Winter",
+        "src": "chain-rust.png",
+        "alt": "Black and white photograph of a bike chain wrapped around a gear near the rear wheel, with spokes visible. A label points to the chain and reads Rust on chain.",
+        "width": 420
+      },
+      {
+        "type": "figure",
+        "caption": "Bike Chain Cleaned and Rust Removed",
+        "src": "chain-clean.png",
+        "alt": "Black and white photograph of a hand holding a cloth around a bike chain that lies across grass, next to a bicycle wheel.",
+        "width": 420
+      },
+      {
+        "type": "p",
+        "html": "The student decided to conduct research to find out how the rust formed and what they could do to prevent their bike chain from getting rusty again next winter. Through research, the student found out that bike chains are made of steel, which is made of 99% iron. Therefore, they decided to use steel nails to test for causes of and solutions to the rusting problem."
+      }
+    ],
+    "reaction": [
+      {
+        "type": "p",
+        "html": "Rust is produced when iron reacts with oxygen and water. The chemical formula for the reaction is shown below."
+      },
+      {
+        "type": "figure",
+        "caption": "Reaction of Iron, Water, and Oxygen to Produce Rust",
+        "src": "rxn-words.png",
+        "alt": "Boxed word equation: iron (solid) plus water (liquid or vapor) plus oxygen (gas) yields iron(III) hydroxide (solid).",
+        "width": 460
+      },
+      {
+        "type": "figure",
+        "caption": "Chemical Formula for Rust Reaction",
+        "src": "rxn-formula.png",
+        "alt": "Boxed chemical equation: 4Fe (iron) plus 6H2O (water) plus 3O2 (oxygen) yields 4Fe (OH)3 (rust).",
+        "width": 340
+      }
+    ],
+    "experiment": [
+      {
+        "type": "p",
+        "html": "The student conducted three experiments in order to test if water and oxygen in the environment rust steel nails. They used appropriate safety equipment and followed all safety procedures. Three separate steel nails were placed in separate test tubes, each containing different substances. All three test tubes were sealed with stoppers."
+      },
+      {
+        "type": "list",
+        "items": [
+          "In test tube 1, the nail was partially placed in water.",
+          "In test tube 2, the nail was submerged in water that was boiled to remove oxygen and a layer of oil was added to prevent oxygen from re-entering the water.",
+          "In test tube 3, the nail was enclosed in air and a chemical (anhydrous calcium chloride) that removes water vapor from the air was added."
+        ]
+      },
+      {
+        "type": "p",
+        "html": "The nails were left in the test tubes for approximately three weeks. A model representation of the experiment is shown below."
+      },
+      {
+        "type": "figure",
+        "src": "test-tubes.png",
+        "alt": "Three sealed test tubes, each with a stopper and a steel nail, labeled Test tube 1, Test tube 2, and Test tube 3. Test tube 1 holds air above water, with the nail partly in the water. Test tube 2 holds a layer of oil above boiled water, with the nail in the boiled water. Test tube 3 holds air and a small pile of anhydrous calcium chloride at the bottom, with the nail resting in the air.",
+        "width": 520
+      }
+    ],
+    "results": [
+      {
+        "type": "p",
+        "html": "The results of the three experiments are shown in the table below."
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Test Tube<br>Number",
+            "Rust<br>Formed",
+            "Rust<br>Did Not<br>Form"
+          ],
+          [
+            "1",
+            {
+              "html": "&#10003;",
+              "align": "center"
+            },
+            ""
+          ],
+          [
+            "2",
+            "",
+            {
+              "html": "&#10003;",
+              "align": "center"
+            }
+          ],
+          [
+            "3",
+            "",
+            {
+              "html": "&#10003;",
+              "align": "center"
+            }
+          ]
+        ]
+      }
+    ],
+    "shed": [
+      {
+        "type": "p",
+        "html": "The student, located in New York State, wants to have a shed built on the back of their house to protect the bicycle from future weather conditions. The criteria for the shed materials are:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "pressure-treated lumber",
+          "not affected by cold, snowy winters",
+          "reasonably priced",
+          "quality materials that do not rust"
+        ]
+      },
+      {
+        "type": "p",
+        "html": "The builder, whose priority is to build a safe, durable shed that will last, must decide what materials and nails to use in the construction of the shed."
+      }
+    ],
+    "designs": [
+      {
+        "type": "table",
+        "caption": "Materials Used in Four Shed Designs",
+        "rows": [
+          [
+            "Design",
+            "Steel Nail<br>Type",
+            "Nail<br>Characteristics",
+            "Shed<br>Material",
+            "Shed<br>Characteristics",
+            "Constraints and<br>Uses"
+          ],
+          [
+            "1",
+            "hot-dipped in zinc",
+            {
+              "html": "<div style=\"padding-left:1.3em;text-indent:-1.3em\">&mdash; expensive</div><div style=\"padding-left:1.3em;text-indent:-1.3em\">&mdash; can be used with any decking</div><div style=\"padding-left:1.3em;text-indent:-1.3em\">&mdash; coating doesn&rsquo;t chip off</div><div style=\"padding-left:1.3em;text-indent:-1.3em\">&mdash; does not rust</div>",
+              "align": "left"
+            },
+            "pressure-treated wood",
+            {
+              "html": "<div style=\"padding-left:1.3em;text-indent:-1.3em\">&mdash; moderately expensive</div><div style=\"padding-left:1.3em;text-indent:-1.3em\">&mdash; requires maintenance</div>",
+              "align": "left"
+            },
+            {
+              "html": "<div style=\"padding-left:1.3em;text-indent:-1.3em\">&mdash; not for coastal environments</div><div style=\"padding-left:1.3em;text-indent:-1.3em\">&mdash; nails can be used where corrosion is a concern</div>",
+              "align": "left"
+            }
+          ],
+          [
+            "2",
+            "hot-galvanized with iron zinc alloy",
+            {
+              "html": "<div style=\"padding-left:1.3em;text-indent:-1.3em\">&mdash; moderately expensive</div><div style=\"padding-left:1.3em;text-indent:-1.3em\">&mdash; can be used with any decking</div><div style=\"padding-left:1.3em;text-indent:-1.3em\">&mdash; coating thickness can vary affecting rust resistance</div>",
+              "align": "left"
+            },
+            "pressure-treated wood",
+            {
+              "html": "<div style=\"padding-left:1.3em;text-indent:-1.3em\">&mdash; moderately expensive</div><div style=\"padding-left:1.3em;text-indent:-1.3em\">&mdash; requires maintenance</div>",
+              "align": "left"
+            },
+            {
+              "html": "<div style=\"padding-left:1.3em;text-indent:-1.3em\">&mdash; nails cannot be used in water or underground</div><div style=\"padding-left:1.3em;text-indent:-1.3em\">&mdash; can be exposed to weather</div>",
+              "align": "left"
+            }
+          ],
+          [
+            "3",
+            "electro-galvanized in zinc powder",
+            {
+              "html": "<div style=\"padding-left:1.3em;text-indent:-1.3em\">&mdash; least expensive</div><div style=\"padding-left:1.3em;text-indent:-1.3em\">&mdash; cannot be used with pressure treated wood</div><div style=\"padding-left:1.3em;text-indent:-1.3em\">&mdash; will rust if exposed to air</div>",
+              "align": "left"
+            },
+            "untreated wood",
+            {
+              "html": "<div style=\"padding-left:1.3em;text-indent:-1.3em\">&mdash; least expensive</div><div style=\"padding-left:1.3em;text-indent:-1.3em\">&mdash; rots quickly</div>",
+              "align": "left"
+            },
+            {
+              "html": "<div style=\"padding-left:1.3em;text-indent:-1.3em\">&mdash; nails cannot be used in water or underground</div><div style=\"padding-left:1.3em;text-indent:-1.3em\">&mdash; wood does not last long outdoors</div>",
+              "align": "left"
+            }
+          ],
+          [
+            "4",
+            "stainless steel",
+            {
+              "html": "<div style=\"padding-left:1.3em;text-indent:-1.3em\">&mdash; most expensive</div><div style=\"padding-left:1.3em;text-indent:-1.3em\">&mdash; long lasting</div><div style=\"padding-left:1.3em;text-indent:-1.3em\">&mdash; does not rust</div>",
+              "align": "left"
+            },
+            "plastic composite boards",
+            {
+              "html": "<div style=\"padding-left:1.3em;text-indent:-1.3em\">&mdash; most expensive</div><div style=\"padding-left:1.3em;text-indent:-1.3em\">&mdash; long lasting</div><div style=\"padding-left:1.3em;text-indent:-1.3em\">&mdash; little maintenance</div>",
+              "align": "left"
+            },
+            {
+              "html": "<div style=\"padding-left:1.3em;text-indent:-1.3em\">&mdash; can be used in coastal environments</div>",
+              "align": "left"
+            }
+          ]
+        ],
+        "compact": true
+      }
+    ]
+  },
+  "items": [
+    {
+      "n": 24,
+      "stimulus": [
+        "intro",
+        "reaction"
+      ],
+      "type": "mc",
+      "pe": "MS-PS1-2",
+      "points": 1,
+      "stem": "Given this reaction, which statement correctly identifies the properties of the substances that are <i>different</i> before and after this reaction has taken place?",
+      "options": [
+        "Before the reaction oxygen is a gas, while after the reaction oxygen is part of solid rust.",
+        "Before the reaction iron is a solid, while after the reaction rust is a solid.",
+        "Before the reaction water is a vapor, while after the reaction water is a liquid.",
+        "Before the reaction the substances are a solid, a liquid, and a gas, while after the reaction the substances are a solid and a gas."
+      ],
+      "key": "A"
+    },
+    {
+      "n": 25,
+      "stimulus": [
+        "intro",
+        "reaction"
+      ],
+      "adapted": "The four answer-choice tables, printed as a 2x2 grid in the booklet, are stacked in a single column A to D on screen. Table content is unchanged.",
+      "type": "mc",
+      "pe": "MS-PS1-5",
+      "points": 1,
+      "stem": "Which table shows the <b>total</b> number of atoms in the reactants and the <b>total</b> number of atoms in the products for the chemical reaction?",
+      "options": [
+        "<table style=\"border-collapse:collapse;width:300px;margin:2px 0 4px\"><tr><td style=\"border:1px solid #000;padding:3px 8px;text-align:center;font-weight:700\">Element</td><td style=\"border:1px solid #000;padding:3px 8px;text-align:center;font-weight:700\">Reactants</td><td style=\"border:1px solid #000;padding:3px 8px;text-align:center;font-weight:700\">Products</td></tr><tr><td style=\"border:1px solid #000;padding:3px 8px;text-align:center;font-weight:400\">Iron</td><td style=\"border:1px solid #000;padding:3px 8px;text-align:center;font-weight:400\">5</td><td style=\"border:1px solid #000;padding:3px 8px;text-align:center;font-weight:400\">12</td></tr><tr><td style=\"border:1px solid #000;padding:3px 8px;text-align:center;font-weight:400\">Hydrogen</td><td style=\"border:1px solid #000;padding:3px 8px;text-align:center;font-weight:400\">8</td><td style=\"border:1px solid #000;padding:3px 8px;text-align:center;font-weight:400\">7</td></tr><tr><td style=\"border:1px solid #000;padding:3px 8px;text-align:center;font-weight:400\">Oxygen</td><td style=\"border:1px solid #000;padding:3px 8px;text-align:center;font-weight:400\">6</td><td style=\"border:1px solid #000;padding:3px 8px;text-align:center;font-weight:400\">6</td></tr></table>",
+        "<table style=\"border-collapse:collapse;width:300px;margin:2px 0 4px\"><tr><td style=\"border:1px solid #000;padding:3px 8px;text-align:center;font-weight:700\">Element</td><td style=\"border:1px solid #000;padding:3px 8px;text-align:center;font-weight:700\">Reactants</td><td style=\"border:1px solid #000;padding:3px 8px;text-align:center;font-weight:700\">Products</td></tr><tr><td style=\"border:1px solid #000;padding:3px 8px;text-align:center;font-weight:400\">Iron</td><td style=\"border:1px solid #000;padding:3px 8px;text-align:center;font-weight:400\">4</td><td style=\"border:1px solid #000;padding:3px 8px;text-align:center;font-weight:400\">4</td></tr><tr><td style=\"border:1px solid #000;padding:3px 8px;text-align:center;font-weight:400\">Hydrogen</td><td style=\"border:1px solid #000;padding:3px 8px;text-align:center;font-weight:400\">6</td><td style=\"border:1px solid #000;padding:3px 8px;text-align:center;font-weight:400\">6</td></tr><tr><td style=\"border:1px solid #000;padding:3px 8px;text-align:center;font-weight:400\">Oxygen</td><td style=\"border:1px solid #000;padding:3px 8px;text-align:center;font-weight:400\">12</td><td style=\"border:1px solid #000;padding:3px 8px;text-align:center;font-weight:400\">12</td></tr></table>",
+        "<table style=\"border-collapse:collapse;width:300px;margin:2px 0 4px\"><tr><td style=\"border:1px solid #000;padding:3px 8px;text-align:center;font-weight:700\">Element</td><td style=\"border:1px solid #000;padding:3px 8px;text-align:center;font-weight:700\">Reactants</td><td style=\"border:1px solid #000;padding:3px 8px;text-align:center;font-weight:700\">Products</td></tr><tr><td style=\"border:1px solid #000;padding:3px 8px;text-align:center;font-weight:400\">Iron</td><td style=\"border:1px solid #000;padding:3px 8px;text-align:center;font-weight:400\">4</td><td style=\"border:1px solid #000;padding:3px 8px;text-align:center;font-weight:400\">4</td></tr><tr><td style=\"border:1px solid #000;padding:3px 8px;text-align:center;font-weight:400\">Hydrogen</td><td style=\"border:1px solid #000;padding:3px 8px;text-align:center;font-weight:400\">12</td><td style=\"border:1px solid #000;padding:3px 8px;text-align:center;font-weight:400\">12</td></tr><tr><td style=\"border:1px solid #000;padding:3px 8px;text-align:center;font-weight:400\">Oxygen</td><td style=\"border:1px solid #000;padding:3px 8px;text-align:center;font-weight:400\">12</td><td style=\"border:1px solid #000;padding:3px 8px;text-align:center;font-weight:400\">12</td></tr></table>",
+        "<table style=\"border-collapse:collapse;width:300px;margin:2px 0 4px\"><tr><td style=\"border:1px solid #000;padding:3px 8px;text-align:center;font-weight:700\">Element</td><td style=\"border:1px solid #000;padding:3px 8px;text-align:center;font-weight:700\">Reactants</td><td style=\"border:1px solid #000;padding:3px 8px;text-align:center;font-weight:700\">Products</td></tr><tr><td style=\"border:1px solid #000;padding:3px 8px;text-align:center;font-weight:400\">Iron</td><td style=\"border:1px solid #000;padding:3px 8px;text-align:center;font-weight:400\">1</td><td style=\"border:1px solid #000;padding:3px 8px;text-align:center;font-weight:400\">4</td></tr><tr><td style=\"border:1px solid #000;padding:3px 8px;text-align:center;font-weight:400\">Hydrogen</td><td style=\"border:1px solid #000;padding:3px 8px;text-align:center;font-weight:400\">8</td><td style=\"border:1px solid #000;padding:3px 8px;text-align:center;font-weight:400\">7</td></tr><tr><td style=\"border:1px solid #000;padding:3px 8px;text-align:center;font-weight:400\">Oxygen</td><td style=\"border:1px solid #000;padding:3px 8px;text-align:center;font-weight:400\">18</td><td style=\"border:1px solid #000;padding:3px 8px;text-align:center;font-weight:400\">7</td></tr></table>"
+      ],
+      "key": "C"
+    },
+    {
+      "n": 26,
+      "stimulus": [
+        "intro",
+        "reaction",
+        "experiment",
+        "results"
+      ],
+      "type": "cr",
+      "pe": "MS-PS1-2",
+      "points": 1,
+      "stem": "Use information from the chemical reaction to construct an explanation for the reason rust did <i>or</i> did not form in <b>one</b> of the test tubes. [1]",
+      "parts": [
+        {
+          "label": "Test tube number:",
+          "short": true,
+          "exemplar": "1"
+        },
+        {
+          "label": "Explanation:",
+          "exemplar": "Rust formed because the nail was exposed to both oxygen and water in the test tube."
+        }
+      ],
+      "rubric": [
+        "Credit: Allow 1 credit for an acceptable response.",
+        "Test Tube 1: Rust formed because the nail was exposed to both oxygen and water in the test tube.",
+        "Test Tube 1: Rust occurred because the nail was exposed to oxygen in the air and water.",
+        "Test Tube 2: Rust did not form because there was no oxygen in the test tube or the water.",
+        "Test Tube 2: Rust needs oxygen to form, and there was no oxygen.",
+        "Test Tube 3: Rust only forms when H<sub>2</sub>O and oxygen are present, and there was no H2O vapor in the test tube.",
+        "Test Tube 3: Rust did not form because there was no water vapor in the test tube, and rust needs H<sub>2</sub>O to form.",
+        "Note: If test tube 1 or 2 is selected, the student must state oxygen, not air."
+      ],
+      "exemplar": "Test tube number: 1. Explanation: Rust formed because the nail was exposed to both oxygen and water in the test tube."
+    },
+    {
+      "n": 27,
+      "stimulus": [
+        "intro",
+        "shed",
+        "designs"
+      ],
+      "type": "mc",
+      "pe": "MS-ETS1-2",
+      "points": 1,
+      "stem": "Which statement best explains why one of the designs meets <i>all</i> of the criteria and is the best choice for the shed materials?",
+      "options": [
+        "Design 1 is the best because the nails won&rsquo;t rust and it uses pressure-treated lumber.",
+        "Design 2 is the best because the nails are not expensive and it uses pressure-treated lumber.",
+        "Design 3 is the best because the nails and the untreated wood for the shed are the least expensive.",
+        "Design 4 is the best because the nails and shed materials will not rust and are long lasting."
+      ],
+      "key": "A"
+    }
+  ]
+}

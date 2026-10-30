@@ -1,0 +1,352 @@
+{
+  "id": "g5-2026-hurricane-formation",
+  "title": "Hurricane Formation",
+  "grade": 5,
+  "subject": "Science",
+  "year": "2026",
+  "source": "NYSED 2026 Grade 5 ELS Released Items, Questions 24-27",
+  "pes": [
+    "3-ESS2-1",
+    "3-ESS2-2",
+    "3-ESS2-3"
+  ],
+  "directions": "Base your answers to questions 24 through 27 on the information below and on your knowledge of science.",
+  "showKeyAfterSubmit": true,
+  "stimuli": {
+    "intro": [
+      {
+        "type": "title",
+        "text": "Hurricane Formation"
+      },
+      {
+        "type": "p",
+        "html": "Hurricanes form from smaller storms. Heat energy in warm ocean water causes water vapor to enter the atmosphere. This vapor rises and cools, creating a storm system that forms clouds. Water falls back to Earth as rain. The storm starts to spin due to Earth’s rotation. For storms to strengthen, there needs to be a continuous supply of warm ocean water. The storm spins around a center, called the eye. The winds in a hurricane are 74 miles per hour (mph) or greater. The strongest winds and thunderstorms occur at the edge of the eye, called the eyewall. Bands of rain clouds circle around the eye."
+      },
+      {
+        "type": "p",
+        "html": "The photograph below shows a satellite image of a hurricane. Some parts of a hurricane are labeled. Arrows show the pattern of winds around the eye."
+      },
+      {
+        "type": "figure",
+        "src": "hurricane-photo.png",
+        "alt": "Black-and-white satellite photograph of a hurricane seen from above, with swirling clouds around a small dark center. Labels point to the rain cloud bands, the eyewall, the eye and ocean surface at the center, and the ocean surface near the lower right. Curved arrows circle the eye in a counterclockwise direction to show the pattern of winds.",
+        "width": 561
+      }
+    ],
+    "harvey": [
+      {
+        "type": "p",
+        "html": "Hurricane Harvey was a strong hurricane that made landfall on August 25, 2017 near Rockport, Texas. The map below shows the path of the hurricane as it moved toward central Texas and then moved east over a body of water. Arrows show the path of the hurricane. Harvey remained within Texas borders for 60 hours."
+      },
+      {
+        "type": "figure",
+        "caption": "Path of Hurricane Harvey in Texas",
+        "src": "harvey-map.png",
+        "alt": "Map of the coast of Texas. Land is shaded gray and labeled Texas, Mexico, and Louisiana; the body of water is white. Dots mark Houston and Rockport. A line with arrows shows the path of the hurricane: it comes from the water in the southeast, crosses the coast at Rockport, moves northwest to a point in central Texas, turns back southeast over the water, and then curves northeast into Louisiana. A compass rose shows north at the top.",
+        "width": 516
+      }
+    ],
+    "houstonWeather": [
+      {
+        "type": "p",
+        "html": "The graphs show some information about weather conditions in Houston, Texas in the last week in August, 2017."
+      },
+      {
+        "type": "figure",
+        "caption": "Average Air Temperature in Houston, Texas",
+        "src": "houston-temp-aug.png",
+        "alt": "Line graph of average air temperature in degrees Fahrenheit, from 70 to 90, for each date from August 23 to September 1. Approximate values: Aug. 23, 87; Aug. 24, 86; Aug. 25, 79; Aug. 26, 81; Aug. 27, 78; Aug. 28, 76; Aug. 29, 74; Aug. 30, 81; Aug. 31, 83; Sep. 1, 83.",
+        "width": 570
+      },
+      {
+        "type": "figure",
+        "caption": "Amount of Precipitation in Houston, Texas",
+        "src": "houston-precip-aug.png",
+        "alt": "Line graph of precipitation in inches, from 0 to 12, for each date from August 23 to September 1. Approximate values: Aug. 23, 0; Aug. 24, 0; Aug. 25, 0; Aug. 26, 2.8; Aug. 27, 4.3; Aug. 28, 5.8; Aug. 29, 10.5; Aug. 30, 1.2; Aug. 31, 0; Sep. 1, 0.",
+        "width": 554
+      },
+      {
+        "type": "figure",
+        "caption": "Maximum Wind Speed in Houston, Texas",
+        "src": "houston-wind-aug.png",
+        "alt": "Line graph of maximum wind speed in miles per hour, from 0 to 35, for each date from August 23 to September 1. Approximate values: Aug. 23, 12; Aug. 24, 15; Aug. 25, 26; Aug. 26, 24; Aug. 27, 16; Aug. 28, 32; Aug. 29, 33; Aug. 30, 24; Aug. 31, 16; Sep. 1, 6.",
+        "width": 555
+      }
+    ],
+    "houstonClimate": [
+      {
+        "type": "p",
+        "html": "Hurricanes usually develop in the southern regions of the Atlantic Ocean instead of the northern regions of the Atlantic Ocean."
+      },
+      {
+        "type": "p",
+        "html": "The graphs and table below show some information about the climate of Houston, Texas."
+      },
+      {
+        "type": "figure",
+        "caption": "Monthly Average High and Low Air Temperatures in Houston, Texas",
+        "src": "houston-temp.png",
+        "alt": "Line graph of temperature in degrees Celsius, from 0 to 40, for each month from January to December, with two lines. Average high temperature, approximately: Jan. 17, Feb. 19, Mar. 23, Apr. 26, May 30, Jun. 33, Jul. 34, Aug. 35, Sep. 32, Oct. 28, Nov. 23, Dec. 18. Average low temperature, approximately: Jan. 7, Feb. 9, Mar. 13, Apr. 17, May 20, Jun. 24, Jul. 25, Aug. 25, Sep. 22, Oct. 17, Nov. 12, Dec. 9.",
+        "width": 522
+      },
+      {
+        "type": "figure",
+        "caption": "Monthly Average Precipitation in Houston, Texas",
+        "src": "houston-precip.png",
+        "alt": "Bar graph of precipitation in millimeters, from 0 to 200, for each month. Approximate values: Jan. 100, Feb. 68, Mar. 91, Apr. 125, May 161, Jun. 121, Jul. 190, Aug. 149, Sep. 158, Oct. 156, Nov. 102, Dec. 93.",
+        "width": 536
+      },
+      {
+        "type": "table",
+        "caption": "Monthly Average Surface Water Temperature of the Body of Water near Houston, Texas",
+        "compact": true,
+        "rowHeaders": true,
+        "rows": [
+          [
+            "Month",
+            "Jan.",
+            "Feb.",
+            "Mar.",
+            "Apr.",
+            "May",
+            "June",
+            "July",
+            "Aug.",
+            "Sept.",
+            "Oct.",
+            "Nov.",
+            "Dec."
+          ],
+          [
+            "Temperature<br><span style=\"font-weight:400\">(°F)</span>",
+            "55.9",
+            "57.6",
+            "65.0",
+            "71.3",
+            "77.7",
+            "83.5",
+            "85.9",
+            "86.4",
+            "83.3",
+            "76.0",
+            "65.8",
+            "58.8"
+          ]
+        ]
+      }
+    ],
+    "worldMap": [
+      {
+        "type": "p",
+        "html": "The map below shows the location of Houston, Texas and New York City."
+      },
+      {
+        "type": "figure",
+        "caption": "World Map",
+        "src": "world-map.png",
+        "alt": "World map with the equator drawn as a horizontal line across it. Land in the Northern Hemisphere, above the equator, is shaded light gray, and land in the Southern Hemisphere, below the equator, is shaded dark gray. Dots in North America mark New York City and Houston, TX.",
+        "width": 537
+      }
+    ],
+    "nycClimate": [
+      {
+        "type": "p",
+        "html": "The graphs and table below show some information about the climate of New York City."
+      },
+      {
+        "type": "figure",
+        "caption": "Monthly Average High and Low Air Temperatures in New York City",
+        "src": "nyc-temp.png",
+        "alt": "Line graph of temperature in degrees Celsius, from negative 10 to 40, for each month from January to December, with two lines. Average high temperature, approximately: Jan. 4, Feb. 5, Mar. 10, Apr. 16, May 22, Jun. 27, Jul. 30, Aug. 29, Sep. 25, Oct. 19, Nov. 12, Dec. 8. Average low temperature, approximately: Jan. negative 2, Feb. negative 3, Mar. 2, Apr. 8, May 13, Jun. 19, Jul. 22, Aug. 21, Sep. 18, Oct. 12, Nov. 6, Dec. 2.",
+        "width": 534
+      },
+      {
+        "type": "figure",
+        "caption": "Monthly Average Precipitation in New York City",
+        "src": "nyc-precip.png",
+        "alt": "Bar graph of precipitation in millimeters, from 0 to 200, for each month. Approximate values: Jan. 95, Feb. 85, Mar. 101, Apr. 107, May 113, Jun. 140, Jul. 115, Aug. 123, Sep. 100, Oct. 110, Nov. 75, Dec. 129.",
+        "width": 518
+      },
+      {
+        "type": "table",
+        "caption": "Monthly Average Surface Water Temperature of Atlantic Ocean near New York City",
+        "compact": true,
+        "rowHeaders": true,
+        "rows": [
+          [
+            "Month",
+            "Jan.",
+            "Feb.",
+            "Mar.",
+            "Apr.",
+            "May",
+            "June",
+            "July",
+            "Aug.",
+            "Sept.",
+            "Oct.",
+            "Nov.",
+            "Dec."
+          ],
+          [
+            "Temperature<br><span style=\"font-weight:400\">(°F)</span>",
+            "40.6",
+            "38.4",
+            "41.0",
+            "47.7",
+            "56.9",
+            "66.1",
+            "72.1",
+            "74.9",
+            "72.4",
+            "64.4",
+            "54.4",
+            "46.2"
+          ]
+        ]
+      }
+    ]
+  },
+  "items": [
+    {
+      "n": 24,
+      "stimulus": [
+        "intro"
+      ],
+      "type": "mc",
+      "pe": "3-ESS2-3",
+      "points": 1,
+      "stem": "<p>The table below describes water cycle processes that are the cause of or the effect of hurricane formation. Two processes are labeled 1 and 2.</p><table class=\"stim-table\" style=\"margin:14px 0 16px;width:100%\"><tr><th style=\"width:22%\">Process</th><th>Description in Hurricane Formation</th></tr><tr><td>1</td><td style=\"text-align:left\">Heat energy in warm ocean water causes water vapor to enter the atmosphere.</td></tr><tr><td>2</td><td style=\"text-align:left\">Water vapor cools as it rises in the air, forming clouds.</td></tr><tr><td>precipitation</td><td style=\"text-align:left\">Rain falls back to Earth in bands of storms around the eye of the hurricane.</td></tr><tr><td>runoff</td><td style=\"text-align:left\">Water on Earth’s surface from thunderstorms in hurricanes moves into lakes and rivers.</td></tr></table><p>Which set of water cycle processes correctly completes the table?</p>",
+      "options": [
+        "<span style=\"display:inline-block;min-width:12em\">1-groundwater flow</span> 2-condensation",
+        "<span style=\"display:inline-block;min-width:12em\">1-evaporation</span> 2-groundwater flow",
+        "<span style=\"display:inline-block;min-width:12em\">1-condensation</span> 2-evaporation",
+        "<span style=\"display:inline-block;min-width:12em\">1-evaporation</span> 2-condensation"
+      ],
+      "key": "D"
+    },
+    {
+      "n": 25,
+      "stimulus": [
+        "houstonWeather",
+        "harvey"
+      ],
+      "type": "multi",
+      "pe": "3-ESS2-1",
+      "points": 1,
+      "stem": "Based on the information in the graphs, select <b>one</b> date from the table during which the greatest effects of Hurricane Harvey in Houston, Texas were recorded.",
+      "parts": [
+        {
+          "type": "table",
+          "table": {
+            "header": false,
+            "caption": "Date",
+            "rows": [
+              [
+                "<div style=\"text-align:left\">August 27, 2017</div>",
+                {
+                  "check": "aug27",
+                  "group": "date"
+                }
+              ],
+              [
+                "<div style=\"text-align:left\">August 28, 2017</div>",
+                {
+                  "check": "aug28",
+                  "group": "date"
+                }
+              ],
+              [
+                "<div style=\"text-align:left\">August 29, 2017</div>",
+                {
+                  "check": "aug29",
+                  "group": "date"
+                }
+              ]
+            ],
+            "labels": {
+              "aug27": "August 27, 2017",
+              "aug28": "August 28, 2017",
+              "aug29": "August 29, 2017"
+            }
+          },
+          "key": {
+            "aug29": true
+          }
+        },
+        {
+          "type": "dragdrop",
+          "label": "Then, complete the passage below by placing the correct term in <i>each</i> box from the choices given. Terms may be used more than once. [1]",
+          "bankTitle": "Term Choices:",
+          "reuse": true,
+          "choices": [
+            {
+              "id": "decrease",
+              "text": "decrease"
+            },
+            {
+              "id": "increase",
+              "text": "increase"
+            },
+            {
+              "id": "constant",
+              "text": "remain constant"
+            }
+          ],
+          "target": {
+            "title": "Passage",
+            "html": "Based on the patterns seen in the graphs, Hurricane Harvey caused the air temperature to [[z1]], the precipitation to [[z2]], and the wind speed to [[z3]].",
+            "zoneNames": {
+              "z1": "air temperature",
+              "z2": "precipitation",
+              "z3": "wind speed"
+            }
+          },
+          "key": {
+            "z1": "decrease",
+            "z2": "increase",
+            "z3": "increase"
+          }
+        }
+      ],
+      "adapted": "No wording change. The empty box beside each date is a select-to-check cell (one choice), and the term choices are dragged into the boxes in the passage. The date and the passage are two parts of one 1-credit question, and both must be correct for credit."
+    },
+    {
+      "n": 26,
+      "stimulus": [
+        "houstonClimate",
+        "intro"
+      ],
+      "type": "mc",
+      "pe": "3-ESS2-1",
+      "points": 1,
+      "stem": "Hurricanes strengthen over the body of water near Houston, Texas. Based on the information provided, which statement correctly describes the reason this happens?",
+      "options": [
+        "In late summer months, the increase in precipitation near Houston supplies energy to further develop storms into hurricanes.",
+        "In late summer months, the surface water temperature increases enough to supply energy for the development of hurricanes.",
+        "In the spring, the monthly surface water temperature is at its highest, supplying energy to help develop storms into hurricanes.",
+        "In the spring, the monthly precipitation near Houston is at its highest, supplying energy to help develop storms into hurricanes."
+      ],
+      "key": "B"
+    },
+    {
+      "n": 27,
+      "stimulus": [
+        "worldMap",
+        "houstonClimate",
+        "nycClimate"
+      ],
+      "type": "mc",
+      "pe": "3-ESS2-2",
+      "points": 1,
+      "stem": "Based on the information in the map and graphs, which statement correctly compares the locations and climate conditions of Houston, Texas, to New York City?",
+      "options": [
+        "Houston is closer to the equator, has greater air temperatures in winter months, and more precipitation in December.",
+        "Houston is closer to the equator, has greater air temperatures in summer months, and more precipitation in July.",
+        "New York City is closer to the equator, has lower air temperatures in winter months, and less precipitation in July.",
+        "New York City is closer to the equator, has lower air temperatures in summer months, and greater precipitation in December."
+      ],
+      "key": "B"
+    }
+  ]
+}

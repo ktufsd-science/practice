@@ -1,0 +1,560 @@
+{
+  "clusters": [
+    {
+      "id": "g5-2024-animal-senses",
+      "grade": 5,
+      "title": "Animal Senses",
+      "year": "2024",
+      "questions": 4,
+      "pes": [
+        "4-LS1-2",
+        "4-PS4-2"
+      ],
+      "numbers": "1–4"
+    },
+    {
+      "id": "g5-2024-identifying-substances",
+      "grade": 5,
+      "title": "Identifying Substances",
+      "year": "2024",
+      "questions": 5,
+      "pes": [
+        "5-PS1-3",
+        "5-PS1-1",
+        "5-PS1-4"
+      ],
+      "numbers": "19–23"
+    },
+    {
+      "id": "g5-2024-magnets-and-electromagnets",
+      "grade": 5,
+      "title": "Magnets and Electromagnets",
+      "year": "2024",
+      "questions": 5,
+      "pes": [
+        "3-PS2-3",
+        "3-PS2-4",
+        "3-5-ETS1-3"
+      ],
+      "numbers": "30–34"
+    },
+    {
+      "id": "g5-2024-meerkats",
+      "grade": 5,
+      "title": "Meerkats",
+      "year": "2024",
+      "questions": 6,
+      "pes": [
+        "4-LS1-1",
+        "5-LS2-1",
+        "3-LS4-2",
+        "3-LS2-1",
+        "3-LS3-2",
+        "3-LS4-4"
+      ],
+      "numbers": "24–29"
+    },
+    {
+      "id": "g5-2024-motion-of-golf-balls",
+      "grade": 5,
+      "title": "Motion of Golf Balls",
+      "year": "2024",
+      "questions": 5,
+      "pes": [
+        "4-PS3-1",
+        "3-PS2-1",
+        "4-PS3-2",
+        "3-5-ETS1-2",
+        "4-PS3-3"
+      ],
+      "numbers": "5–9"
+    },
+    {
+      "id": "g5-2024-most-important-fish",
+      "grade": 5,
+      "title": "The Most Important Fish in the Ocean",
+      "year": "2024",
+      "questions": 4,
+      "pes": [
+        "5-ESS3-1",
+        "4-ESS2-2"
+      ],
+      "numbers": "15–18"
+    },
+    {
+      "id": "g5-2024-weather-patterns",
+      "grade": 5,
+      "title": "Weather Patterns in the United States",
+      "year": "2024",
+      "questions": 5,
+      "pes": [
+        "3-ESS2-1",
+        "3-ESS2-2",
+        "3-ESS3-1",
+        "4-ESS2-1"
+      ],
+      "numbers": "10–14"
+    },
+    {
+      "id": "g5-2025-investigations-with-balloons",
+      "grade": 5,
+      "title": "Investigations with Balloons",
+      "year": "2025",
+      "questions": 6,
+      "pes": [
+        "3-PS2-1",
+        "3-PS2-3",
+        "3-5-ETS1-3",
+        "4-PS3-2"
+      ],
+      "numbers": "31–36"
+    },
+    {
+      "id": "g5-2025-earthquakes-ring-of-fire",
+      "grade": 5,
+      "title": "Patterns of Earthquakes and the Ring of Fire",
+      "year": "2025",
+      "questions": 5,
+      "pes": [
+        "4-ESS2-2",
+        "3-5-ETS1-2"
+      ],
+      "numbers": "11–15"
+    },
+    {
+      "id": "g5-2025-properties-of-substances",
+      "grade": 5,
+      "title": "Properties of Substances",
+      "year": "2025",
+      "questions": 5,
+      "pes": [
+        "5-PS1-4",
+        "5-PS1-2",
+        "5-PS1-1",
+        "5-PS1-3"
+      ],
+      "numbers": "6–10"
+    },
+    {
+      "id": "g5-2025-solar-system-patterns",
+      "grade": 5,
+      "title": "Solar System Patterns",
+      "year": "2025",
+      "questions": 5,
+      "pes": [
+        "5-ESS1-1",
+        "5-ESS1-2"
+      ],
+      "numbers": "26–30"
+    },
+    {
+      "id": "g5-2025-albany-pine-bush",
+      "grade": 5,
+      "title": "The Albany Pine Bush Ecosystem",
+      "year": "2025",
+      "questions": 5,
+      "pes": [
+        "5-LS2-1",
+        "5-PS3-1",
+        "3-LS1-1",
+        "3-LS4-3",
+        "3-LS4-4"
+      ],
+      "numbers": "21–25"
+    },
+    {
+      "id": "g5-2025-traits-and-survival-of-dogs",
+      "grade": 5,
+      "title": "Traits and Survival of Dogs",
+      "year": "2025",
+      "questions": 5,
+      "pes": [
+        "3-LS3-1",
+        "3-LS3-2",
+        "3-LS1-1",
+        "3-LS2-1"
+      ],
+      "numbers": "1–5"
+    },
+    {
+      "id": "g5-2026-hurricane-formation",
+      "grade": 5,
+      "title": "Hurricane Formation",
+      "year": "2026",
+      "questions": 4,
+      "pes": [
+        "3-ESS2-3",
+        "3-ESS2-1",
+        "3-ESS2-2"
+      ],
+      "numbers": "24–27"
+    },
+    {
+      "id": "g5-2026-information-transfer",
+      "grade": 5,
+      "title": "Information Transfer",
+      "year": "2026",
+      "questions": 5,
+      "pes": [
+        "4-PS4-3",
+        "4-PS3-2",
+        "4-PS3-3",
+        "3-5-ETS1-2",
+        "4-PS4-1"
+      ],
+      "numbers": "14–18"
+    },
+    {
+      "id": "g5-2026-locust-trees",
+      "grade": 5,
+      "title": "Locust Trees",
+      "year": "2026",
+      "questions": 4,
+      "pes": [
+        "4-LS1-1",
+        "3-LS3-1",
+        "5-LS2-1"
+      ],
+      "numbers": "28–31"
+    },
+    {
+      "id": "g5-2026-minerals",
+      "grade": 5,
+      "title": "Minerals of New York State",
+      "year": "2026",
+      "questions": 5,
+      "pes": [
+        "5-PS1-3",
+        "5-PS1-2",
+        "5-PS1-4"
+      ],
+      "numbers": "5–9"
+    },
+    {
+      "id": "g5-2026-natural-energy-resources",
+      "grade": 5,
+      "title": "Natural Energy Resources",
+      "year": "2026",
+      "questions": 4,
+      "pes": [
+        "5-ESS2-1",
+        "4-ESS3-1",
+        "5-ESS3-1",
+        "4-PS3-2"
+      ],
+      "numbers": "32–35"
+    },
+    {
+      "id": "g5-2026-sunlight-and-starlight",
+      "grade": 5,
+      "title": "Sunlight and Starlight",
+      "year": "2026",
+      "questions": 4,
+      "pes": [
+        "4-PS4-2",
+        "5-ESS1-2"
+      ],
+      "numbers": "1–4"
+    },
+    {
+      "id": "g5-2026-wolves-in-yellowstone",
+      "grade": 5,
+      "title": "Wolves in Yellowstone National Park",
+      "year": "2026",
+      "questions": 4,
+      "pes": [
+        "3-LS2-1",
+        "3-LS4-2",
+        "5-LS2-1",
+        "3-LS4-3"
+      ],
+      "numbers": "10–13"
+    },
+    {
+      "id": "g8-2025-guppies",
+      "grade": 8,
+      "title": "Behavior and Evolution of Guppies",
+      "year": "2025",
+      "questions": 5,
+      "pes": [
+        "MS-LS3-2",
+        "MS-LS4-2",
+        "MS-LS4-6",
+        "MS-LS2-4",
+        "MS-LS2-5"
+      ],
+      "numbers": "47–51"
+    },
+    {
+      "id": "g8-2025-earths-tectonic-plates",
+      "grade": 8,
+      "title": "Earth’s Tectonic Plates",
+      "year": "2025",
+      "questions": 4,
+      "pes": [
+        "MS-ESS2-3",
+        "MS-ESS1-4"
+      ],
+      "numbers": "28–31"
+    },
+    {
+      "id": "g8-2025-energies-of-dropped-marbles",
+      "grade": 8,
+      "title": "Energies of Dropped Marbles",
+      "year": "2025",
+      "questions": 5,
+      "pes": [
+        "MS-PS3-1",
+        "MS-PS3-5",
+        "MS-PS3-2"
+      ],
+      "numbers": "52–56"
+    },
+    {
+      "id": "g8-2025-maple-syrup-production",
+      "grade": 8,
+      "title": "Maple Syrup Production",
+      "year": "2025",
+      "questions": 5,
+      "pes": [
+        "MS-PS1-4",
+        "MS-PS1-7",
+        "MS-PS1-3",
+        "MS-PS1-2"
+      ],
+      "numbers": "1–5"
+    },
+    {
+      "id": "g8-2025-mount-lyell-glacier",
+      "grade": 8,
+      "title": "Mount Lyell and the Lyell Glacier",
+      "year": "2025",
+      "questions": 4,
+      "pes": [
+        "MS-ESS2-4",
+        "MS-ESS3-5",
+        "MS-ESS2-6",
+        "MS-ESS3-2"
+      ],
+      "numbers": "6–9"
+    },
+    {
+      "id": "g8-2025-observing-jupiter",
+      "grade": 8,
+      "title": "Observing Jupiter",
+      "year": "2025",
+      "questions": 5,
+      "pes": [
+        "MS-ESS1-3",
+        "MS-PS2-4",
+        "MS-ESS1-2",
+        "MS-ETS1-1"
+      ],
+      "numbers": "14–18"
+    },
+    {
+      "id": "g8-2025-organ-systems-and-responses",
+      "grade": 8,
+      "title": "Organ Systems and Responses",
+      "year": "2025",
+      "questions": 5,
+      "pes": [
+        "MS-LS1-3",
+        "MS-LS1-8",
+        "MS-LS1-2",
+        "MS-LS1-7"
+      ],
+      "numbers": "19–23"
+    },
+    {
+      "id": "g8-2025-practical-applications-of-magnetism",
+      "grade": 8,
+      "title": "Practical Applications of Magnetism",
+      "year": "2025",
+      "questions": 5,
+      "pes": [
+        "MS-PS2-3",
+        "MS-PS2-5",
+        "MS-PS2-2",
+        "MS-PS3-5"
+      ],
+      "numbers": "42–46"
+    },
+    {
+      "id": "g8-2025-rust",
+      "grade": 8,
+      "title": "Rust",
+      "year": "2025",
+      "questions": 4,
+      "pes": [
+        "MS-PS1-2",
+        "MS-PS1-5",
+        "MS-ETS1-2"
+      ],
+      "numbers": "24–27"
+    },
+    {
+      "id": "g8-2025-sickle-cell-anemia",
+      "grade": 8,
+      "title": "Sickle Cell Anemia",
+      "year": "2025",
+      "questions": 5,
+      "pes": [
+        "MS-LS3-1",
+        "MS-LS3-2",
+        "MS-LS4-5"
+      ],
+      "numbers": "37–41"
+    },
+    {
+      "id": "g8-2025-lake-erie-ecosystem",
+      "grade": 8,
+      "title": "The Lake Erie Ecosystem",
+      "year": "2025",
+      "questions": 4,
+      "pes": [
+        "MS-LS2-2",
+        "MS-LS2-4",
+        "MS-ESS3-2",
+        "MS-ESS3-4"
+      ],
+      "numbers": "10–13"
+    },
+    {
+      "id": "g8-2026-acoustic-levitation",
+      "grade": 8,
+      "title": "Acoustic Levitation",
+      "year": "2026",
+      "questions": 4,
+      "pes": [
+        "MS-PS4-2",
+        "MS-PS4-1",
+        "MS-PS1-7"
+      ],
+      "numbers": "6–9"
+    },
+    {
+      "id": "g8-2026-ammonia-nitrogen-cycle",
+      "grade": 8,
+      "title": "Ammonia and the Nitrogen Cycle",
+      "year": "2026",
+      "questions": 4,
+      "pes": [
+        "MS-PS1-1",
+        "MS-PS1-5",
+        "MS-LS2-2",
+        "MS-LS2-4"
+      ],
+      "numbers": "25–28"
+    },
+    {
+      "id": "g8-2026-cowbirds",
+      "grade": 8,
+      "title": "Cowbirds",
+      "year": "2026",
+      "questions": 5,
+      "pes": [
+        "MS-LS2-2",
+        "MS-LS2-3",
+        "MS-LS2-1"
+      ],
+      "numbers": "1–5"
+    },
+    {
+      "id": "g8-2026-forces-and-fields",
+      "grade": 8,
+      "title": "Forces and Fields",
+      "year": "2026",
+      "questions": 5,
+      "pes": [
+        "MS-PS2-5",
+        "MS-PS3-2",
+        "MS-PS2-2",
+        "MS-PS2-3"
+      ],
+      "numbers": "15–19"
+    },
+    {
+      "id": "g8-2026-giraffe-adaptations",
+      "grade": 8,
+      "title": "Giraffe Adaptations and Population Changes",
+      "year": "2026",
+      "questions": 5,
+      "pes": [
+        "MS-LS4-4",
+        "MS-LS4-2",
+        "MS-LS2-4",
+        "MS-LS2-5"
+      ],
+      "numbers": "44–48"
+    },
+    {
+      "id": "g8-2026-hard-boiled-eggs",
+      "grade": 8,
+      "title": "Hard-Boiled Eggs",
+      "year": "2026",
+      "questions": 5,
+      "pes": [
+        "MS-PS1-4",
+        "MS-PS1-2",
+        "MS-PS3-4",
+        "MS-PS1-5"
+      ],
+      "numbers": "39–43"
+    },
+    {
+      "id": "g8-2026-plate-tectonics",
+      "grade": 8,
+      "title": "Plate Tectonics",
+      "year": "2026",
+      "questions": 5,
+      "pes": [
+        "MS-ESS2-3",
+        "MS-ESS2-1"
+      ],
+      "numbers": "34–38"
+    },
+    {
+      "id": "g8-2026-quaking-aspen",
+      "grade": 8,
+      "title": "Quaking Aspen",
+      "year": "2026",
+      "questions": 5,
+      "pes": [
+        "MS-LS1-5",
+        "MS-LS1-4",
+        "MS-LS3-2",
+        "MS-LS1-6",
+        "MS-ETS1-2"
+      ],
+      "numbers": "20–24"
+    },
+    {
+      "id": "g8-2026-scale-properties-solar-system",
+      "grade": 8,
+      "title": "Scale Properties in Our Solar System",
+      "year": "2026",
+      "questions": 4,
+      "pes": [
+        "MS-ESS1-2",
+        "MS-PS2-4",
+        "MS-ESS1-3"
+      ],
+      "numbers": "49–52"
+    },
+    {
+      "id": "g8-2026-niagara-falls",
+      "grade": 8,
+      "title": "The Changing Landscape of Niagara Falls",
+      "year": "2026",
+      "questions": 5,
+      "pes": [
+        "MS-ESS2-4",
+        "MS-ESS2-1",
+        "MS-ESS2-2",
+        "MS-ESS3-4"
+      ],
+      "numbers": "10–14"
+    }
+  ]
+}

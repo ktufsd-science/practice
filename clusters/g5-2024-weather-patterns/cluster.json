@@ -1,0 +1,175 @@
+{
+  "id": "g5-2024-weather-patterns",
+  "title": "Weather Patterns in the United States",
+  "grade": 5,
+  "subject": "Science",
+  "year": "2024",
+  "source": "NYSED 2024 Grade 5 ELS Released Items, Questions 10-14",
+  "pes": [
+    "3-ESS2-1",
+    "3-ESS2-2",
+    "3-ESS3-1",
+    "4-ESS2-1"
+  ],
+  "directions": "Base your answers to questions 10 through 14 on the information below and on your knowledge of science.",
+  "showKeyAfterSubmit": true,
+  "stimuli": {
+    "temps": [
+      {
+        "type": "title",
+        "text": "Weather Patterns in the United States"
+      },
+      {
+        "type": "p",
+        "html": "The maps below show the average daily air temperature ranges, in degrees Fahrenheit (°F), for areas in the United States during January and July."
+      },
+      {
+        "type": "figure",
+        "caption": "Average Daily Air Temperatures in January",
+        "src": "temp-january.png",
+        "alt": "Map of the United States in January. Areas are filled with patterns that match a legend titled Average Daily Temperature Ranges (°F), which lists ten ranges: greater than 86°, 77° to 86°, 68° to 77°, 59° to 68°, 50° to 59°, 41° to 50°, 32° to 41°, 23° to 32°, 14° to 23°, and less than 14°. Dots mark Los Angeles, Phoenix, Denver, Chicago, New York, Atlanta, and Houston. A compass rose shows north, south, east, and west.",
+        "width": 760
+      },
+      {
+        "type": "figure",
+        "caption": "Average Daily Air Temperatures in July",
+        "src": "temp-july.png",
+        "alt": "Map of the United States in July. Areas are filled with patterns that match a legend titled Average Daily Temperature Ranges (°F), which lists ten ranges: greater than 86°, 77° to 86°, 68° to 77°, 59° to 68°, 50° to 59°, 41° to 50°, 32° to 41°, 23° to 32°, 14° to 23°, and less than 14°. Dots mark Los Angeles, Phoenix, Denver, Chicago, New York, Atlanta, and Houston. A compass rose shows north, south, east, and west.",
+        "width": 760
+      }
+    ],
+    "rainfall": [
+      {
+        "type": "figure",
+        "caption": "Average Yearly Rainfall in Inches (in) for Areas in the United States",
+        "src": "rainfall-map.png",
+        "alt": "Map of the United States. Areas are filled with five different patterns, one for each amount in the legend titled Rainfall (in): 120, 80, 40, 20, and 10. Dots mark Los Angeles, Phoenix, Denver, Chicago, New York, Atlanta, and Houston. A compass rose shows north, south, east, and west.",
+        "width": 760
+      }
+    ],
+    "flood": [
+      {
+        "type": "p",
+        "html": "Catastrophic flooding impacted Atlanta in September 2009. An estimated 10 to 20 inches of rain fell in less than 24 hours and historic flash flooding occurred. Over 20,000 homes and businesses had major damage."
+      }
+    ],
+    "photo": [
+      {
+        "type": "p",
+        "html": "The photograph below was taken by an observer after the flood in Atlanta."
+      },
+      {
+        "type": "figure",
+        "src": "flood-photo.png",
+        "alt": "Black-and-white photograph of a damaged road. Large broken pieces of pavement lie in a deep gap across the road, and a large ribbed metal pipe shows under the broken pavement. Guardrails run along both sides of the road, and a person walks on the undamaged road in the distance. Two labels, both reading Stream, point to water on the left side and on the right side of the road.",
+        "width": 600
+      }
+    ]
+  },
+  "items": [
+    {
+      "n": 10,
+      "stimulus": [
+        "temps"
+      ],
+      "type": "mc",
+      "pe": "3-ESS2-1",
+      "points": 1,
+      "stem": "Which bar graph represents the <b>highest</b> average daily air temperature that could occur in Atlanta in January and July?",
+      "options": [
+        {
+          "img": "graph-a.png",
+          "alt": "Bar graph of temperature in degrees Fahrenheit from 0 to 100. The January bar is at about 35. The July bar is at about 77.",
+          "width": 230
+        },
+        {
+          "img": "graph-b.png",
+          "alt": "Bar graph of temperature in degrees Fahrenheit from 0 to 100. The January bar is at 50. The July bar is at about 86.",
+          "width": 230
+        },
+        {
+          "img": "graph-c.png",
+          "alt": "Bar graph of temperature in degrees Fahrenheit from 0 to 100. The January bar is at about 55. The July bar is at about 82.",
+          "width": 230
+        },
+        {
+          "img": "graph-d.png",
+          "alt": "Bar graph of temperature in degrees Fahrenheit from 0 to 100. The January bar is at about 86. The July bar is at 50.",
+          "width": 230
+        }
+      ],
+      "key": "B"
+    },
+    {
+      "n": 11,
+      "stimulus": [
+        "temps"
+      ],
+      "type": "cr",
+      "pe": "3-ESS2-1",
+      "points": 1,
+      "stem": "Describe how the average daily air temperature changes as a person travels directly north from Houston. [1]",
+      "rubric": [
+        "Allow 1 credit. Acceptable responses include, but are not limited to:",
+        "The air temperatures get lower/colder traveling north from Houston.",
+        "Temperatures decrease moving northwards.",
+        "As one moves north, air temperatures decrease."
+      ],
+      "exemplar": "The air temperatures get lower/colder traveling north from Houston."
+    },
+    {
+      "n": 12,
+      "stimulus": [
+        "temps",
+        "rainfall"
+      ],
+      "type": "cr",
+      "pe": "3-ESS2-2",
+      "points": 1,
+      "stem": "Using data from the maps, support the claim that, even though Los Angeles and Atlanta are located at about the same latitude, Los Angeles has a different climate than Atlanta. Include information about temperature <i>and</i> rainfall in your answer. [1]",
+      "rubric": [
+        "Allow 1 credit. Acceptable responses include, but are not limited to:",
+        "Atlanta receives an average of 80 inches of rainfall and Los Angeles receives an average of 20 inches of rainfall. Atlanta’s average daily temperature is 77°–86° in July and Los Angeles is 68°–77°.",
+        "Los Angeles has less rainfall and, in July, cooler temperatures than Atlanta.",
+        "Atlanta has higher temperatures in July and more rainfall than Los Angeles.",
+        "In January, even though Los Angeles and Atlanta have the same average temperature range, Los Angeles has less annual rainfall."
+      ],
+      "exemplar": "Atlanta receives an average of 80 inches of rainfall and Los Angeles receives an average of 20 inches of rainfall. Atlanta’s average daily temperature is 77°–86° in July and Los Angeles is 68°–77°."
+    },
+    {
+      "n": 13,
+      "stimulus": [
+        "flood"
+      ],
+      "type": "mc",
+      "pe": "3-ESS3-1",
+      "points": 1,
+      "stem": "Which design solution would require the <b>fewest</b> steps to reduce future impacts of heavy rains on the residents of Atlanta?",
+      "options": [
+        "Build new roads that redirect rainwater to a single water treatment plant.",
+        "Provide free sandbags to every resident in Atlanta to place around the outside of their homes to keep the water out.",
+        "Keep existing overflow water pipes in sewer systems open to redirect water away from the city.",
+        "Create large open fields in many parts of the city to allow rainwater to soak into the soil."
+      ],
+      "key": "C"
+    },
+    {
+      "n": 14,
+      "stimulus": [
+        "flood",
+        "photo"
+      ],
+      "type": "mc",
+      "pe": "4-ESS2-1",
+      "points": 1,
+      "stem": "How did the heavy rainfall in 2009 most likely cause damage to this roadway?",
+      "options": [
+        "Heavy floodwater ran over and crushed the roadway into pieces.",
+        "Lightning during the storm struck the roadway, breaking it up.",
+        "Running water under the road caused an earthquake.",
+        "Water eroded soils from under the road, causing it to collapse."
+      ],
+      "key": "D"
+    }
+  ]
+}

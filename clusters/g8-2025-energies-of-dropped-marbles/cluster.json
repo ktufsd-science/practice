@@ -1,0 +1,106 @@
+{
+  "id": "g8-2025-energies-of-dropped-marbles",
+  "title": "Energies of Dropped Marbles",
+  "grade": 8,
+  "subject": "Science",
+  "year": "2025",
+  "source": "NYSED 2025 Grade 8 ILS Released Items, Questions 52-56",
+  "pes": ["MS-PS3-1", "MS-PS3-5", "MS-PS3-2"],
+  "directions": "Base your answers to questions 52 through 56 on the information below and on your knowledge of science.",
+  "showKeyAfterSubmit": true,
+  "stimuli": {
+    "intro": [
+      {"type": "title", "text": "Energies of Dropped Marbles"},
+      {"type": "p", "html": "Students investigated the relationship between speed and kinetic energy by dropping a glass marble (mass = 18.5 g) into a cup of flour. The depth of the marble in the flour is a measure of the kinetic energy of the marble upon impact. Four different drop heights (12.5 cm, 25 cm, 50 cm, and 100 cm) were investigated. The speed of the marble at impact was calculated for each of these heights. The data table below shows some data collected during this experiment."},
+      {"type": "table", "caption": "Data on a Dropped Marble", "rows": [
+        ["Height of Drop (cm)", "Speed (m/s)", "Depth of Marble in Flour (cm)", "Kinetic Energy (g&bull;m<sup>2</sup>/s<sup>2</sup>)"],
+        ["12.5", "1.6", "0.6", "23.7"],
+        ["25", "2.2", "1.3", "44.8"],
+        ["50", "3.1", "2.4", "88.9"],
+        ["100", "4.4", "4.1", ""]
+      ]}
+    ],
+    "formula": [
+      {"type": "p", "html": "The formula for determining kinetic energy (KE) is:"},
+      {"type": "html", "html": "<p style=\"text-align:center\">KE = 0.5 &times; (mass of marble) &times; (speed on impact)<sup>2</sup></p>"}
+    ]
+  },
+  "items": [
+    {
+      "n": 52,
+      "stimulus": ["intro"],
+      "type": "mc",
+      "pe": "MS-PS3-1",
+      "points": 1,
+      "stem": "What was the dependent variable in this investigation?",
+      "options": [
+        "material of marble",
+        "mass of marble",
+        "depth of marble in flour",
+        "height of drop"
+      ],
+      "key": "C"
+    },
+    {
+      "n": 53,
+      "stimulus": ["intro", "formula"],
+      "type": "mc",
+      "pe": "MS-PS3-1",
+      "points": 1,
+      "stem": "Which graph correctly shows the speed (m/s) and the resulting kinetic energy (g&bull;m<sup>2</sup>/s<sup>2</sup>) for each of the four different drop heights?",
+      "optionsLayout": "grid",
+      "options": [
+        {"img": "graph-a.png", "alt": "Graph titled Effect of Speed on Kinetic Energy, speed in meters per second on the horizontal axis and kinetic energy on the vertical axis. A smooth curve through four plotted points rises from about 0.7 meters per second and 25 on the kinetic energy axis to about 4.2 meters per second and 177, curving steeper toward the upper right.", "width": 180},
+        {"img": "graph-b.png", "alt": "Graph titled Effect of Speed on Kinetic Energy, speed in meters per second on the horizontal axis and kinetic energy on the vertical axis. Straight line segments connect four plotted points that rise from about 1.7 meters per second and 23 on the kinetic energy axis to about 4.4 meters per second and 179. The segments are steeper toward the upper right.", "width": 180},
+        {"img": "graph-c.png", "alt": "Graph titled Effect of Speed on Kinetic Energy, speed in meters per second on the horizontal axis and kinetic energy on the vertical axis. Straight line segments connect four plotted points that rise from about 1.5 meters per second and 14 on the kinetic energy axis to about 4.4 meters per second and 100, with the last point at 100 on the kinetic energy axis.", "width": 180},
+        {"img": "graph-d.png", "alt": "Graph titled Effect of Speed on Kinetic Energy, speed in meters per second on the horizontal axis and kinetic energy on the vertical axis. A single straight line passes through four plotted points rising from about 1.6 meters per second and 23 on the kinetic energy axis to about 4.3 meters per second and 133.", "width": 180}
+      ],
+      "key": "B"
+    },
+    {
+      "n": 54,
+      "stimulus": ["intro"],
+      "type": "cr",
+      "pe": "MS-PS3-5",
+      "points": 1,
+      "stem": "Identify the evidence from the data table that supports the claim that when work is done on or by the marble, the energy of the marble changes as energy is transferred to or from the marble. [1]",
+      "rubric": [
+        "Allow 1 credit. Acceptable responses include, but are not limited to:",
+        "As the height of the dropped marble increases, the depth of the marble in the flour increases.",
+        "As drop height increases, the speed of the marble increases.",
+        "The higher the drop height, the higher the energy of the marble."
+      ],
+      "exemplar": "As the height of the dropped marble increases, the depth of the marble in the flour increases."
+    },
+    {
+      "n": 55,
+      "stimulus": ["intro", "formula"],
+      "type": "cr",
+      "pe": "MS-PS3-1",
+      "points": 1,
+      "stem": "Students repeated the same investigation using a drop height of 50 cm, but used a glass marble that had a mass of 37.0 g instead of 18.5 g. The speed on impact remained 3.1 meters/second. Compare the kinetic energies of the two marbles upon impact with the flour. [1]",
+      "rubric": [
+        "Allow 1 credit. Acceptable responses include, but are not limited to:",
+        "If the mass of the marble is double, the kinetic energy is double.",
+        "If the mass increases, the kinetic energy on impact increases.",
+        "The kinetic energy would increase for the marble with a greater mass."
+      ],
+      "exemplar": "If the mass of the marble is double, the kinetic energy is double."
+    },
+    {
+      "n": 56,
+      "stimulus": ["intro"],
+      "type": "mc",
+      "pe": "MS-PS3-2",
+      "points": 1,
+      "stem": "Before each marble was dropped, the amount of potential energy the marble had was the greatest at",
+      "options": [
+        "12.5 cm because the amount of potential energy increases as the drop height increases",
+        "12.5 cm because the amount of potential energy increases as the drop height decreases",
+        "100 cm because the amount of potential energy increases as the drop height increases",
+        "100 cm because the amount of potential energy increases as the drop height decreases"
+      ],
+      "key": "C"
+    }
+  ]
+}

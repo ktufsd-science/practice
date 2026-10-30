@@ -1,0 +1,264 @@
+{
+  "id": "g5-2024-animal-senses",
+  "title": "Animal Senses",
+  "grade": 5,
+  "subject": "Science",
+  "year": "2024",
+  "source": "NYSED 2024 Grade 5 ELS Released Items, Questions 1-4",
+  "pes": [
+    "4-LS1-2",
+    "4-PS4-2"
+  ],
+  "directions": "Base your answers to questions 1 through 4 on the information below and on your knowledge of science.",
+  "showKeyAfterSubmit": true,
+  "stimuli": {
+    "intro": [
+      {
+        "type": "title",
+        "text": "Animal Senses"
+      },
+      {
+        "type": "p",
+        "html": "The model below provides information about some animals, some of their senses, and how these senses cause specific responses to the animals’ environments."
+      },
+      {
+        "type": "table",
+        "caption": "Animal Senses Model",
+        "rows": [
+          [
+            "Animal",
+            {
+              "html": "Senses Used",
+              "style": "white-space:nowrap"
+            },
+            "Structure/Responses"
+          ],
+          [
+            {
+              "html": "Eagle<br><img src=\"clusters/g5-2024-animal-senses/eagle.jpg\" alt=\"Photo of an eagle's head\" style=\"width:120px;display:block;margin:4px auto 0\">",
+              "valign": "top"
+            },
+            {
+              "html": "Sight",
+              "valign": "top",
+              "style": "padding-top:18px"
+            },
+            {
+              "html": "<ul style=\"margin:0;padding-left:1.1em\"><li style=\"margin-bottom:6px\">Eyes take up 50% of the eagle’s head</li><li>Eyes are located on side of head; can see four times farther than human eyes to spot prey two miles away</li></ul>",
+              "align": "left",
+              "valign": "top",
+              "style": "padding-top:18px"
+            }
+          ],
+          [
+            {
+              "html": "Dog<br><img src=\"clusters/g5-2024-animal-senses/dog.jpg\" alt=\"Photo of a dog\" style=\"width:120px;display:block;margin:4px auto 0\">",
+              "rowspan": 2,
+              "valign": "top"
+            },
+            {
+              "html": "Smell",
+              "valign": "top",
+              "style": "padding-top:18px;border-bottom:none"
+            },
+            {
+              "html": "<ul style=\"margin:0;padding-left:1.1em\"><li>Can smell 10,000 to 100,000 times better than humans; helps dogs track food sources in natural environment</li></ul>",
+              "align": "left",
+              "valign": "top",
+              "style": "padding-top:18px;border-bottom:none"
+            }
+          ],
+          [
+            {
+              "html": "Hearing",
+              "valign": "top",
+              "style": "border-top:none"
+            },
+            {
+              "html": "<ul style=\"margin:0;padding-left:1.1em\"><li>Can move ears in many different directions, allowing dogs to identify where sounds come from and to identify threats</li></ul>",
+              "align": "left",
+              "valign": "top",
+              "style": "border-top:none"
+            }
+          ],
+          [
+            {
+              "html": "Bat<br><img src=\"clusters/g5-2024-animal-senses/bat.jpg\" alt=\"Photo of a bat with its wings spread\" style=\"width:120px;display:block;margin:4px auto 0\">",
+              "rowspan": 2,
+              "valign": "top"
+            },
+            {
+              "html": "Sight",
+              "valign": "top",
+              "style": "padding-top:18px;border-bottom:none"
+            },
+            {
+              "html": "<ul style=\"margin:0;padding-left:1.1em\"><li>Not blind; well-developed vision to find food items</li></ul>",
+              "align": "left",
+              "valign": "top",
+              "style": "padding-top:18px;border-bottom:none"
+            }
+          ],
+          [
+            {
+              "html": "Hearing",
+              "valign": "top",
+              "style": "border-top:none"
+            },
+            {
+              "html": "<ul style=\"margin:0;padding-left:1.1em\"><li>Large ears are used to locate distant objects by sending out sound waves that are reflected back to the bat to locate prey</li></ul>",
+              "align": "left",
+              "valign": "top",
+              "style": "border-top:none"
+            }
+          ],
+          [
+            {
+              "html": "Elephant<br><img src=\"clusters/g5-2024-animal-senses/elephant.jpg\" alt=\"Photo of an elephant\" style=\"width:120px;display:block;margin:4px auto 0\">",
+              "rowspan": 2,
+              "valign": "top"
+            },
+            {
+              "html": "Touch/<br>“Hearing”",
+              "valign": "top",
+              "style": "padding-top:10px;border-bottom:none"
+            },
+            {
+              "html": "<ul style=\"margin:0;padding-left:1.1em\"><li>Has more sense receptors than other animals; receives sound vibrations from other elephants through feet to find mates</li></ul>",
+              "align": "left",
+              "valign": "top",
+              "style": "padding-top:10px;border-bottom:none"
+            }
+          ],
+          [
+            {
+              "html": "Smell",
+              "valign": "top",
+              "style": "border-top:none"
+            },
+            {
+              "html": "<ul style=\"margin:0;padding-left:1.1em\"><li>Uses scent clues to tell difference between two human tribes, to avoid tribes that hunt them</li></ul>",
+              "align": "left",
+              "valign": "top",
+              "style": "border-top:none"
+            }
+          ]
+        ]
+      }
+    ],
+    "frequencyModel": [
+      {
+        "type": "p",
+        "html": "The model below includes information about the different frequencies of sound waves that can be detected by humans, elephants, dogs, and bats. Sound is measured in hertz (Hz), the number of waves each second. The bars indicate the range of frequencies that each organism can hear."
+      },
+      {
+        "type": "figure",
+        "caption": "Sound Frequency Ranges Model",
+        "src": "frequency-model.png",
+        "alt": "Bar model under a Frequency (Hz) scale marked 0, 20, 20,000, 40,000, and 160,000. The marks are not evenly spaced, and vertical lines rise from 20, 20,000, and 40,000. Each bar has a picture and a label. Humans: bar from 20 to 20,000. Elephant: bar from just above 0 to a little above 20. Dog: bar from a little above 20 to 40,000. Bat: bar from partway between 20 and 20,000 to 160,000.",
+        "width": 620
+      }
+    ],
+    "trailModel": [
+      {
+        "type": "p",
+        "html": "The model below represents the path that a herd of elephants would take if given the choice when encountering the scents of two different tribes."
+      },
+      {
+        "type": "figure",
+        "caption": "Elephant Trail Model",
+        "src": "trail-model.png",
+        "alt": "A trail rises from a ground line, where the label reads Elephants on trail, and splits into two branches. The left branch, labeled Trail, leads to the Maasai Tribe. The right branch leads to the Kamba Tribe. Arrows run from the elephants up the right branch toward the Kamba Tribe. The left branch has no arrows.",
+        "width": 380
+      }
+    ]
+  },
+  "items": [
+    {
+      "n": 1,
+      "stimulus": [
+        "intro"
+      ],
+      "type": "cr",
+      "pe": "4-LS1-2",
+      "points": 1,
+      "stem": "<p>A student claimed that elephants and bats both receive sound information, but respond to the sounds differently.</p><p>Use information from the <i>Animal Senses Model</i> to support this claim. [1]</p>",
+      "rubric": [
+        "Allow 1 credit. Acceptable responses include, but are not limited to:",
+        "Elephants receive vibrations through the ground in order to find mates far away, while bats process reflected sound vibration received through their ears in order to locate prey/distant objects.",
+        "Elephants receive sound information through their feet in order to find mates, while bats receive sound through their ears to find prey.",
+        "Elephants use sound information to find mates, and bats use sound information to find prey."
+      ],
+      "exemplar": "Elephants receive sound information through their feet in order to find mates, while bats receive sound through their ears to find prey."
+    },
+    {
+      "n": 2,
+      "stimulus": [
+        "frequencyModel"
+      ],
+      "type": "mc",
+      "pe": "4-LS1-2",
+      "points": 1,
+      "stem": "Organisms respond to information in different ways. Which statement describes how two organisms could respond to a warning sound at 35,000 Hz?",
+      "options": [
+        "Humans cannot hear the sound to respond and elephants might stamp their feet.",
+        "Humans can hear the sound and respond and the dog might bark.",
+        "Humans cannot hear the sound to respond and the dog might bark.",
+        "Humans can hear the sound and respond and the bat might fly away from the sound."
+      ],
+      "key": "C"
+    },
+    {
+      "n": 3,
+      "stimulus": [
+        "trailModel",
+        "intro"
+      ],
+      "type": "mc",
+      "pe": "4-LS1-2",
+      "points": 1,
+      "stem": "Which type of information processing allows the herd of elephants to make this choice?",
+      "options": [
+        "Use memories stored in the brain to recall the Kamba tribe, which has hunted them in the past.",
+        "Use memories stored in the brain to recall the Maasai tribe, which has hunted them in the past.",
+        "Use memories stored in the trunk to recall the Kamba tribe, which has hunted them in the past.",
+        "Use memories stored in the trunk to recall the Maasai tribe, which has hunted them in the past."
+      ],
+      "key": "B"
+    },
+    {
+      "n": 4,
+      "stimulus": [],
+      "fullWidth": true,
+      "type": "mc",
+      "optionsLayout": "grid",
+      "pe": "4-PS4-2",
+      "points": 1,
+      "stem": "In the models below, arrows represent the path of light. Which model correctly represents the path of light that occurs between the eagle, its prey (mouse), and the Sun that allows the eagle to see its prey?",
+      "options": [
+        {
+          "img": "light-a.png",
+          "alt": "Model with photos labeled Prey (a mouse), Sun, and Eagle, and the note Not drawn to scale. One arrow points from the eagle to the prey. One arrow points from the Sun to the eagle.",
+          "width": 230
+        },
+        {
+          "img": "light-b.png",
+          "alt": "Model with photos labeled Prey (a mouse), Sun, and Eagle, and the note Not drawn to scale. One arrow points from the prey to the eagle. One arrow points from the eagle to the Sun.",
+          "width": 230
+        },
+        {
+          "img": "light-c.png",
+          "alt": "Model with photos labeled Prey (a mouse), Sun, and Eagle, and the note Not drawn to scale. One arrow points from the prey to the Sun. One arrow points from the Sun to the eagle.",
+          "width": 230
+        },
+        {
+          "img": "light-d.png",
+          "alt": "Model with photos labeled Prey (a mouse), Sun, and Eagle, and the note Not drawn to scale. One arrow points from the Sun to the prey. One arrow points from the prey to the eagle.",
+          "width": 230
+        }
+      ],
+      "key": "D",
+      "adapted": "On paper the four models are printed in a 2 by 2 grid with A and C in the top row and B and D in the bottom row. On screen the grid reads A, B in the top row and C, D in the bottom row; each letter keeps the same picture it has on paper."
+    }
+  ]
+}

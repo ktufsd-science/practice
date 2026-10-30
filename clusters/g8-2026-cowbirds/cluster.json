@@ -1,0 +1,214 @@
+{
+  "id": "g8-2026-cowbirds",
+  "title": "Cowbirds",
+  "grade": 8,
+  "subject": "Science",
+  "year": "2026",
+  "source": "NYSED 2026 Grade 8 ILS Released Items, Questions 1-5",
+  "pes": [
+    "MS-LS2-1",
+    "MS-LS2-2",
+    "MS-LS2-3"
+  ],
+  "directions": "Base your answers to questions 1 through 5 on the information below and on your knowledge of science.",
+  "showKeyAfterSubmit": true,
+  "stimuli": {
+    "intro": [
+      {
+        "type": "title",
+        "text": "Cowbirds"
+      },
+      {
+        "type": "p",
+        "html": "The brown-headed cowbird is a species of bird found in North America. It gets its name for the brown coloring on its head and its tendency to live with cows and bison on grassy fields. As these grazing animals roam, grasshoppers and other insects in the meadow grass are disturbed and change position, making themselves visible to cowbirds that feed on them. In addition to these insects, cowbirds feed upon other insects found on the backs of cows and bison."
+      },
+      {
+        "type": "figure",
+        "caption": "Brown-headed Cowbird on Bison",
+        "src": "bison.png",
+        "alt": "Photograph of a small brown-headed cowbird standing on the back of a large bison in a grassy field.",
+        "width": 420
+      }
+    ],
+    "foodweb": [
+      {
+        "type": "p",
+        "html": "The cowbird and bison are organisms commonly found in Midwest forest edge habitats in the United States. The model below represents a food web containing the cowbird, bison, and other organisms in the same ecosystem."
+      },
+      {
+        "type": "figure",
+        "caption": "Food Web",
+        "src": "foodweb.png",
+        "alt": "Food web. Sunflower has arrows to jackrabbit, grasshopper, cowbird, wood thrush, and ground squirrel. Meadow grass has arrows to grasshopper, wood thrush, bison, and ground squirrel. Grasshopper has an arrow to cowbird. Jackrabbit and cowbird have arrows to coyote. Cowbird, wood thrush, and ground squirrel have arrows to prairie snake.",
+        "width": 380
+      }
+    ],
+    "population": [
+      {
+        "type": "p",
+        "html": "Scientists have studied the population changes of the wood thrush and brown-headed cowbird, two bird species living in the same habitat. The graph below shows some information about these two bird species in the United States."
+      },
+      {
+        "type": "figure",
+        "caption": "Relative Population Sizes of Wood Thrush<br>and Brown-headed Cowbird in the United States",
+        "src": "population-graph.png",
+        "alt": "Line graph from 1973 to 2013. The wood thrush relative population decreases steadily from high to low. The brown-headed cowbird relative population increases slowly from low to slightly higher. The lines cross around 2001.",
+        "width": 480
+      }
+    ],
+    "nesting": [
+      {
+        "type": "p",
+        "html": "The brown-headed cowbird has an uncommon nesting behavior. Herds of bison migrate throughout the year over great distances. Due to their adaptation of living with bison and cattle, cowbirds cannot stay in one location to raise young in a nest. Therefore, cowbirds don't make nests but instead lay their eggs in the nests of other bird species. The unsuspecting host birds then raise the cowbird chicks as if they were their own."
+      },
+      {
+        "type": "figure",
+        "caption": "Eggs in Nest",
+        "src": "eggs-in-nest.png",
+        "alt": "Photograph of a nest with five pale host bird eggs and one darker speckled brown-headed cowbird egg.",
+        "width": 380
+      },
+      {
+        "type": "p",
+        "html": "Scientists have studied how cowbird nesting behavior has affected the hooded warbler in northwestern Pennsylvania. Scientists refer to host nests containing a cowbird egg as being parasitized. The graph below shows the results of an eight-year study of 847 nests."
+      },
+      {
+        "type": "figure",
+        "caption": "Hooded Warbler Nest Success",
+        "src": "warbler-graph.png",
+        "alt": "Line graph of number of eggs or young for four stages: eggs laid, survival to hatching, egg hatching success, and survival from hatching to leaving nest. Non-parasitized nests: 3.25, 2.0, 1.75, 1.3. Parasitized nests: 2.4, 1.1, 0.8, 0.5.",
+        "width": 440
+      }
+    ]
+  },
+  "items": [
+    {
+      "n": 1,
+      "stimulus": [
+        "intro"
+      ],
+      "type": "mc",
+      "pe": "MS-LS2-2",
+      "points": 1,
+      "stem": "Which statement best describes the interaction between cowbirds and bison?",
+      "options": [
+        "Cowbirds and bison compete for resources.",
+        "Cowbirds benefit and bison are harmed.",
+        "Cowbirds benefit and bison are unaffected.",
+        "Cowbirds are actively hunted by bison."
+      ],
+      "key": "C"
+    },
+    {
+      "n": 2,
+      "stimulus": [
+        "foodweb"
+      ],
+      "type": "mc",
+      "pe": "MS-LS2-2",
+      "points": 1,
+      "stem": "A predator-prey relationship displayed in this food web is",
+      "options": [
+        "grasshopper and bison",
+        "cowbird and meadow grass",
+        "prairie snake and ground squirrel",
+        "coyote and wood thrush"
+      ],
+      "key": "C"
+    },
+    {
+      "n": 3,
+      "stimulus": [
+        "foodweb"
+      ],
+      "type": "dragdrop",
+      "pe": "MS-LS2-3",
+      "points": 1,
+      "stem": "Based on the <i>Food Web</i> model, place the correct terms from the choices below in the model to describe a possible cycling of matter and flow of energy between the living parts and non-living parts of this ecosystem. Each term may only be used once. [1]",
+      "bankTitle": "Choices for Terms:",
+      "reuse": false,
+      "choices": [
+        {
+          "id": "o2",
+          "text": "Oxygen"
+        },
+        {
+          "id": "co2",
+          "text": "Carbon dioxide"
+        },
+        {
+          "id": "sun",
+          "text": "Sunlight"
+        }
+      ],
+      "target": {
+        "title": "Model for Cycling of Matter and Flow of Energy",
+        "src": "cycling-model.png",
+        "alt": "Model with three empty boxes. The top left box has an arrow to meadow grass. The top right box has arrows to grasshopper, cowbird, and coyote, and a double arrow with meadow grass. Grasshopper, cowbird, and coyote have arrows to the bottom box, which has a double arrow with meadow grass. Meadow grass, grasshopper, cowbird, and coyote are connected by arrows in a chain.",
+        "width": 460,
+        "zones": [
+          {
+            "id": "z1",
+            "x": 3.4,
+            "y": 3.8,
+            "w": 31.2,
+            "h": 24.5
+          },
+          {
+            "id": "z2",
+            "x": 53.4,
+            "y": 3.8,
+            "w": 31.2,
+            "h": 24.5
+          },
+          {
+            "id": "z3",
+            "x": 53.4,
+            "y": 71.8,
+            "w": 31.2,
+            "h": 24.5
+          }
+        ]
+      },
+      "key": {
+        "z1": "sun",
+        "z2": "o2",
+        "z3": "co2"
+      }
+    },
+    {
+      "n": 4,
+      "stimulus": [
+        "population",
+        "foodweb"
+      ],
+      "type": "cr",
+      "pe": "MS-LS2-1",
+      "points": 1,
+      "stem": "Explain, using evidence from the graph <i>and</i> the <i>Food Web</i> model, how changes in the population of cowbirds affected the amount of energy available for the coyote population between 1973 and 2013. [1]",
+      "rubric": [
+        "States that the cowbird population increased between 1973 and 2013.",
+        "States that the energy available to the coyote population increased.",
+        "Uses the Food Web model to link the two: coyotes eat cowbirds."
+      ],
+      "exemplar": "The cowbird population increased from 1973 to 2013. Coyotes eat cowbirds in the food web, so more cowbirds means more energy is available for the coyote population."
+    },
+    {
+      "n": 5,
+      "stimulus": [
+        "nesting"
+      ],
+      "type": "mc",
+      "pe": "MS-LS2-2",
+      "points": 1,
+      "stem": "Which statement identifies the evidence from the graph that shows that the behavior of cowbirds laying eggs in the hooded warbler's nest is considered parasitism?",
+      "options": [
+        "A larger number of hooded warbler eggs hatch in parasitized nests than the number of cowbird eggs.",
+        "A smaller number of hooded warbler eggs hatch in parasitized nests than the number of cowbird eggs.",
+        "A smaller number of hooded warblers survive from hatching to leaving the nest in non-parasitized nests compared to parasitized nests.",
+        "A larger number of hooded warblers survive from hatching to leaving the nest in non-parasitized nests compared to parasitized nests."
+      ],
+      "key": "D"
+    }
+  ]
+}

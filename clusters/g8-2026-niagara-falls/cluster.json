@@ -1,0 +1,203 @@
+{
+  "id": "g8-2026-niagara-falls",
+  "title": "The Changing Landscape of Niagara Falls",
+  "grade": 8,
+  "subject": "Science",
+  "year": "2026",
+  "source": "NYSED 2026 Grade 8 ILS Released Items, Questions 10-14",
+  "pes": [
+    "MS-ESS2-4",
+    "MS-ESS2-1",
+    "MS-ESS2-2",
+    "MS-ESS3-4"
+  ],
+  "directions": "Base your answers to questions 10 through 14 on the information below and on your knowledge of science.",
+  "showKeyAfterSubmit": true,
+  "split": 50,
+  "stimuli": {
+    "intro": [
+      {
+        "type": "title",
+        "text": "The Changing Landscape of Niagara Falls"
+      },
+      {
+        "type": "p",
+        "html": "Niagara Falls formed about 12,000 years ago. The melting ice from retreating glaciers released fresh water that formed the Great Lakes. Water flowing from Lake Erie to Lake Ontario created the Niagara River. Niagara Falls separates the upper Niagara River from the lower Niagara River. The depth of the lakes changes throughout the year. The highest lake levels occur in spring and early summer."
+      },
+      {
+        "type": "p",
+        "html": "The model below shows some information about the topography and water flow in the Great Lakes Region."
+      },
+      {
+        "type": "figure",
+        "caption": "Model 1<br>Water Flow Through Some Great Lakes",
+        "src": "model-1.png",
+        "alt": "Cross-section model of water flowing from Lake Erie over Niagara Falls into the lower Niagara River, through Lake Ontario, along the St. Lawrence River, and into the Atlantic Ocean. Arrows show the direction of flow. Labels mark the Upper Niagara River, Niagara Escarpment, Lower Niagara River, and St. Lawrence River. An inset map of northeastern North America shows Lake Huron, Lake Erie, Lake Ontario, Niagara Falls, New York, the St. Lawrence River, Canada, the United States, and the Atlantic Ocean, with a north arrow.",
+        "width": 520
+      }
+    ],
+    "escarpment": [
+      {
+        "type": "p",
+        "html": "An escarpment is a landform made of rock layers that ends in a steep drop-off (cliff). The model below shows information about some rock layers that formed the Niagara escarpment. The approximate ages of the rock layers are in million years ago (mya)."
+      },
+      {
+        "type": "figure",
+        "caption": "Model 2<br>Some Rock Formations of the Niagara Escarpment",
+        "src": "model-2.png",
+        "alt": "Cross section of the Niagara escarpment beside a waterfall. A stack of patterned rock layers sits under the Upper Niagara River. A vertical arrow labeled Time of Formation points up from 438 mya at the bottom to 423 mya at the top. The Base of Falls and River level are marked near the middle of the stack. A key below shows the patterns for dolostone, clay dolomite, shale, sandstone, interbedded shale and sandstone, and limestone.",
+        "width": 480
+      }
+    ],
+    "falls": [
+      {
+        "type": "p",
+        "html": "The Niagara River flows around Goat Island, forming two waterfalls, Horseshoe Falls and American Falls. This region is commonly referred to as Niagara Falls."
+      },
+      {
+        "type": "p",
+        "html": "In the early 1900s, some water from the Niagara River was redirected for hydroelectric power. In 1950, the United States and Canada signed a treaty to regulate the Niagara Falls water flow. Before 1950, Horseshoe Falls had a water depth of about ten feet and had a flow rate of 202,000 cubic feet per second. After the treaty, both sides of the falls were reshaped, creating paths for redirected water to power stations and reservoirs in each country. Today, water flows over Horseshoe Falls at an average depth of two feet and a rate between 50,000 to 100,000 cubic feet per second."
+      },
+      {
+        "type": "p",
+        "html": "The model below shows some information about the location of both falls over time. Arrows indicate direction of water flow. Dashed lines on the map represent locations of the edge of the falls at different years."
+      },
+      {
+        "type": "figure",
+        "caption": "Model 3<br>American and Horseshoe Falls at the Niagara Escarpment",
+        "src": "model-3.png",
+        "alt": "Map of the Niagara River around Goat Island, with Niagara Falls, Canada, on the left and Niagara Falls, United States, at the upper right. Dashed lines labeled with years show the location of the edge of Horseshoe Falls and of American Falls at different times. The edge of the escarpment is shaded on both sides of Goat Island. Arrows show the direction of water flow. A map scale shows 82 m, and an arrow points north.",
+        "width": 500
+      }
+    ]
+  },
+  "items": [
+    {
+      "n": 10,
+      "stimulus": [
+        "intro"
+      ],
+      "type": "mc",
+      "pe": "MS-ESS2-4",
+      "points": 1,
+      "stem": "Which table contains the phrases that correctly complete the statement below about water cycle processes and the flow of water in the Great Lakes?<p style=\"margin:12px 0 0 20px\">The increase in the depth of the Great Lakes in the spring is most likely due to <span style=\"display:inline-block;min-width:4.4em;text-align:center;border-bottom:1px solid;line-height:1\">1</span> and water flows northeast from Lake Ontario through the St. Lawrence River due to <span style=\"white-space:nowrap\"><span style=\"display:inline-block;min-width:4.4em;text-align:center;border-bottom:1px solid;line-height:1\">2</span>.</span></p>",
+      "options": [
+        "<table style=\"width:100%;max-width:440px\"><tr><td style=\"width:34px\">1</td><td style=\"text-align:left\">snow melt and precipitation</td></tr><tr><td>2</td><td style=\"text-align:left\">the force of gravity causing water to flow from high elevation to low elevation</td></tr></table>",
+        "<table style=\"width:100%;max-width:440px\"><tr><td style=\"width:34px\">1</td><td style=\"text-align:left\">precipitation and infiltration</td></tr><tr><td>2</td><td style=\"text-align:left\">the force of wind causing water to flow in the same direction as the jet stream</td></tr></table>",
+        "<table style=\"width:100%;max-width:440px\"><tr><td style=\"width:34px\">1</td><td style=\"text-align:left\">infiltration and runoff</td></tr><tr><td>2</td><td style=\"text-align:left\">the rotation of Earth causing water to flow to the Atlantic Ocean</td></tr></table>",
+        "<table style=\"width:100%;max-width:440px\"><tr><td style=\"width:34px\">1</td><td style=\"text-align:left\">runoff and snow melt</td></tr><tr><td>2</td><td style=\"text-align:left\">tidal currents causing water to flow to the Atlantic Ocean</td></tr></table>"
+      ],
+      "key": "A",
+      "adapted": "On paper the four answer tables are arranged two by two (A and C on top, B and D below) with each letter printed under its table. On screen they are listed A, B, C, D with the letter beside each table. No wording changed."
+    },
+    {
+      "n": 11,
+      "stimulus": [
+        "escarpment"
+      ],
+      "type": "dragdrop",
+      "pe": "MS-ESS2-1",
+      "points": 1,
+      "stem": "Place the letters of the processes, from the choices below, in the correct sequence to describe the formation of sandstone in the Niagara escarpment. [1]",
+      "bankTitle": "Choices:",
+      "bankColumns": 4,
+      "reuse": false,
+      "choices": [
+        {
+          "id": "A",
+          "html": "<span style=\"display:block;max-width:108px;margin:0 auto\">Deposition of particles</span><b>A</b>",
+          "text": "A. Deposition of particles"
+        },
+        {
+          "id": "B",
+          "html": "<span style=\"display:block;max-width:108px;margin:0 auto\">Compaction of particles into layers</span><b>B</b>",
+          "text": "B. Compaction of particles into layers"
+        },
+        {
+          "id": "C",
+          "html": "<span style=\"display:block;max-width:108px;margin:0 auto\">Weathering of land formations</span><b>C</b>",
+          "text": "C. Weathering of land formations"
+        },
+        {
+          "id": "D",
+          "html": "<span style=\"display:block;max-width:108px;margin:0 auto\">Transport of particles driven by gravity</span><b>D</b>",
+          "text": "D. Transport of particles driven by gravity"
+        }
+      ],
+      "target": {
+        "title": "Process of Sandstone Formation",
+        "html": "<div style=\"display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:8px 4px\"><div style=\"flex:1 1 120px;min-width:120px;max-width:170px;text-align:center\">[[z1]]</div><span aria-hidden=\"true\" style=\"flex:none;font-size:1.3em\">&rarr;</span><div style=\"flex:1 1 120px;min-width:120px;max-width:170px;text-align:center\">[[z2]]</div><span aria-hidden=\"true\" style=\"flex:none;font-size:1.3em\">&rarr;</span><div style=\"flex:1 1 120px;min-width:120px;max-width:170px;text-align:center\">[[z3]]</div><span aria-hidden=\"true\" style=\"flex:none;font-size:1.3em\">&rarr;</span><div style=\"flex:1 1 120px;min-width:120px;max-width:170px;text-align:center\">[[z4]]</div></div>",
+        "slotLabels": {
+          "z1": "Letter:",
+          "z2": "Letter:",
+          "z3": "Letter:",
+          "z4": "Letter:"
+        },
+        "zoneNames": {
+          "z1": "First box",
+          "z2": "Second box",
+          "z3": "Third box",
+          "z4": "Fourth box"
+        }
+      },
+      "key": {
+        "z1": "C",
+        "z2": "D",
+        "z3": "A",
+        "z4": "B"
+      },
+      "adapted": "On paper, students write the letter of each process on a Letter line in four boxes joined by arrows. On screen, they place each lettered process box in the four boxes in order. The stem wording is unchanged. Each lettered process box shows its letter beneath the text inside the box, where the booklet prints the letter below the box, and the four slots keep the printed 'Letter:' label until a box is placed."
+    },
+    {
+      "n": 12,
+      "stimulus": [
+        "escarpment"
+      ],
+      "type": "mc",
+      "pe": "MS-ESS2-2",
+      "points": 1,
+      "stem": "Based on <i>Model 2</i>, which statement correctly describes how the motion of water of the Niagara River has changed the Niagara escarpment on a spatial scale?",
+      "options": [
+        "Layers of sandstone have eroded more than the layers of interbedded shale and sandstone.",
+        "Clay dolomite is more resistant to erosion than sandstone.",
+        "Dolostone is more resistant to weathering than shale.",
+        "Layers of limestone have weathered more than the layers of shale."
+      ],
+      "key": "C"
+    },
+    {
+      "n": 13,
+      "stimulus": [
+        "escarpment"
+      ],
+      "type": "mc",
+      "pe": "MS-ESS2-2",
+      "points": 1,
+      "stem": "Which statement provides evidence for the scale of geologic time needed to form the rock layers of the escarpment shown in <i>Model 2</i>?",
+      "options": [
+        "It took 438 million years of weathering to form the layers of rock in the escarpment.",
+        "The youngest rock layers are located on the bottom, while the oldest rock layers are on the top of the escarpment.",
+        "Each rock layer of the escarpment formed at the same time.",
+        "Deposition of particles occurred over a time span of approximately 15 million years."
+      ],
+      "key": "D"
+    },
+    {
+      "n": 14,
+      "stimulus": [
+        "falls"
+      ],
+      "type": "mc",
+      "pe": "MS-ESS3-4",
+      "points": 1,
+      "stem": "A relationship exists between the use of natural resources and its impact on Earth’s systems. Which statement correctly identifies how human activity, encouraged by the 1950 treaty, has affected Niagara Falls?",
+      "options": [
+        "The changes to the Niagara River channel have caused an increase in the rate at which Niagara Falls erodes.",
+        "The redirection of water from the Niagara River has decreased the rate at which Niagara Falls changes shape.",
+        "The production of hydroelectric power has increased the flow of water over Niagara Falls.",
+        "The storage of water in reservoirs has caused an increase in the evaporation of water and increased weathering of Niagara Falls."
+      ],
+      "key": "B"
+    }
+  ]
+}

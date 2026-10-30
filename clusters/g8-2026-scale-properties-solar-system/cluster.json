@@ -1,0 +1,203 @@
+{
+  "id": "g8-2026-scale-properties-solar-system",
+  "title": "Scale Properties in Our Solar System",
+  "grade": 8,
+  "subject": "Science",
+  "year": "2026",
+  "source": "NYSED 2026 Grade 8 ILS Released Items, Questions 49-52",
+  "pes": [
+    "MS-ESS1-2",
+    "MS-PS2-4",
+    "MS-ESS1-3"
+  ],
+  "directions": "Base your answers to questions 49 through 52 on the information below and on your knowledge of science.",
+  "showKeyAfterSubmit": true,
+  "split": 50,
+  "stimuli": {
+    "intro": [
+      {
+        "type": "title",
+        "text": "Scale Properties in Our Solar System"
+      },
+      {
+        "type": "p",
+        "html": "The eight planets of our solar system travel in nearly circular orbits around the Sun. As the distance from the Sun increases, a planet’s orbit becomes larger and the planet travels slower. The planets’ speeds keep the planets in stable orbits around the Sun."
+      },
+      {
+        "type": "p",
+        "html": "The model below represents the mass (relative to Earth’s mass = 1) and equatorial diameter of the Sun and the eight planets. The equatorial diameters are drawn to scale and indicated in parentheses. The distances between solar system objects are not drawn to scale."
+      },
+      {
+        "type": "figure",
+        "caption": "Solar System Model",
+        "src": "solar-system-model.png",
+        "alt": "Model of the Sun and the eight planets with their equatorial diameters drawn to scale, shown left to right against a dark gray background. Only the curved edge of the Sun is visible at the far left. Each object is labeled with its name, its mass relative to Earth, and its equatorial diameter in kilometers: Sun, mass 333,000 (1,392,000 km); Mercury, mass 0.06 (4,900 km); Venus, mass 0.82 (12,100 km); Earth, mass 1 (12,760 km); Mars, mass 0.11 (6,800 km); Jupiter, mass 317.8 (143,000 km); Saturn, mass 95.2 (120,600 km); Uranus, mass 14.5 (51,000 km); Neptune, mass 17.2 (50,000 km).",
+        "width": 720
+      }
+    ],
+    "universe": [
+      {
+        "type": "p",
+        "html": "Models of the universe are created using information observed from space probes and satellites. Three celestial objects observed in the universe are listed below."
+      },
+      {
+        "type": "list",
+        "items": [
+          "the Sun",
+          "the Milky Way Galaxy",
+          "our solar system"
+        ]
+      }
+    ]
+  },
+  "items": [
+    {
+      "n": 49,
+      "stimulus": [
+        "intro"
+      ],
+      "type": "mc",
+      "pe": "MS-ESS1-2",
+      "points": 1,
+      "stem": "Which claim correctly describes the orbital motion of a planet in our solar system?",
+      "options": [
+        "Mercury travels the fastest because it experiences the strongest gravitational field exerted by the Sun.",
+        "Mars travels the fastest because it is affected the most by the gravitational forces exerted by both the Sun and Jupiter.",
+        "Jupiter travels the slowest because it has the greatest mass of all the planets.",
+        "Neptune travels the slowest because it has the shortest orbital path around the Sun."
+      ],
+      "key": "A"
+    },
+    {
+      "n": 50,
+      "stimulus": [
+        "intro"
+      ],
+      "type": "multi",
+      "pe": "MS-PS2-4",
+      "points": 1,
+      "stem": "<p>Select <b>one</b> phrase from each table to correctly complete the argument below. [1]</p><p>Considering all the celestial bodies in our solar system, the greatest force of attraction is between the Sun and Jupiter. This is evidence that the gravitational force exerted by the Sun on a planet depends on <span style=\"white-space:nowrap\">the <span style=\"display:inline-block;min-width:3.2em;text-align:center;border-bottom:1px solid currentColor;line-height:1.1\">1</span></span> and <span style=\"white-space:nowrap\">the <span style=\"display:inline-block;min-width:3.2em;text-align:center;border-bottom:1px solid currentColor;line-height:1.1\">2</span>.</span></p>",
+      "parts": [
+        {
+          "type": "table",
+          "table": {
+            "header": false,
+            "caption": "Choices for 1",
+            "rows": [
+              [
+                "<div style=\"text-align:left\">mass of only the Sun</div>",
+                {
+                  "check": "m_sun",
+                  "group": "mass"
+                }
+              ],
+              [
+                "<div style=\"text-align:left\">mass of only the planet</div>",
+                {
+                  "check": "m_planet",
+                  "group": "mass"
+                }
+              ],
+              [
+                "<div style=\"text-align:left\">mass of the Sun and the planet</div>",
+                {
+                  "check": "m_both",
+                  "group": "mass"
+                }
+              ]
+            ],
+            "labels": {
+              "m_sun": "mass of only the Sun",
+              "m_planet": "mass of only the planet",
+              "m_both": "mass of the Sun and the planet"
+            }
+          },
+          "key": {
+            "m_both": true
+          }
+        },
+        {
+          "type": "table",
+          "table": {
+            "header": false,
+            "caption": "Choices for 2",
+            "rows": [
+              [
+                "<div style=\"text-align:left\">composition of the planet</div>",
+                {
+                  "check": "comp",
+                  "group": "factor"
+                }
+              ],
+              [
+                "<div style=\"text-align:left\">distance between the Sun and the planet</div>",
+                {
+                  "check": "dist",
+                  "group": "factor"
+                }
+              ],
+              [
+                "<div style=\"text-align:left\">angle of the planet’s tilt</div>",
+                {
+                  "check": "tilt",
+                  "group": "factor"
+                }
+              ],
+              [
+                "<div style=\"text-align:left\">rate of the planet’s rotation</div>",
+                {
+                  "check": "rot",
+                  "group": "factor"
+                }
+              ]
+            ],
+            "labels": {
+              "comp": "composition of the planet",
+              "dist": "distance between the Sun and the planet",
+              "tilt": "angle of the planet’s tilt",
+              "rot": "rate of the planet’s rotation"
+            }
+          },
+          "key": {
+            "dist": true
+          }
+        }
+      ],
+      "adapted": "No wording change. On screen, selecting a box in a table places the checkmark in it, and only one box in each table can be checked. The two tables are two parts of one 1-credit question, and both must be correct for credit."
+    },
+    {
+      "n": 51,
+      "stimulus": [
+        "intro"
+      ],
+      "type": "mc",
+      "pe": "MS-ESS1-3",
+      "points": 1,
+      "stem": "Scientists analyze and interpret data to determine different scaled properties of these objects. Based on the data in the model, approximately how many times larger is the equatorial diameter of the Sun compared to Earth’s equatorial diameter?",
+      "options": [
+        "3",
+        "26",
+        "109",
+        "330,000"
+      ],
+      "key": "C"
+    },
+    {
+      "n": 52,
+      "stimulus": [
+        "universe"
+      ],
+      "type": "mc",
+      "pe": "MS-ESS1-3",
+      "points": 1,
+      "stem": "Which sequence correctly lists these celestial objects found in the universe in order from <b>smallest</b> in size to <b>largest</b> in size?",
+      "options": [
+        "the Sun → the Milky Way Galaxy → our solar system → the universe",
+        "the Sun → our solar system → the Milky Way Galaxy → the universe",
+        "the Milky Way Galaxy → our solar system → the Sun → the universe",
+        "the Milky Way Galaxy → the Sun → our solar system → the universe"
+      ],
+      "key": "B"
+    }
+  ]
+}

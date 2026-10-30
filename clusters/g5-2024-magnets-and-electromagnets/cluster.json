@@ -1,0 +1,278 @@
+{
+  "id": "g5-2024-magnets-and-electromagnets",
+  "title": "Magnets and Electromagnets",
+  "grade": 5,
+  "subject": "Science",
+  "year": "2024",
+  "source": "NYSED 2024 Grade 5 ELS Released Items, Questions 30-34",
+  "pes": [
+    "3-PS2-3",
+    "3-PS2-4",
+    "3-5-ETS1-3"
+  ],
+  "directions": "Base your answers to questions 30 through 34 on the information below and on your knowledge of science.",
+  "showKeyAfterSubmit": true,
+  "split": 50,
+  "stimuli": {
+    "intro": [
+      {
+        "type": "title",
+        "text": "Magnets and Electromagnets"
+      },
+      {
+        "type": "p",
+        "html": "A student made a simple magnet holder using a clothespin, a plastic cup, a magnet, and tape (<i>Diagram 1</i>). This setup was used to investigate magnetic forces by determining the number of paper clips held by a magnet by direct contact (<i>Diagram 2</i>). Each paper clip was bent to form a hook to attach to other clips hanging below the magnet."
+      },
+      {
+        "type": "figures",
+        "items": [
+          {
+            "caption": "Diagram 1",
+            "src": "diagram-1.png",
+            "width": 268,
+            "alt": "Drawing of an upside-down plastic cup sitting on a block. A clothespin is taped to the top of the cup. The clothespin holds a bar magnet that sticks out past the edge of the cup. Labels: Magnet, Clothespin, Plastic cup."
+          },
+          {
+            "caption": "Diagram 2",
+            "src": "diagram-2.png",
+            "width": 299,
+            "alt": "The same magnet holder with a chain of four paper clips hanging from the bottom of the magnet. Each paper clip is bent into a hook that holds the clip below it. Label: Paper clip."
+          }
+        ]
+      }
+    ],
+    "tape": [
+      {
+        "type": "p",
+        "html": "The student then added different numbers of pieces of tape to the bottom of the magnet and repeated the investigation for each of these different numbers of tape (<i>Diagram 3</i>)."
+      },
+      {
+        "type": "figure",
+        "caption": "Diagram 3",
+        "src": "diagram-3.png",
+        "width": 443,
+        "alt": "The same magnet holder. A hand holds a strip of tape under the magnet, and a piece of tape is already stuck to the bottom of the magnet. Label: Tape."
+      },
+      {
+        "type": "p",
+        "html": "The data collected in this investigation is shown below."
+      },
+      {
+        "type": "table",
+        "caption": "Number of Paper Clips Held by One Magnet",
+        "rows": [
+          [
+            {
+              "html": "",
+              "style": "border:none"
+            },
+            "No Tape on Magnet",
+            "One Piece of Tape on Magnet",
+            "Three Pieces of Tape on Magnet",
+            "Five Pieces of Tape on Magnet",
+            "Seven Pieces of Tape on Magnet"
+          ],
+          [
+            {
+              "html": "Number of Paper Clips Held by Magnet",
+              "th": true,
+              "align": "left"
+            },
+            "17",
+            "10",
+            "5",
+            "4",
+            "2"
+          ]
+        ]
+      }
+    ],
+    "twoMagnets": [
+      {
+        "type": "p",
+        "html": "The student repeated the investigation using two magnets (<i>Diagram 4</i>)."
+      },
+      {
+        "type": "figure",
+        "caption": "Diagram 4",
+        "src": "diagram-4.png",
+        "width": 307,
+        "alt": "The same magnet holder, now with the clothespin holding two bar magnets side by side. Label: Two magnets."
+      }
+    ],
+    "fridge": [
+      {
+        "type": "p",
+        "html": "The student is designing a refrigerator magnet to display papers and photographs. Various types of refrigerator magnets are shown in the photograph below."
+      },
+      {
+        "type": "figure",
+        "src": "refrigerator-magnets.jpg",
+        "width": 420,
+        "alt": "Black-and-white photograph of the doors of a stainless steel refrigerator. A photograph, notes, and sheets of notepaper are held on the doors by round magnets and small rectangular magnets. One small note is clipped to another note with a paper clip."
+      }
+    ],
+    "electromagnet": [
+      {
+        "type": "p",
+        "html": "An electromagnet is a magnet that is created using electricity. The diagram below is an example of a simple electromagnet — a single wire coiled around a nail. The wire is connected to a battery and has electric current flowing through it."
+      },
+      {
+        "type": "figure",
+        "caption": "Simple Electromagnet",
+        "src": "electromagnet.png",
+        "width": 255,
+        "alt": "Drawing of a battery marked with a plus sign and a minus sign. A wire runs from the top of the battery, wraps around a nail many times, and runs back to the bottom of the battery. Labels: Battery, Coiled wire, Nail."
+      },
+      {
+        "type": "p",
+        "html": "The electric current in the wire causes the electromagnet to act like a regular magnet. Engineers use electromagnets when they design and build motors. Motors are found in everyday objects, such as refrigerators and golf carts."
+      },
+      {
+        "type": "p",
+        "html": "A student repeats the investigation using an electromagnet. The table below shows how the number of coils around a nail in an electromagnet affects the number of paper clips held when a 4-volt battery is used and when an 8-volt battery is used."
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            {
+              "html": "",
+              "style": "border:none"
+            },
+            {
+              "html": "Number of Paper Clips Held",
+              "colspan": 2
+            }
+          ],
+          [
+            {
+              "html": "Number of Coils<br>Around Nail",
+              "th": true
+            },
+            {
+              "html": "4-Volt Battery<br>Connected",
+              "th": true
+            },
+            {
+              "html": "8-Volt Battery<br>Connected",
+              "th": true
+            }
+          ],
+          [
+            "25",
+            "16",
+            "31"
+          ],
+          [
+            "50",
+            "18",
+            "35"
+          ],
+          [
+            "75",
+            "21",
+            "40"
+          ],
+          [
+            "100",
+            "22",
+            "45"
+          ]
+        ]
+      }
+    ]
+  },
+  "items": [
+    {
+      "n": 30,
+      "stimulus": [
+        "intro",
+        "tape"
+      ],
+      "type": "mc",
+      "pe": "3-PS2-3",
+      "points": 1,
+      "stem": "Which question is the student investigating?",
+      "options": [
+        "How can the patterns of a magnet’s motion in various situations be observed and measured?",
+        "How is the strength of the magnetic force acting on objects affected by the distance between the objects and a magnet?",
+        "How does the force of gravity affect the strength of the magnetic force on an object?",
+        "How do contact magnetic forces affect the energy transferred between objects?"
+      ],
+      "key": "B"
+    },
+    {
+      "n": 31,
+      "stimulus": [
+        "tape",
+        "twoMagnets"
+      ],
+      "type": "mc",
+      "pe": "3-PS2-3",
+      "points": 1,
+      "stem": "Which table shows the most likely results of this new investigation using <b>two</b> magnets?",
+      "options": [
+        "<table style=\"width:100%;table-layout:fixed;font-size:.9em\"><colgroup><col style=\"width:24%\"><col><col><col><col><col></colgroup><tr><th style=\"border:none\"></th><th style=\"padding:4px 3px\">No Tape on Magnet</th><th style=\"padding:4px 3px\">One Piece of Tape on Magnet</th><th style=\"padding:4px 3px\">Three Pieces of Tape on Magnet</th><th style=\"padding:4px 3px\">Five Pieces of Tape on Magnet</th><th style=\"padding:4px 3px\">Seven Pieces of Tape on Magnet</th></tr><tr><th style=\"text-align:left;padding:4px 5px\">Number of Paper Clips Held by Magnet</th><td style=\"padding:4px 3px\">17</td><td style=\"padding:4px 3px\">10</td><td style=\"padding:4px 3px\">5</td><td style=\"padding:4px 3px\">4</td><td style=\"padding:4px 3px\">2</td></tr></table>",
+        "<table style=\"width:100%;table-layout:fixed;font-size:.9em\"><colgroup><col style=\"width:24%\"><col><col><col><col><col></colgroup><tr><th style=\"border:none\"></th><th style=\"padding:4px 3px\">No Tape on Magnet</th><th style=\"padding:4px 3px\">One Piece of Tape on Magnet</th><th style=\"padding:4px 3px\">Three Pieces of Tape on Magnet</th><th style=\"padding:4px 3px\">Five Pieces of Tape on Magnet</th><th style=\"padding:4px 3px\">Seven Pieces of Tape on Magnet</th></tr><tr><th style=\"text-align:left;padding:4px 5px\">Number of Paper Clips Held by Magnet</th><td style=\"padding:4px 3px\">15</td><td style=\"padding:4px 3px\">8</td><td style=\"padding:4px 3px\">3</td><td style=\"padding:4px 3px\">2</td><td style=\"padding:4px 3px\">1</td></tr></table>",
+        "<table style=\"width:100%;table-layout:fixed;font-size:.9em\"><colgroup><col style=\"width:24%\"><col><col><col><col><col></colgroup><tr><th style=\"border:none\"></th><th style=\"padding:4px 3px\">No Tape on Magnet</th><th style=\"padding:4px 3px\">One Piece of Tape on Magnet</th><th style=\"padding:4px 3px\">Three Pieces of Tape on Magnet</th><th style=\"padding:4px 3px\">Five Pieces of Tape on Magnet</th><th style=\"padding:4px 3px\">Seven Pieces of Tape on Magnet</th></tr><tr><th style=\"text-align:left;padding:4px 5px\">Number of Paper Clips Held by Magnet</th><td style=\"padding:4px 3px\">20</td><td style=\"padding:4px 3px\">14</td><td style=\"padding:4px 3px\">6</td><td style=\"padding:4px 3px\">6</td><td style=\"padding:4px 3px\">4</td></tr></table>",
+        "<table style=\"width:100%;table-layout:fixed;font-size:.9em\"><colgroup><col style=\"width:24%\"><col><col><col><col><col></colgroup><tr><th style=\"border:none\"></th><th style=\"padding:4px 3px\">No Tape on Magnet</th><th style=\"padding:4px 3px\">One Piece of Tape on Magnet</th><th style=\"padding:4px 3px\">Three Pieces of Tape on Magnet</th><th style=\"padding:4px 3px\">Five Pieces of Tape on Magnet</th><th style=\"padding:4px 3px\">Seven Pieces of Tape on Magnet</th></tr><tr><th style=\"text-align:left;padding:4px 5px\">Number of Paper Clips Held by Magnet</th><td style=\"padding:4px 3px\">20</td><td style=\"padding:4px 3px\">5</td><td style=\"padding:4px 3px\">10</td><td style=\"padding:4px 3px\">6</td><td style=\"padding:4px 3px\">1</td></tr></table>"
+      ],
+      "key": "C"
+    },
+    {
+      "n": 32,
+      "stimulus": [
+        "intro",
+        "tape",
+        "twoMagnets",
+        "fridge"
+      ],
+      "type": "cr",
+      "pe": "3-PS2-4",
+      "points": 1,
+      "stem": "Based on what was learned in the investigations, identify <b>one</b> factor that needs to be considered when designing this refrigerator magnet. [1]",
+      "rubric": [
+        "Allow 1 credit. Acceptable responses include, but are not limited to:",
+        "the strength of the magnet",
+        "the thickness of paper/object held on refrigerator",
+        "the weight/mass of object/paper held on refrigerator"
+      ],
+      "exemplar": "the strength of the magnet"
+    },
+    {
+      "n": 33,
+      "stimulus": [
+        "electromagnet"
+      ],
+      "type": "mc",
+      "pe": "3-PS2-3",
+      "points": 1,
+      "stem": "A student inspected the data to determine the relationship between the voltage of the battery and magnetic force exerted by the electromagnet. Which question was most likely being investigated?",
+      "options": [
+        "How did changing the number of coils in the electromagnet affect the number of paper clips held by the electromagnet connected to a 4-volt battery?",
+        "For the same number of coils around the nail, how did the number of paper clips held by the electromagnet connected to a 4-volt battery compare to the number of paper clips held by the electromagnet connected to an 8-volt battery?",
+        "How does keeping the number of coils around the nail constant affect the number of paper clips held by the electromagnet connected to the 8-volt battery?",
+        "For an increasing number of coils around the nail, how did the number of paper clips held by the electromagnet change for the electromagnet connected to the 4-volt and 8-volt battery?"
+      ],
+      "key": "B"
+    },
+    {
+      "n": 34,
+      "stimulus": [
+        "electromagnet"
+      ],
+      "type": "mc",
+      "pe": "3-5-ETS1-3",
+      "points": 1,
+      "stem": "The student wants to optimize the design of the electromagnet and needs accurate data. How would performing more trials in this investigation improve the reliability of the data collected?",
+      "options": [
+        "More trials produce more data, which is used to reduce human error.",
+        "More trials always produce the same data, which can be used to solve a problem.",
+        "Averaging data from more trials can help determine which variables are controlled.",
+        "Averaging data from more than three trials always increases the error in the data."
+      ],
+      "key": "A"
+    }
+  ]
+}

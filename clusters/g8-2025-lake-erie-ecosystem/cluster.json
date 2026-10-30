@@ -1,0 +1,186 @@
+{
+  "id": "g8-2025-lake-erie-ecosystem",
+  "title": "The Lake Erie Ecosystem",
+  "grade": 8,
+  "subject": "Science",
+  "year": "2025",
+  "source": "NYSED 2025 Grade 8 ILS Released Items, Questions 10-13",
+  "pes": [
+    "MS-LS2-2",
+    "MS-LS2-4",
+    "MS-ESS3-2",
+    "MS-ESS3-4"
+  ],
+  "directions": "Base your answers to questions 10 through 13 on the information below and on your knowledge of science.",
+  "showKeyAfterSubmit": true,
+  "stimuli": {
+    "foodweb": [
+      {
+        "type": "title",
+        "text": "The Lake Erie Ecosystem"
+      },
+      {
+        "type": "p",
+        "html": "New York State borders Lake Ontario and Lake Erie. Lake Erie is the shallowest and warmest of the Great Lakes. Due to its habitat diversity, Lake Erie supports more fish species than any other Great Lake. Both native and invasive fish species are found here. Some native fish species have been severely impacted due to pollution, habitat degradation, invasive species, and overfishing."
+      },
+      {
+        "type": "p",
+        "html": "The model below represents a food web."
+      },
+      {
+        "type": "figure",
+        "caption": "Lake Erie Food Web",
+        "src": "foodweb.png",
+        "alt": "Food web with pictures of organisms. Phytoplankton (photosynthetic) has arrows to mussels and to zooplankton (non-photosynthetic). Mussels have arrows to round goby and white perch. Zooplankton has arrows to white perch and emerald shiner. Round goby, white perch, and emerald shiner each have an arrow to smallmouth bass.",
+        "width": 420
+      },
+      {
+        "type": "html",
+        "html": "<p style=\"margin-top:-12px\">(Not drawn to scale)</p>"
+      }
+    ],
+    "algae": [
+      {
+        "type": "p",
+        "html": "Lake Erie has been negatively affected by algal blooms during periods of warmer weather. These blooms consist of excessive growth of cyanobacteria (blue-green algae phytoplankton), which are capable of producing toxins that pose a risk to human and animal health. The overgrowth of this algae creates thick mats on the lake’s surface (algal bloom) that block sunlight from reaching underwater plants. The photo below shows an algal bloom occurring."
+      },
+      {
+        "type": "figure",
+        "caption": "",
+        "src": "algae.png",
+        "alt": "Black-and-white photograph of a lake surface covered in patches of floating material. A label points to a large pale area and reads Blue-green algae mat.",
+        "width": 420
+      }
+    ],
+    "phosphorus": [
+      {
+        "type": "p",
+        "html": "Harmful algal blooms are caused by increases of phosphorus levels in the lake. Heavy spring rains lead to greater runoff of phosphorus from farm fields. About 85% of the phosphorous comes from agriculture. Other contributing sources of phosphorous runoff include septic tanks, lawns, golf courses, and wastewater treatment plants."
+      },
+      {
+        "type": "p",
+        "html": "<i>Graph 1</i> below shows some information about phosphorus in Lake Erie."
+      },
+      {
+        "type": "figure",
+        "caption": "<b>Graph 1</b><br><b>Amount of Phosphorus Entering Lake Erie<br>from the Maumee River<br>March-August 2020-2022</b>",
+        "src": "graph1.png",
+        "alt": "Line graph of amount of phosphorus in metric tons, from 0 to 800, against day of year from March 1 to August 1, with separate lines for 2020, 2021, and 2022. All three lines rise in steps over the months, ending between about 270 and 325 metric tons.",
+        "width": 480
+      }
+    ],
+    "water": [
+      {
+        "type": "p",
+        "html": "The Lake Erie Watershed is the most human-populated watershed in the Great Lakes region. The water from the watershed is widely used for agriculture and industry. Resources from this area meet the agricultural needs of large regions for Ohio, Pennsylvania, and New York."
+      },
+      {
+        "type": "p",
+        "html": "The table below compares the amount of water withdrawn from surface or groundwater for different uses from the Lake Erie Watershed, in millions of gallons per day (Mgal/day)."
+      },
+      {
+        "type": "table",
+        "caption": "Water Used from Lake Erie Watershed by Different Sectors – 2012 and 2015",
+        "rowHeaders": true,
+        "rows": [
+          [
+            "Sector",
+            "Amount<br>Withdrawn in 2012<br>(Mgal/day)",
+            "Amount<br>Withdrawn in 2015<br>(Mgal/day)"
+          ],
+          [
+            "Public Water Supply",
+            "206.03",
+            "220.20"
+          ],
+          [
+            "Industrial",
+            "189.17",
+            "198.26"
+          ],
+          [
+            "Irrigation",
+            "6.84",
+            "3.19"
+          ],
+          [
+            "Commercial and<br>Institutional",
+            "3.23",
+            "3.49"
+          ]
+        ]
+      }
+    ]
+  },
+  "items": [
+    {
+      "n": 10,
+      "type": "mc",
+      "stimulus": [
+        "foodweb"
+      ],
+      "stem": "Which pair of organisms in Lake Erie display a competitive relationship?",
+      "options": [
+        "smallmouth bass and zooplankton",
+        "white perch and emerald shiner",
+        "round goby and mussels",
+        "phytoplankton and zooplankton"
+      ],
+      "key": "B",
+      "pe": "MS-LS2-2",
+      "points": 1
+    },
+    {
+      "n": 11,
+      "type": "mc",
+      "stimulus": [
+        "foodweb",
+        "algae"
+      ],
+      "stem": "Which argument correctly describes how an algal bloom could affect populations of organisms in Lake Erie?",
+      "options": [
+        "Some photosynthetic organisms would not receive enough energy in order to make food.",
+        "The population of mussels would be unaffected because they would feed on zooplankton instead of algae.",
+        "Toxins would cause the population of smallmouth bass to increase because the population of emerald shiner would increase.",
+        "Bottom feeders, like the round goby, would live closer to the surface of the lake in order to feed on phytoplankton."
+      ],
+      "key": "A",
+      "pe": "MS-LS2-4",
+      "points": 1
+    },
+    {
+      "n": 12,
+      "type": "mc",
+      "stimulus": [
+        "phosphorus"
+      ],
+      "stem": "Which statement describes the predictability of phosphorous levels in Lake Erie, based on the information in <i>Graph 1</i>?",
+      "options": [
+        "The phosphorus levels in Lake Erie will increase from 0 to 100 every April and May.",
+        "The greatest levels of phosphorus in Lake Erie will occur in August.",
+        "There will be a constant rate of change in the amount of phosphorus entering Lake Erie during the summer months each year.",
+        "Phosphorus levels will continue to increase to over 450 metric tons in the next three years."
+      ],
+      "key": "B",
+      "pe": "MS-ESS3-2",
+      "points": 1
+    },
+    {
+      "n": 13,
+      "type": "mc",
+      "stimulus": [
+        "water"
+      ],
+      "stem": "Which argument best describes a possible relationship between water consumption and its impact on a Lake Erie ecosystem between 2012 and 2015?",
+      "options": [
+        "The decrease in water used for irrigation could have caused the lake level to rise, flooding shoreline ecosystems.",
+        "The decrease in total water usage could have increased the stability of fish habitats.",
+        "The increase in water used for industry could have decreased the amount of pollutants released into the watershed.",
+        "The increase in total water usage could have caused the lake level to drop, negatively affecting shoreline organisms."
+      ],
+      "key": "D",
+      "pe": "MS-ESS3-4",
+      "points": 1
+    }
+  ]
+}

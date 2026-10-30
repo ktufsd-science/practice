@@ -1,0 +1,281 @@
+{
+  "id": "g5-2024-meerkats",
+  "title": "Meerkats",
+  "grade": 5,
+  "subject": "Science",
+  "year": "2024",
+  "source": "NYSED 2024 Grade 5 ELS Released Items, Questions 24-29",
+  "pes": [
+    "3-LS2-1",
+    "3-LS3-2",
+    "3-LS4-2",
+    "3-LS4-4",
+    "4-LS1-1",
+    "5-LS2-1"
+  ],
+  "directions": "Base your answers to questions 24 through 29 on the information below and on your knowledge of science.",
+  "showKeyAfterSubmit": true,
+  "stimuli": {
+    "intro": [
+      {
+        "type": "title",
+        "text": "Meerkats"
+      },
+      {
+        "type": "figure",
+        "src": "meerkats-photo.jpg",
+        "alt": "Black-and-white photograph of an adult meerkat standing upright on its back legs and looking out over sandy ground, with three small meerkat pups at its feet.",
+        "width": 440
+      },
+      {
+        "type": "p",
+        "html": "In the photograph, the mother meerkat is standing on her back legs to keep lookout for predators like jackals, eagles, and poisonous snakes that could harm her meerkat offspring, called pups. If she sees a threat, she will whistle to alert other meerkats in the group. Meerkats are social mammals, living in groups of up to 40 individuals. These groups are called mobs. The whole mob helps raise the pups by guarding and feeding them."
+      },
+      {
+        "type": "p",
+        "html": "Meerkats live in southern Africa&rsquo;s Kalahari and Namib deserts where it is dry and sandy. Meerkats have developed adaptations to help them survive in this extreme environment. In order to escape daytime heat and to keep warm on cold nights, meerkats dig burrows. They eat many things, including insects, small animals (rodents), lizards, roots and fruits. Meerkats get all the water they need from the food they eat &mdash; they never drink water."
+      }
+    ],
+    "senses": [
+      {
+        "type": "p",
+        "html": "Meerkats use their eyes, ears, and noses to help them survive. A student recorded some facts about meerkat senses."
+      },
+      {
+        "type": "html",
+        "html": "<div style=\"margin:0 0 12px\"><p style=\"margin:0 0 10px;padding-left:4.6em;text-indent:-4.6em\"><b style=\"display:inline-block;width:4.6em;text-indent:0\">Fact 1:</b>Good vision allows meerkat guards to spot predators.</p><p style=\"margin:0 0 10px;padding-left:4.6em;text-indent:-4.6em\"><b style=\"display:inline-block;width:4.6em;text-indent:0\">Fact 2:</b>Meerkats can close their ears to prevent sand from getting into them when they dig for food and shelter.</p><p style=\"margin:0 0 10px;padding-left:4.6em;text-indent:-4.6em\"><b style=\"display:inline-block;width:4.6em;text-indent:0\">Fact 3:</b>An excellent sense of smell helps meerkats find prey that is hiding underground.</p><p style=\"margin:0 0 10px;padding-left:4.6em;text-indent:-4.6em\"><b style=\"display:inline-block;width:4.6em;text-indent:0\">Fact 4:</b>While searching for food and caring for pups, meerkats listen for alarm whistles.</p></div>"
+      }
+    ],
+    "prey": [
+      {
+        "type": "p",
+        "html": "The graph below shows the relationship between the mass of a meerkat and the number of prey found per hour."
+      },
+      {
+        "type": "figure",
+        "caption": "The Effect of Meerkat Mass on the<br>Number of Prey Found per Hour",
+        "src": "prey-graph.png",
+        "alt": "Line graph on a grid. The x-axis is Mass (g), labeled 240, 290, 340, 390, and 440. The y-axis is Number of Prey Found (per Hour), labeled 3, 6, 9, 12, 15, and 18. A straight line starts just above 3 at 240 g, passes through 9 at 340 g, and ends at about 12 at about 400 g.",
+        "width": 400
+      }
+    ],
+    "helpers": [
+      {
+        "type": "p",
+        "html": "The graphs below show the effects of the number of adult meerkat helpers, per pup, on pups in a mob."
+      },
+      {
+        "type": "figures",
+        "items": [
+          {
+            "type": "figure",
+            "caption": "The Effect of the Number of<br>Adult Meerkat Helpers on the<br>Amount of Food Eaten by<br>Each Pup per Hour",
+            "src": "food-graph.png",
+            "alt": "Line graph with no numbers on either axis. The x-axis is Number of Adult Helpers per Pup and the y-axis is Pup Food Eaten per Hour, each with an arrow pointing toward larger amounts. A straight line starts near the lower left corner and rises steadily toward the upper right.",
+            "width": 330
+          },
+          {
+            "type": "figure",
+            "caption": "The Effect of the Number of<br>Adult Meerkat Helpers on the<br>Amount of Weight Gained by<br>Each Pup per Day",
+            "src": "weight-graph.png",
+            "alt": "Line graph with no numbers on either axis. The x-axis is Number of Adult Helpers per Pup and the y-axis is Pup Weight Gained per Day, each with an arrow pointing toward larger amounts. A straight line starts partway up the y-axis and rises steadily toward the upper right.",
+            "width": 327
+          }
+        ]
+      }
+    ],
+    "tempMass": [
+      {
+        "type": "p",
+        "html": "<i>Graph A</i> below shows the daily maximum air temperature in the Kalahari Desert. <i>Graph B</i> shows how the average mass (weight) of a 3-month old meerkat pup has changed over similar time periods."
+      },
+      {
+        "type": "figures",
+        "items": [
+          {
+            "type": "figure",
+            "caption": "Graph A<br>Maximum Air Temperatures <span style=\"font-weight:400\">(&deg;C)</span>",
+            "src": "graph-a.png",
+            "alt": "Graph A, a line graph on a grid. The x-axis is Year, labeled 1995, 2005, and 2015. The y-axis is Daily Maximum Air Temperature (°C), labeled 26, 28, 30, 32, and 34. A straight line starts at about 29.3 in 1995 and rises slowly to about 31 by about 2017.",
+            "width": 342
+          },
+          {
+            "type": "figure",
+            "caption": "Graph B<br>Masses of Meerkat Pups <span style=\"font-weight:400\">(g)</span>",
+            "src": "graph-b.png",
+            "alt": "Graph B, a line graph on a grid. The x-axis is Year, labeled 1995, 2005, and 2015. The y-axis is Mass of 3-Month Old Meerkat Pup (g), labeled 250, 300, 350, 400, and 450. A straight line starts at about 318 in 1995 and falls slowly to about 298 by about 2017.",
+            "width": 350
+          }
+        ]
+      }
+    ]
+  },
+  "items": [
+    {
+      "n": 24,
+      "stimulus": [
+        "intro",
+        "senses"
+      ],
+      "type": "mc",
+      "pe": "4-LS1-1",
+      "points": 1,
+      "stem": "Which facts could be used to provide evidence that meerkats use sense organs in order to detect threats from other organisms?",
+      "options": [
+        "facts 1 and 2",
+        "facts 2 and 3",
+        "facts 3 and 4",
+        "facts 4 and 1"
+      ],
+      "key": "D"
+    },
+    {
+      "n": 25,
+      "stimulus": [
+        "intro"
+      ],
+      "type": "dragdrop",
+      "pe": "5-LS2-1",
+      "points": 1,
+      "stem": "Place the words in the boxes below in the correct order to complete the model to show the correct movement of matter among the organisms in Africa&rsquo;s Kalahari Desert. [1]",
+      "adapted": "The booklet says \"Write the words in the boxes below.\" On screen, \"Write\" became \"Place\" because students drag the words from the Word List into the boxes.",
+      "bankTitle": "Word List",
+      "bankColumns": 2,
+      "reuse": false,
+      "choices": [
+        {
+          "id": "eagles",
+          "text": "Eagles"
+        },
+        {
+          "id": "meerkats",
+          "text": "Meerkats"
+        },
+        {
+          "id": "insects",
+          "text": "Insects"
+        },
+        {
+          "id": "grasses",
+          "text": "Grasses"
+        }
+      ],
+      "target": {
+        "src": "matter-model.png",
+        "alt": "Model with four empty boxes in a row, joined left to right by three arrows pointing to the right.",
+        "width": 500,
+        "zones": [
+          {
+            "id": "z1",
+            "x": 1.57,
+            "y": 16.43,
+            "w": 18.29,
+            "h": 67.14
+          },
+          {
+            "id": "z2",
+            "x": 27.71,
+            "y": 16.43,
+            "w": 18.36,
+            "h": 67.14
+          },
+          {
+            "id": "z3",
+            "x": 53.93,
+            "y": 16.43,
+            "w": 18.29,
+            "h": 67.14
+          },
+          {
+            "id": "z4",
+            "x": 80.14,
+            "y": 16.43,
+            "w": 18.29,
+            "h": 67.14
+          }
+        ],
+        "zoneNames": {
+          "z1": "Box 1 (left)",
+          "z2": "Box 2",
+          "z3": "Box 3",
+          "z4": "Box 4 (right)"
+        }
+      },
+      "key": {
+        "z1": "grasses",
+        "z2": "insects",
+        "z3": "meerkats",
+        "z4": "eagles"
+      }
+    },
+    {
+      "n": 26,
+      "stimulus": [
+        "prey"
+      ],
+      "type": "cr",
+      "pe": "3-LS4-2",
+      "points": 1,
+      "stem": "Explain how the graph provides evidence that a variation in a physical characteristic in the meerkat population provides an advantage for survival. [1]",
+      "rubric": [
+        "Allow 1 credit. Acceptable responses include, but are not limited to:",
+        "Meerkats with larger weights find more prey per hour.",
+        "The greater the mass of a meerkat, the more prey they find per hour.",
+        "More prey is found per hour by heavier meerkats."
+      ],
+      "exemplar": "The greater the mass of a meerkat, the more prey they find per hour."
+    },
+    {
+      "n": 27,
+      "stimulus": [
+        "intro",
+        "helpers"
+      ],
+      "type": "cr",
+      "pe": "3-LS2-1",
+      "points": 1,
+      "stem": "Using evidence from <b>both</b> graphs, construct an argument to explain how being a part of a mob helps meerkat pups survive. [1]",
+      "rubric": [
+        "Allow 1 credit. Acceptable responses include, but are not limited to:",
+        "Meerkat pups get more food and gain more weight when they are part of a mob with more helpers, so being a part of a larger group helps them survive.",
+        "The graphs show that more helpers in the group allow pups to get more food and gain more mass, which help them survive.",
+        "Pups with more helpers get more food and get heavier, which means they will be more likely to survive."
+      ],
+      "exemplar": "Pups with more helpers get more food and get heavier, which means they will be more likely to survive."
+    },
+    {
+      "n": 28,
+      "stimulus": [
+        "tempMass"
+      ],
+      "type": "cr",
+      "pe": "3-LS3-2",
+      "points": 1,
+      "stem": "A student made a claim that traits can be influenced by the environment. Use evidence from <i>Graph A</i> and <i>Graph B</i> to support this claim. [1]",
+      "rubric": [
+        "Allow 1 credit. Acceptable responses include, but are not limited to:",
+        "Meerkat pup masses have decreased/gone down in the last 20 years as the desert has become hotter.",
+        "As temperatures have increased/gone up in the desert, the meerkat pups have been getting lighter/less mass.",
+        "Meerkat pups are not able to gain as much weight as temperatures in the desert get hotter."
+      ],
+      "exemplar": "Meerkat pups are not able to gain as much weight as temperatures in the desert get hotter."
+    },
+    {
+      "n": 29,
+      "stimulus": [
+        "intro"
+      ],
+      "type": "mc",
+      "pe": "3-LS4-4",
+      "points": 1,
+      "stem": "<p>Which row correctly pairs a claim with its logical solution that would help meerkat populations survive in deserts that are getting hotter and drier?</p><table class=\"stim-table\" style=\"margin:14px 0 4px;width:100%;max-width:520px\"><tr><th style=\"width:12%\">Row</th><th style=\"width:44%\">Claim</th><th style=\"width:44%\">Solution</th></tr><tr><td><b>1</b></td><td style=\"text-align:left;vertical-align:top\">If there is more available water, then meerkat populations can survive in hotter, drier deserts.</td><td style=\"text-align:left;vertical-align:top\">Move meerkat populations to places that have more water.</td></tr><tr><td><b>2</b></td><td style=\"text-align:left;vertical-align:top\">As deserts become hotter and drier, there will be less food sources for meerkats.</td><td style=\"text-align:left;vertical-align:top\">Bring insects, lizards, jackals, eagles, and snakes to regions of the desert that have meerkat populations.</td></tr><tr><td><b>3</b></td><td style=\"text-align:left;vertical-align:top\">As rainfall decreases in the desert, meerkats will adapt by needing less water.</td><td style=\"text-align:left;vertical-align:top\">Place tanks of water throughout the desert to collect rainfall, so meerkats have something to drink.</td></tr><tr><td><b>4</b></td><td style=\"text-align:left;vertical-align:top\">Meerkat survival is threatened by hotter, drier deserts.</td><td style=\"text-align:left;vertical-align:top\">Identify areas of meerkat populations and dig deeper burrows for meerkats to stay cool as deserts become hotter.</td></tr></table>",
+      "options": [
+        "Row 1",
+        "Row 2",
+        "Row 3",
+        "Row 4"
+      ],
+      "key": "D"
+    }
+  ]
+}

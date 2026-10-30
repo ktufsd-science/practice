@@ -1,0 +1,227 @@
+{
+  "id": "g8-2026-giraffe-adaptations",
+  "title": "Giraffe Adaptations and Population Changes",
+  "grade": 8,
+  "subject": "Science",
+  "year": "2026",
+  "source": "NYSED 2026 Grade 8 ILS Released Items, Questions 44-48",
+  "pes": [
+    "MS-LS4-4",
+    "MS-LS4-2",
+    "MS-LS2-4",
+    "MS-LS2-5"
+  ],
+  "directions": "Base your answers to questions 44 through 48 on the information below and on your knowledge of science.",
+  "showKeyAfterSubmit": true,
+  "split": 50,
+  "stimuli": {
+    "intro": [
+      {
+        "type": "title",
+        "text": "Giraffe Adaptations and Population Changes"
+      },
+      {
+        "type": "p",
+        "html": "Giraffes are native to the savannas of Africa and have ancestors that were about nine feet tall and looked like modern antelope. Presently, they are the world’s tallest mammals, measuring up to 18 feet due to their towering legs and long necks. An adult giraffe’s legs alone are about six feet tall."
+      },
+      {
+        "type": "p",
+        "html": "Giraffes are able to eat leaves and buds in trees that few other animals can reach. Leaves from Acacia trees are a favorite. A giraffe eats hundreds of pounds of leaves each week and must travel miles to find enough food. The photograph below shows giraffes in a common feeding position, extending their necks, heads, and tongues to reach food on an Acacia tree."
+      },
+      {
+        "type": "figure",
+        "src": "giraffes-feeding.png",
+        "alt": "Black-and-white photograph of several giraffes standing close together on a grassland under a large tree, with their necks and heads stretched up into the branches.",
+        "width": 440
+      }
+    ],
+    "evolution": [
+      {
+        "type": "p",
+        "html": "The diagram below represents the evolutionary relationship between giraffes and other closely related mammals over the last 30 million years."
+      },
+      {
+        "type": "figure",
+        "caption": "Evolutionary Relationships Between<br>Giraffes and Related Mammals",
+        "src": "evolution-diagram.png",
+        "alt": "Branching tree diagram drawn against a time axis labeled Millions of years ago, running from 30 on the left to 0 on the right. Eight lines are labeled, each with a small animal silhouette: Palaeomerycids, Giraffes, Blastomeryx, Dromomerycids, Deer, Pronghorn, Musk deer, and Bovids. Branch lines split from shared lines and extend to the right of the diagram.",
+        "width": 400
+      }
+    ],
+    "skeletons": [
+      {
+        "type": "p",
+        "html": "The diagrams below show the fossilized skeleton of <i>Decennatherium rex</i> and the skeletons of a modern-day giraffe and a modern-day boar (wild pig). Approximate heights in meters (m) are indicated in parentheses."
+      },
+      {
+        "type": "figures",
+        "items": [
+          {
+            "caption": "<span style=\"font-weight:400\"><i>Decennatherium rex</i><br>(2.7 m)</span>",
+            "captionBelow": true,
+            "src": "skeleton-rex.png",
+            "alt": "Line drawing of the fossilized skeleton of Decennatherium rex seen from the side and facing left, showing the skull, neck, rib cage, backbone, tail, and four legs.",
+            "width": 220
+          },
+          {
+            "caption": "<span style=\"font-weight:400\">Modern-day giraffe<br>(5.5 m)</span>",
+            "captionBelow": true,
+            "src": "skeleton-giraffe.png",
+            "alt": "Image of the skeleton of a modern-day giraffe seen from the side and facing left, showing the skull, neck, rib cage, backbone, tail, and four legs.",
+            "width": 180
+          },
+          {
+            "caption": "<span style=\"font-weight:400\">Modern-day boar<br>(1.0 m)</span>",
+            "captionBelow": true,
+            "src": "skeleton-boar.png",
+            "alt": "Engraving of the skeleton of a modern-day boar seen from the side and facing left, showing the skull, neck, rib cage, backbone, tail, and four legs.",
+            "width": 238
+          }
+        ]
+      }
+    ],
+    "map": [
+      {
+        "type": "p",
+        "html": "The modern-day giraffe population has been influenced by human activities. These activities include loss of habitat, disease, climate change, and wildlife hunting. The map below shows the locations in Africa where giraffes presently live and where giraffes lived approximately 300 years ago."
+      },
+      {
+        "type": "figure",
+        "caption": "Map of Giraffe Ranges",
+        "src": "giraffe-range-map.png",
+        "alt": "Map of the African continent with a key. Light gray shading marks the historic geographic range and dark gray shading marks the present geographic range. Areas outside both ranges are covered in diagonal hatch lines. A north arrow is at the lower right.",
+        "width": 440
+      }
+    ],
+    "conservation": [
+      {
+        "type": "p",
+        "html": "Conservationists would like to protect the giraffe from the further negative influence of human activity. However, this protection must not adversely affect existing ecosystems. One method used by conservationists is to replant Acacia trees in areas where these trees originally grew to restore historical habitats."
+      }
+    ]
+  },
+  "items": [
+    {
+      "n": 44,
+      "stimulus": [
+        "intro"
+      ],
+      "type": "mc",
+      "pe": "MS-LS4-4",
+      "points": 1,
+      "stem": "Modern-day giraffes have traits with frequencies that have increased or decreased over time due to",
+      "options": [
+        "natural selection",
+        "extinction",
+        "selective breeding",
+        "fossil evidence"
+      ],
+      "key": "A"
+    },
+    {
+      "n": 45,
+      "stimulus": [
+        "evolution"
+      ],
+      "type": "mc",
+      "pe": "MS-LS4-2",
+      "points": 1,
+      "stem": "Which explanation is supported by a pattern shown in this diagram?",
+      "options": [
+        "Giraffes and closely related modern-day mammals existed 30 million years ago.",
+        "All species have common ancestors that survived to the present time.",
+        "Some species did not have genetic variations needed to survive to the present time.",
+        "The diversity of these mammals has decreased consistently over the last 30 million years."
+      ],
+      "key": "C"
+    },
+    {
+      "n": 46,
+      "stimulus": [
+        "skeletons"
+      ],
+      "type": "cr",
+      "pe": "MS-LS4-2",
+      "points": 1,
+      "stem": "Scientists claim that <i>Decennatherium rex</i> is an extinct ancestor of the modern-day giraffe and <b><i>not</i></b> the modern-day boar. Identify <b>one</b> difference and <b>one</b> similarity between pairs of skeletons that can be used as evidence to support this claim. [1]",
+      "parts": [
+        {
+          "label": "Difference between <i>Decennatherium rex</i> and modern-day boar:",
+          "short": true,
+          "exemplar": "The neck length of the boar is much shorter than the <i>Decennatherium rex</i>, so the boar is not related to the <i>Decennatherium rex</i>."
+        },
+        {
+          "label": "Similarity between <i>Decennatherium rex</i> and modern-day giraffe:",
+          "short": true,
+          "exemplar": "The neck length of the modern-day giraffe is similar to the <i>Decennatherium rex</i>."
+        }
+      ],
+      "rubric": [
+        "Exemplary response, difference between <i>Decennatherium rex</i> and modern-day boar: The neck length of the boar is much shorter than the <i>Decennatherium rex</i>, so the boar is not related to the <i>Decennatherium rex</i>. <i>OR</i> The <i>Decennatherium rex</i> has horns and the boar does not, so they are probably not related. <i>OR</i> The feet of the boar have visible toes and the <i>Decennatherium rex</i> does not. <i>OR</i> The spine of the boar is longer. <i>OR other valid response</i>",
+        "Exemplary response, similarity between <i>Decennatherium rex</i> and modern-day giraffe: The neck length of the modern-day giraffe is similar to the <i>Decennatherium rex</i>. <i>OR</i> The bone structure of the legs looks similar in the giraffe and the <i>Decennatherium rex</i>. <i>OR</i> Both have horns. <i>OR other valid response</i>",
+        "Credit: An acceptable difference between the <i>D. rex</i> and the boar is provided. An acceptable similarity between the <i>D. rex</i> and the giraffe is provided. This response is complete and correct.",
+        "Credit: An acceptable difference between the <i>D. rex</i> and the boar is implied because of the comparative terms used, including &ldquo;shorter&rdquo;. An acceptable similarity between the <i>D. rex</i> and the giraffe is provided. The additional information included in the response is correct and does not conflict with the acceptable similarity provided. This response is sufficient for credit.",
+        "No credit: An acceptable difference between the <i>D. rex</i> and the boar is provided. A similarity between the <i>D. rex</i> and the boar, rather than the giraffe, is provided. This response is insufficient for credit because the provided similarity does not answer the question.",
+        "No credit: The provided difference between the <i>D. rex</i> and the boar is related to function and not the skeletons themselves. The provided similarity between the <i>D. rex</i> and the giraffe is related to function and not the skeletons themselves. This response is insufficient for credit because it does not answer the question.",
+        "No credit: The provided difference between the <i>D. rex</i> and the boar is not specific enough and does not compare the skeletons. An acceptable similarity between the <i>D. rex</i> and the giraffe is provided. This response is insufficient for credit due to incorrect evidence for the provided difference."
+      ],
+      "exemplar": "Difference between <i>Decennatherium rex</i> and modern-day boar: The neck length of the boar is much shorter than the <i>Decennatherium rex</i>, so the boar is not related to the <i>Decennatherium rex</i>. Similarity between <i>Decennatherium rex</i> and modern-day giraffe: The neck length of the modern-day giraffe is similar to the <i>Decennatherium rex</i>."
+    },
+    {
+      "n": 47,
+      "stimulus": [
+        "map"
+      ],
+      "type": "mc",
+      "pe": "MS-LS2-4",
+      "points": 1,
+      "stem": "Based on evidence from the map, which graph would represent the general relationship between the number of giraffes living in Africa and time?",
+      "optionsLayout": "grid",
+      "options": [
+        {
+          "img": "graph-a.png",
+          "alt": "Graph A. Axes are Number of Giraffes (vertical) and Time (horizontal). A curve starts high on the left and slopes downward, flattening out toward the right.",
+          "width": 230
+        },
+        {
+          "img": "graph-b.png",
+          "alt": "Graph B. Axes are Number of Giraffes (vertical) and Time (horizontal). A curve starts low on the left and rises, climbing more steeply toward the right.",
+          "width": 230
+        },
+        {
+          "img": "graph-c.png",
+          "alt": "Graph C. Axes are Number of Giraffes (vertical) and Time (horizontal). A flat horizontal line.",
+          "width": 230
+        },
+        {
+          "img": "graph-d.png",
+          "alt": "Graph D. Axes are Number of Giraffes (vertical) and Time (horizontal). A wavy curve that rises, falls, and rises again across the graph.",
+          "width": 230
+        }
+      ],
+      "key": "A"
+    },
+    {
+      "n": 48,
+      "stimulus": [
+        "intro",
+        "conservation"
+      ],
+      "type": "cr",
+      "pe": "MS-LS2-5",
+      "points": 1,
+      "stem": "Describe how reforestation of Acacia trees protects the stability of giraffe populations in African savanna ecosystems. [1]",
+      "rubric": [
+        "Exemplary response: Since giraffes eat the leaves of Acacia trees, planting them will prevent giraffe populations from decreasing. <i>OR</i> The stability of ecosystems in African savannas will be protected by reintroducing Acacia trees for giraffes to eat. <i>OR</i> Planting Acacia trees will provide giraffes with more food. <i>OR other valid response</i>",
+        "Credit: The provided description indicates how planting Acacia trees will give the giraffes enough food so their numbers do not decline. This response is complete and correct.",
+        "Credit: The provided description indicates how planting Acacia trees will give the giraffes more habitat with the right food to survive so that populations balance. This response is complete and correct.",
+        "Credit: The provided description indicates how planting Acacia trees will give the giraffes enough food. This response is sufficient for credit.",
+        "No credit: The response provides a lot of information, but does not specify how giraffe populations are linked to Acacia trees. This response is insufficient for credit because it does not answer the question.",
+        "No credit: The response uses text from the stimulus and question, but does not connect them to answer the question. This response is insufficient for credit because it does not answer the question.",
+        "No credit: The response uses text from the stimulus, but does [not] describe how restoring habitats protects giraffe population stability. This response is insufficient for credit because it does not answer the question."
+      ],
+      "exemplar": "Since giraffes eat the leaves of Acacia trees, planting them will prevent giraffe populations from decreasing.",
+      "adapted": "The scoring materials print the third No credit note as \"but does describe how restoring habitats protects giraffe population stability\", which contradicts the same note's conclusion that the response is insufficient for credit. \"[not]\" is inserted in brackets so the note reads as intended. No other wording was changed."
+    }
+  ]
+}

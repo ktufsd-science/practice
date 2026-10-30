@@ -1,0 +1,348 @@
+{
+  "id": "g8-2025-observing-jupiter",
+  "title": "Observing Jupiter",
+  "grade": 8,
+  "subject": "Science",
+  "year": "2025",
+  "source": "NYSED 2025 Grade 8 ILS Released Items, Questions 14-18",
+  "pes": [
+    "MS-ESS1-3",
+    "MS-PS2-4",
+    "MS-ESS1-2",
+    "MS-ETS1-1"
+  ],
+  "directions": "Base your answers to questions 14 through 18 on the information below and on your knowledge of science.",
+  "showKeyAfterSubmit": true,
+  "stimuli": {
+    "intro": [
+      {
+        "type": "title",
+        "text": "Observing Jupiter"
+      },
+      {
+        "type": "p",
+        "html": "Although Galileo Galilei did not invent the telescope, he made significant advancements and refinements to the telescope in 1609. This refined telescope allowed Galileo to make observations of Earth’s Moon and the four largest moons that orbit Jupiter. Presently, spacecraft and space telescopes are used to make more detailed observations of our solar system."
+      },
+      {
+        "type": "p",
+        "html": "Some data about Jupiter’s four largest moons are shown below in <i>Data Table 1</i>."
+      },
+      {
+        "type": "table",
+        "caption": "Data Table 1",
+        "rows": [
+          [
+            "Name of Moon",
+            "Mass<br>(kg)",
+            "Equatorial Diameter<br>(km)",
+            "Mean Distance from Jupiter<br>(km)"
+          ],
+          [
+            "Io",
+            "8.93 × 10<sup>22</sup>",
+            "3.63 × 10<sup>3</sup>",
+            "4.22 × 10<sup>5</sup>"
+          ],
+          [
+            "Europa",
+            "4.80 × 10<sup>22</sup>",
+            "3.14 × 10<sup>3</sup>",
+            "6.71 × 10<sup>5</sup>"
+          ],
+          [
+            "Ganymede",
+            "1.48 × 10<sup>23</sup>",
+            "5.26 × 10<sup>3</sup>",
+            "1.07 × 10<sup>6</sup>"
+          ],
+          [
+            "Callisto",
+            "1.08 × 10<sup>23</sup>",
+            "4.82 × 10<sup>3</sup>",
+            "1.88 × 10<sup>6</sup>"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "html": "Some data about Earth’s Moon are shown below in <i>Data Table 2</i>."
+      },
+      {
+        "type": "table",
+        "caption": "Data Table 2",
+        "rows": [
+          [
+            "Mass<br>(kg)",
+            "Equatorial Diameter<br>(km)",
+            "Mean Distance from Earth<br>(km)"
+          ],
+          [
+            "7.35 × 10<sup>22</sup>",
+            "3.48 × 10<sup>3</sup>",
+            "3.83 × 10<sup>5</sup>"
+          ]
+        ]
+      }
+    ],
+    "gravity": [
+      {
+        "type": "p",
+        "html": "Many planets in our solar system have moons. The gravitational interaction between a planet and its moon keeps the moon in a relatively constant orbit around the planet."
+      },
+      {
+        "type": "p",
+        "html": "<i>Data Table 3</i> below shows some information about Jupiter and Saturn."
+      },
+      {
+        "type": "table",
+        "caption": "Data Table 3",
+        "rows": [
+          [
+            "Planet",
+            "Moon",
+            "Mean Orbiting Distance of Moon from Planet<br>(km)",
+            "Gravitational Force Exerted on Moon<br>(N)"
+          ],
+          [
+            "Jupiter",
+            "Io",
+            "4.22 × 10<sup>5</sup>",
+            "6.3 × 10<sup>22</sup>"
+          ],
+          [
+            "Saturn",
+            "Enceladus",
+            "2.40 × 10<sup>5</sup>",
+            "7.3 × 10<sup>19</sup>"
+          ]
+        ]
+      }
+    ],
+    "orbits": [
+      {
+        "type": "p",
+        "html": "The model below represents some information about Io and Jupiter."
+      },
+      {
+        "type": "figure",
+        "caption": "Orbits of Io and Jupiter",
+        "src": "orbits.png",
+        "alt": "Model showing the Sun as a large gray shape at the left edge. Jupiter is a gray circle on the right with a dashed circular path around it labeled Orbit of Io, with Io as a black dot on that path. A long dashed curve labeled Orbit of Jupiter passes through Jupiter's position. Labeled not drawn to scale.",
+        "width": 560
+      }
+    ],
+    "juice": [
+      {
+        "type": "p",
+        "html": "In 2023, the Jupiter Icy Moons Explorer (JUICE) spacecraft was launched to investigate Jupiter and three of its moons. This mission will begin collecting data in 2031 and is expected to last eight years. It will focus on learning more about each moon’s environment, as well as their potential for supporting life, as it passes by them."
+      },
+      {
+        "type": "p",
+        "html": "When planning and building JUICE, scientists needed to meet the mission’s objectives and consider both criteria and constraints. The objectives for the mission are listed below."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Collect data on the ocean-bearing icy moons of Callisto, Europa, and Ganymede.",
+          "Determine if there is water beneath the surface of the moons.",
+          "Study the magnetic fields of Ganymede and Callisto.",
+          "Map the topographic surface of Jupiter’s moons.",
+          "Investigate the upper layers of Ganymede’s and Callisto’s atmospheres.",
+          "Search for evidence of potentially habitable environments on Jupiter."
+        ]
+      }
+    ]
+  },
+  "items": [
+    {
+      "n": 14,
+      "stimulus": [
+        "intro"
+      ],
+      "type": "mc",
+      "pe": "MS-ESS1-3",
+      "points": 1,
+      "stem": "<p>The scale model below represents the mean distance between Earth and Earth’s Moon. The dots in the model represent the positions of celestial objects.</p><p style=\"text-align:center\"><img src=\"clusters/g8-2025-observing-jupiter/q14-model.png\" alt=\"Scale model: a line segment with a dot labeled Moon under its left end and a dot labeled Earth under its right end.\" style=\"width:220px\"></p><p>Which model best represents the mean distance between Jupiter and Europa, if drawn at the same scale as the Earth-Moon model?</p>",
+      "options": [
+        {
+          "img": "q14-a.png",
+          "alt": "Short line segment with a dot labeled Europa under its left end and a dot labeled Jupiter under its right end.",
+          "width": 180
+        },
+        {
+          "img": "q14-b.png",
+          "alt": "Medium-length line segment with a dot labeled Europa under its left end and a dot labeled Jupiter under its right end.",
+          "width": 240
+        },
+        {
+          "img": "q14-c.png",
+          "alt": "Long line segment with a dot labeled Europa under its left end and a dot labeled Jupiter under its right end.",
+          "width": 340
+        },
+        {
+          "img": "q14-d.png",
+          "alt": "Longest line segment with a dot labeled Europa under its left end and a dot labeled Jupiter under its right end.",
+          "width": 420
+        }
+      ],
+      "key": "C"
+    },
+    {
+      "n": 15,
+      "stimulus": [
+        "intro"
+      ],
+      "type": "multi",
+      "pe": "MS-ESS1-3",
+      "points": 1,
+      "stem": "The names of moons from <i>Data Table 1</i> and <i>Data Table 2</i> are listed below. Place their names in order from the largest mass to the smallest mass.",
+      "adapted": "The two printed parts are presented together as one question. Names are dragged into the Mass boxes and the comparison is typed. The printed Largest-to-Smallest arrow is shown as down-arrow glyphs between the labels.",
+      "parts": [
+        {
+          "type": "dragdrop",
+          "bankTitle": "Names of moons",
+          "reuse": false,
+          "choices": [
+            {
+              "id": "io",
+              "text": "Io"
+            },
+            {
+              "id": "eu",
+              "text": "Europa"
+            },
+            {
+              "id": "ga",
+              "text": "Ganymede"
+            },
+            {
+              "id": "ca",
+              "text": "Callisto"
+            },
+            {
+              "id": "mo",
+              "text": "Earth’s Moon"
+            }
+          ],
+          "target": {
+            "html": "<div style=\"display:grid;grid-template-columns:max-content max-content;gap:6px 14px;align-items:center\"><b>Mass</b><span></span><div>[[z1]]</div><span>Largest</span><div>[[z2]]</div><span style=\"text-align:center\">&darr;</span><div>[[z3]]</div><span style=\"text-align:center\">&darr;</span><div>[[z4]]</div><span style=\"text-align:center\">&darr;</span><div>[[z5]]</div><span>Smallest</span></div>",
+            "zoneNames": {
+              "z1": "Largest mass",
+              "z2": "Second",
+              "z3": "Third",
+              "z4": "Fourth",
+              "z5": "Smallest mass"
+            }
+          },
+          "key": {
+            "z1": "ga",
+            "z2": "ca",
+            "z3": "io",
+            "z4": "mo",
+            "z5": "eu"
+          }
+        },
+        {
+          "type": "cr",
+          "label": "Compare the moons’ equatorial diameters to the order of their masses. [1]",
+          "exemplar": "The order of the equatorial diameters is the same as the order of the masses."
+        }
+      ],
+      "rubric": [
+        "Credit: the correct order, Ganymede, Callisto, Io, Earth’s Moon, Europa, and a correct comparison.",
+        "Acceptable responses include, but are not limited to: The order of the equatorial diameters is the same as the order of the masses.",
+        "Acceptable responses include, but are not limited to: The moons’ equatorial diameters and masses would be the same from largest to smallest.",
+        "Acceptable responses include, but are not limited to: As diameter increased, the mass increased."
+      ],
+      "exemplar": "Order: Ganymede, Callisto, Io, Earth’s Moon, Europa. Comparison: The order of the equatorial diameters is the same as the order of the masses.<br><i>OR</i><br>The moons’ equatorial diameters and masses would be the same from largest to smallest.<br><i>OR</i><br>As diameter increased, the mass increased.<br><i>OR other valid response</i>"
+    },
+    {
+      "n": 16,
+      "stimulus": [
+        "gravity"
+      ],
+      "type": "mc",
+      "pe": "MS-PS2-4",
+      "points": 1,
+      "stem": "Which argument explains why Enceladus experiences a weaker gravitational force than Io from the planet it orbits, even though Enceladus is closer to its planet?",
+      "options": [
+        "The gravitational force exerted on a planet’s moon is affected by the planet’s magnetic field.",
+        "The strength of the gravitational force exerted by a planet on its moon is the same as the strength of the gravitational force exerted by the moon on a planet.",
+        "The speed of Enceladus results in a kinetic energy that decreases the strength of the gravitational force exerted by Saturn.",
+        "The masses of the planet and its moon affect the strength of the gravitational force exerted on the moon by the planet."
+      ],
+      "key": "D"
+    },
+    {
+      "n": 17,
+      "stimulus": [
+        "orbits"
+      ],
+      "type": "multi",
+      "pe": "MS-ESS1-2",
+      "points": 1,
+      "stem": "A student claims that the Sun exerts a gravitational force on Jupiter, but not on Io. Indicate if you support or refute this claim. Justify your choice using evidence from the <i>Orbits of Io and Jupiter</i> model and your scientific knowledge. [1]",
+      "adapted": "\"Indicate\" is done by selecting one box; the justification is typed.",
+      "parts": [
+        {
+          "type": "table",
+          "table": {
+            "header": false,
+            "rows": [
+              [
+                "<div style=\"text-align:left\">Support</div>",
+                {
+                  "check": "support",
+                  "group": "claim"
+                }
+              ],
+              [
+                "<div style=\"text-align:left\">Refute</div>",
+                {
+                  "check": "refute",
+                  "group": "claim"
+                }
+              ]
+            ],
+            "labels": {
+              "support": "Support",
+              "refute": "Refute"
+            }
+          },
+          "key": {
+            "refute": true
+          }
+        },
+        {
+          "type": "cr",
+          "label": "Justification:",
+          "exemplar": "Io travels around the Sun as well as Jupiter, proving that the Sun exerts a gravitational force on Io."
+        }
+      ],
+      "rubric": [
+        "Credit: Refute and a correct justification.",
+        "Acceptable responses include, but are not limited to: Io travels around the Sun as well as Jupiter, proving that the Sun exerts a gravitational force on Io.",
+        "Acceptable responses include, but are not limited to: The Sun and Io both have mass and interact at a distance, indicating a gravitational force between them.",
+        "Acceptable responses include, but are not limited to: Io is part of the solar system and everything in the solar system revolves around the Sun because of the gravitational force between the Sun and all solar system objects."
+      ],
+      "exemplar": "Refute. Io travels around the Sun as well as Jupiter, proving that the Sun exerts a gravitational force on Io.<br><i>OR</i><br>The Sun and Io both have mass and interact at a distance, indicating a gravitational force between them.<br><i>OR</i><br>Io is part of the solar system and everything in the solar system revolves around the Sun because of the gravitational force between the Sun and all solar system objects.<br><i>OR other valid response</i>"
+    },
+    {
+      "n": 18,
+      "stimulus": [
+        "juice"
+      ],
+      "type": "mc",
+      "pe": "MS-ETS1-1",
+      "points": 1,
+      "stem": "In order to successfully meet their objectives, scientists planning and building the JUICE spacecraft mission had to address the",
+      "options": [
+        "criterion that the spacecraft collect water from beneath the surface of the moons",
+        "criterion that the spacecraft can perform multiple tasks",
+        "constraint of collecting all necessary data by 2031",
+        "constraint of the effect of the tilt of Jupiter’s axis of rotation on data collection"
+      ],
+      "key": "B"
+    }
+  ]
+}

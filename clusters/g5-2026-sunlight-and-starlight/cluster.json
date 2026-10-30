@@ -1,0 +1,314 @@
+{
+  "id": "g5-2026-sunlight-and-starlight",
+  "title": "Sunlight and Starlight",
+  "grade": 5,
+  "subject": "Science",
+  "year": "2026",
+  "source": "NYSED 2026 Grade 5 ELS Released Items, Questions 1-4",
+  "pes": [
+    "4-PS4-2",
+    "5-ESS1-2"
+  ],
+  "directions": "Base your answers to questions 1 through 4 on the information below and on your knowledge of science.",
+  "showKeyAfterSubmit": true,
+  "stimuli": {
+    "intro": [
+      {
+        "type": "title",
+        "text": "Sunlight and Starlight"
+      },
+      {
+        "type": "p",
+        "html": "Our solar system exists in the Milky Way Galaxy. There are about 100 billion stars in the Milky Way and the Sun is one of them. The Sun is the only star in our solar system. The Sun is responsible for many patterns and events that occur on Earth."
+      }
+    ],
+    "shadowData": [
+      {
+        "type": "p",
+        "html": "The data below shows some information about the shadow formed by sunlight for a 2.0-meter tall stop sign in Rochester, New York on September 23, 2023."
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Time of Day",
+            "Length of Stop Sign<br>Shadow <span style=\"font-weight:400\">(m)</span>"
+          ],
+          [
+            "8:15 a.m.",
+            "8.63"
+          ],
+          [
+            "10:45 a.m.",
+            "2.67"
+          ],
+          [
+            "1:15 p.m.",
+            "1.89"
+          ],
+          [
+            "3:45 p.m.",
+            "3.02"
+          ],
+          [
+            "6:15 p.m.",
+            "13.21"
+          ],
+          [
+            "8:45 p.m.",
+            "None"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "html": "The direction and length of the shadow of the 2.0-meter stop sign for 10:45 a.m. are represented in the diagram below."
+      },
+      {
+        "type": "figure",
+        "src": "shadow-1045.png",
+        "alt": "Diagram of the stop sign standing on a line labeled Earth’s surface, with West on the left and East on the right. A gray shadow of the sign extends from the bottom of the post up and to the left, toward the West. Label: Shadow length = 2.67 m.",
+        "width": 338
+      }
+    ],
+    "sunriseSunset": [
+      {
+        "type": "p",
+        "html": "The data table below shows some information about sunrise and sunset in Rochester, New York on September 23, 2023."
+      },
+      {
+        "type": "table",
+        "rowHeaders": true,
+        "rows": [
+          [
+            {
+              "html": "",
+              "th": false,
+              "style": "border:none"
+            },
+            "Time of Day"
+          ],
+          [
+            "Sunrise",
+            "6:58 a.m."
+          ],
+          [
+            "Sunset",
+            "7:07 p.m."
+          ]
+        ]
+      }
+    ],
+    "constellations": [
+      {
+        "type": "p",
+        "html": "After the Sun sets, some stars are visible in the night sky. The model below shows different groups of stars (constellations) that are visible in the night sky in Rochester, New York as Earth orbits the Sun."
+      },
+      {
+        "type": "figure",
+        "caption": "Model of Constellations",
+        "src": "constellation-model.png",
+        "alt": "The Sun is at the center of an oval orbit labeled Earth’s actual positions in orbit. Dots on the orbit mark Earth’s position on the 21st of each month: Sept 21 at the top, then Aug 21, July 21, June 21 at the right side, May 21, Apr 21, Mar 21 at the bottom, Feb 21, Jan 21, Dec 21 at the left side, Nov 21, and Oct 21. Twelve constellations, drawn as stars connected by lines, surround the orbit: Aries, Pisces, and Aquarius above the top of the orbit; Capricornus and Sagittarius to the right; Scorpius at the lower right; Libra and Virgo below the bottom of the orbit; Leo and Cancer at the lower left; Gemini and Taurus at the upper left.",
+        "width": 720
+      }
+    ]
+  },
+  "items": [
+    {
+      "n": 1,
+      "stimulus": [
+        "intro"
+      ],
+      "type": "dragdrop",
+      "pe": "4-PS4-2",
+      "points": 1,
+      "stem": "Sunlight allows objects to be visible on Earth. From the choices, place one arrow in <i>each</i> box to complete the model to show the correct path of light that permits a stop sign to be seen. [1]",
+      "bankTitle": "Arrow Choices:",
+      "bankColumns": 4,
+      "reuse": true,
+      "choices": [
+        {
+          "id": "right",
+          "img": "arrow-right.png",
+          "alt": "Arrow pointing right",
+          "width": 56
+        },
+        {
+          "id": "left",
+          "img": "arrow-left.png",
+          "alt": "Arrow pointing left",
+          "width": 56
+        },
+        {
+          "id": "up",
+          "img": "arrow-up.png",
+          "alt": "Arrow pointing up",
+          "width": 56
+        },
+        {
+          "id": "down",
+          "img": "arrow-down.png",
+          "alt": "Arrow pointing down",
+          "width": 56
+        },
+        {
+          "id": "down-right",
+          "img": "arrow-downright.png",
+          "alt": "Arrow pointing down and to the right",
+          "width": 56
+        },
+        {
+          "id": "down-left",
+          "img": "arrow-downleft.png",
+          "alt": "Arrow pointing down and to the left",
+          "width": 56
+        },
+        {
+          "id": "up-left",
+          "img": "arrow-upleft.png",
+          "alt": "Arrow pointing up and to the left",
+          "width": 56
+        },
+        {
+          "id": "up-right",
+          "img": "arrow-upright.png",
+          "alt": "Arrow pointing up and to the right",
+          "width": 56
+        }
+      ],
+      "target": {
+        "title": "Path of Light Model",
+        "src": "path-of-light-model.png",
+        "alt": "A circle labeled Sun is at the upper left. A pair of eyes labeled Eyes is at the lower left. A stop sign labeled Stop sign is at the lower right, at the same height as the eyes. There are two empty boxes: one below and to the right of the Sun, and one between the eyes and the stop sign.",
+        "width": 460,
+        "zones": [
+          {
+            "id": "z1",
+            "x": 34.9,
+            "y": 23.8,
+            "w": 15.7,
+            "h": 16.5
+          },
+          {
+            "id": "z2",
+            "x": 43.9,
+            "y": 55.8,
+            "w": 15.8,
+            "h": 16.5
+          }
+        ],
+        "zoneNames": {
+          "z1": "Upper box",
+          "z2": "Lower box"
+        }
+      },
+      "key": {
+        "z1": "down-right",
+        "z2": "left"
+      },
+      "exemplarImage": "q1-exemplary.png"
+    },
+    {
+      "n": 2,
+      "stimulus": [
+        "shadowData"
+      ],
+      "type": "mc",
+      "pe": "5-ESS1-2",
+      "points": 1,
+      "stem": "Which diagram best represents the direction and length of the same stop sign’s shadow at 5:15 p.m.?",
+      "options": [
+        {
+          "img": "option-a.png",
+          "alt": "Diagram of the stop sign on Earth’s surface, with West on the left and East on the right. A gray shadow lies flat along the ground, extending to the west of the sign. Label: Shadow length = 9.63 m.",
+          "width": 383
+        },
+        {
+          "img": "option-b.png",
+          "alt": "Diagram of the stop sign on Earth’s surface, with West on the left and East on the right. A gray shadow lies flat along the ground, extending to the east of the sign. Label: Shadow length = 2.9 m.",
+          "width": 330
+        },
+        {
+          "img": "option-c.png",
+          "alt": "Diagram of the stop sign on Earth’s surface, with West on the left and East on the right. A gray shadow extends from the bottom of the post up and to the left, toward the West. Label: Shadow length = 10.20 m.",
+          "width": 316
+        },
+        {
+          "img": "option-d.png",
+          "alt": "Diagram of the stop sign on Earth’s surface, with West on the left and East on the right. A gray shadow extends from the bottom of the post up and to the right, toward the East. Label: Shadow length = 5.75 m.",
+          "width": 315
+        }
+      ],
+      "key": "D"
+    },
+    {
+      "n": 3,
+      "stimulus": [
+        "sunriseSunset"
+      ],
+      "type": "mc",
+      "pe": "5-ESS1-2",
+      "points": 1,
+      "stem": "Which table correctly identifies the amount of daylight (hours and minutes) in Rochester, New York on December 21, 2023 and June 20, 2024?",
+      "options": [
+        "<table><tr><th>Month</th><th>Daylight</th></tr><tr><td>December</td><td>8 h 59 min</td></tr><tr><td>June</td><td>15 h 24 min</td></tr></table>",
+        "<table><tr><th>Month</th><th>Daylight</th></tr><tr><td>December</td><td>15 h 24 min</td></tr><tr><td>June</td><td>8 h 59 min</td></tr></table>",
+        "<table><tr><th>Month</th><th>Daylight</th></tr><tr><td>December</td><td>12 h 9 min</td></tr><tr><td>June</td><td>11 h 51 min</td></tr></table>",
+        "<table><tr><th>Month</th><th>Daylight</th></tr><tr><td>December</td><td>11 h 51 min</td></tr><tr><td>June</td><td>12 h 9 min</td></tr></table>"
+      ],
+      "key": "A"
+    },
+    {
+      "n": 4,
+      "stimulus": [
+        "constellations"
+      ],
+      "type": "dragdrop",
+      "pe": "5-ESS1-2",
+      "points": 1,
+      "stem": "From the choices below, place <b>one</b> correct constellation name in <i>each</i> box to indicate the constellations that would be entirely visible and would <b><i>not</i></b> be visible from Rochester, New York at night on March 21. [1]",
+      "bankTitle": "Choices for Constellations:",
+      "reuse": false,
+      "choices": [
+        {
+          "id": "gemini",
+          "text": "Gemini"
+        },
+        {
+          "id": "libra",
+          "text": "Libra"
+        },
+        {
+          "id": "pisces",
+          "text": "Pisces"
+        },
+        {
+          "id": "sagittarius",
+          "text": "Sagittarius"
+        },
+        {
+          "id": "virgo",
+          "text": "Virgo"
+        }
+      ],
+      "target": {
+        "html": "<p style=\"margin:10px 0 14px\"><b>Visible</b> [[z1]]</p><p style=\"margin:0 0 10px\"><b>Not Visible</b> [[z2]]</p>",
+        "zoneNames": {
+          "z1": "Visible",
+          "z2": "Not Visible"
+        }
+      },
+      "key": {
+        "z1": [
+          "libra",
+          "virgo"
+        ],
+        "z2": [
+          "pisces",
+          "sagittarius",
+          "gemini"
+        ]
+      }
+    }
+  ]
+}

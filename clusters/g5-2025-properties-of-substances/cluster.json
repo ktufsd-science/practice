@@ -1,0 +1,254 @@
+{
+  "id": "g5-2025-properties-of-substances",
+  "title": "Properties of Substances",
+  "grade": 5,
+  "subject": "Science",
+  "year": "2025",
+  "source": "NYSED 2025 Grade 5 ELS Released Items, Questions 6-10",
+  "pes": [
+    "5-PS1-1",
+    "5-PS1-2",
+    "5-PS1-3",
+    "5-PS1-4"
+  ],
+  "directions": "Base your answers to questions 6 through 10 on the information below and on your knowledge of science.",
+  "showKeyAfterSubmit": true,
+  "stimuli": {
+    "intro": [
+      {
+        "type": "title",
+        "text": "Properties of Substances"
+      },
+      {
+        "type": "p",
+        "html": "In order to learn about the properties of different substances, a group of students conducted a series of investigations. In the first investigation, the group added 5 grams of water and 5 grams of iron filings (small pieces of iron) to an empty container that had a mass of 25 grams. The container was then sealed, shaken, and left undisturbed overnight."
+      },
+      {
+        "type": "p",
+        "html": "The next day, the students noticed that the color of some of the filings had changed from black to a dark red. The students then measured the mass of the iron filings, water, and container and found it to be 35 grams."
+      }
+    ],
+    "model": [
+      {
+        "type": "p",
+        "html": "In the second investigation, the students unsealed the container and developed a model, shown below, of the contents."
+      },
+      {
+        "type": "figure",
+        "src": "model.png",
+        "alt": "Particle model of an open container. The upper three rows are water particles, drawn as dots. The lower three rows are iron filings, drawn as dashes, mixed with water particles. A key shows that a dot stands for water particles and a dash stands for iron filings.",
+        "width": 400
+      }
+    ],
+    "table": [
+      {
+        "type": "p",
+        "html": "Magnetite is a mineral that contains iron. It is commonly found in beach sand. The table below shows some properties of some minerals found in beach sand at Jones Beach State Park on Long Island, New York."
+      },
+      {
+        "type": "table",
+        "caption": "Properties of Some Minerals in Sand at Jones Beach State Park",
+        "rows": [
+          [
+            "Mineral",
+            "Color",
+            "Light Passes Through",
+            "Magnetic",
+            "Soluble"
+          ],
+          [
+            "Magnetite",
+            "black",
+            "no",
+            "yes",
+            "no"
+          ],
+          [
+            "Garnet",
+            "red",
+            "yes",
+            "no",
+            "no"
+          ],
+          [
+            "Quartz",
+            "white",
+            "yes",
+            "no",
+            "no"
+          ]
+        ]
+      }
+    ],
+    "piemap": [
+      {
+        "type": "p",
+        "html": "The map with pie graphs shows the relative amounts of some heavier minerals in the sand of beaches on and near Long Island."
+      },
+      {
+        "type": "figure",
+        "caption": "Relative Amounts of Heavier Minerals in Beach Sand",
+        "src": "pie-map.png",
+        "alt": "Map of the land around New York Harbor and Long Island with five pie graphs, each joined by a line to a beach: Staten Island, Jones Beach, Sandy Hook, Breezy Point Beach, and Westhampton Beach. Each pie graph is divided into slices with fill patterns. A key matches the patterns to garnet, magnetite, glauconite, zircon, ilmenite, and other minerals. A note below the map reads (Not drawn to scale).",
+        "width": 620
+      }
+    ]
+  },
+  "items": [
+    {
+      "n": 6,
+      "stimulus": [
+        "intro"
+      ],
+      "type": "cr",
+      "pe": "5-PS1-4",
+      "points": 1,
+      "stem": "Identify the evidence that indicates a new substance was formed during this investigation. [1]",
+      "rubric": [
+        "Allow 1 credit. Acceptable responses include, but are not limited to:",
+        "A color change occurred in the iron filings which indicates a new substance was formed.",
+        "The evidence that a new substance was formed was that the iron turned from black to red."
+      ],
+      "exemplar": "A color change occurred in the iron filings which indicates a new substance was formed."
+    },
+    {
+      "n": 7,
+      "stimulus": [
+        "intro"
+      ],
+      "type": "mc",
+      "pe": "5-PS1-2",
+      "points": 1,
+      "stem": "The observations that the students made about the substances before and after they were combined provide evidence that",
+      "options": [
+        "matter is conserved when substances are mixed in a closed system",
+        "the thermal conductivity of substances increases when placed in water",
+        "all substances experience a phase change when combined",
+        "chemical reactions release heat within a system"
+      ],
+      "key": "A"
+    },
+    {
+      "n": 8,
+      "stimulus": [
+        "model"
+      ],
+      "type": "multi",
+      "pe": "5-PS1-1",
+      "points": 1,
+      "stem": "From the choices below, place the correct lettered model in the box below that represents the contents of the unsealed container <i>after</i> <b>one</b> week. Then, identify the name of the process that resulted in your selected choice of models. [1]",
+      "parts": [
+        {
+          "type": "dragdrop",
+          "bankTitle": "Model Choices",
+          "reuse": false,
+          "choices": [
+            {
+              "id": "A",
+              "img": "model-a.png",
+              "text": "A",
+              "alt": "Model A: water particles in the upper three rows and iron filings mixed with water particles in the lower three rows",
+              "width": 88
+            },
+            {
+              "id": "B",
+              "img": "model-b.png",
+              "text": "B",
+              "alt": "Model B: two rows of iron filings at the bottom of the container",
+              "width": 88
+            },
+            {
+              "id": "C",
+              "img": "model-c.png",
+              "text": "C",
+              "alt": "Model C: a few water particles spread out in rows above and below one row of iron filings",
+              "width": 88
+            },
+            {
+              "id": "D",
+              "img": "model-d.png",
+              "text": "D",
+              "alt": "Model D: a row of iron filings with a few water particles at the top, above rows of water particles mixed with iron filings",
+              "width": 88
+            }
+          ],
+          "target": {
+            "src": "after-one-week.png",
+            "alt": "The starting model of the container, with water particles and iron filings, has an arrow pointing to an empty dashed box labeled Model After One Week. Inside the box is a blank line labeled Letter.",
+            "width": 460,
+            "zones": [
+              {
+                "id": "z1",
+                "x": 67.4,
+                "y": 27.5,
+                "w": 27.6,
+                "h": 68.5
+              }
+            ],
+            "zoneNames": {
+              "z1": "Model After One Week"
+            }
+          },
+          "key": {
+            "z1": "B"
+          }
+        },
+        {
+          "type": "cr",
+          "parts": [
+            {
+              "label": "Process:",
+              "short": true,
+              "maxChars": 100,
+              "exemplar": "evaporation"
+            }
+          ]
+        }
+      ],
+      "rubric": [
+        "Allow 1 credit for Model B <i>and</i> evaporation."
+      ],
+      "adapted": "On paper, students write the letter of the chosen model on the Letter line inside the Model After One Week box and write the process on the Process line. On screen, they place the lettered model in the box and type the process. The stem wording is unchanged."
+    },
+    {
+      "n": 9,
+      "stimulus": [
+        "table"
+      ],
+      "type": "mc",
+      "pe": "5-PS1-3",
+      "points": 1,
+      "stem": "In the third investigation, the group of students wanted to separate magnetite from a 50-ml sample of sand collected on Jones Beach. Which method would most successfully separate all magnetite from the other materials in the sand?",
+      "options": [
+        "Measure the amount of light that passes through magnetite.",
+        "Mix the sand with water and filter out the magnetite.",
+        "Use a magnet to remove the magnetite from the sample.",
+        "Remove the magnetite particles from each of the other minerals with tweezers."
+      ],
+      "key": "C"
+    },
+    {
+      "n": 10,
+      "stimulus": [
+        "piemap",
+        "table"
+      ],
+      "type": "ms",
+      "pe": "5-PS1-3",
+      "points": 1,
+      "stem": "A student was given a sample of sand from Westhampton Beach. Select the <b>two</b> observations that would be made for this sand from Westhampton Beach compared to the sand from the other four beaches based on the pie graphs and table provided. [1]<p style=\"text-align:center;margin:18px 0 0\"><u>Observations</u></p>",
+      "options": [
+        "More red particles",
+        "Fewer magnetic particles",
+        "More black particles",
+        "Less transparent particles",
+        "More other minerals"
+      ],
+      "letters": false,
+      "key": [
+        "A",
+        "B"
+      ]
+    }
+  ]
+}

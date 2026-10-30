@@ -1,0 +1,265 @@
+{
+  "id": "g8-2025-organ-systems-and-responses",
+  "title": "Organ Systems and Responses",
+  "grade": 8,
+  "subject": "Science",
+  "year": "2025",
+  "source": "NYSED 2025 Grade 8 ILS Released Items, Questions 19-23",
+  "pes": [
+    "MS-LS1-3",
+    "MS-LS1-8",
+    "MS-LS1-2",
+    "MS-LS1-7"
+  ],
+  "directions": "Base your answers to questions 19 through 23 on the information below and on your knowledge of science.",
+  "showKeyAfterSubmit": true,
+  "stimuli": {
+    "intro": [
+      {
+        "type": "title",
+        "text": "Organ Systems and Responses"
+      },
+      {
+        "type": "p",
+        "html": "On the field, a soccer player responds to stimuli in various ways. Coordinated responses are a result of the player’s body systems working together. These responses are intended to help the body maintain homeostasis or are learned behaviors performed by the player."
+      },
+      {
+        "type": "figure",
+        "caption": "(Not drawn to scale)",
+        "captionBelow": true,
+        "src": "soccer-player.png",
+        "alt": "Illustration of a soccer player kicking a ball. Lines connect the player to enlarged drawings of an eye, a heart, lungs, bone, and muscle, each labeled.",
+        "width": 300
+      }
+    ],
+    "goalie": [
+      {
+        "type": "p",
+        "html": "In soccer, when a shot is taken, the goalie from the opposing team tries to catch or block the shot in order to prevent the other team from scoring. This action involves a series of coordinated responses in the goalie’s body."
+      },
+      {
+        "type": "figure",
+        "caption": "Reaction to Incoming Ball",
+        "src": "goalie.png",
+        "alt": "Illustration of a goalie reaching for an incoming soccer ball, with dashed arrows and numbers 1 through 6 marking the path from the ball to the eyes, to the brain, down to the arms, and to the hands. A numbered key lists: 1. Ball approaches; 2. Eyes see ball; 3. Visual information sent to brain; 4. Brain processes information; 5. Response sent from brain to muscles; 6. Hands catch or block the ball.",
+        "width": 460
+      }
+    ],
+    "gases": [
+      {
+        "type": "p",
+        "html": "The model below represents the transport of gases within a muscle cell in a soccer player’s body. Structures labeled <i>X</i> are organelles within the muscle cell."
+      },
+      {
+        "type": "figure",
+        "caption": "Model of Oxygen and Carbon Dioxide Transport",
+        "src": "gas-model.png",
+        "alt": "Model of gas transport. Blood travels from the heart to an air sac in a lung, where oxygen and carbon dioxide move across a blood vessel, then returns to the heart and on to the body cells in a muscle. An enlarged muscle cell shows blood vessels with red blood cells, oxygen moving into the cell, carbon dioxide moving out, and two organelles labeled X.",
+        "width": 420
+      }
+    ],
+    "energy": [
+      {
+        "type": "p",
+        "html": "The model below identifies the chemical formulas of some molecules in the cells of a soccer player. One molecule is missing."
+      },
+      {
+        "type": "figure",
+        "caption": "Production of Energy Model",
+        "src": "energy-model.png",
+        "alt": "Model of a reaction. An empty box labeled Missing reactant, plus O2, with an arrow pointing to CO2, plus H2O, plus Energy.",
+        "width": 380
+      }
+    ],
+    "body": [
+      {
+        "type": "p",
+        "html": "While playing soccer, athletes often experience changes in body temperature. The model below represents the different ways the human body responds to changes in body temperature to maintain homeostasis."
+      },
+      {
+        "type": "figure",
+        "caption": "Body Response Model",
+        "src": "body-response.png",
+        "alt": "Cycle diagram around a human figure. Body temperature falls leads to a box listing: blood vessels constrict so that heat is conserved; sweat glands do not secrete fluid; shivering generates heat, which warms the body. That leads to Heat is retained, then Normal body temperature. Body temperature rises leads to a box listing: blood vessels dilate, resulting in heat loss to the environment; sweat glands secrete fluid; as the fluid evaporates, heat is lost from the body. That leads to Heat is lost to the environment, then Normal body temperature.",
+        "width": 470
+      }
+    ]
+  },
+  "items": [
+    {
+      "n": 19,
+      "stimulus": [
+        "intro"
+      ],
+      "type": "mc",
+      "pe": "MS-LS1-3",
+      "points": 1,
+      "stem": "The player’s coach always encourages all participants to work together as a team. The player claims that the human body works similarly because the body consists of interacting systems. Which piece of evidence supports this claim?",
+      "options": [
+        "Cells in the human body contain a nuclei, cell membrane, and vacuoles.",
+        "Organs in the human body are composed of different types of tissue.",
+        "The mouth, stomach, and intestines are organs of the human digestive system.",
+        "The tissues of the muscular system move the human skeletal system."
+      ],
+      "key": "D"
+    },
+    {
+      "n": 20,
+      "stimulus": [
+        "goalie"
+      ],
+      "type": "dragdrop",
+      "pe": "MS-LS1-8",
+      "points": 1,
+      "stem": "Place the lettered items below in the correct sequence to model how this information is processed by the goalie.  [1]",
+      "adapted": "The booklet says to write a letter on each line; on screen the student places the lettered item in each box. The lettered boxes A through E are shown as text choices with their letters.",
+      "reuse": false,
+      "choices": [
+        {
+          "id": "A",
+          "text": "A: Behavior response"
+        },
+        {
+          "id": "B",
+          "text": "B: Sensory receptor"
+        },
+        {
+          "id": "C",
+          "text": "C: Stimulus"
+        },
+        {
+          "id": "D",
+          "text": "D: Transmitted from the brain"
+        },
+        {
+          "id": "E",
+          "text": "E: Transmitted to the brain"
+        }
+      ],
+      "target": {
+        "src": "sequence.png",
+        "alt": "Five dashed boxes in a row, each labeled Letter with a blank line, joined left to right by arrows pointing right.",
+        "width": 600,
+        "zones": [
+          {
+            "id": "z1",
+            "x": 0.4,
+            "y": 3,
+            "w": 15.5,
+            "h": 94
+          },
+          {
+            "id": "z2",
+            "x": 21.4,
+            "y": 3,
+            "w": 15.5,
+            "h": 94
+          },
+          {
+            "id": "z3",
+            "x": 42.3,
+            "y": 3,
+            "w": 15.5,
+            "h": 94
+          },
+          {
+            "id": "z4",
+            "x": 63.3,
+            "y": 3,
+            "w": 15.5,
+            "h": 94
+          },
+          {
+            "id": "z5",
+            "x": 84.1,
+            "y": 3,
+            "w": 15.5,
+            "h": 94
+          }
+        ],
+        "zoneNames": {
+          "z1": "box 1",
+          "z2": "box 2",
+          "z3": "box 3",
+          "z4": "box 4",
+          "z5": "box 5"
+        }
+      },
+      "key": {
+        "z1": "C",
+        "z2": "B",
+        "z3": "E",
+        "z4": "D",
+        "z5": "A"
+      },
+      "rubric": [
+        "Allow 1 credit for the correct sequence: Stimulus, Sensory receptor, Transmitted to the brain, Transmitted from the brain, Behavior response."
+      ],
+      "exemplar": "C, B, E, D, A"
+    },
+    {
+      "n": 21,
+      "stimulus": [
+        "gases"
+      ],
+      "type": "mc",
+      "pe": "MS-LS1-2",
+      "points": 1,
+      "stem": "<p>From the table below, which row correctly matches the name and function of the organelles labeled <i>X</i>?</p><table class=\"stim-table\" style=\"margin:14px 0 16px;width:100%\"><tr><th>Row</th><th>Organelles</th><th>Function</th></tr><tr><td><b>A</b></td><td>mitochondria</td><td>Release energy stored in chemical bonds</td></tr><tr><td><b>B</b></td><td>mitochondria</td><td>Use energy to produce more complex molecules</td></tr><tr><td><b>C</b></td><td>chloroplasts</td><td>Convert light energy into chemical bond energy</td></tr><tr><td><b>D</b></td><td>chloroplasts</td><td>Produce energy from a carbon-based gas</td></tr></table>",
+      "options": [
+        "Row A",
+        "Row B",
+        "Row C",
+        "Row D"
+      ],
+      "key": "A"
+    },
+    {
+      "n": 22,
+      "stimulus": [
+        "energy"
+      ],
+      "type": "cr",
+      "pe": "MS-LS1-7",
+      "points": 1,
+      "adapted": "The booklet prints the word \"system\" after the Body System line; on screen the box has no trailing word, so the student may enter either the system name or the name followed by \"system\".",
+      "stem": "Identify the unidentified reactant in this model <i>and</i> a body system that supplies this reactant.  [1]",
+      "parts": [
+        {
+          "label": "Missing Reactant:",
+          "short": true,
+          "exemplar": "Sugar"
+        },
+        {
+          "label": "Body System:",
+          "short": true,
+          "exemplar": "digestive"
+        }
+      ],
+      "rubric": [
+        "Allow 1 credit for a correctly identified reactant <i>and</i> body system. Acceptable responses include, but are not limited to:",
+        "Missing Reactant: Sugar; glucose/C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>",
+        "Body System: digestive; circulatory"
+      ],
+      "exemplar": "Missing Reactant: Sugar. Body System: digestive"
+    },
+    {
+      "n": 23,
+      "stimulus": [
+        "body"
+      ],
+      "type": "mc",
+      "pe": "MS-LS1-8",
+      "points": 1,
+      "stem": "<p>Which row correctly pairs a sensory organ and the body’s response to increased activity while playing soccer?</p><table class=\"stim-table\" style=\"margin:14px 0 16px;width:100%\"><tr><th>Row</th><th>Sensory Organ</th><th>Body Response</th></tr><tr><td><b>A</b></td><td>eyes</td><td>blood vessels constrict</td></tr><tr><td><b>B</b></td><td>ears</td><td>shivering releases heat</td></tr><tr><td><b>C</b></td><td>skin</td><td>sweat glands secrete fluid</td></tr><tr><td><b>D</b></td><td>tongue</td><td>heat is generated</td></tr></table>",
+      "options": [
+        "Row A",
+        "Row B",
+        "Row C",
+        "Row D"
+      ],
+      "key": "C"
+    }
+  ],
+  "split": 50
+}

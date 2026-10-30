@@ -1,0 +1,394 @@
+{
+  "id": "g8-2025-maple-syrup-production",
+  "title": "Maple Syrup Production",
+  "grade": 8,
+  "subject": "Science",
+  "year": "2025",
+  "source": "NYSED 2025 Grade 8 ILS Released Items, Questions 1-5",
+  "pes": [
+    "MS-PS1-2",
+    "MS-PS1-3",
+    "MS-PS1-4",
+    "MS-PS1-7"
+  ],
+  "directions": "Base your answers to questions 1 through 5 on the information below and on your knowledge of science.",
+  "showKeyAfterSubmit": true,
+  "split": 40,
+  "stimuli": {
+    "intro": [
+      {
+        "type": "title",
+        "text": "Maple Syrup Production"
+      },
+      {
+        "type": "p",
+        "html": "New York State is one of the leading producers of maple syrup. This process begins with inserting a spout into a maple tree. Sap (sugar water) flows into buckets for collection. The sap is then transferred into pans and heated to reduce the water content in sap to make the more concentrated maple syrup."
+      },
+      {
+        "type": "p",
+        "html": "The photographs below show sap being collected in buckets and the sap being heated in three pans over a wood fire."
+      },
+      {
+        "type": "figures",
+        "items": [
+          {
+            "type": "figure",
+            "caption": "Collection of Sap",
+            "src": "photo-collection.png",
+            "alt": "Photograph of two metal buckets hanging on the trunk of a maple tree. The nearest bucket holds a clear liquid.",
+            "width": 265
+          },
+          {
+            "type": "figure",
+            "caption": "Heating of Sap",
+            "src": "photo-heating.png",
+            "alt": "Photograph of three metal pans set over a wood fire between rows of concrete blocks. Steam rises from the pans.",
+            "width": 188
+          }
+        ]
+      }
+    ],
+    "temp": [
+      {
+        "type": "p",
+        "html": "The sap must be heated for a long period of time to become syrup. The graph below shows the relationship between temperature and time for sap being heated over a wood fire. Points <i>X</i> and <i>Y</i> represent temperatures of the sap at different times."
+      },
+      {
+        "type": "figure",
+        "caption": "The Effect of Heating Time on the Temperature of the Sap",
+        "src": "temp-graph.png",
+        "alt": "Line graph with time on the horizontal axis and temperature on the vertical axis, showing temperature over the heating time. Points X and Y are marked on the line, with Y to the right of X.",
+        "width": 420
+      }
+    ],
+    "density": [
+      {
+        "type": "p",
+        "html": "The graph below shows the change in density of collected liquid as maple sap is heated over time to produce maple syrup. It takes 40 gallons of sap to make 1 gallon of syrup."
+      },
+      {
+        "type": "figure",
+        "caption": "The Effect of Heating Time on Density",
+        "src": "density-graph.png",
+        "alt": "Line graph of density in grams per milliliter, from 0.95 to 1.4, against heating time in hours, from 0 to 12. The curve rises from about 1.0 g/mL at 0 hours, labeled maple sap, to 1.4 g/mL at about 10.5 hours, labeled maple syrup.",
+        "width": 440
+      }
+    ],
+    "labels": [
+      {
+        "type": "p",
+        "html": "Maple syrup produced from maple trees is often called natural maple syrup. In addition to natural maple syrup, artificial maple syrup is produced to be used in cooking and as a topping. Artificial maple syrup is processed to mimic the taste and texture of natural maple syrup. The photos below show food labels from containers of both kinds of syrup."
+      },
+      {
+        "type": "figures",
+        "items": [
+          {
+            "type": "figure",
+            "caption": "Syrup Label 1",
+            "src": "label-1.png",
+            "alt": "Photograph of a Nutrition Facts label for Syrup 1. It lists 5 servings per container, a serving size of 1/4 cup (60 ml), 200 calories, nutrient amounts, and an ingredients line.",
+            "width": 200
+          },
+          {
+            "type": "figure",
+            "caption": "Syrup Label 2",
+            "src": "label-2.png",
+            "alt": "Photograph of the back label of a syrup bottle named Original Syrup, with a Nutrition Facts panel showing 12 servings, 210 calories, nutrient amounts, and a printed list of ingredients.",
+            "width": 230
+          }
+        ]
+      }
+    ],
+    "pancakes": [
+      {
+        "type": "p",
+        "html": "Maple syrup, both natural and artificial, is used as a topping on pancakes. Pancakes can be made by combining ingredients. The table below lists some information about making pancakes."
+      },
+      {
+        "type": "table",
+        "caption": "Procedure for Making Pancakes",
+        "rows": [
+          [
+            "Step",
+            "Ingredients Added",
+            "Observations"
+          ],
+          [
+            {
+              "html": "1. Combine dry ingredients in a bowl.",
+              "align": "left"
+            },
+            {
+              "html": "Flour<br>Salt<br>Sugar<br>Baking Powder",
+              "align": "left"
+            },
+            {
+              "html": "White substances are in bowl.",
+              "align": "left"
+            }
+          ],
+          [
+            {
+              "html": "2. Add liquid ingredients to the bowl and mix to make batter.",
+              "align": "left"
+            },
+            {
+              "html": "Egg<br>Vanilla concentrate<br>Vegetable oil<br>Milk",
+              "align": "left"
+            },
+            {
+              "html": "The white substance becomes a liquid, and small bubbles form in the batter.",
+              "align": "left"
+            }
+          ],
+          [
+            {
+              "html": "3. Place pancake batter on a hot pan and heat for two minutes.",
+              "align": "left"
+            },
+            {
+              "html": "None",
+              "align": "left"
+            },
+            {
+              "html": "Top of pancake remains white, and more bubbles appear.",
+              "align": "left"
+            }
+          ],
+          [
+            {
+              "html": "4. Use a spatula to flip pancake over and heat for two minutes.",
+              "align": "left"
+            },
+            {
+              "html": "None",
+              "align": "left"
+            },
+            {
+              "html": "Top of flipped-over pancake is brown.",
+              "align": "left"
+            }
+          ],
+          [
+            {
+              "html": "5. Remove pancake from heat.",
+              "align": "left"
+            },
+            {
+              "html": "None",
+              "align": "left"
+            },
+            {
+              "html": "Both top and bottom of pancake are brown and the middle is white and solid.",
+              "align": "left"
+            }
+          ]
+        ]
+      }
+    ]
+  },
+  "items": [
+    {
+      "n": 1,
+      "stimulus": [
+        "intro"
+      ],
+      "type": "dragdrop",
+      "pe": "MS-PS1-4",
+      "points": 1,
+      "stem": "Place the correct lettered particle diagram and particle motion description in the boxes below to indicate the arrangement of the particles and their motion as a result of adding thermal energy. [1]",
+      "bankTitle": "Particle Diagram Choices and Particle Motion Description Choices",
+      "reuse": false,
+      "choices": [
+        {
+          "id": "A",
+          "img": "particle-a.png",
+          "alt": "Particle diagram A: eight circles spread far apart in the box",
+          "width": 58
+        },
+        {
+          "id": "B",
+          "img": "particle-b.png",
+          "alt": "Particle diagram B: eight circles packed tightly together at the bottom of the box",
+          "width": 58
+        },
+        {
+          "id": "C",
+          "img": "particle-c.png",
+          "alt": "Particle diagram C: two rows of four circles at the bottom of the box, close together but not touching in a packed clump",
+          "width": 58
+        },
+        {
+          "id": "D",
+          "html": "Closely spaced but can change their relative positions<br><b>D</b>"
+        },
+        {
+          "id": "E",
+          "html": "Constantly change their relative positions<br><b>E</b>"
+        },
+        {
+          "id": "F",
+          "html": "Vibrate in position<br><b>F</b>"
+        }
+      ],
+      "target": {
+        "title": "",
+        "src": "q1-target.png",
+        "alt": "Photograph of three pans heated over a wood fire, with labels for steam, sap (sugar water), and wood fire. Lines run from the steam and from the sap to two rows of boxes. Each row has an empty box under the heading Particle Diagram and an empty box under the heading Particle Motion Description, joined by the word and.",
+        "width": 780,
+        "zones": [
+          {
+            "id": "z1",
+            "x": 62.2,
+            "y": 18.5,
+            "w": 10.9,
+            "h": 18.8
+          },
+          {
+            "id": "z2",
+            "x": 80.2,
+            "y": 15.1,
+            "w": 14.7,
+            "h": 26.0
+          },
+          {
+            "id": "z3",
+            "x": 62.2,
+            "y": 49.5,
+            "w": 10.9,
+            "h": 19.3
+          },
+          {
+            "id": "z4",
+            "x": 80.2,
+            "y": 46.3,
+            "w": 14.7,
+            "h": 25.6
+          }
+        ],
+        "zoneNames": {
+          "z1": "Steam, particle diagram",
+          "z2": "Steam, particle motion description",
+          "z3": "Sap, particle diagram",
+          "z4": "Sap, particle motion description"
+        }
+      },
+      "key": {
+        "z1": "A",
+        "z2": "E",
+        "z3": "C",
+        "z4": "D"
+      }
+    },
+    {
+      "n": 2,
+      "stimulus": [
+        "temp"
+      ],
+      "type": "mc",
+      "pe": "MS-PS1-4",
+      "points": 1,
+      "stem": "Which statement describes the temperature and the kinetic energy of the particles in sap as the sap is heated from point <i>X</i> to point <i>Y</i>?",
+      "options": [
+        "The temperature and the kinetic energy remain the same.",
+        "The temperature remains the same and the kinetic energy increases.",
+        "The temperature increases and the kinetic energy remains the same.",
+        "The temperature and the kinetic energy increase."
+      ],
+      "key": "A"
+    },
+    {
+      "n": 3,
+      "stimulus": [
+        "density"
+      ],
+      "type": "mc",
+      "pe": "MS-PS1-7",
+      "points": 1,
+      "stem": "A student is given two unlabeled 5-milliliter samples, one of which is maple sap and the other is maple syrup. Based on the information in the graph, which piece of evidence would best distinguish maple sap from maple syrup?",
+      "options": [
+        "The sample with the greater mass is maple sap.",
+        "The sample with the lower mass is maple sap.",
+        "The sample with the greater volume is maple sap.",
+        "The sample with the greater density is maple sap."
+      ],
+      "key": "B"
+    },
+    {
+      "n": 4,
+      "stimulus": [
+        "labels"
+      ],
+      "type": "mc",
+      "pe": "MS-PS1-3",
+      "points": 1,
+      "stem": "Which statement explains why Syrup 2 is the artificial maple syrup and represents a synthetic material?",
+      "options": [
+        "The serving size of Syrup 2 contains more nutrients and has more calories than the serving size of Syrup 1.",
+        "The Syrup 2 container has more servings than the Syrup 1 container.",
+        "Syrup 2 does not require refrigeration.",
+        "The ingredients in Syrup 2 include natural resources that have been chemically combined to make the syrup."
+      ],
+      "key": "D"
+    },
+    {
+      "n": 5,
+      "stimulus": [
+        "pancakes"
+      ],
+      "type": "multi",
+      "pe": "MS-PS1-2",
+      "points": 1,
+      "stem": "The boxes below are summarized descriptions for some of the steps in making pancakes. Place a lettered summarized step during which a chemical reaction occurred into the space below.",
+      "parts": [
+        {
+          "type": "dragdrop",
+          "bankTitle": "Summarized Steps",
+          "reuse": false,
+          "choices": [
+            {
+              "id": "A",
+              "html": "Add Dry Ingredients<br>to Bowl and Mix<br><b>A</b>"
+            },
+            {
+              "id": "B",
+              "html": "Add Liquid Ingredients<br>to Bowl and Mix<br><b>B</b>"
+            },
+            {
+              "id": "C",
+              "html": "Heat Batter in Hot Pan<br><b>C</b>"
+            }
+          ],
+          "target": {
+            "title": "",
+            "html": "<b>Summarized Step Having a Chemical Reaction:</b> [[z1]]",
+            "zoneNames": {
+              "z1": "Summarized step having a chemical reaction"
+            }
+          },
+          "key": {
+            "z1": [
+              "B",
+              "C"
+            ]
+          }
+        },
+        {
+          "type": "cr",
+          "label": "Explain how the observations in the procedure can be used as evidence to determine that a chemical reaction occurred during your chosen step. [1]"
+        }
+      ],
+      "rubric": [
+        "Allow 1 credit for a correctly selected step with an explanation that contains appropriate supporting evidence from the procedure. Acceptable responses include, but are not limited to:",
+        "Credit, Step B (Add Liquid Ingredients to Bowl and Mix): Bubbles formed in the batter, which is evidence of a new substance.",
+        "Credit, Step B: Bubbles formed because a gas was produced.",
+        "Credit, Step C (Heat Batter in Hot Pan): Bubbles formed in heated batter, which is evidence of a new substance.",
+        "Credit, Step C: Bubbles formed because a gas was produced.",
+        "Credit, Step C: The top of the pancake was brown after the pancake was flipped, indicating a new substance.",
+        "Credit, Step C: Both the top and bottom of the pancake were brown and the middle was white. This color change is evidence for a new substance."
+      ],
+      "exemplar": "Step B: Bubbles formed in the batter, which is evidence of a new substance. Step C: Bubbles formed in heated batter, which is evidence of a new substance.",
+      "adapted": "On screen, a lettered step is dragged into the box and the explanation is typed."
+    }
+  ]
+}

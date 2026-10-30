@@ -1,0 +1,158 @@
+{
+  "id": "g5-2025-earthquakes-ring-of-fire",
+  "title": "Patterns of Earthquakes and the Ring of Fire",
+  "grade": 5,
+  "subject": "Science",
+  "year": "2025",
+  "source": "NYSED 2025 Grade 5 ELS Released Items, Questions 11-15",
+  "pes": [
+    "4-ESS2-2",
+    "3-5-ETS1-2"
+  ],
+  "directions": "Base your answers to questions 11 through 15 on the information below and on your knowledge of science.",
+  "showKeyAfterSubmit": true,
+  "stimuli": {
+    "intro": [
+      {
+        "type": "title",
+        "text": "Patterns of Earthquakes and the Ring of Fire"
+      },
+      {
+        "type": "p",
+        "html": "The map below shows many locations where destructive earthquakes have occurred and where volcanoes are found on Earth. The 20 most destructive earthquakes in history have occurred along the Ring of Fire. The locations of two states, Oregon and New York, are indicated."
+      },
+      {
+        "type": "figure",
+        "caption": "Ring of Fire",
+        "src": "ring-of-fire-map.png",
+        "alt": "World map centered on the Pacific Ocean, showing Asia, Australia, North America, and South America, with the Atlantic Ocean at the right. Small dots mark earthquake locations, triangles mark volcanoes, and a dashed line marks the Ring of Fire Boundary in the Pacific Ocean region. Oregon, on the west coast of North America, and New York, in the east of North America, are each marked with a small square. A key identifies the symbols, and an arrow points north.",
+        "width": 600
+      }
+    ],
+    "damage": [
+      {
+        "type": "p",
+        "html": "Many small earthquakes occur throughout New York State. The map below identifies the chance of earthquake damage in New York State based on how often earthquakes have occurred at that location and the strength of the resulting ground shaking felt by people."
+      },
+      {
+        "type": "figure",
+        "caption": "Chance of Earthquake Damage in New York State",
+        "src": "ny-damage-map.png",
+        "alt": "Map of New York State and nearby areas, shaded to show the chance of earthquake damage. The key has four patterns: horizontal stripes for low chance of damage, earthquake rarely felt; light gray for low-to-medium chance of damage, some may feel shaking; medium gray for medium chance of damage, earthquake felt by many; and dark gray for medium-to-high chance of damage, earthquake easily felt by all. A compass rose shows north, south, east, and west.",
+        "width": 600
+      }
+    ],
+    "nyc": [
+      {
+        "type": "p",
+        "html": "New York City is home to over one million buildings. Many buildings were not constructed or reinforced to be earthquake resistant. These buildings cannot absorb the forces associated with earthquakes."
+      },
+      {
+        "type": "p",
+        "html": "Older, harder bedrock allows earthquake vibrations to travel great distances. Shorter buildings constructed on soft, shallow soil above bedrock shake faster than taller buildings constructed on deep soil above bedrock."
+      },
+      {
+        "type": "p",
+        "html": "Some students suggested solutions that could reduce the impact of earthquake damage on new construction or existing buildings in New York City. These solutions are listed below."
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          "Reinforce brick buildings and repair building foundations (basements) so they don’t crack in weak areas when an earthquake occurs.",
+          "Design interior walls of new buildings so they are able to absorb forces and are less likely to fail.",
+          "Only build new structures on top of shallow soil with bedrock underneath to prevent shaking.",
+          "Only build new structures that are shorter as they will shake less than taller buildings.",
+          "Secure walls to the roof and walls to the foundation in existing buildings to prevent the transfer of weight in the building during shaking."
+        ]
+      }
+    ]
+  },
+  "items": [
+    {
+      "n": 11,
+      "stimulus": [
+        "intro"
+      ],
+      "type": "mc",
+      "pe": "4-ESS2-2",
+      "points": 1,
+      "stem": "Based on the map, most earthquakes occur",
+      "options": [
+        "in the center of continents",
+        "in the center of oceans",
+        "along some boundaries where oceans and continents meet",
+        "along all boundaries where oceans and continents meet"
+      ],
+      "key": "C"
+    },
+    {
+      "n": 12,
+      "stimulus": [
+        "intro"
+      ],
+      "type": "cr",
+      "pe": "4-ESS2-2",
+      "points": 1,
+      "stem": "Describe the general relationship between the pattern of where earthquakes occur and the pattern of where volcanoes occur. [1]",
+      "rubric": [
+        "Allow 1 credit. Acceptable responses include, but are not limited to:",
+        "Many earthquakes and volcanoes occur in the same places/locations.",
+        "They both mainly occur in similar locations along the Ring of Fire.",
+        "Where there are more earthquakes, there tends to be more volcanoes."
+      ],
+      "exemplar": "Many earthquakes and volcanoes occur in the same places/locations."
+    },
+    {
+      "n": 13,
+      "stimulus": [
+        "intro"
+      ],
+      "type": "cr",
+      "pe": "4-ESS2-2",
+      "points": 1,
+      "stem": "Compare the chance of having a destructive earthquake occur in New York State to the chance of having a destructive earthquake occur in Oregon. Use evidence from the map <i>and</i> passage to support your answer. [1]",
+      "rubric": [
+        "Allow 1 credit. Acceptable responses include, but are not limited to:",
+        "There is a greater chance of a destructive earthquake occurring in Oregon because it’s located near the Ring of Fire, where many destructive earthquakes have occurred.",
+        "There are fewer destructive earthquakes in New York State because it’s not on the Ring of Fire.",
+        "There are no dots shown on the map in New York State but there are dots shown on the map in Oregon, so there is a lower chance of a destructive earthquake in New York State."
+      ],
+      "exemplar": "There is a greater chance of a destructive earthquake occurring in Oregon because it’s located near the Ring of Fire, where many destructive earthquakes have occurred."
+    },
+    {
+      "n": 14,
+      "stimulus": [
+        "damage"
+      ],
+      "type": "mc",
+      "pe": "4-ESS2-2",
+      "points": 1,
+      "stem": "Which area of New York State would most likely have the <b>greatest</b> chance of experiencing damage due to an earthquake?",
+      "options": [
+        "northwest",
+        "northeast",
+        "southwest",
+        "southeast"
+      ],
+      "key": "B"
+    },
+    {
+      "n": 15,
+      "stimulus": [
+        "nyc"
+      ],
+      "type": "mc",
+      "pe": "3-5-ETS1-2",
+      "points": 1,
+      "stem": "Which two solutions would best reduce the impact of an earthquake for the majority of residents in New York City?",
+      "options": [
+        "solutions 1 and 2",
+        "solutions 2 and 3",
+        "solutions 4 and 5",
+        "solutions 5 and 3"
+      ],
+      "key": "A"
+    }
+  ]
+}

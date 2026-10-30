@@ -1,0 +1,194 @@
+{
+  "id": "g8-2026-acoustic-levitation",
+  "title": "Acoustic Levitation",
+  "grade": 8,
+  "subject": "Science",
+  "year": "2026",
+  "source": "NYSED 2026 Grade 8 ILS Released Items, Questions 6-9",
+  "pes": [
+    "MS-PS1-7",
+    "MS-PS4-1",
+    "MS-PS4-2"
+  ],
+  "directions": "Base your answers to questions 6 through 9 on the information below and on your knowledge of science.",
+  "showKeyAfterSubmit": true,
+  "split": 50,
+  "stimuli": {
+    "intro": [
+      {
+        "type": "title",
+        "text": "Acoustic Levitation"
+      },
+      {
+        "type": "p",
+        "html": "An acoustic levitator makes objects hover in the air between two small groups of speakers using sound waves. One group of speakers is above the hovering objects and the other group is below. When the sound waves produced by both groups of speakers have the same frequency, the waves combine and form quiet and loud areas. Small beads or drops of liquid put into the space between the speakers will be suspended in the quiet areas. The diagram below shows an acoustic levitator. The model below shows the quiet and loud areas between the two groups of speakers and the location of the suspended beads."
+      },
+      {
+        "type": "html",
+        "html": "<div class=\"fig-row\" style=\"align-items:flex-start\"><figure class=\"fig\"><div class=\"fig-cap\">Acoustic Levitator</div><img src=\"clusters/g8-2026-acoustic-levitation/levitator.png\" alt=\"Drawing of an acoustic levitator: a tall stand holds a dome with a group of speakers hanging at the top and a bowl-shaped group of speakers at the bottom. A column of small beads hovers in the space between the two groups. Labels with lines point to the top speakers, the suspended beads, and the bottom speakers.\" style=\"width:245px\" draggable=\"false\"></figure><figure class=\"fig\"><div class=\"fig-cap\">Model of Locations of Loud and Quiet Areas<br>in the Acoustic Levitator</div><img src=\"clusters/g8-2026-acoustic-levitation/loud-quiet-model.png\" alt=\"Model in a box. A row of seven small rectangles across the top is labeled Top speakers, and a row of seven across the bottom is labeled Bottom speakers. Between them is a vertical column of seven wide ovals alternating with six small dots, starting and ending with an oval. A key shows that an oval means loud areas and a small dot means suspended beads in quiet areas.\" style=\"width:310px\" draggable=\"false\"></figure></div>"
+      }
+    ],
+    "amplification": [
+      {
+        "type": "p",
+        "html": "The speakers in the acoustic levitator are powered by electricity. The energy of the sound waves produced by the speakers is controlled with an amplifier. A section of an air pressure wave at a low amplification is shown below, drawn to scale."
+      },
+      {
+        "type": "figure",
+        "caption": "Low Amplification Wave",
+        "src": "low-amplification-wave.png",
+        "width": 160,
+        "alt": "A smooth wave line in a box with two rounded crests and one trough between them."
+      }
+    ],
+    "density": [
+      {
+        "type": "p",
+        "html": "Different substances can be suspended in the acoustic levitator. The graph below shows the amount of peak-to-peak voltage (measurement similar to energy) required to suspend samples of equal-volume substances having different densities. The range is indicated for each data point."
+      },
+      {
+        "type": "figure",
+        "caption": "Relationship Between Sample Density and<br>Peak-to-Peak Voltage of an Acoustic Levitator",
+        "src": "density-graph.png",
+        "width": 520,
+        "alt": "Graph with Peak-to-Peak Voltage (V) from 9 to 17 on the horizontal axis and Levitating Sample Density (g/cm3) from 0 to 2.5 on the vertical axis. Each of four labeled data points has a horizontal bar showing its range. Isopropyl alcohol is at about 9.9 volts and a density of about 0.8. Water is at about 11 volts and a density of 1. Sugar is at about 12.7 volts and a density of 1.5. Fused silica (Pure glass) is at about 15.8 volts and a density of about 2.2."
+      }
+    ]
+  },
+  "items": [
+    {
+      "n": 6,
+      "stimulus": [
+        "intro"
+      ],
+      "type": "mc",
+      "pe": "MS-PS4-2",
+      "points": 1,
+      "stem": "<p>Which row in the table represents the directions of sound waves and the direction of air particle vibration for the <i>Model of Locations of Loud and Quiet Areas in the Acoustic Levitator</i>?</p><table class=\"stim-table\" style=\"margin:14px 0 16px;width:100%\"><tr><th>Row</th><th>Direction of Sound Waves Produced by Top Speakers</th><th>Direction of Sound Waves Produced by Bottom Speakers</th><th>Direction of Air Particle Vibration</th></tr><tr><td><b>1</b></td><td><img src=\"clusters/g8-2026-acoustic-levitation/arrow-right.png\" alt=\"Arrow pointing right\" style=\"width:66px\"></td><td><img src=\"clusters/g8-2026-acoustic-levitation/arrow-left.png\" alt=\"Arrow pointing left\" style=\"width:66px\"></td><td><img src=\"clusters/g8-2026-acoustic-levitation/arrow-both-h.png\" alt=\"Double-headed arrow pointing left and right\" style=\"width:66px\"></td></tr><tr><td><b>2</b></td><td><img src=\"clusters/g8-2026-acoustic-levitation/arrow-right.png\" alt=\"Arrow pointing right\" style=\"width:66px\"></td><td><img src=\"clusters/g8-2026-acoustic-levitation/arrow-left.png\" alt=\"Arrow pointing left\" style=\"width:66px\"></td><td><img src=\"clusters/g8-2026-acoustic-levitation/arrow-both-v.png\" alt=\"Double-headed arrow pointing up and down\" style=\"height:66px\"></td></tr><tr><td><b>3</b></td><td><img src=\"clusters/g8-2026-acoustic-levitation/arrow-down.png\" alt=\"Arrow pointing down\" style=\"height:66px\"></td><td><img src=\"clusters/g8-2026-acoustic-levitation/arrow-up.png\" alt=\"Arrow pointing up\" style=\"height:66px\"></td><td><img src=\"clusters/g8-2026-acoustic-levitation/arrow-both-h.png\" alt=\"Double-headed arrow pointing left and right\" style=\"width:66px\"></td></tr><tr><td><b>4</b></td><td><img src=\"clusters/g8-2026-acoustic-levitation/arrow-down.png\" alt=\"Arrow pointing down\" style=\"height:66px\"></td><td><img src=\"clusters/g8-2026-acoustic-levitation/arrow-up.png\" alt=\"Arrow pointing up\" style=\"height:66px\"></td><td><img src=\"clusters/g8-2026-acoustic-levitation/arrow-both-v.png\" alt=\"Double-headed arrow pointing up and down\" style=\"height:66px\"></td></tr></table>",
+      "options": [
+        "Row 1",
+        "Row 2",
+        "Row 3",
+        "Row 4"
+      ],
+      "key": "D"
+    },
+    {
+      "n": 7,
+      "stimulus": [
+        "amplification"
+      ],
+      "type": "dragdrop",
+      "pe": "MS-PS4-1",
+      "points": 1,
+      "stem": "Another sound wave was produced using a higher amplification. Complete the flowchart below by placing the letter of the correct choice for <i>Effect on Wave Pattern</i> and <i>Effect on Wave Characteristic</i> in the appropriate boxes. The choices for <i>Effect on Wave Pattern</i> have been drawn to the same scale as the <i>Low Amplification Wave</i>.  [1]",
+      "bankTitle": "Choices for Effect on Wave Pattern: A, B, C<br>Choices for Effect on Wave Characteristic: D, E, F, G",
+      "reuse": false,
+      "choices": [
+        {
+          "id": "A",
+          "img": "wave-a.png",
+          "width": 179,
+          "alt": "Choice A: one broad crest and one broad trough"
+        },
+        {
+          "id": "B",
+          "img": "wave-b.png",
+          "width": 179,
+          "alt": "Choice B: two tall crests and one deep trough"
+        },
+        {
+          "id": "C",
+          "img": "wave-c.png",
+          "width": 179,
+          "alt": "Choice C: three small crests and two shallow troughs"
+        },
+        {
+          "id": "D",
+          "text": "D: Increased frequency",
+          "html": "<span><b>D</b>&nbsp; Increased frequency</span>"
+        },
+        {
+          "id": "E",
+          "text": "E: Decreased frequency",
+          "html": "<span><b>E</b>&nbsp; Decreased frequency</span>"
+        },
+        {
+          "id": "F",
+          "text": "F: Louder",
+          "html": "<span><b>F</b>&nbsp; Louder</span>"
+        },
+        {
+          "id": "G",
+          "text": "G: Quieter",
+          "html": "<span><b>G</b>&nbsp; Quieter</span>"
+        }
+      ],
+      "target": {
+        "src": "flowchart.png",
+        "alt": "Flowchart with three parts joined by arrows. A solid box labeled Higher Amplification Wave contains the words Increased amplification. An arrow leads to a large dashed box labeled Effect on Wave Pattern, which contains a blank Letter line. A second arrow leads to a smaller dashed box labeled Effect on Wave Characteristic, which also contains a blank Letter line.",
+        "width": 620,
+        "zones": [
+          {
+            "id": "z1",
+            "x": 34.9,
+            "y": 22.1,
+            "w": 30.3,
+            "h": 72.1
+          },
+          {
+            "id": "z2",
+            "x": 74.7,
+            "y": 38.5,
+            "w": 23.9,
+            "h": 38.5
+          }
+        ],
+        "zoneNames": {
+          "z1": "Effect on Wave Pattern",
+          "z2": "Effect on Wave Characteristic"
+        }
+      },
+      "key": {
+        "z1": "B",
+        "z2": "F"
+      },
+      "adapted": "On paper, students write the letter of the correct choice on each Letter line in the flowchart. On screen, they place the lettered choice in each dashed box. The stem wording is unchanged. The two lists of choices, printed side by side under their own headings, appear in one choice bank headed by both labels."
+    },
+    {
+      "n": 8,
+      "stimulus": [
+        "density"
+      ],
+      "type": "mc",
+      "pe": "MS-PS1-7",
+      "points": 1,
+      "stem": "<p>Based on analysis of the given evidence, which table contains the terms that correctly complete the argument below?</p><p style=\"line-height:1.9\">Of the substances in the graph, <span style=\"display:inline-block;min-width:3.4em;border-bottom:1px solid currentColor;text-align:center;line-height:1.2\">1</span> has the greatest density. As a result, the samples of this substance have the <span style=\"display:inline-block;min-width:3.4em;border-bottom:1px solid currentColor;text-align:center;line-height:1.2\">2</span> mass and require waves with the <span style=\"display:inline-block;min-width:3.4em;border-bottom:1px solid currentColor;text-align:center;line-height:1.2\">3</span> to be suspended.</p>",
+      "options": [
+        "<table style=\"table-layout:fixed;width:250px\"><colgroup><col style=\"width:14%\"><col></colgroup><tr><td>1</td><td style=\"text-align:left\">isopropyl alcohol</td></tr><tr><td>2</td><td style=\"text-align:left\">least</td></tr><tr><td>3</td><td style=\"text-align:left\">highest frequency</td></tr></table>",
+        "<table style=\"table-layout:fixed;width:250px\"><colgroup><col style=\"width:14%\"><col></colgroup><tr><td>1</td><td style=\"text-align:left\">fused silica</td></tr><tr><td>2</td><td style=\"text-align:left\">greatest</td></tr><tr><td>3</td><td style=\"text-align:left\">greatest energy</td></tr></table>",
+        "<table style=\"table-layout:fixed;width:250px\"><colgroup><col style=\"width:14%\"><col></colgroup><tr><td>1</td><td style=\"text-align:left\">isopropyl alcohol</td></tr><tr><td>2</td><td style=\"text-align:left\">greatest</td></tr><tr><td>3</td><td style=\"text-align:left\">greatest energy</td></tr></table>",
+        "<table style=\"table-layout:fixed;width:250px\"><colgroup><col style=\"width:14%\"><col></colgroup><tr><td>1</td><td style=\"text-align:left\">fused silica</td></tr><tr><td>2</td><td style=\"text-align:left\">least</td></tr><tr><td>3</td><td style=\"text-align:left\">highest frequency</td></tr></table>"
+      ],
+      "key": "B",
+      "adapted": "On paper the four answer tables are arranged two by two (A and C on top, B and D below) with each letter printed under its table. On screen they are listed A, B, C, D with the letter beside each table. No wording changed."
+    },
+    {
+      "n": 9,
+      "stimulus": [
+        "intro"
+      ],
+      "type": "cr",
+      "pe": "MS-PS4-2",
+      "points": 1,
+      "stem": "Although acoustic levitation has many practical applications on Earth, it is not practical in space. Explain why the use of acoustic levitation, such as the one described using speakers, is <b><i>not</i></b> possible in outer space.  [1]",
+      "rubric": [
+        "Credit: The explanation implies that sound needs a medium through which to travel. This response is sufficient for credit.",
+        "Exemplary response: Sound needs a medium to travel, and space is a vacuum. <i>OR</i> A sound wave cannot travel in space since a medium is needed for it to move. <i>OR</i> Without the air/gas/air pressure/matter present on Earth, sound can not travel. <i>OR</i> Sound is a mechanical wave. <i>OR other valid response</i>",
+        "No credit: The explanation inaccurately specifies the medium needed for sound to travel as oxygen only. It also incorrectly describes the effect of gravity on sound transmission and incorrectly implies the existence of sound in space. This response is insufficient for credit due to an incorrect explanation.",
+        "No credit: The explanation does not address why sound cannot travel in space. This response is insufficient for credit due to an incomplete explanation."
+      ],
+      "exemplar": "Sound needs a medium to travel, and space is a vacuum."
+    }
+  ]
+}

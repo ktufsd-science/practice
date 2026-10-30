@@ -1,0 +1,287 @@
+{
+  "id": "g5-2026-information-transfer",
+  "title": "Information Transfer",
+  "grade": 5,
+  "subject": "Science",
+  "year": "2026",
+  "source": "NYSED 2026 Grade 5 ELS Released Items, Questions 14-18",
+  "pes": [
+    "3-5-ETS1-2",
+    "4-PS3-2",
+    "4-PS3-3",
+    "4-PS4-1",
+    "4-PS4-3"
+  ],
+  "directions": "Base your answers to questions 14 through 18 on the information below and on your knowledge of science.",
+  "showKeyAfterSubmit": true,
+  "stimuli": {
+    "intro": [
+      {
+        "type": "title",
+        "text": "Information Transfer"
+      },
+      {
+        "type": "p",
+        "html": "People communicate in order to share information with others, express needs, and maintain friendships. Throughout history, people around the world have created and used different methods of communication. The table below describes a few of these methods."
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            {
+              "html": "Method",
+              "style": "width:130px"
+            },
+            {
+              "html": "Description",
+              "style": "width:215px"
+            },
+            "Example"
+          ],
+          [
+            "Drum signals",
+            "System that uses different sound combinations on a drum.",
+            "<img src=\"clusters/g5-2026-information-transfer/drum-signals.png\" alt=\"Black-and-white photograph of a person holding a mallet and striking a large, hollow log drum inside a wooden shelter. Labels point to the mallet and the drum.\" style=\"width:340px;max-width:100%\">"
+          ],
+          [
+            "Morse code",
+            "System that uses long and short sounds, long or short flashing lights, or dots and dashes, to represent letters and numbers.",
+            "<img src=\"clusters/g5-2026-information-transfer/morse-code.png\" alt=\"Morse code chart. Each letter from A to Z and each number from 1 to 9 and 0 is shown with its own group of dots and dashes.\" style=\"width:310px;max-width:100%\">"
+          ],
+          [
+            "<span style=\"white-space:nowrap\">String-and-can</span> telephone",
+            "System that allows a person to talk into a can on one end and be heard through the can on the other end.",
+            "<img src=\"clusters/g5-2026-information-transfer/string-and-can.png\" alt=\"Black-and-white photograph of two children outdoors. One child talks into a can. The other child holds a second can up to one ear. A string stretched between the two cans connects them.\" style=\"width:290px;max-width:100%\">"
+          ],
+          [
+            "Sign language",
+            "System that uses hand movements to represent letters and words.",
+            "<img src=\"clusters/g5-2026-information-transfer/sign-language.png\" alt=\"Line drawings of the hand signs for four words, labeled Help, Finished, More, and Play. Arrows show how the hands move for each sign.\" style=\"width:290px;max-width:100%\">"
+          ],
+          [
+            "Binary code",
+            "System that uses 0 and 1 to represent letters, numbers, and symbols used in computers and cell phones.",
+            {
+              "html": "<div style=\"display:flex;gap:16px;justify-content:center;align-items:flex-start\"><table style=\"border-collapse:collapse;font-size:.8em;margin:0\"><tr><th style=\"padding:1px 7px;line-height:1.25;vertical-align:bottom\">Number</th><th style=\"padding:1px 7px;line-height:1.25;vertical-align:bottom\">Binary<br>Code</th></tr><tr><td style=\"padding:1px 7px;line-height:1.25\">0</td><td style=\"padding:1px 7px;line-height:1.25\">0</td></tr><tr><td style=\"padding:1px 7px;line-height:1.25\">1</td><td style=\"padding:1px 7px;line-height:1.25\">01</td></tr><tr><td style=\"padding:1px 7px;line-height:1.25\">2</td><td style=\"padding:1px 7px;line-height:1.25\">10</td></tr><tr><td style=\"padding:1px 7px;line-height:1.25\">3</td><td style=\"padding:1px 7px;line-height:1.25\">11</td></tr><tr><td style=\"padding:1px 7px;line-height:1.25\">4</td><td style=\"padding:1px 7px;line-height:1.25\">100</td></tr><tr><td style=\"padding:1px 7px;line-height:1.25\">5</td><td style=\"padding:1px 7px;line-height:1.25\">101</td></tr><tr><td style=\"padding:1px 7px;line-height:1.25\">6</td><td style=\"padding:1px 7px;line-height:1.25\">110</td></tr><tr><td style=\"padding:1px 7px;line-height:1.25\">7</td><td style=\"padding:1px 7px;line-height:1.25\">111</td></tr><tr><td style=\"padding:1px 7px;line-height:1.25\">8</td><td style=\"padding:1px 7px;line-height:1.25\">1000</td></tr><tr><td style=\"padding:1px 7px;line-height:1.25\">9</td><td style=\"padding:1px 7px;line-height:1.25\">1001</td></tr><tr><td style=\"padding:1px 7px;line-height:1.25\">10</td><td style=\"padding:1px 7px;line-height:1.25\">1010</td></tr><tr><td style=\"padding:1px 7px;line-height:1.25\">11</td><td style=\"padding:1px 7px;line-height:1.25\">1011</td></tr><tr><td style=\"padding:1px 7px;line-height:1.25\">12</td><td style=\"padding:1px 7px;line-height:1.25\">1100</td></tr><tr><td style=\"padding:1px 7px;line-height:1.25\">13</td><td style=\"padding:1px 7px;line-height:1.25\">1101</td></tr><tr><td style=\"padding:1px 7px;line-height:1.25\">14</td><td style=\"padding:1px 7px;line-height:1.25\">1110</td></tr><tr><td style=\"padding:1px 7px;line-height:1.25\">15</td><td style=\"padding:1px 7px;line-height:1.25\">1111</td></tr></table><table style=\"border-collapse:collapse;font-size:.8em;margin:0\"><tr><th style=\"padding:1px 7px;line-height:1.25;vertical-align:bottom\">Number</th><th style=\"padding:1px 7px;line-height:1.25;vertical-align:bottom\">Binary<br>Code</th></tr><tr><td style=\"padding:1px 7px;line-height:1.25\">16</td><td style=\"padding:1px 7px;line-height:1.25\">10000</td></tr><tr><td style=\"padding:1px 7px;line-height:1.25\">17</td><td style=\"padding:1px 7px;line-height:1.25\">10001</td></tr><tr><td style=\"padding:1px 7px;line-height:1.25\">18</td><td style=\"padding:1px 7px;line-height:1.25\">10010</td></tr><tr><td style=\"padding:1px 7px;line-height:1.25\">19</td><td style=\"padding:1px 7px;line-height:1.25\">10011</td></tr><tr><td style=\"padding:1px 7px;line-height:1.25\">20</td><td style=\"padding:1px 7px;line-height:1.25\">10100</td></tr><tr><td style=\"padding:1px 7px;line-height:1.25\">21</td><td style=\"padding:1px 7px;line-height:1.25\">10101</td></tr><tr><td style=\"padding:1px 7px;line-height:1.25\">22</td><td style=\"padding:1px 7px;line-height:1.25\">10110</td></tr><tr><td style=\"padding:1px 7px;line-height:1.25\">23</td><td style=\"padding:1px 7px;line-height:1.25\">10111</td></tr><tr><td style=\"padding:1px 7px;line-height:1.25\">24</td><td style=\"padding:1px 7px;line-height:1.25\">11000</td></tr><tr><td style=\"padding:1px 7px;line-height:1.25\">25</td><td style=\"padding:1px 7px;line-height:1.25\">11001</td></tr><tr><td style=\"padding:1px 7px;line-height:1.25\">26</td><td style=\"padding:1px 7px;line-height:1.25\">11010</td></tr><tr><td style=\"padding:1px 7px;line-height:1.25\">27</td><td style=\"padding:1px 7px;line-height:1.25\">11011</td></tr><tr><td style=\"padding:1px 7px;line-height:1.25\">28</td><td style=\"padding:1px 7px;line-height:1.25\">11100</td></tr><tr><td style=\"padding:1px 7px;line-height:1.25\">29</td><td style=\"padding:1px 7px;line-height:1.25\">11101</td></tr><tr><td style=\"padding:1px 7px;line-height:1.25\">30</td><td style=\"padding:1px 7px;line-height:1.25\">11110</td></tr><tr><td style=\"padding:1px 7px;line-height:1.25\">31</td><td style=\"padding:1px 7px;line-height:1.25\">11111</td></tr></table></div>",
+              "style": "padding:8px"
+            }
+          ]
+        ]
+      }
+    ],
+    "friends": [
+      {
+        "type": "p",
+        "html": "Two friends live in buildings across the street from each other. They want to build their own method of communication that would allow them to find out if the other is available to meet outside. They can see and hear each other from their bedrooms. In order to be effective, this method must meet the following criteria and constraints."
+      },
+      {
+        "type": "p",
+        "html": "Criteria:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "be able to transfer information easily from one person to another",
+          "inexpensive",
+          "can be used either day or night"
+        ]
+      },
+      {
+        "type": "p",
+        "html": "Constraints:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "must be quiet after 7:00 p.m.",
+          "must be kept in their bedrooms",
+          "must not take up a lot of space"
+        ]
+      },
+      {
+        "type": "p",
+        "html": "They have proposed two different methods:"
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Method 1",
+            "Method 2"
+          ],
+          [
+            {
+              "html": "Morse code and flashlight<br><img src=\"clusters/g5-2026-information-transfer/method-1.png\" alt=\"Morse code chart of dots and dashes for the letters A to Z and the numbers 1 to 9 and 0, with a picture of a flashlight.\" style=\"width:330px;max-width:100%\">",
+              "valign": "top",
+              "style": "padding:10px 12px"
+            },
+            {
+              "html": "Drum signals<br><img src=\"clusters/g5-2026-information-transfer/method-2.png\" alt=\"Photograph of a small, round hand drum with a mallet resting on top. Labels point to the drum and the mallet.\" style=\"width:245px;max-width:100%\">",
+              "valign": "top",
+              "style": "padding:10px 12px"
+            }
+          ]
+        ]
+      }
+    ],
+    "waves": [
+      {
+        "type": "p",
+        "html": "Air particles vibrate as a sound wave passes through them. The model below represents the motion of air particles caused by sound waves leaving a can and being heard by a person. The patterns of the particles can be changed into a model shaped like a wave."
+      },
+      {
+        "type": "p",
+        "html": "Wave <i>A</i> represents a student speaking with their normal voice volume. Wave <i>B</i> represents the same student whispering. In both examples, the student spoke using the same pitch."
+      },
+      {
+        "type": "figure",
+        "caption": "String-and-Can Telephone Waves",
+        "src": "waves.png",
+        "alt": "Model. A can is on the left and an ear is on the right. Between them is a band of air particles, labeled Air particles, with areas where the particles are crowded together and areas where they are spread apart. Below the band are two wave lines, labeled Sound Wave A (normal voice) and Sound Wave B (whispering).",
+        "width": 640
+      }
+    ]
+  },
+  "items": [
+    {
+      "n": 14,
+      "stimulus": [
+        "intro"
+      ],
+      "type": "cr",
+      "pe": "4-PS4-3",
+      "points": 1,
+      "stem": "Identify <b>two</b> communication methods that use a pattern in order to transfer information. Use evidence from the table to support each choice. [1]",
+      "parts": [
+        {
+          "label": "Method 1:",
+          "short": true,
+          "maxChars": 100,
+          "exemplar": "Drum Signals"
+        },
+        {
+          "label": "Evidence:",
+          "exemplar": "Sound patterns made by a drum communicate information."
+        },
+        {
+          "label": "Method 2:",
+          "short": true,
+          "maxChars": 100,
+          "exemplar": "Morse Code"
+        },
+        {
+          "label": "Evidence:",
+          "exemplar": "Patterns of long and short flashing lights or dots and dashes to symbolize letters and numbers."
+        }
+      ],
+      "rubric": [
+        "Exemplary response: Method 1: Drum Signals<br>Evidence: Sound patterns made by a drum communicate information.<br>Method 2: Morse Code<br>Evidence: Patterns of long and short flashing lights or dots and dashes to symbolize letters and numbers.",
+        "<i>OR</i> Method 1: Drum Signals<br>Evidence: Information is transferred by patterns of drum beats.<br>Method 2: Sign Language<br>Evidence: Making the same hand movement represents the same letter/word every time.",
+        "<i>OR</i> Method 1: Morse Code<br>Evidence: Is a pattern of sounds that transfers information.<br>Method 2: Binary Code<br>Evidence: Patterns made by 0s and 1s represent letters and numbers.",
+        "<i>OR other valid response</i>",
+        "Credit: each method is chosen and the evidence provided describes its pattern. Evidence that minimally describes each method's pattern is sufficient for credit.",
+        "No credit: the evidence provided for one of the methods does not describe its pattern (lack of support for that method).",
+        "No credit: the evidence provided is a direct copy from the table and does not describe the pattern.",
+        "No credit: the evidence provided describes the back-and-forth pattern of conversation, not a pattern to transfer information.",
+        "No credit: the methods and supporting evidence do not come from the table."
+      ],
+      "exemplar": "Method 1: Drum Signals<br>Evidence: Sound patterns made by a drum communicate information.<br>Method 2: Morse Code<br>Evidence: Patterns of long and short flashing lights or dots and dashes to symbolize letters and numbers."
+    },
+    {
+      "n": 15,
+      "stimulus": [
+        "intro"
+      ],
+      "type": "mc",
+      "pe": "4-PS3-2",
+      "points": 1,
+      "stem": "Using the information in the table, which statement about energy using the string-and-can telephone is most accurate?",
+      "options": [
+        "Sound energy is transferred through the string.",
+        "Electrical energy is transferred through the string.",
+        "Sound energy is converted into electrical energy in the string.",
+        "Heat energy is converted into sound energy in the can."
+      ],
+      "key": "A"
+    },
+    {
+      "n": 16,
+      "stimulus": [
+        "intro"
+      ],
+      "type": "mc",
+      "pe": "4-PS3-3",
+      "points": 1,
+      "stem": "When drum signals are used for communication, what happens to the energy of the mallet, drum, and surrounding air when the mallet hits the drum?",
+      "options": [
+        "The mallet gains energy from the drum and the surrounding air.",
+        "The mallet and drum both gain energy from the surrounding air.",
+        "The mallet loses energy, and this energy is transferred to the drum, but not to the surrounding air.",
+        "The mallet loses energy, and this energy is transferred to the drum and then to the surrounding air."
+      ],
+      "key": "D"
+    },
+    {
+      "n": 17,
+      "stimulus": [
+        "friends"
+      ],
+      "type": "cr",
+      "pe": "3-5-ETS1-2",
+      "points": 1,
+      "stem": "Identify the method that allows the friends to <i>most</i> effectively receive each other’s messages, and explain how this method best meets the criteria <i>and</i> constraints. [1]",
+      "parts": [
+        {
+          "label": "Method:",
+          "short": true,
+          "maxChars": 100,
+          "exemplar": "Morse code with flashlight"
+        },
+        {
+          "label": "Explanation:",
+          "exemplar": "It can be seen by friends at all times, but the drum can only be used before 7:00 p.m."
+        }
+      ],
+      "rubric": [
+        "Method: Method 1/1/Morse code with flashlight/Morse code/flashlight",
+        "Explanation: It can be seen by friends at all times, but the drum can only be used before 7:00 p.m. <i>OR</i> The flashlight that uses Morse code is cheap, can be used day and night, and is small and easily stored. <i>OR other valid response</i>",
+        "Credit: Morse code (with flashlight) is chosen for the method, and an acceptable explanation including how the chosen method best meets the criteria and constraints is provided. A minimally acceptable explanation is sufficient for credit.",
+        "Credit is also given when Morse code with flashlight is chosen and an acceptable explanation including how drum signals does not meet the criteria and constraints is provided.",
+        "No credit: drums and mallet (drum signals) is chosen for the method, even with an acceptable explanation, due to selection of the less effective method.",
+        "No credit: the explanation does not specify the criteria and constraints that the use of drum signals does not meet.",
+        "No credit: the explanation does not specify how the method best meets the criteria and constraints."
+      ],
+      "exemplar": "Method: Morse code with flashlight<br>Explanation: It can be seen by friends at all times, but the drum can only be used before 7:00 p.m."
+    },
+    {
+      "n": 18,
+      "stimulus": [
+        "waves"
+      ],
+      "type": "cr",
+      "pe": "4-PS4-1",
+      "points": 1,
+      "stem": "Compare the amplitude and wavelength of Wave <i>A</i> to the amplitude and wavelength of Wave <i>B</i>. Mention both waves in your responses. [1]",
+      "parts": [
+        {
+          "label": "Amplitude:",
+          "exemplar": "Amplitude of Wave A is greater/more than the amplitude of Wave B."
+        },
+        {
+          "label": "Wavelength:",
+          "exemplar": "Wavelength of Wave A is the same as the wavelength of Wave B."
+        }
+      ],
+      "rubric": [
+        "Amplitude: Amplitude of Wave A is greater/more than the amplitude of Wave B. <i>OR</i> A has an amplitude that is larger/taller/longer than B. <i>OR other valid response</i>",
+        "Wavelength: Wavelength of Wave A is the same as the wavelength of Wave B. <i>OR</i> Both waves have the same wavelength. <i>OR other valid response</i>",
+        "Credit: the amplitudes of Waves A and B are correctly compared, and the wavelengths of Waves A and B are correctly compared. A minimally correct wavelength comparison is sufficient for credit.",
+        "Additional information (for example, about the amount of time or what is being said) that does not contradict the correct information about the wavelength does not prevent credit.",
+        "No credit: the comparison of Waves A and B refers to altitude instead of amplitude (use of an incorrect term).",
+        "No credit: the wavelengths of Waves A and B are incorrectly compared as being different.",
+        "No credit: an imprecise term, such as Wave A being “more intense” than Wave B, does not imply an increase in amplitude."
+      ],
+      "exemplar": "Amplitude: Amplitude of Wave A is greater/more than the amplitude of Wave B.<br>Wavelength: Wavelength of Wave A is the same as the wavelength of Wave B."
+    }
+  ]
+}

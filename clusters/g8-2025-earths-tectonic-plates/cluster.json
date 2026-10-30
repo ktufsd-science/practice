@@ -1,0 +1,152 @@
+{
+ "id": "g8-2025-earths-tectonic-plates",
+ "title": "Earth’s Tectonic Plates",
+ "grade": 8,
+ "subject": "Science",
+ "year": "2025",
+ "source": "NYSED 2025 Grade 8 ILS Released Items, Questions 28-31",
+ "pes": [
+  "MS-ESS2-3",
+  "MS-ESS1-4"
+ ],
+ "directions": "Base your answers to questions 28 through 31 on the information below and on your knowledge of science.",
+ "showKeyAfterSubmit": true,
+ "stimuli": {
+  "intro": [
+   {
+    "type": "title",
+    "text": "Earth’s Tectonic Plates"
+   },
+   {
+    "type": "p",
+    "html": "Geoscience processes have changed features on Earth’s surface throughout Earth’s history. Mt. Everest is one surface feature that directly formed when the Indian subcontinent collided with the Eurasian Plate. <i>Diagram 1</i> models the inferred rate of movement of the Indian subcontinent over the last 71 million years. <i>Diagram 2</i> shows the current location of the Himalayan mountains and Mt. Everest relative to the Indian subcontinent and the Eurasian Plate."
+   },
+   {
+    "type": "figure",
+    "caption": "Diagram 1",
+    "src": "diagram1.png",
+    "alt": "Map of southern Asia and the Indian Ocean. Shaded outlines show the Indian subcontinent at four earlier times, 71, 55, 38, and 10 million years ago, moving from the south toward the Eurasian Plate in the north to the present-day Indian subcontinent. A long arrow labeled 5-15 cm/year points toward the north. The Indian-Australian Plate is labeled to the west. A north arrow is at the lower right.",
+    "width": 400
+   },
+   {
+    "type": "figure",
+    "caption": "Diagram 2",
+    "src": "diagram2.png",
+    "alt": "Map showing the Eurasian Plate at the top and the present-day Indian subcontinent below it. The Himalayas are drawn as a row of mountain symbols along the border between them, with Mt. Everest marked along that row. A north arrow is at the right.",
+    "width": 400
+   }
+  ],
+  "plates": [
+   {
+    "type": "p",
+    "html": "The map below shows information about some tectonic plates and their interactions. A seamount is a structure that forms under the ocean. The lines on the map represent plate boundaries."
+   },
+   {
+    "type": "figure",
+    "caption": "Locations of Four Geologic Structures",
+    "src": "plate-map.png",
+    "alt": "Map of eastern Asia, Southeast Asia, and the western Pacific Ocean with lines marking plate boundaries. The Eurasian, Philippine, Pacific, and Indian-Australian Plates are labeled. Dots mark the locations of Mount Everest, Suyio Seamount, Izu-Ogasawara Trench, and Mariana Trench. A north arrow is at the lower right.",
+    "width": 525
+   }
+  ],
+  "atlantic": [
+   {
+    "type": "p",
+    "html": "The map below shows some information about the bedrock below the Atlantic Ocean. The dark line that runs down the center of the ocean floor bedrock is a boundary between two tectonic plates."
+   },
+   {
+    "type": "figure",
+    "caption": "Ages of Atlantic Ocean Floor Surface",
+    "src": "atlantic-map.png",
+    "alt": "Map of the Atlantic Ocean floor with North America and South America on the left and Europe, Asia, and Africa on the right. Bands of different bedrock ages run along both sides of a dark central boundary line down the middle of the ocean. A pattern in each band matches the key below. A north arrow is at the lower right.",
+    "width": 450
+   },
+   {
+    "type": "p",
+    "html": "(Not drawn to scale)"
+   },
+   {
+    "type": "figure",
+    "caption": "",
+    "src": "atlantic-key.png",
+    "alt": "Key. Dotted pattern: 0-40 m.y. Diagonal stripes: 40-90 m.y. Letter x pattern: 90-120 m.y. Solid dark gray: 120-160 m.y. m.y. means millions of years old.",
+    "width": 320
+   }
+  ]
+ },
+ "items": [
+  {
+   "n": 28,
+   "stimulus": [
+    "intro"
+   ],
+   "type": "ms",
+   "pe": "MS-ESS2-3",
+   "points": 1,
+   "stem": "Select the <b>two</b> statements that support the claim:<br>The Indian subcontinent collided with the Eurasian Plate. [1]",
+   "options": [
+    "The age of the rocks in the Eurasian Plate is different than the age of the rocks in the Indian subcontinent.",
+    "Each year, the Indian subcontinent moved 5-15 centimeters south.",
+    "The Indian subcontinent rotated counterclockwise as it traveled north.",
+    "The Himalayan mountain range was formed due to movement of tectonic plates.",
+    "The Eurasian Plate is 71 million years old."
+   ],
+   "letters": false,
+   "key": [
+    "A",
+    "D"
+   ]
+  },
+  {
+   "n": 29,
+   "stimulus": [
+    "plates"
+   ],
+   "type": "mc",
+   "pe": "MS-ESS2-3",
+   "points": 1,
+   "stem": "Based on evidence from the map, it can be inferred that",
+   "options": [
+    "mountains and trenches form at plate boundaries",
+    "mountains and seamounts only form in the middle of the oceans",
+    "new ocean floor is created at trenches",
+    "all geologic structures are formed under the ocean"
+   ],
+   "key": "A"
+  },
+  {
+   "n": 30,
+   "stimulus": [
+    "atlantic"
+   ],
+   "type": "mc",
+   "pe": "MS-ESS1-4",
+   "points": 1,
+   "stem": "The evidence in the map that supports the idea that Earth’s plates are spreading apart at the boundary is that the age of the ocean floor bedrock",
+   "options": [
+    "decreases steadily from North America to Europe",
+    "increases steadily from North America to Europe",
+    "decreases as distance from the boundary increases",
+    "increases as distance from the boundary increases"
+   ],
+   "key": "D"
+  },
+  {
+   "n": 31,
+   "stimulus": [
+    "atlantic"
+   ],
+   "type": "cr",
+   "pe": "MS-ESS2-3",
+   "points": 1,
+   "stem": "Explain how the shapes of the continents shown in the <i>Ages of Atlantic Ocean Floor Surface</i> map are evidence for past plate motion. [1]",
+   "rubric": [
+    "Allow 1 credit. Acceptable responses include, but are not limited to:",
+    "The coastlines of South America and Africa fit together like puzzle pieces.",
+    "The shapes of the continents appear to fit together like pieces of a puzzle.",
+    "South America and Africa look like they could fit together with no space between them."
+   ],
+   "exemplar": "The coastlines of South America and Africa fit together like puzzle pieces."
+  }
+ ]
+}

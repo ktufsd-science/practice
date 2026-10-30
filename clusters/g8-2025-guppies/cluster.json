@@ -1,0 +1,329 @@
+{
+  "id": "g8-2025-guppies",
+  "title": "Behavior and Evolution of Guppies",
+  "grade": 8,
+  "subject": "Science",
+  "year": "2025",
+  "source": "NYSED 2025 Grade 8 ILS Released Items, Questions 47-51",
+  "pes": [
+    "MS-LS3-2",
+    "MS-LS4-2",
+    "MS-LS4-6",
+    "MS-LS2-4",
+    "MS-LS2-5"
+  ],
+  "directions": "Base your answers to questions 47 through 51 on the information below and on your knowledge of science.",
+  "showKeyAfterSubmit": true,
+  "stimuli": {
+    "intro": [
+      {
+        "type": "title",
+        "text": "Behavior and Evolution of Guppies"
+      },
+      {
+        "type": "p",
+        "html": "Guppies, <i>Poecilia reticulata</i>, are a common aquarium fish with variations in color and scale patterns. Common aquarium guppies are descendants of wild ancestors. These ancestors lived in mountain streams in the tropical forests of northeast South America and some Caribbean Islands. Modern-day guppies are still found in these areas."
+      },
+      {
+        "type": "p",
+        "html": "Guppies in the wild can migrate over waterfalls and rapids to places where most predators can’t follow them. Once guppies arrive in a safer environment, they evolve rapidly, becoming genetically distinct from their ancestors while still being considered the same species. The body cells of all guppies have 23 pairs of chromosomes."
+      },
+      {
+        "type": "p",
+        "html": "The body color of a female guppy is gray, while the body color of a male guppy can be a wide variety of colors and may have spots or stripes. These markings are not evident in young guppies, but appear as male guppies mature. Studies have consistently demonstrated that females prefer to mate with males with larger and more colorful spots. Male guppies are able to reproduce at seven weeks, and female guppies are able to reproduce at 10 to 20 weeks."
+      },
+      {
+        "type": "figure",
+        "src": "guppies-photos.png",
+        "alt": "Two photographs. Left, titled Modern-Day Guppies in Their Natural Habitat: three slim, pale guppies swimming over pebbles, with a male labeled at the top and a female labeled below. Right, titled Common Aquarium Guppies: a gray female and a male with a large, brightly patterned tail, each labeled.",
+        "width": 600
+      }
+    ],
+    "predators": [
+      {
+        "type": "p",
+        "html": "Two predators of guppies are cichlids and rivulus. Cichlids feed on adult guppies. Rivulus eat only young guppies before the guppies develop spots."
+      },
+      {
+        "type": "figures",
+        "items": [
+          {
+            "type": "figure",
+            "caption": "Cichlid",
+            "src": "cichlid.png",
+            "alt": "Photograph of a cichlid, a deep-bodied fish with a spotted pattern and long fins.",
+            "width": 260
+          },
+          {
+            "type": "figure",
+            "caption": "Rivulus",
+            "src": "rivulus.png",
+            "alt": "Photograph of a rivulus, a slender fish with a patterned tail and fins.",
+            "width": 270
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "html": "In another investigation, ponds under three different sets of conditions were used to raise guppies. In the first pond, guppies existed without any predators. After six months, one-third of the guppies were transferred to a pond with cichlids and one-third were transferred to a pond with rivulus. The remaining guppies were left in the first pond."
+      },
+      {
+        "type": "p",
+        "html": "<i>Graph 1</i> below represents the average number of spots on male guppies at 0, 6, 10, and 20 months of this investigation."
+      },
+      {
+        "type": "figure",
+        "caption": "<b>Graph 1</b>",
+        "src": "graph1.png",
+        "alt": "Line graph of number of spots per fish, from 8 to 13, against time in months, from 0 to 20. Three lines are labeled: guppies transferred to rivulus pond, control pond with guppies never moved (no predators), and guppies transferred to cichlid pond. All lines start together and rise to about 12 spots by month 6, then follow different paths to month 20.",
+        "width": 380
+      }
+    ],
+    "mosquito": [
+      {
+        "type": "p",
+        "html": "Guppies are known to be very tolerant of and adaptable to new environments, and able to consume multiple food sources, including mosquito larvae. As a result, guppies have been frequently introduced into established ecosystems to control mosquito populations. Guppies are now found worldwide. Due to the increasing need for mosquito-borne disease control, guppy relocation will likely continue."
+      },
+      {
+        "type": "p",
+        "html": "Mosquito control is an issue in Malaysia. Population control methods for mosquitos include:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "cleaning up mosquito breeding areas by draining standing water",
+          "using guppy fishes to eat mosquito larvae",
+          "using ABATL (mosquito larvae insecticide) which is deadly to mosquito larvae",
+          "fogging which uses an airborne insecticide to kill adult mosquitos"
+        ]
+      }
+    ]
+  },
+  "items": [
+    {
+      "n": 47,
+      "stimulus": [
+        "intro"
+      ],
+      "type": "multi",
+      "pe": "MS-LS3-2",
+      "points": 1,
+      "stem": "Identify the type of reproduction exhibited by guppies.",
+      "adapted": "The two printed parts are presented together as one question. The empty box beside each type is a select-to-check cell (one choice), and the numbers of chromosomes are dragged into the cells instead of being placed.",
+      "parts": [
+        {
+          "type": "table",
+          "table": {
+            "header": false,
+            "caption": "Type of Reproduction",
+            "rows": [
+              [
+                "Sexual",
+                {
+                  "check": "sexual",
+                  "group": "type"
+                }
+              ],
+              [
+                "Asexual",
+                {
+                  "check": "asexual",
+                  "group": "type"
+                }
+              ]
+            ],
+            "labels": {
+              "sexual": "Sexual",
+              "asexual": "Asexual"
+            }
+          },
+          "key": {
+            "sexual": true
+          }
+        },
+        {
+          "type": "dragdrop",
+          "label": "Complete the model by placing the number of chromosomes within each of the three cells. Choices may be used more than once. [1]",
+          "bankTitle": "Number of Chromosomes Choices",
+          "reuse": true,
+          "choices": [
+            {
+              "id": "92",
+              "text": "92"
+            },
+            {
+              "id": "46",
+              "text": "46"
+            },
+            {
+              "id": "23",
+              "text": "23"
+            }
+          ],
+          "target": {
+            "title": "Model of Guppy Cells During Reproduction",
+            "src": "cell-model.png",
+            "alt": "Model with three circles, each containing an empty box. Two circles at the top have lines that join and an arrow pointing down to the third circle at the bottom.",
+            "width": 300,
+            "zones": [
+              {
+                "id": "z1",
+                "x": 10,
+                "y": 13.5,
+                "w": 24,
+                "h": 15.5
+              },
+              {
+                "id": "z2",
+                "x": 65.5,
+                "y": 13.5,
+                "w": 24,
+                "h": 15.5
+              },
+              {
+                "id": "z3",
+                "x": 38,
+                "y": 71.5,
+                "w": 24,
+                "h": 15.5
+              }
+            ],
+            "zoneNames": {
+              "z1": "Top left cell",
+              "z2": "Top right cell",
+              "z3": "Bottom cell"
+            }
+          },
+          "key": {
+            "z1": "23",
+            "z2": "23",
+            "z3": "46"
+          }
+        }
+      ],
+      "rubric": [
+        "Credit: indicating sexual and a correctly completed model: 23 chromosomes in each of the two top cells and 46 chromosomes in the bottom cell."
+      ],
+      "exemplar": "Sexual; 23, 23, 46"
+    },
+    {
+      "n": 48,
+      "stimulus": [
+        "intro"
+      ],
+      "type": "mc",
+      "pe": "MS-LS4-2",
+      "points": 1,
+      "stem": "Which statement implies an evolutionary relationship by providing evidence of anatomical similarities and differences between aquarium guppies and guppies in their natural habitat?",
+      "options": [
+        "Aquarium guppies have similar body structures when compared with guppies in their natural habitat, but each has variations in their appearance that help them survive.",
+        "Fossil evidence shows variation between aquarium guppies and guppies in their natural habitat.",
+        "Guppies in their natural habitat are threatened with extinction and are being caught and raised in aquariums to protect the species.",
+        "The pattern of embryological development for aquarium guppies is not closely related to that of guppies in their natural habitat."
+      ],
+      "key": "A"
+    },
+    {
+      "n": 49,
+      "stimulus": [
+        "intro"
+      ],
+      "type": "multi",
+      "pe": "MS-LS4-6",
+      "points": 1,
+      "stem": "A population of guppies was transferred from their natural environment into a large aquarium. The graph below shows the relationship between the percent of male guppies in this population with a specific variation of a trait over time. On the graph below, identify the variation of the specific trait of male guppies that increased over time <i>and</i> the variation that decreased over time by selecting the appropriate label for each line on the graph and placing this label in the appropriate box.",
+      "adapted": "The two printed parts are presented together as one question. Labels are dragged into the boxes on the graph and the explanation is typed.",
+      "parts": [
+        {
+          "type": "dragdrop",
+          "bankTitle": "Variation Choices",
+          "reuse": false,
+          "choices": [
+            {
+              "id": "large",
+              "text": "large, colorful spots"
+            },
+            {
+              "id": "small",
+              "text": "small, non-colorful spots"
+            }
+          ],
+          "target": {
+            "title": "Appearance of Male Guppy Traits as a Function of Time",
+            "src": "trait-graph.png",
+            "alt": "Graph of percent of male population with trait against time. One solid line rises from lower left to upper right and ends at an empty box at the top right. One dotted line falls from upper left to lower right and ends at an empty box at the bottom right.",
+            "width": 480,
+            "zones": [
+              {
+                "id": "z1",
+                "x": 58.6,
+                "y": 1,
+                "w": 40.4,
+                "h": 15.8
+              },
+              {
+                "id": "z2",
+                "x": 58.6,
+                "y": 64.9,
+                "w": 40.4,
+                "h": 15.8
+              }
+            ],
+            "zoneNames": {
+              "z1": "Box at the end of the solid line",
+              "z2": "Box at the end of the dotted line"
+            }
+          },
+          "key": {
+            "z1": "large",
+            "z2": "small"
+          }
+        },
+        {
+          "type": "cr",
+          "label": "Explain how natural selection caused the occurrence of <b>both</b> variations of the trait to increase or decrease over time. [1]",
+          "exemplar": "The percent of males with large, colorful spots increased over time because females prefer mating with males with these traits, resulting in more male offspring exhibiting these traits and fewer males with small, non-colorful spots."
+        }
+      ],
+      "rubric": [
+        "Credit: identifying both lines correctly (large, colorful spots increased; small, non-colorful spots decreased) and an appropriate explanation.",
+        "Acceptable responses include, but are not limited to: The percent of males with large, colorful spots increased over time because females prefer mating with males with these traits, resulting in more male offspring exhibiting these traits and fewer males with small, non-colorful spots.",
+        "Acceptable responses include, but are not limited to: Males with colorful spots are preferred by females for mating, so that trait increases over time in offspring, causing a decrease in the percent of guppies with small, non-colorful spots."
+      ],
+      "exemplar": "The percent of males with large, colorful spots increased over time because females prefer mating with males with these traits, resulting in more male offspring exhibiting these traits and fewer males with small, non-colorful spots.<br><i>OR</i><br>Males with colorful spots are preferred by females for mating, so that trait increases over time in offspring, causing a decrease in the percent of guppies with small, non-colorful spots."
+    },
+    {
+      "n": 50,
+      "stimulus": [
+        "predators"
+      ],
+      "type": "cr",
+      "pe": "MS-LS2-4",
+      "points": 1,
+      "stem": "Predict the appearance of the guppy populations in the cichlid pond at month 25. Use numerical evidence from <i>Graph 1</i> to support your prediction. [1]",
+      "rubric": [
+        "Credit: a prediction of less spots and acceptable evidence.",
+        "Acceptable responses include, but are not limited to: The guppy populations will have less spots at month 25 than at month 20 because the graph shows a continuing decrease in number of spots.",
+        "Acceptable responses include, but are not limited to: By month 25 there should be less than nine spots per fish because the number of spots begins decreasing at 6 months."
+      ],
+      "exemplar": "The guppy populations will have less spots at month 25 than at month 20 because the graph shows a continuing decrease in number of spots.<br><i>OR</i><br>By month 25 there should be less than nine spots per fish because the number of spots begins decreasing at 6 months."
+    },
+    {
+      "n": 51,
+      "stimulus": [
+        "mosquito"
+      ],
+      "type": "mc",
+      "pe": "MS-LS2-5",
+      "points": 1,
+      "stem": "Given these solutions for controlling mosquito populations in Malaysia, which statement describes the <i>best</i> solution that maintains biodiversity in the ecosystem?",
+      "options": [
+        "Fogging neighborhoods with chemicals provides rapid and widespread reduction of the mosquito population.",
+        "Using insecticides will kill mosquito larvae, and other organisms can eat these larvae with chemicals in them.",
+        "Introducing guppy fishes to eat mosquitoes and other native species does not involve the use of chemicals.",
+        "Cleaning up breeding areas will naturally reduce mosquito populations without significantly harming other species in an ecosystem."
+      ],
+      "key": "D"
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "id": "g5-2025-traits-and-survival-of-dogs",
+  "title": "Traits and Survival of Dogs",
+  "grade": 5,
+  "subject": "Science",
+  "year": "2025",
+  "source": "NYSED 2025 Grade 5 ELS Released Items, Questions 1-5",
+  "pes": [
+    "3-LS1-1",
+    "3-LS2-1",
+    "3-LS3-1",
+    "3-LS3-2"
+  ],
+  "directions": "Base your answers to questions 1 through 5 on the information below and on your knowledge of science.",
+  "showKeyAfterSubmit": true,
+  "stimuli": {
+    "intro": [
+      {
+        "type": "title",
+        "text": "Traits and Survival of Dogs"
+      },
+      {
+        "type": "p",
+        "html": "Reproduction in dogs, like many other species of mammals, results in the production of a litter. A litter is the live birth of multiple offspring at one time from the same mother and, usually, from the same father. The average litter size for all breeds of dogs is from five to six puppies."
+      },
+      {
+        "type": "figure",
+        "caption": "Havanese Puppies and Their Parents",
+        "src": "havanese-photo.png",
+        "alt": "Black-and-white photograph of two adult Havanese dogs sitting on a blanket behind seven Havanese puppies. One adult has dark and white hair and the other adult has light hair. The puppies have different hair color patterns.",
+        "width": 440
+      }
+    ],
+    "shedding": [
+      {
+        "type": "p",
+        "html": "All dogs shed their hair. Some breeds like the Havanese shed very little, and other dog breeds shed a lot. Shedding can occur year-round or seasonally."
+      },
+      {
+        "type": "p",
+        "html": "Year-round shedding occurs because of the natural cycles of individual hairs. Shedding varies by breed, age, diet, and other factors. Seasonal shedding occurs because of changes in the length of daylight and temperature."
+      }
+    ],
+    "lifecycle": [
+      {
+        "type": "p",
+        "html": "Numbers 1, 2, and 3 in the model below represent some life cycle stages of dogs."
+      },
+      {
+        "type": "figure",
+        "caption": "Model of Dog Life Cycle Stages",
+        "src": "lifecycle-model.png",
+        "alt": "Model with three numbered arrows. Arrow 1 points to a box labeled Puppy. Arrow 2 points from the Puppy box to a box labeled Adult dog. Arrow 3 points away from the Adult dog box.",
+        "width": 380
+      }
+    ],
+    "wilddogs": [
+      {
+        "type": "p",
+        "html": "In addition to pet dogs, there are different dog breeds that live in the wild. One of these breeds is the African wild dog. These dogs live in packs and work together to take care of the pups."
+      },
+      {
+        "type": "p",
+        "html": "Data about the survival of African wild dog pups was collected from 11 different packs from <span style=\"white-space:nowrap\">1991-1996</span> in Tanzania, a country in Africa. Researchers measured the pack size of adult dogs (older than two years) and the number of pups born and raised to one year of age."
+      },
+      {
+        "type": "p",
+        "html": "The data table below shows the average fraction of pups out of ten that survived to at least one year old."
+      },
+      {
+        "type": "table",
+        "caption": "African Wild Dog Survival Data",
+        "rows": [
+          [
+            "Number of<br>Adults in Pack",
+            "Average Fraction of<br>Pups that Survived"
+          ],
+          [
+            "4",
+            "<span role=\"img\" aria-label=\"4 over 10\" style=\"display:inline-flex;flex-direction:column;align-items:center;line-height:1.15;vertical-align:middle\"><span style=\"border-bottom:1.5px solid currentColor;padding:0 3px\">4</span><span class=\"sr\"> over </span><span style=\"padding:0 3px\">10</span></span>"
+          ],
+          [
+            "8",
+            "<span role=\"img\" aria-label=\"6 over 10\" style=\"display:inline-flex;flex-direction:column;align-items:center;line-height:1.15;vertical-align:middle\"><span style=\"border-bottom:1.5px solid currentColor;padding:0 3px\">6</span><span class=\"sr\"> over </span><span style=\"padding:0 3px\">10</span></span>"
+          ],
+          [
+            "14",
+            "<span role=\"img\" aria-label=\"8 over 10\" style=\"display:inline-flex;flex-direction:column;align-items:center;line-height:1.15;vertical-align:middle\"><span style=\"border-bottom:1.5px solid currentColor;padding:0 3px\">8</span><span class=\"sr\"> over </span><span style=\"padding:0 3px\">10</span></span>"
+          ],
+          [
+            "17",
+            "<span role=\"img\" aria-label=\"9 over 10\" style=\"display:inline-flex;flex-direction:column;align-items:center;line-height:1.15;vertical-align:middle\"><span style=\"border-bottom:1.5px solid currentColor;padding:0 3px\">9</span><span class=\"sr\"> over </span><span style=\"padding:0 3px\">10</span></span>"
+          ]
+        ]
+      }
+    ]
+  },
+  "items": [
+    {
+      "n": 1,
+      "stimulus": [
+        "intro"
+      ],
+      "type": "mc",
+      "pe": "3-LS3-1",
+      "points": 1,
+      "stem": "The hair color pattern of each puppy shown in the photo is different because each puppy inherited",
+      "options": [
+        "different information from both of the parents",
+        "identical information from both of the parents",
+        "different information from only the mother",
+        "identical information from only the father"
+      ],
+      "key": "A"
+    },
+    {
+      "n": 2,
+      "stimulus": [
+        "intro"
+      ],
+      "type": "cr",
+      "pe": "3-LS3-1",
+      "points": 1,
+      "stem": "Other than hair color pattern, identify <b>one</b> specific trait seen in the photograph shared by the parents and their offspring. [1]",
+      "rubric": [
+        "Allow 1 credit. Acceptable responses include, but are not limited to:",
+        "The offspring dogs have the same body shape as their parents.",
+        "The faces of the offspring are similar in shape to their parents&rsquo; faces.",
+        "Same number of eyes/ears as parents"
+      ],
+      "exemplar": "The offspring dogs have the same body shape as their parents."
+    },
+    {
+      "n": 3,
+      "stimulus": [
+        "shedding"
+      ],
+      "type": "mc",
+      "pe": "3-LS3-2",
+      "points": 1,
+      "stem": "Which statement correctly describes the cause of shedding?",
+      "options": [
+        "Shedding is influenced only by inherited traits.",
+        "Shedding is influenced only by the environment.",
+        "Shedding is influenced by inherited traits and the environment.",
+        "Shedding is not influenced by inherited traits or the environment."
+      ],
+      "key": "C"
+    },
+    {
+      "n": 4,
+      "stimulus": [
+        "lifecycle"
+      ],
+      "type": "mc",
+      "pe": "3-LS1-1",
+      "points": 1,
+      "stem": "Which table identifies the correct life cycle stages indicated by numbers 1, 2, and 3?",
+      "options": [
+        "<table><tr><th>Number</th><th>Life Cycle Stage</th></tr><tr><td>1</td><td>growth</td></tr><tr><td>2</td><td>reproduction</td></tr><tr><td>3</td><td>birth</td></tr></table>",
+        "<table><tr><th>Number</th><th>Life Cycle Stage</th></tr><tr><td>1</td><td>birth</td></tr><tr><td>2</td><td>growth</td></tr><tr><td>3</td><td>death</td></tr></table>",
+        "<table><tr><th>Number</th><th>Life Cycle Stage</th></tr><tr><td>1</td><td>birth</td></tr><tr><td>2</td><td>reproduction</td></tr><tr><td>3</td><td>growth</td></tr></table>",
+        "<table><tr><th>Number</th><th>Life Cycle Stage</th></tr><tr><td>1</td><td>reproduction</td></tr><tr><td>2</td><td>birth</td></tr><tr><td>3</td><td>death</td></tr></table>"
+      ],
+      "key": "B",
+      "adapted": "On paper the four answer tables are arranged two by two (A and C on top, B and D below) with each letter printed under its table. On screen they are listed A, B, C, D with the letter beside each table. No wording changed."
+    },
+    {
+      "n": 5,
+      "stimulus": [
+        "wilddogs"
+      ],
+      "type": "cr",
+      "pe": "3-LS2-1",
+      "points": 1,
+      "stem": "Use evidence from the table to support the argument that the size of an African wild dog pack affects the survival of pups in that pack. [1]",
+      "rubric": [
+        "Allow 1 credit. Acceptable responses include, but are not limited to:",
+        "If there are four adults in the pack, only an average of four out of ten pups survive. If there are 17 adults in a pack, an average of nine out of ten pups survive, which is a much higher survival rate.",
+        "When the number of adults in the pack decreases from 14 to four, the average fraction of pups that survived was cut in half.",
+        "As the number of adult members of the pack increases, the fraction of pups that survive also increases."
+      ],
+      "exemplar": "As the number of adult members of the pack increases, the fraction of pups that survive also increases."
+    }
+  ]
+}

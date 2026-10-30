@@ -1,0 +1,296 @@
+{
+  "id": "g8-2026-ammonia-nitrogen-cycle",
+  "title": "Ammonia and the Nitrogen Cycle",
+  "grade": 8,
+  "subject": "Science",
+  "year": "2026",
+  "source": "NYSED 2026 Grade 8 ILS Released Items, Questions 25-28",
+  "pes": [
+    "MS-PS1-1",
+    "MS-PS1-5",
+    "MS-LS2-2",
+    "MS-LS2-4"
+  ],
+  "directions": "Base your answers to questions 25 through 28 on the information below and on your knowledge of science.",
+  "showKeyAfterSubmit": true,
+  "stimuli": {
+    "intro": [
+      {
+        "type": "title",
+        "text": "Ammonia and the Nitrogen Cycle"
+      },
+      {
+        "type": "p",
+        "html": "Molecules containing nitrogen are essential for building tissues in organisms. Nitrogen is continuously cycled between the living and nonliving environment. The formation of ammonia (NH<sub>3</sub>) is an important step in the nitrogen cycle. In one portion of this cycle, bacteria combine nitrogen (N<sub>2</sub>) with hydrogen (H<sub>2</sub>) to form ammonia (NH<sub>3</sub>)."
+      },
+      {
+        "type": "figure",
+        "caption": "Formation of Ammonia",
+        "src": "equation.png",
+        "alt": "Chemical equation. First line: 1 molecule N2 plus 3 molecules H2, with an arrow pointing to 2 molecules NH3. Second line: N2 (gas) plus 3H2 (gas), with an arrow pointing to 2NH3 (gas).",
+        "width": 420
+      }
+    ],
+    "cycle": [
+      {
+        "type": "p",
+        "html": "Ammonia is produced in soil by nitrogen-fixing bacteria. These bacteria convert nitrogen gas in the atmosphere to ammonia. Alder trees and other plants have nodules on their roots that often contain nitrogen-fixing bacteria. During the next step in the nitrogen cycle, a different type of bacteria change ammonia into molecules containing nitrogen that plants can use. Plants then use these molecules in the production of their body tissues and seeds. Other bacteria in soil release nitrogen gas into the atmosphere."
+      },
+      {
+        "type": "p",
+        "html": "The use of antibiotics in cattle can impact the amounts of usable nitrogen in the cycle. These antibiotics can negatively affect the ability of bacteria to produce usable nitrogen."
+      },
+      {
+        "type": "figure",
+        "caption": "Partial Model of the Nitrogen Cycle",
+        "src": "nitrogen-cycle-model.png",
+        "alt": "Drawing of a field with a plant, a cow, and a tree above the ground surface and soil below, with labeled arrows. An arrow labeled Nitrogen, N2, curves from the air toward the tree. The tree is labeled Nitrogen fixation on plants and in soil, with an arrow to Ammonia. A cow labeled Animal protein is linked by a line to Decomposition of plant and animal matter, which has an arrow to Ammonia. An arrow from Ammonia passes through a cloud of dots labeled Other bacteria and points to Usable nitrogen. From Usable nitrogen, an arrow labeled Plant growth points up toward the plant, labeled Plant protein, and an arrow labeled Nitrogen released into atmosphere by bacteria points up toward the Nitrogen, N2 arrow. An arrow also points from the plant to the cow.",
+        "width": 540
+      }
+    ],
+    "alder": [
+      {
+        "type": "p",
+        "html": "The photo below shows the location of nitrogen-fixing bacteria nodules on alder tree roots. Bacteria within these nodules benefit from being located on tree roots."
+      },
+      {
+        "type": "figure",
+        "caption": "Alder Tree Roots with Nitrogen-Fixing Bacteria Nodules",
+        "src": "alder-roots.png",
+        "alt": "Black and white photograph of soil and thin roots with a large cluster of small round bumps along the roots. A label, Root Nodules, with a line points to the cluster of bumps.",
+        "width": 440
+      }
+    ]
+  },
+  "items": [
+    {
+      "n": 25,
+      "stimulus": [
+        "intro"
+      ],
+      "type": "dragdrop",
+      "pe": "MS-PS1-1",
+      "points": 1,
+      "stem": "Place the correct chemical and bond symbols from the choices provided below into the spaces in the grid to construct a ball and stick model of <b>one</b> molecule of ammonia showing the correct orientation and arrangement of the individual atoms and bonds. [1]",
+      "bankTitle": "Choices:",
+      "bankColumns": 4,
+      "reuse": false,
+      "choices": [
+        {
+          "id": "n",
+          "img": "tile-n.png",
+          "alt": "Nitrogen, bonds up, down-left, down-right",
+          "width": 56
+        },
+        {
+          "id": "c",
+          "img": "tile-c.png",
+          "alt": "Carbon, bonds up, down, left, right",
+          "width": 56
+        },
+        {
+          "id": "o-up",
+          "img": "tile-o-up.png",
+          "alt": "Oxygen, bonds up-left, up-right",
+          "width": 56
+        },
+        {
+          "id": "o-down",
+          "img": "tile-o-down.png",
+          "alt": "Oxygen, bonds down-left, down-right",
+          "width": 56
+        },
+        {
+          "id": "h-down",
+          "img": "tile-h-down.png",
+          "alt": "Hydrogen, bond down",
+          "width": 56
+        },
+        {
+          "id": "h-upright",
+          "img": "tile-h-upright.png",
+          "alt": "Hydrogen, bond up-right",
+          "width": 56
+        },
+        {
+          "id": "h-upleft",
+          "img": "tile-h-upleft.png",
+          "alt": "Hydrogen, bond up-left",
+          "width": 56
+        },
+        {
+          "id": "h-downleft",
+          "img": "tile-h-downleft.png",
+          "alt": "Hydrogen, bond down-left",
+          "width": 56
+        }
+      ],
+      "target": {
+        "src": "grid.png",
+        "alt": "Empty grid with three rows and four columns of square spaces.",
+        "width": 310,
+        "zones": [
+          {
+            "id": "r1c1",
+            "x": 1.6,
+            "y": 1.9,
+            "w": 23.7,
+            "h": 31.2
+          },
+          {
+            "id": "r1c2",
+            "x": 25.9,
+            "y": 1.9,
+            "w": 23.7,
+            "h": 31.2
+          },
+          {
+            "id": "r1c3",
+            "x": 50.1,
+            "y": 1.9,
+            "w": 23.7,
+            "h": 31.2
+          },
+          {
+            "id": "r1c4",
+            "x": 74.4,
+            "y": 1.9,
+            "w": 23.7,
+            "h": 31.2
+          },
+          {
+            "id": "r2c1",
+            "x": 1.6,
+            "y": 33.9,
+            "w": 23.7,
+            "h": 31.2
+          },
+          {
+            "id": "r2c2",
+            "x": 25.9,
+            "y": 33.9,
+            "w": 23.7,
+            "h": 31.2
+          },
+          {
+            "id": "r2c3",
+            "x": 50.1,
+            "y": 33.9,
+            "w": 23.7,
+            "h": 31.2
+          },
+          {
+            "id": "r2c4",
+            "x": 74.4,
+            "y": 33.9,
+            "w": 23.7,
+            "h": 31.2
+          },
+          {
+            "id": "r3c1",
+            "x": 1.6,
+            "y": 66.0,
+            "w": 23.7,
+            "h": 31.3
+          },
+          {
+            "id": "r3c2",
+            "x": 25.9,
+            "y": 66.0,
+            "w": 23.7,
+            "h": 31.3
+          },
+          {
+            "id": "r3c3",
+            "x": 50.1,
+            "y": 66.0,
+            "w": 23.7,
+            "h": 31.3
+          },
+          {
+            "id": "r3c4",
+            "x": 74.4,
+            "y": 66.0,
+            "w": 23.7,
+            "h": 31.3
+          }
+        ],
+        "zoneNames": {
+          "r1c1": "Row 1, column 1",
+          "r1c2": "Row 1, column 2",
+          "r1c3": "Row 1, column 3",
+          "r1c4": "Row 1, column 4",
+          "r2c1": "Row 2, column 1",
+          "r2c2": "Row 2, column 2",
+          "r2c3": "Row 2, column 3",
+          "r2c4": "Row 2, column 4",
+          "r3c1": "Row 3, column 1",
+          "r3c2": "Row 3, column 2",
+          "r3c3": "Row 3, column 3",
+          "r3c4": "Row 3, column 4"
+        }
+      },
+      "scoring": "self",
+      "key": {
+        "r1c2": "h-down",
+        "r2c2": "n",
+        "r3c1": "h-upright",
+        "r3c3": "h-upleft"
+      },
+      "exemplarImage": "exemplary-25.png",
+      "adapted": "No wording change. Tiles are dragged (or tapped, then tapped on a space) from the choices into the grid; each tile can be used once. Self-scored: the exemplary response accepts two arrangements."
+    },
+    {
+      "n": 26,
+      "stimulus": [
+        "intro"
+      ],
+      "type": "mc",
+      "pe": "MS-PS1-5",
+      "points": 1,
+      "stem": "Which statement correctly describes how matter is conserved during the formation of ammonia?",
+      "options": [
+        "The kinetic energies of the nitrogen and hydrogen molecules do not change when ammonia is formed.",
+        "The number of hydrogen and nitrogen atoms before the formation of ammonia is the same as after the formation of ammonia.",
+        "Matter is cycled to the atmosphere as ammonia gas molecules are released from the soil where they are formed.",
+        "A new substance with similar physical and chemical properties as nitrogen and hydrogen is formed."
+      ],
+      "key": "B"
+    },
+    {
+      "n": 27,
+      "stimulus": [
+        "cycle"
+      ],
+      "type": "mc",
+      "pe": "MS-LS2-2",
+      "points": 1,
+      "stem": "Which argument describes why the introduction of antibiotics to cattle disrupts the nitrogen cycle in an ecosystem?",
+      "options": [
+        "Adding antibiotics benefits the bacteria, causing an increase in the population of the nitrogen-fixing bacteria.",
+        "Healthier cattle will cause an increase in their population, adding less nitrogen to the soil through decomposition.",
+        "Adding antibiotics could reduce the population of nitrogen-fixing bacteria in the soil, lowering nitrogen levels.",
+        "Healthier cattle may produce excess greenhouse gases, such as methane, and prevent nitrogen from entering the soil."
+      ],
+      "key": "C"
+    },
+    {
+      "n": 28,
+      "stimulus": [
+        "cycle",
+        "alder"
+      ],
+      "type": "mc",
+      "pe": "MS-LS2-4",
+      "points": 1,
+      "stem": "Which statement best describes the interaction between an alder tree and nitrogen-fixing bacteria?",
+      "options": [
+        "The bacteria parasitize the roots of the alder tree, absorbing the tree’s nutrients and lowering the tree’s chances of survival.",
+        "The bacteria decrease the competition between the alder trees and other tree species by poisoning the soil with excess nitrogen.",
+        "The tree roots form nodules around the bacteria, preventing the bacteria from cycling nitrogen within the soil.",
+        "The alder tree provides food for the bacteria, while the bacteria helps produce usable nitrogen that is necessary for plant growth."
+      ],
+      "key": "D"
+    }
+  ]
+}

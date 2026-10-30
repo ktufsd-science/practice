@@ -1,0 +1,345 @@
+{
+  "id": "g8-2026-forces-and-fields",
+  "title": "Forces and Fields",
+  "grade": 8,
+  "subject": "Science",
+  "year": "2026",
+  "source": "NYSED 2026 Grade 8 ILS Released Items, Questions 15-19",
+  "pes": [
+    "MS-PS2-2",
+    "MS-PS2-3",
+    "MS-PS2-5",
+    "MS-PS3-2"
+  ],
+  "directions": "Base your answers to questions 15 through 19 on the information provided and on your knowledge of science.",
+  "showKeyAfterSubmit": true,
+  "split": 50,
+  "stimuli": {
+    "intro": [
+      {
+        "type": "title",
+        "text": "Forces and Fields"
+      },
+      {
+        "type": "p",
+        "html": "The Van de Graaff generator was invented by American physicist Robert J. Van de Graaff in 1929. When powered on, a moving belt within the generator removes negatively-charged particles from a hollow metal dome on the top of an insulated column. This causes the dome to have a large positive electric charge that builds up over time."
+      },
+      {
+        "type": "p",
+        "html": "A model and photograph of a Van de Graaff generator are shown below."
+      },
+      {
+        "type": "figures",
+        "items": [
+          {
+            "caption": "Model of<br>Van de Graaff Generator",
+            "src": "generator-model.png",
+            "alt": "Diagram of a Van de Graaff generator. A large hollow dome with plus signs along its outside sits on top of a tall insulated column. A belt runs through the column from a plastic pulley and motor in the base up to a metal brush inside the dome, and a second metal brush is near the base. Labels point to the positively-charged dome, the two metal brushes, the belt, the plastic pulley, and the motor.",
+            "width": 306
+          },
+          {
+            "caption": "Photograph of<br>Van de Graaff Generator",
+            "src": "generator-photo.png",
+            "alt": "Photograph of a Van de Graaff generator: a shiny metal dome on top of a tall insulated column that stands on a dark base. Labels point to the dome and the insulated column.",
+            "width": 220
+          }
+        ]
+      }
+    ],
+    "sphere": [
+      {
+        "type": "p",
+        "html": "A student performed a series of investigations using the Van de Graaff generator. In the first investigation, the student suspended a positively-charged metal sphere from an insulated thread near the generator. The student observed the behavior of the metal sphere when the generator was off and again when it was powered on."
+      },
+      {
+        "type": "figures",
+        "items": [
+          {
+            "caption": "Generator Off",
+            "src": "sphere-off.png",
+            "alt": "Generator Off. A Van de Graaff generator stands on a gray table. A positively-charged metal sphere hangs straight down from an insulated thread to the upper right of the generator's dome.",
+            "width": 262
+          },
+          {
+            "caption": "Generator On",
+            "src": "sphere-on.png",
+            "alt": "Generator On. The same Van de Graaff generator stands on the gray table. The insulated thread slants down and to the right from the top of the picture, with the positively-charged metal sphere at its lower end, to the upper right of the generator's dome.",
+            "width": 262
+          }
+        ]
+      }
+    ],
+    "tins": [
+      {
+        "type": "p",
+        "html": "In another investigation, the student stacked six metal tins on top of the dome of the uncharged Van de Graaff generator. The student then powered the generator on. After a few seconds, the metal tins separated from each other and traveled upward and away from the generator."
+      },
+      {
+        "type": "p",
+        "html": "The model below represents the initial position of the tins and the reaction of the tins after the generator was powered on."
+      },
+      {
+        "type": "figures",
+        "items": [
+          {
+            "caption": "Generator Off",
+            "src": "tins-off.png",
+            "alt": "Generator Off. A drawing of the dome and column of a Van de Graaff generator, with six metal tins stacked on top of each other on top of the dome. A label points to the stack and reads Six metal tins on top of each other.",
+            "width": 228
+          },
+          {
+            "caption": "Generator On",
+            "src": "tins-on.png",
+            "alt": "Generator On. The same drawing of the dome and column. The metal tins are no longer in a stack: several tins are at different positions in the air above the dome, each marked with a small arrow, and one tin rests on top of the dome. A label points to the tins and reads Metal tins separated.",
+            "width": 230
+          }
+        ]
+      }
+    ],
+    "spring": [
+      {
+        "type": "p",
+        "html": "Finally, the student wanted to investigate magnetic fields. An investigation was performed using a stretched metal spring connected to a power supply, represented in the diagram below. The power supply controlled the amount of current, in amperes (A), flowing through the spring. A magnetic field sensor was used to measure the strength of the magnetic field, in milliteslas (mT), inside the coiled spring."
+      },
+      {
+        "type": "figure",
+        "caption": "Metal Spring Connected to a Power Supply",
+        "src": "spring-diagram.png",
+        "alt": "Diagram of a long coiled metal spring lying on a table. Wires connect the two ends of the spring to a power supply on the table behind it. A magnetic field sensor is placed at the middle of the coil. Labels point to the power supply, the table, the coiled spring, and the magnetic field sensor.",
+        "width": 540
+      },
+      {
+        "type": "p",
+        "html": "The graph below shows the results."
+      },
+      {
+        "type": "figure",
+        "caption": "Relationship Between Current and Magnetic Field Strength",
+        "src": "spring-graph.png",
+        "alt": "Line graph. The horizontal axis is Current (A), from 0 to 2.0. The vertical axis is Magnetic Field Strength (mT), from 0 to 0.4. A straight line rises from the origin through points at about 0.5 A and 0.08 mT, 1.0 A and 0.16 mT, 1.5 A and 0.25 mT, and 2.0 A and 0.33 mT.",
+        "width": 420
+      }
+    ]
+  },
+  "items": [
+    {
+      "n": 15,
+      "stimulus": [
+        "intro",
+        "sphere"
+      ],
+      "type": "mc",
+      "pe": "MS-PS2-5",
+      "points": 1,
+      "stem": "Which statement provides evidence for the existence of an electric field between the Van de Graaff generator and the metal sphere when the generator was powered on?",
+      "options": [
+        "Even though the metal sphere and the generator are not in contact, the sphere was repelled from the operating generator.",
+        "Even though the metal sphere and the generator are not in contact, the sphere was attracted to the operating generator.",
+        "Particles of the same charge were exchanged between the metal sphere and the operating generator.",
+        "Oppositely-charged particles were exchanged between the metal sphere and the operating generator."
+      ],
+      "key": "A"
+    },
+    {
+      "n": 16,
+      "stimulus": [
+        "intro",
+        "sphere"
+      ],
+      "type": "dragdrop",
+      "pe": "MS-PS3-2",
+      "points": 1,
+      "scoring": "self",
+      "stem": "The Van de Graaff generator and the metal sphere can be considered a system of objects. When the generator is powered on, electric potential energy is stored in the generator-sphere system. In the model below, place an X in <b>one</b> non-shaded box to indicate a new location for the charged sphere that would result in the <b><i>decrease</i></b> of the electric potential energy of the system. [1]",
+      "reuse": false,
+      "choices": [
+        {
+          "id": "x",
+          "text": "X"
+        }
+      ],
+      "target": {
+        "src": "energy-grid.png",
+        "alt": "A grid of square boxes above a photograph of a Van de Graaff generator. Most boxes are shaded gray, and a few are non-shaded white boxes. The grid has 11 boxes across the top three rows, and an open space above the generator's dome in the rows below, with three columns of boxes on the left side and three on the right. A small metal sphere is in a box at the right side of the grid, beside the generator, with a label that reads Original location of charged metal sphere.",
+        "width": 540,
+        "zones": [
+          {
+            "id": "z1",
+            "x": 80.5,
+            "y": 1.76,
+            "w": 8,
+            "h": 6.65
+          },
+          {
+            "id": "z2",
+            "x": 10.4,
+            "y": 16.62,
+            "w": 8,
+            "h": 6.65
+          },
+          {
+            "id": "z3",
+            "x": 45.4,
+            "y": 16.62,
+            "w": 8,
+            "h": 6.65
+          },
+          {
+            "id": "z4",
+            "x": 71.7,
+            "y": 23.96,
+            "w": 8,
+            "h": 6.65
+          },
+          {
+            "id": "z5",
+            "x": 10.4,
+            "y": 38.82,
+            "w": 8,
+            "h": 6.65
+          },
+          {
+            "id": "z6",
+            "x": 71.7,
+            "y": 46.15,
+            "w": 8,
+            "h": 6.65
+          }
+        ],
+        "zoneNames": {
+          "z1": "Row 1, column 10",
+          "z2": "Row 3, column 2",
+          "z3": "Row 3, column 6",
+          "z4": "Row 4, column 9",
+          "z5": "Row 6, column 2",
+          "z6": "Row 7, column 9"
+        }
+      },
+      "key": {
+        "z1": "x"
+      },
+      "rubric": [
+        "Credit: An X is placed in the non-shaded box in the top row, second from the right.",
+        "Credit: OR an X is placed in the non-shaded box in the third row, second from the left."
+      ],
+      "exemplarImage": "q16-exemplary.png",
+      "adapted": "No wording change. On paper, students write an X in a non-shaded box. On screen, they drag the X into one non-shaded box. The exemplary response shows two acceptable boxes, so this question is checked against the scoring guide instead of being scored automatically."
+    },
+    {
+      "n": 17,
+      "stimulus": [
+        "tins"
+      ],
+      "type": "multi",
+      "pe": "MS-PS2-2",
+      "points": 1,
+      "stem": "<p>The student makes the claim that the change in the motion of the metal tins at the time the generator was turned on depends on the sum of the gravitational and electric forces acting on the tins.</p><p>Support the student’s claim by selecting <b>one</b> statement from the table that describes the relative amounts of the gravitational and electric forces acting on the tins. Then, provide the evidence from the model that supports your choice. [1]</p>",
+      "parts": [
+        {
+          "type": "table",
+          "table": {
+            "header": false,
+            "rows": [
+              [
+                "<div style=\"text-align:left\">Gravitational force is stronger than the electric force.</div>",
+                {
+                  "check": "stronger",
+                  "group": "strength"
+                }
+              ],
+              [
+                "<div style=\"text-align:left\">Gravitational force has the same strength as the electric force.</div>",
+                {
+                  "check": "same",
+                  "group": "strength"
+                }
+              ],
+              [
+                "<div style=\"text-align:left\">Gravitational force is weaker than the electric force.</div>",
+                {
+                  "check": "weaker",
+                  "group": "strength"
+                }
+              ]
+            ],
+            "labels": {
+              "stronger": "Gravitational force is stronger than the electric force.",
+              "same": "Gravitational force has the same strength as the electric force.",
+              "weaker": "Gravitational force is weaker than the electric force."
+            }
+          },
+          "key": {
+            "weaker": true
+          }
+        },
+        {
+          "type": "cr",
+          "label": "Evidence:",
+          "exemplar": "The electric force and gravitational force are unbalanced, and the tins began to move away from the dome in the direction of the larger electric force."
+        }
+      ],
+      "rubric": [
+        "Credit: Gravitational force is identified as being weaker than the electric force.",
+        "Credit: The supporting evidence that the generator was able to “push the metal tins off” indicates a change in motion.",
+        "Credit: The supporting evidence that the tins “sperated in differnt ways” indicates a change in motion.",
+        "Credit: The supporting evidence that the tins “fell” upwards indicates a change in motion.",
+        "No credit: The supporting evidence focuses on the time when the generator was off instead of the time when the generator was turned on, as specified in the claim. This response is insufficient for credit due to insufficient evidence.",
+        "No credit: The supporting evidence incorrectly states that the tins “stayed in the air”, which implies that they were still and that there was no change in motion. This response is insufficient for credit due to incorrect evidence.",
+        "No credit: The response incorrectly states that the tins are “not longer affected by gravity” and does not provide evidence for a change in motion. This response is insufficient for credit due to incorrect evidence."
+      ],
+      "exemplar": "Gravitational force is weaker than the electric force. Evidence: The electric force and gravitational force are unbalanced, and the tins began to move away from the dome in the direction of the larger electric force.<br><i>OR</i><br>When the generator was powered on, the tins moved upward after being stationary.<br><i>OR</i><br>The metal tins began moving upward.<br><i>OR other valid response</i>",
+      "adapted": "On paper, students mark one of the three boxes in the table and write the evidence on the lines. On screen, they select a box in the table and type the evidence. The stem wording is unchanged."
+    },
+    {
+      "n": 18,
+      "stimulus": [
+        "spring"
+      ],
+      "type": "mc",
+      "pe": "MS-PS2-3",
+      "points": 1,
+      "stem": "Which question was the student investigating in order to determine whether a factor affects the strength of a magnetic field and the resulting magnetic force on objects?",
+      "options": [
+        "How does changing the magnetic field acting on an electromagnet affect the current through the electromagnet and the magnetic force on an object?",
+        "How does changing the current through an electromagnet affect the magnetic field strength and magnetic forces on objects?",
+        "How does changing the magnetic force acting on an object affect the magnetic field produced by the current in the electromagnet?",
+        "How does changing the current and magnetic force on an object at the same time affect the magnetic field produced by the electromagnet?"
+      ],
+      "key": "B"
+    },
+    {
+      "n": 19,
+      "stimulus": [
+        "spring"
+      ],
+      "type": "mc",
+      "pe": "MS-PS2-3",
+      "points": 1,
+      "stem": "The student wanted to repeat this investigation using a metal spring that had the same length and more coils. They predicted that adding coils would increase the strength of the magnetic field. Which graph shows the results that the student expected to see in this new investigation?",
+      "optionsLayout": "grid",
+      "options": [
+        {
+          "img": "choice-a.png",
+          "alt": "Graph with Current (A) from 0 to 2.0 on the horizontal axis and Magnetic Field Strength (mT) from 0 to 0.4 on the vertical axis. A horizontal line stays at about 0.18 mT for every current.",
+          "width": 255
+        },
+        {
+          "img": "choice-b.png",
+          "alt": "Graph with Current (A) from 0 to 2.0 on the horizontal axis and Magnetic Field Strength (mT) from 0 to 0.4 on the vertical axis. A straight line rises from the origin to about 0.2 mT at 2.0 A.",
+          "width": 255
+        },
+        {
+          "img": "choice-c.png",
+          "alt": "Graph with Current (A) from 0 to 2.0 on the horizontal axis and Magnetic Field Strength (mT) from 0 to 0.4 on the vertical axis. A straight line rises from the origin to about 0.33 mT at 2.0 A.",
+          "width": 255
+        },
+        {
+          "img": "choice-d.png",
+          "alt": "Graph with Current (A) from 0 to 2.0 on the horizontal axis and Magnetic Field Strength (mT) from 0 to 0.4 on the vertical axis. A steeper straight line rises from the origin to 0.4 mT at about 1.35 A.",
+          "width": 255
+        }
+      ],
+      "key": "D"
+    }
+  ]
+}

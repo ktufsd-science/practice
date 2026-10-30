@@ -1,0 +1,235 @@
+{
+ "id": "g8-2025-sickle-cell-anemia",
+ "title": "Sickle Cell Anemia",
+ "grade": 8,
+ "subject": "Science",
+ "year": "2025",
+ "source": "NYSED 2025 Grade 8 ILS Released Items, Questions 37-41",
+ "pes": [
+  "MS-LS3-1",
+  "MS-LS3-2",
+  "MS-LS4-5"
+ ],
+ "directions": "Base your answers to questions 37 through 41 on the information below and on your knowledge of science.",
+ "showKeyAfterSubmit": true,
+ "stimuli": {
+  "intro": [
+   {
+    "type": "title",
+    "text": "Sickle Cell Anemia"
+   },
+   {
+    "type": "p",
+    "html": "Sickle cell anemia is a genetic disease that causes severe symptoms in humans. People with sickle cell anemia do not have enough normal red blood cells to carry oxygen to body cells. The disease is caused by a mutation of a gene that makes hemoglobin. Hemoglobin is the protein that carries oxygen in red blood cells. Normal hemoglobin and hemoglobin in sickled red blood cells look different. The mutation in the gene slightly changes the shape of the hemoglobin molecule which also changes the shape of the red blood cell."
+   },
+   {
+    "type": "p",
+    "html": "<i>Model 1</i> represents a change in the genetic material caused by a mutation in the gene that makes hemoglobin."
+   },
+   {
+    "type": "figure",
+    "caption": "<b>Model 1</b>",
+    "src": "model1.png",
+    "alt": "Model 1. On the left, a normal hemoglobin gene with three positions labeled 1, 2, and 3 leads to normal hemoglobin, shown as separate molecules, and a round red blood cell. An arrow labeled Mutation points to the right, a sickle cell anemia gene with the same three positions labeled 1, 2, and 3, where the shape of position 2 differs from the normal gene. It leads to abnormal hemoglobin, shown as molecules joined together, and a sickle-shaped red blood cell.",
+    "width": 560
+   }
+  ],
+  "model2": [
+   {
+    "type": "p",
+    "html": "The model below represents the potential genetic outcomes for offspring of two parents. Each parent carries one allele for normal red blood cell production (H) and one allele for sickle-shaped red blood cell production (h). A carrier is an individual who has only one allele associated with a disease and who does not usually show symptoms of this disease."
+   },
+   {
+    "type": "figure",
+    "caption": "<b>Model 2</b>",
+    "src": "model2.png",
+    "alt": "Model 2. A father and a mother, both labeled Hh, have four offspring. The offspring are labeled HH normal hemoglobin, Hh normal hemoglobin (carrier), Hh normal hemoglobin (carrier), and hh sickle cell anemia.",
+    "width": 420
+   }
+  ],
+  "crispr": [
+   {
+    "type": "p",
+    "html": "Sickle cell anemia can be treated using a process called CRISPR-mediated gene therapy. This technology involves removing specific cells from a patient. The mutated genes in these cells are corrected and the newly edited cells are placed back into the patient&rsquo;s body to start making new normal blood cells."
+   },
+   {
+    "type": "figure",
+    "caption": "",
+    "src": "crispr.png",
+    "alt": "Diagram of a cycle. An arrow leads from a sickle cell anemia patient to a group of specific cells removed from the patient. An arrow leads to a middle circle showing a strand of genetic material, labeled CRISPR technology corrects gene mutation in cells. An arrow leads to a group of edited cells, and an arrow leads from the edited cells back to the patient.",
+    "width": 520
+   }
+  ]
+ },
+ "items": [
+  {
+   "n": 37,
+   "stimulus": [
+    "intro"
+   ],
+   "type": "cr",
+   "pe": "MS-LS3-1",
+   "points": 1,
+   "stem": "Identify the position within the gene in <i>Model 1</i> (labeled 1, 2, and 3) where the mutation occurs and describe how a person with sickle cell anemia experiences either harmful, beneficial, or neutral effects. [1]",
+   "parts": [
+    {
+     "label": "Position number:",
+     "short": true,
+     "exemplar": "2"
+    },
+    {
+     "label": "Description:",
+     "exemplar": "It is harmful because a person would not have enough normal red blood cells to carry oxygen throughout their body."
+    }
+   ],
+   "rubric": [
+    "Allow 1 credit for position 2 and a correct harmful description. Acceptable responses include, but are not limited to:",
+    "It is harmful because a person would not have enough normal red blood cells to carry oxygen throughout their body.",
+    "It is harmful because the person would not get enough oxygen to their body cells."
+   ],
+   "exemplar": "Position number: 2. Description: It is harmful because a person would not have enough normal red blood cells to carry oxygen throughout their body."
+  },
+  {
+   "n": 38,
+   "stimulus": [
+    "intro"
+   ],
+   "type": "cr",
+   "pe": "MS-LS3-1",
+   "points": 1,
+   "stem": "Describe how this mutation changes the structure of the hemoglobin molecule and how it then changes the shape of the red blood cell. Include both the molecule <i>and</i> the cell in your answer. [1]",
+   "rubric": [
+    "Allow 1 credit. Acceptable responses include, but are not limited to:",
+    "The mutation causes the hemoglobin molecule to become chained together instead of separated molecules. This causes the shape of the red blood cells to become sickle shaped.",
+    "The molecules are connected from one to the other in the abnormal hemoglobin molecule bending the red blood cells."
+   ],
+   "exemplar": "The mutation causes the hemoglobin molecule to become chained together instead of separated molecules. This causes the shape of the red blood cells to become sickle shaped."
+  },
+  {
+   "n": 39,
+   "stimulus": [
+    "model2"
+   ],
+   "type": "mc",
+   "pe": "MS-LS3-1",
+   "points": 1,
+   "stem": "Which statement is generally true for an individual who inherits the mutated sickle cell anemia gene from only one parent?",
+   "options": [
+    "The person will not be able to carry enough oxygen to body cells.",
+    "The person would be unaffected and able to produce enough healthy red blood cells to transport oxygen.",
+    "The person will produce clumped hemoglobin if the sickle cell gene was inherited only from the mother.",
+    "The person will be able to transport more oxygen than someone who does not inherit this gene from either parent."
+   ],
+   "key": "B"
+  },
+  {
+   "n": 40,
+   "type": "multi",
+   "pe": "MS-LS3-2",
+   "points": 1,
+   "stem": "Complete the Punnett square model to determine the genetic probabilities of the offspring of a mother who is a carrier of the sickle cell gene and a father who is not a carrier, but has normal hemoglobin. Select the correct genetic outcomes from the choices given and place them in the boxes to complete the model. Some choices may be used more than once or not at all.",
+   "parts": [
+    {
+     "type": "dragdrop",
+     "bankTitle": "Choices for Genetic Outcomes",
+     "reuse": true,
+     "choices": [
+      {
+       "id": "HH",
+       "text": "HH"
+      },
+      {
+       "id": "Hh",
+       "text": "Hh"
+      },
+      {
+       "id": "hh",
+       "text": "hh"
+      }
+     ],
+     "target": {
+      "src": "punnett.png",
+      "alt": "Empty Punnett square with two columns and two rows. Columns are labeled H and h under Mother. Both rows are labeled H beside Father.",
+      "width": 380,
+      "zones": [
+       {
+        "id": "z1",
+        "x": 27.7,
+        "y": 31.5,
+        "w": 35,
+        "h": 32
+       },
+       {
+        "id": "z2",
+        "x": 62.9,
+        "y": 31.5,
+        "w": 35,
+        "h": 32
+       },
+       {
+        "id": "z3",
+        "x": 27.7,
+        "y": 64.5,
+        "w": 35,
+        "h": 33
+       },
+       {
+        "id": "z4",
+        "x": 62.9,
+        "y": 64.5,
+        "w": 35,
+        "h": 33
+       }
+      ],
+      "zoneNames": {
+       "z1": "Father H, Mother H",
+       "z2": "Father H, Mother h",
+       "z3": "Father H, Mother H (second row)",
+       "z4": "Father H, Mother h (second row)"
+      }
+     },
+     "key": {
+      "z1": "HH",
+      "z2": "Hh",
+      "z3": "HH",
+      "z4": "Hh"
+     }
+    },
+    {
+     "type": "cr",
+     "label": "Using your completed Punnett square model as evidence, explain how the presence of sickle cell anemia in the offspring compares to the presence of sickle cell anemia in the parents. [1]",
+     "parts": [
+      {
+       "label": "Explanation:",
+       "exemplar": "There is no change in the presence of sickle cell anemia from the parents to the offspring, since no individual is hh."
+      }
+     ]
+    }
+   ],
+   "rubric": [
+    "Allow 1 credit for a correct Punnett square and a correct explanation. Acceptable responses include, but are not limited to:",
+    "There is no change in the presence of sickle cell anemia from the parents to the offspring, since no individual is hh.",
+    "It is the same because both parents and all offspring have at least one H so no one has sickle cell anemia."
+   ],
+   "exemplar": "Punnett square: HH, Hh in the top row and HH, Hh in the bottom row. Explanation: There is no change in the presence of sickle cell anemia from the parents to the offspring, since no individual is hh.",
+   "adapted": "On paper, students write the outcomes in the boxes. On screen, they place the outcomes in the boxes by dragging. The stem text is kept verbatim."
+  },
+  {
+   "n": 41,
+   "stimulus": [
+    "crispr"
+   ],
+   "type": "mc",
+   "pe": "MS-LS4-5",
+   "points": 1,
+   "stem": "Which statement about the function of cell parts accurately describes how CRISPR technology influences the traits of humans who have sickle cell anemia?",
+   "options": [
+    "The mutated gene is edited out of the patient&rsquo;s genetic material using the CRISPR technology and is replaced with a gene that produces normal hemoglobin.",
+    "The CRISPR technology corrects the mutated gene so that each cell can grow into a human with normal hemoglobin.",
+    "The mutated genes are removed from the patient&rsquo;s genetic material using CRISPR technology and the patient&rsquo;s red blood cells no longer produce any hemoglobin.",
+    "The CRISPR technology removes the genetic material from all of the patient&rsquo;s body cells and replaces them with corrected genetic material that can be passed on to offspring."
+   ],
+   "key": "A"
+  }
+ ]
+}

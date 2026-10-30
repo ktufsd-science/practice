@@ -1,0 +1,510 @@
+{
+  "id": "g5-2024-identifying-substances",
+  "title": "Identifying Substances",
+  "grade": 5,
+  "subject": "Science",
+  "year": "2024",
+  "source": "NYSED 2024 Grade 5 ELS Released Items, Questions 19-23",
+  "pes": [
+    "5-PS1-1",
+    "5-PS1-3",
+    "5-PS1-4"
+  ],
+  "directions": "Base your answers to questions 19 through 23 on the information below and on your knowledge of science.",
+  "showKeyAfterSubmit": true,
+  "split": 50,
+  "stimuli": {
+    "intro": [
+      {
+        "type": "title",
+        "text": "Identifying Substances"
+      },
+      {
+        "type": "p",
+        "html": "Students conducted experiments to identify unknown substances using properties of known substances. During these experiments, appropriate safety equipment was used and safety procedures were followed."
+      },
+      {
+        "type": "table",
+        "caption": "Properties of Known Substances",
+        "rows": [
+          [
+            "Substance",
+            "Color",
+            "Texture",
+            "Soluble in Water",
+            "Electrical Conductivity<br><span style=\"font-weight:400\">(dry form)</span>",
+            "Reaction to Vinegar"
+          ],
+          [
+            "<b>Table Salt</b>",
+            "white",
+            "coarse",
+            "yes",
+            "insulator",
+            "none"
+          ],
+          [
+            "<b>Chalk</b>",
+            "white",
+            "fine",
+            "no",
+            "insulator",
+            "bubbles"
+          ],
+          [
+            "<b>Sugar</b>",
+            "white",
+            "coarse",
+            "yes",
+            "insulator",
+            "none"
+          ],
+          [
+            "<b>Flour</b>",
+            "white",
+            "fine",
+            "no",
+            "insulator",
+            "none"
+          ],
+          [
+            "<b>Baking Soda</b>",
+            "white",
+            "fine",
+            "yes",
+            "insulator",
+            "bubbles"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "html": "Through experimentation, the students observed that an unknown substance was a fine, white powder that reacted to vinegar, was soluble in water, and did not conduct electricity."
+      }
+    ],
+    "particles": [
+      {
+        "type": "p",
+        "html": "The models below represent the number and arrangement of particles in a sample of water and a sample of sugar."
+      },
+      {
+        "type": "figure",
+        "src": "particles.png",
+        "alt": "Two boxes and a key. The box labeled Water has 9 water particles (circles) at the bottom, a row of 5 above a row of 4. The box labeled Sugar has 7 sugar particles (black triangles) at the bottom, a row of 3 above a row of 4. The key shows that a circle is a water particle and a black triangle is a sugar particle.",
+        "width": 420
+      }
+    ],
+    "minerals": [
+      {
+        "type": "p",
+        "html": "Students were then provided four minerals and completed certain tasks to identify the properties of each mineral. The table below shows the observations for four of the five properties that the students observed. The photographs below show the response of a strong magnet when brought close to each mineral."
+      },
+      {
+        "type": "figure",
+        "src": "magnet-photos.png",
+        "alt": "Four photographs of minerals, each with a small magnet drawn above it and a label over the magnet. Muscovite Mica: label reads Magnet not attracted, and the magnet hangs above the mineral. Talc: label reads Magnet not attracted, and the magnet hangs above the mineral. Calcite: label reads Magnet not attracted, and the magnet hangs above the mineral. Pyrite: label reads Magnet attracted, and the magnet is tilted down onto the mineral.",
+        "width": 540
+      }
+    ],
+    "calcite": [
+      {
+        "type": "p",
+        "html": "The students then placed calcite onto a glass dish and placed it on a scale. Using an eye dropper, ten drops of vinegar were placed on top of the calcite and the total mass was recorded."
+      },
+      {
+        "type": "p",
+        "html": "Bubbles formed on top of the calcite and the total mass was recorded again."
+      },
+      {
+        "type": "p",
+        "html": "The diagrams and observations below represent the experimental setup and the observations made by the students."
+      },
+      {
+        "type": "html",
+        "html": "<table class=\"stim-table\"><caption class=\"fig-cap\">Calcite Experiment Results</caption><tr><th>Calcite with Vinegar</th><th>Calcite after Response to Vinegar</th></tr><tr><td><img src=\"clusters/g5-2024-identifying-substances/calcite-with-vinegar.png\" alt=\"Diagram: an eye dropper lets drops of vinegar fall onto a calcite mineral. The calcite mineral sits on a glass dish, and the glass dish sits on a scale.\" style=\"width:281px;max-width:100%\" draggable=\"false\"></td><td><img src=\"clusters/g5-2024-identifying-substances/calcite-after-vinegar.png\" alt=\"Diagram: a cluster of small bubbles on top of the calcite mineral. The calcite mineral sits on a glass dish, and the glass dish sits on a scale.\" style=\"width:171px;max-width:100%\" draggable=\"false\"></td></tr><tr><td style=\"text-align:left;vertical-align:top\">Mineral Observations:<div style=\"padding-left:1.3em;text-indent:-1.3em;margin-top:4px\">&mdash; Surface texture smooth</div><div style=\"padding-left:1.3em;text-indent:-1.3em\">&mdash; Total mass of vinegar, calcite,and glass dish is 19.65 grams.</div><div style=\"padding-left:1.3em;text-indent:-1.3em\">&mdash; Clear/white color</div></td><td style=\"text-align:left;vertical-align:top\">Mineral Observations:<div style=\"padding-left:1.3em;text-indent:-1.3em;margin-top:4px\">&mdash; Bubbles formed</div><div style=\"padding-left:1.3em;text-indent:-1.3em\">&mdash; Surface texture slightly rough where vinegar is applied</div><div style=\"padding-left:1.3em;text-indent:-1.3em\">&mdash; Total mass of vinegar, calcite, and glass dish is 18.75 grams.</div><div style=\"padding-left:1.3em;text-indent:-1.3em\">&mdash; Clear/white color</div></td></tr></table>"
+      }
+    ],
+    "rocks": [
+      {
+        "type": "p",
+        "html": "The students were then given three different rock samples, labeled <i>A</i>, <i>B</i>, and <i>C</i>, to test with vinegar. The table below shows the results of the tests."
+      },
+      {
+        "type": "table",
+        "caption": "Student Data Table 2",
+        "rows": [
+          [
+            "Rock",
+            "Reaction to Vinegar"
+          ],
+          [
+            "A",
+            "bubbles"
+          ],
+          [
+            "B",
+            "no bubbles"
+          ],
+          [
+            "C",
+            "no bubbles"
+          ]
+        ]
+      }
+    ],
+    "table1": [
+      {
+        "type": "table",
+        "caption": "Student Data Table 1",
+        "rows": [
+          [
+            {
+              "html": "Mineral",
+              "style": "background:rgba(128,128,128,.5)"
+            },
+            {
+              "html": "Color",
+              "style": "background:rgba(128,128,128,.5)"
+            },
+            {
+              "html": "Reflects Light<br><span style=\"font-weight:400\">(Yes/No)</span>",
+              "style": "background:rgba(128,128,128,.5)"
+            },
+            {
+              "html": "Magnetic<br><span style=\"font-weight:400\">(Yes/No)</span>",
+              "style": "background:rgba(128,128,128,.5)"
+            },
+            {
+              "html": "Hardness",
+              "style": "background:rgba(128,128,128,.5)"
+            },
+            {
+              "html": "Response to Vinegar",
+              "style": "background:rgba(128,128,128,.5)"
+            }
+          ],
+          [
+            {
+              "html": "<b>Muscovite Mica</b>",
+              "style": "background:rgba(128,128,128,.5)"
+            },
+            "yellow",
+            "yes",
+            "",
+            "medium",
+            "none"
+          ],
+          [
+            {
+              "html": "<b>Talc</b>",
+              "style": "background:rgba(128,128,128,.5)"
+            },
+            "white",
+            "no",
+            "",
+            "low",
+            "none"
+          ],
+          [
+            {
+              "html": "<b>Calcite</b>",
+              "style": "background:rgba(128,128,128,.5)"
+            },
+            "white",
+            "no",
+            "",
+            "medium",
+            "bubbles"
+          ],
+          [
+            {
+              "html": "<b>Pyrite</b>",
+              "style": "background:rgba(128,128,128,.5)"
+            },
+            "yellow",
+            "yes",
+            "",
+            "high",
+            "none"
+          ]
+        ]
+      }
+    ]
+  },
+  "items": [
+    {
+      "n": 19,
+      "stimulus": [
+        "intro"
+      ],
+      "type": "table",
+      "pe": "5-PS1-3",
+      "points": 1,
+      "stem": "Place a checkmark (&#10003;) in the table below to indicate the identity of the unknown substance. [1]",
+      "adapted": "No wording change. On screen, selecting a box in the table places the checkmark in it, so the printed direction still works. Only one box can be checked at a time.",
+      "table": {
+        "header": false,
+        "rows": [
+          [
+            "<div style=\"text-align:left;min-width:8em\">Table Salt</div>",
+            {
+              "check": "salt",
+              "group": "substance"
+            }
+          ],
+          [
+            "<div style=\"text-align:left;min-width:8em\">Chalk</div>",
+            {
+              "check": "chalk",
+              "group": "substance"
+            }
+          ],
+          [
+            "<div style=\"text-align:left;min-width:8em\">Sugar</div>",
+            {
+              "check": "sugar",
+              "group": "substance"
+            }
+          ],
+          [
+            "<div style=\"text-align:left;min-width:8em\">Flour</div>",
+            {
+              "check": "flour",
+              "group": "substance"
+            }
+          ],
+          [
+            "<div style=\"text-align:left;min-width:8em\">Baking Soda</div>",
+            {
+              "check": "soda",
+              "group": "substance"
+            }
+          ]
+        ],
+        "labels": {
+          "salt": "Table Salt",
+          "chalk": "Chalk",
+          "sugar": "Sugar",
+          "flour": "Flour",
+          "soda": "Baking Soda"
+        }
+      },
+      "key": {
+        "soda": true
+      }
+    },
+    {
+      "n": 20,
+      "stimulus": [
+        "particles"
+      ],
+      "type": "mc",
+      "pe": "5-PS1-1",
+      "points": 1,
+      "stem": "Which model best represents the number and arrangement of the water and sugar particles after the sample of sugar was poured into the sample of water and mixed?",
+      "options": [
+        {
+          "img": "model-a.png",
+          "alt": "Model A: a box with 8 water particles (circles) and 7 sugar particles (black triangles) in three rows at the bottom. Circles and triangles take turns in every row.",
+          "width": 150
+        },
+        {
+          "img": "model-b.png",
+          "alt": "Model B: a box with a top row of 5 water particles (circles) over a bottom row of 3 water particles and 4 sugar particles (black triangles) taking turns. 8 water particles and 4 sugar particles in all.",
+          "width": 150
+        },
+        {
+          "img": "model-c.png",
+          "alt": "Model C: a box with a top row of 3 sugar particles (black triangles), a middle row of 3 water particles (circles) and 2 sugar particles taking turns, and a bottom row of 4 water particles. 7 water particles and 5 sugar particles in all.",
+          "width": 150
+        },
+        {
+          "img": "model-d.png",
+          "alt": "Model D: a box with 9 water particles (circles) and 7 sugar particles (black triangles) in three rows at the bottom. Circles and triangles are spread through every row.",
+          "width": 150
+        }
+      ],
+      "key": "D",
+      "optionsLayout": "grid"
+    },
+    {
+      "n": 21,
+      "stimulus": [
+        "minerals"
+      ],
+      "type": "table",
+      "pe": "5-PS1-3",
+      "points": 1,
+      "stem": "Indicate if each mineral is magnetic by typing Yes or No in <i>Student Data Table 1</i>. [1]",
+      "adapted": "\"writing Yes or No\" changed to \"typing Yes or No\" because students type into the Magnetic cells of the table.",
+      "table": {
+        "caption": "Student Data Table 1",
+        "rows": [
+          [
+            {
+              "html": "Mineral",
+              "style": "background:#d9d9d9"
+            },
+            {
+              "html": "Color",
+              "style": "background:#d9d9d9"
+            },
+            {
+              "html": "Reflects Light<br><span style=\"font-weight:400\">(Yes/No)</span>",
+              "style": "background:#d9d9d9"
+            },
+            {
+              "html": "Magnetic<br><span style=\"font-weight:400\">(Yes/No)</span>",
+              "style": "background:#d9d9d9"
+            },
+            {
+              "html": "Hardness",
+              "style": "background:#d9d9d9"
+            },
+            {
+              "html": "Response to Vinegar",
+              "style": "background:#d9d9d9"
+            }
+          ],
+          [
+            {
+              "html": "<b>Muscovite Mica</b>",
+              "style": "background:#d9d9d9"
+            },
+            "yellow",
+            "yes",
+            {
+              "in": "mica",
+              "width": 8.5
+            },
+            "medium",
+            "none"
+          ],
+          [
+            {
+              "html": "<b>Talc</b>",
+              "style": "background:#d9d9d9"
+            },
+            "white",
+            "no",
+            {
+              "in": "talc",
+              "width": 8.5
+            },
+            "low",
+            "none"
+          ],
+          [
+            {
+              "html": "<b>Calcite</b>",
+              "style": "background:#d9d9d9"
+            },
+            "white",
+            "no",
+            {
+              "in": "calcite",
+              "width": 8.5
+            },
+            "medium",
+            "bubbles"
+          ],
+          [
+            {
+              "html": "<b>Pyrite</b>",
+              "style": "background:#d9d9d9"
+            },
+            "yellow",
+            "yes",
+            {
+              "in": "pyrite",
+              "width": 8.5
+            },
+            "high",
+            "none"
+          ]
+        ],
+        "labels": {
+          "mica": "Muscovite Mica, Magnetic",
+          "talc": "Talc, Magnetic",
+          "calcite": "Calcite, Magnetic",
+          "pyrite": "Pyrite, Magnetic"
+        }
+      },
+      "key": {
+        "mica": [
+          "No",
+          "N",
+          "not magnetic",
+          "non-magnetic",
+          "nonmagnetic",
+          "not attracted",
+          "non magnetic",
+          "magnet not attracted"
+        ],
+        "talc": [
+          "No",
+          "N",
+          "not magnetic",
+          "non-magnetic",
+          "nonmagnetic",
+          "not attracted",
+          "non magnetic",
+          "magnet not attracted"
+        ],
+        "calcite": [
+          "No",
+          "N",
+          "not magnetic",
+          "non-magnetic",
+          "nonmagnetic",
+          "not attracted",
+          "non magnetic",
+          "magnet not attracted"
+        ],
+        "pyrite": [
+          "Yes",
+          "Y",
+          "magnetic",
+          "attracted",
+          "magnet attracted"
+        ]
+      },
+      "lenient": true,
+      "explanation": "Note: Allow credit if a student writes something other than yes or no that correctly identifies the mineral is magnetic or non-magnetic."
+    },
+    {
+      "n": 22,
+      "stimulus": [
+        "calcite"
+      ],
+      "type": "mc",
+      "pe": "5-PS1-4",
+      "points": 1,
+      "stem": "A student makes a claim that a new substance was formed when vinegar was added to calcite. Which statement can be used as evidence to support this student&rsquo;s claim?",
+      "options": [
+        "The calcite changed color after the vinegar was added.",
+        "The vinegar droplets caused the calcite sample to melt and lose mass.",
+        "Bubbles formed after the vinegar was added to the calcite.",
+        "The surface texture of the entire calcite sample changed after the vinegar was added."
+      ],
+      "key": "C"
+    },
+    {
+      "n": 23,
+      "stimulus": [
+        "rocks",
+        "table1"
+      ],
+      "type": "cr",
+      "pe": "5-PS1-3",
+      "points": 1,
+      "stem": "Based on the results shown in <i>Student Data Table 2</i>, explain why rock <i>A</i> is most likely made of the mineral calcite. [1]",
+      "rubric": [
+        "Allow 1 credit. Acceptable responses include, but are not limited to:",
+        "Bubbles formed on the surface of Rock A so it probably has calcite in it, the other minerals would not form bubbles.",
+        "Rock A bubbled when vinegar was added just like calcite."
+      ],
+      "exemplar": "Rock A bubbled when vinegar was added just like calcite."
+    }
+  ]
+}
