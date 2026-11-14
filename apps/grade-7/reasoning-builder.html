@@ -275,7 +275,7 @@ fixHash();window.addEventListener('hashchange',fixHash,true);
 function hide(){var els=document.querySelectorAll('label,a,button');for(var i=0;i<els.length;i++){var e=els[i];if(/answer key/i.test(e.textContent||'')&&e.textContent.length<120){var c=e.querySelector&&e.querySelector('input[type=checkbox]');if(c)c.checked=false;e.style.display='none';if(e.htmlFor){var t=document.getElementById(e.htmlFor);if(t){t.checked=false;t.style.display='none'}}}}
 var ks=document.querySelectorAll('input[type=checkbox][id*="Key"],input[type=checkbox][id*="key"]');for(var j=0;j<ks.length;j++){ks[j].checked=false;ks[j].style.display='none'}}
 new MutationObserver(hide).observe(document.documentElement,{childList:true,subtree:true});document.addEventListener('DOMContentLoaded',hide)})();</script>
-<script id="paper-docs">window.PAPER_DOCS={"student":{},"key":{}};</script>
+<script id="paper-docs">window.PAPER_DOCS={"student": {"all": "https://docs.google.com/document/d/16OGuNQeHED4nDptiSmTWM5Lpdbz83WyRzgB7Ozylp-I/edit"}, "key": {}};</script>
 <header class="mast"><div class="in">
   <div class="brand"><small>KTUFSD Science</small><b>Reasoning Builder</b></div>
   <nav class="mnav" aria-label="App">
