@@ -1,0 +1,1222 @@
+<!doctype html>
+<html lang="en">
+<head><meta name="robots" content="noindex"><!--fs-scaled-->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reasoning Builder</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Carlito:ital,wght@0,400;0,700;1,400;1,700&display=swap">
+<style>
+:root{
+  --bg:#F5F5F5; --ink:#273540; --muted:#58526A; --mast:#0033A0; --lav:#0E68B3; --lav-deep:#0033A0; --lav-soft:#EEF2FA;
+  --blue:#0E68B3; --blue-ink:#0B5A9C; --blue-soft:#E3EEF8; --line:#C7CDD1; --sand:#EFE6D6; --sand-line:#B9A987;
+  --ok:#1F6B45; --ok-soft:#DCEFE3; --warn-soft:#FBEFD5; --warn-ink:#7A4B00;
+  --font:"Lato","Lato Extended","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font);font-size:14px;line-height:1.55;overflow-x:hidden}
+button,input,textarea,select{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--blue-ink);outline-offset:2px}
+.mast{background:var(--mast);color:#fff}
+.mast .in{max-width:940px;margin:0 auto;padding:14px 16px;display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;justify-content:space-between}
+.brand{display:flex;flex-direction:column;line-height:1.15}
+.brand small{font-size:12px;letter-spacing:.09em;text-transform:uppercase;color:#FFFFFF;font-weight:500}
+.brand b{font-size:19px;font-weight:700}
+.mnav{display:flex;gap:8px;flex-wrap:wrap}
+.mbtn{background:transparent;border:1.5px solid #FFFFFF;color:#fff;border-radius:999px;padding:7px 14px;cursor:pointer;font-weight:500;font-size:13px;min-height:40px}
+.mbtn:hover{background:rgba(255,255,255,.14)}
+main{max-width:940px;margin:0 auto;padding:20px 16px 40px}
+h1,h2,h3{line-height:1.2;margin:0 0 8px}
+h2{font-size:19px} h3{font-size:16px}
+p{margin:0 0 10px}
+.card{background:#fff;border:1px solid var(--line);border-radius:4px;padding:18px 20px;margin-bottom:16px}
+.muted{color:var(--muted)}
+.row{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.btn{background:var(--lav-deep);color:#fff;border:2px solid var(--lav-deep);border-radius:4px;padding:10px 18px;cursor:pointer;font-weight:600;min-height:44px}
+.btn:hover{background:#3d3269}
+.btn.ghost{background:#fff;color:var(--lav-deep)}
+.btn.ghost:hover{background:var(--lav-soft)}
+.btn[disabled]{opacity:.5;cursor:not-allowed}
+.chip{display:inline-block;border-radius:999px;padding:2px 10px;font-size:12px;font-weight:500;border:1px solid var(--line);background:#fff;white-space:nowrap}
+.chip.unit{background:var(--lav-soft);border-color:var(--lav-soft);color:var(--lav-deep)}
+.chip.pe{background:var(--blue-soft);border-color:var(--blue-soft);color:var(--blue-ink)}
+.chip.done{background:var(--ok-soft);border-color:var(--ok-soft);color:var(--ok)}
+.ic{width:18px;height:18px;vertical-align:-3px;flex:0 0 auto}
+/* home */
+.units{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0 14px}
+.unitbtn{border:1.5px solid var(--line);background:#fff;border-radius:999px;padding:8px 14px;cursor:pointer;font-weight:500;min-height:42px}
+.unitbtn[aria-pressed="true"]{background:var(--lav);border-color:var(--lav);color:#fff;font-weight:600}
+.seg{display:inline-flex;border:1.5px solid var(--lav-deep);border-radius:4px;overflow:hidden}
+.seg button{border:0;background:#fff;padding:9px 16px;cursor:pointer;font-weight:500;min-height:44px}
+.seg button[aria-pressed="true"]{background:var(--lav-deep);color:#fff;font-weight:600}
+.prog{height:12px;border-radius:999px;background:var(--lav-soft);overflow:hidden;margin:6px 0}
+.prog span{display:block;height:100%;background:var(--lav-deep)}
+.tlist{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.trow{display:flex;flex-wrap:wrap;gap:10px;justify-content:space-between;align-items:center;border:1px solid var(--line);border-radius:4px;padding:12px 14px;background:#fff}
+.trow h3{margin:0 0 4px;font-size:15px}
+details.tnote{margin-top:18px;background:#fff;border:1px solid var(--line);border-radius:4px;padding:12px 18px}
+details.tnote summary{cursor:pointer;font-weight:600;color:var(--blue-ink)}
+/* task */
+.setup .label{font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--lav-deep);margin:12px 0 2px}
+.given{border-left:5px solid var(--blue);background:var(--blue-soft);border-radius:0 4px 4px 0;padding:10px 14px;margin:6px 0}
+.given.claim{border-left-color:var(--lav);background:var(--lav-soft)}
+.given ul{margin:4px 0 0;padding-left:20px}
+table.data{border-collapse:collapse;width:100%;font-size:13px;margin:8px 0}
+table.data caption{text-align:left;font-weight:600;padding-bottom:6px}
+table.data th,table.data td{border:1px solid #8a84a0;padding:6px 10px;text-align:left}
+table.data thead th{background:var(--lav-soft)}
+.tablewrap{overflow-x:auto}
+.chartwrap{margin:8px 0}
+.chartwrap svg{width:100%;height:auto;max-width:620px;display:block;background:#fff;border:1px solid var(--line);border-radius:4px}
+.steps{display:flex;gap:8px;list-style:none;margin:0 0 14px;padding:0;flex-wrap:wrap}
+.steps li{flex:1 1 150px;border:1.5px solid var(--line);border-radius:4px;padding:8px 12px;background:#fff;font-weight:500;font-size:13px;display:flex;gap:8px;align-items:center}
+.steps li .n{display:inline-grid;place-items:center;width:26px;height:26px;border-radius:50%;background:var(--lav-soft);font-weight:700;font-size:12px;flex:0 0 auto}
+.steps li[aria-current="step"]{border-color:var(--lav-deep);background:var(--lav-soft)}
+.steps li[aria-current="step"] .n{background:var(--lav-deep);color:#fff}
+.steps li.done .n{background:var(--ok);color:#fff}
+.choices{display:grid;gap:10px;margin:10px 0}
+.choice{display:flex;gap:12px;text-align:left;width:100%;border:2px solid var(--line);background:#fff;border-radius:4px;padding:12px 14px;cursor:pointer;min-height:56px;align-items:flex-start}
+.choice:hover{border-color:var(--lav)}
+.choice .k{display:inline-grid;place-items:center;width:28px;height:28px;border-radius:50%;background:var(--lav-soft);font-weight:700;flex:0 0 auto}
+.choice.tried{border-style:dashed;border-color:#8a84a0}
+.choice.right{border-color:var(--ok);background:var(--ok-soft)}
+.choice .st{display:block;font-size:12px;font-weight:600;margin-top:4px}
+.fb{border-radius:4px;padding:12px 16px;margin:10px 0;border:2px solid var(--line);background:#fff}
+.fb.good{border-color:var(--ok);background:var(--ok-soft)}
+.fb.try{border-color:var(--warn-ink);background:var(--warn-soft)}
+.fb:focus{outline:3px solid var(--blue-ink)}
+.fb b.h{display:flex;gap:8px;align-items:center;margin-bottom:4px}
+.pieces{list-style:none;margin:10px 0;padding:0;display:grid;gap:8px}
+.piece{display:grid;grid-template-columns:34px 1fr auto;gap:10px;align-items:center;background:#fff;border:2px solid var(--line);border-radius:4px;padding:10px 12px}
+.piece.locked{border-color:var(--ok);background:var(--ok-soft)}
+.piece .pos{display:grid;place-items:center;width:30px;height:30px;border-radius:50%;background:var(--lav-deep);color:#fff;font-weight:700}
+.mv{display:flex;gap:6px}
+.mv button{border:1.5px solid var(--lav-deep);background:#fff;border-radius:4px;min-width:44px;min-height:44px;cursor:pointer;font-weight:600;color:var(--lav-deep);padding:0 10px}
+.mv button:hover:not([disabled]){background:var(--lav-soft)}
+.mv button[disabled]{opacity:.35;cursor:not-allowed}
+.rolechip{display:block;font-size:12px;font-weight:600;color:var(--ok)}
+textarea.write{width:100%;min-height:150px;background:#fff;border:2px solid #000;border-radius:4px;padding:12px;font-size:15px;line-height:1.55;resize:vertical}
+.starters{background:var(--sand);border:1px solid var(--sand-line);border-radius:4px;padding:10px 14px;margin:8px 0}
+.starters ul{margin:4px 0 0;padding-left:20px}
+.crit{list-style:none;padding:0;margin:10px 0;display:grid;gap:8px}
+.crit li{display:grid;grid-template-columns:22px 1fr;gap:10px;border:1px solid var(--line);border-radius:4px;padding:10px 12px;background:#fff}
+.crit li.met{border-color:var(--ok);background:var(--ok-soft)}
+.crit li.notyet{border-color:var(--warn-ink);background:var(--warn-soft)}
+.crit .lab{font-weight:600}
+.band{border-radius:4px;padding:10px 14px;margin:8px 0;border:2px solid}
+.band .t{display:block;font-size:12px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;margin-bottom:2px}
+.band.e{background:var(--blue-soft);border-color:var(--blue)}
+.band.i{background:var(--lav-soft);border-color:var(--lav)}
+.band.l{background:var(--sand);border-color:var(--sand-line)}
+.selfchk{list-style:none;padding:0;margin:8px 0}
+.selfchk li{margin:6px 0}
+.selfchk label{display:flex;gap:10px;align-items:flex-start;cursor:pointer;min-height:36px}
+.selfchk input{width:22px;height:22px;accent-color:var(--lav-deep);flex:0 0 auto;margin-top:2px}
+.weak{background:var(--warn-soft);border:2px solid var(--warn-ink);border-radius:4px;padding:12px 16px;margin:8px 0;font-size:15px}
+.note{font-size:12px;color:var(--muted)}
+.limit{font-size:12px;border:1px dashed #8a84a0;border-radius:4px;padding:8px 12px;background:#fff;margin:8px 0}
+.explain{border:2px solid var(--lav-deep)}
+footer{max-width:940px;margin:0 auto;padding:6px 16px 28px;color:var(--muted);font-size:12px;display:flex;flex-wrap:wrap;gap:8px 20px;justify-content:space-between}
+.linkbtn{background:none;border:0;color:var(--blue-ink);text-decoration:underline;cursor:pointer;padding:6px 2px;min-height:36px}
+@media (max-width:560px){ .piece{grid-template-columns:30px 1fr} .piece .mv{grid-column:1 / -1} .card{padding:14px} }
+@media print{ .mast,.mnav,footer,.btn{display:none} body{background:#fff} }
+</style>
+<style id="paper-css">
+/* ===== Paper version (printable worksheet) ===== */
+@page{size:letter;margin:0.35in 0.5in 0.5in 0.5in;
+  @bottom-left{content:"";border-top:1px solid #E3DACB;margin:0 0 0 0}
+  @bottom-right{content:"";border-top:1px solid #E3DACB}
+  @bottom-center{content:counter(page);font-family:Calibri,Carlito,"Lato",Arial,sans-serif;font-size:9pt;color:#666666;border-top:1px solid #E3DACB;vertical-align:top;padding-top:4px}}
+#pmeasure{position:absolute;left:-10000px;top:0;width:7.5in;visibility:hidden}
+body.paper-on .paper .sheet.m{padding:0;width:7.5in;max-width:none;margin:0;box-shadow:none}
+#paperOpts[hidden]{display:none}
+#paperOpts{position:fixed;top:0;right:0;bottom:0;left:0;background:rgba(0,0,0,.45);display:flex;align-items:center;justify-content:center;padding:16px;z-index:50}
+#paperOpts .pbox{background:#fff;border:1px solid #8D959F;border-radius:4px;padding:20px 22px;max-width:480px;width:100%;max-height:92vh;overflow:auto}
+#paperOpts h2{margin:0 0 10px}
+#paperOpts label.pl{display:block;font-weight:700;margin:12px 0 4px}
+#paperOpts select{width:100%;font-size:16px;min-height:42px}
+#paperOpts .pck{display:flex;gap:10px;align-items:flex-start;margin:10px 0}
+#paperOpts .pck input{width:20px;height:20px;margin-top:2px;flex:0 0 auto;accent-color:#0033A0}
+#paperOpts .row{margin-top:16px}
+#paperOpts a.btn{display:inline-block;text-decoration:none;text-align:center}
+#paperOpts [hidden]{display:none !important}
+#paperOpts .pdocs{margin-top:4px}
+#paperOpts .pdocs .row{margin-top:10px}
+body.paper-on .paper .paper-bar a.btn{display:inline-block;text-decoration:none}
+body.paper-on{background:#d9dbdd}
+body.paper-on .mast,body.paper-on main,body.paper-on footer,body.paper-on #paperOpts{display:none}
+body.paper-on #paper{display:block;padding:12px 8px 28px}
+body.paper-on .paper{font-family:Calibri,Carlito,"Lato",Arial,sans-serif;font-size:10.5pt;line-height:1.25;color:#1A160D}
+body.paper-on .paper,body.paper-on .paper *{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+body.paper-on .paper .paper-bar{width:8.5in;max-width:100%;margin:0 auto 4px;display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;font-family:"Lato",Arial,sans-serif;font-size:15px}
+body.paper-on .paper .sheet{background:#fff;color:#1A160D;width:8.5in;max-width:100%;margin:14px auto;padding:0.35in 0.5in;box-shadow:0 1px 6px rgba(0,0,0,.35)}
+body.paper-on .paper .sheet{line-height:var(--lh,1.25)}
+body.paper-on .paper .hbar{background:#6B9BCC;color:#fff;padding:3px 10px;margin:0 0 2px;border:0}
+body.paper-on .paper .chips{display:flex;margin:0 0 6px}
+body.paper-on .paper .chip9{flex:1 1 0;min-width:0;background:#E4DFEF;text-align:center;padding:3px 6px;border:0;border-left:2px solid #fff;font-size:9pt;line-height:1.2}
+body.paper-on .paper .chip9:first-child{border-left:0}
+body.paper-on .paper .chip9 .cl{font-weight:700;color:#7B6BAF;display:block}
+body.paper-on .paper .chip9 .cv{font-weight:700;color:#1A160D;display:block;margin-top:1px}
+body.paper-on .paper .hbar .l1{font-size:14pt;font-weight:700;line-height:1.25;color:#fff}
+body.paper-on .paper .hbar .l2{font-size:10pt;font-weight:400;line-height:1.3;white-space:pre-wrap;color:#fff}
+body.paper-on .paper h2{font-size:13pt;font-weight:700;line-height:1.25;margin:0 0 4px;padding-bottom:2px;color:#6B9BCC;border-bottom:1px solid #6B9BCC;letter-spacing:0}
+body.paper-on .paper h3{font-size:11.5pt;font-weight:700;line-height:1.25;margin:0 0 3pt;color:#7B6BAF;letter-spacing:0}
+body.paper-on .paper h3.kt{font-size:13pt;color:#6B9BCC;border-bottom:1px solid #6B9BCC;padding-bottom:2px;margin:6px 0 4px}
+body.paper-on .paper p{margin:0 0 5pt}
+.paper .nameline{margin:0 0 7pt;white-space:pre-wrap}
+.paper .nameline.small{font-size:10.5pt;text-align:right}
+.paper .dir{font-size:10.5pt;margin:0 0 6pt}
+.paper .remind{background:#E4DFEF;border:1px solid #7B6BAF;border-left:3px solid #7B6BAF;padding:5pt 8pt;margin:0 0 8px;font-size:10.5pt;line-height:1.3}
+.paper .remind b.t{display:block;font-size:11.5pt;margin-bottom:1pt;color:#7B6BAF}
+.paper .remind div{margin:0}
+.paper .unitline{font-size:10pt;font-weight:400;margin:0 0 0 6pt;white-space:nowrap;color:#1A160D}
+.paper .lb{font-weight:700;color:#7B6BAF}
+.paper .lbl{font-size:11.5pt;font-weight:700;margin:6pt 0 2pt;color:#7B6BAF}
+.paper .ro .lbl{margin-top:0}
+.paper .blk{break-inside:avoid;page-break-inside:avoid;margin:0 0 6px;position:relative}
+.paper .blk.p1{margin-bottom:var(--g1,6px)}
+.paper .blk.p2{margin-bottom:var(--g2,6px)}
+.paper .blk.pb::before{content:"";position:absolute;left:0;right:0;top:-5px;border-top:1px dashed #999}
+.paper .ro{background:#E4DFEF;border:1px solid #7B6BAF;border-left:3px solid #7B6BAF;padding:4pt 8pt;margin:0 0 4pt}
+.paper .ro ul{margin:0;padding-left:16pt}
+.paper .ro li{margin:1pt 0}
+.paper table.data{border-collapse:collapse;width:100%;font-size:10pt;margin:3pt 0;table-layout:auto}
+.paper table.data caption{text-align:left;font-weight:700;padding-bottom:3pt;font-size:10pt;color:#1A160D}
+.paper table.data th,.paper table.data td{border:1px solid #CCCCCC;padding:var(--tp,4px) 5pt;text-align:left;color:#1A160D;background:#fff;line-height:1.3}
+.paper table.data thead th{background:#D6E5F2;color:#6B9BCC;font-weight:700}
+.paper table.data tbody th{background:#D6E5F2;color:#1A160D;font-weight:700}
+.paper .tablewrap{overflow:visible}
+.paper .note{font-size:10pt;color:#000;margin:2pt 0}
+.paper .chartwrap{margin:4pt 0}
+.paper .chartwrap svg{width:auto;max-width:100%;height:var(--ch,173px);overflow:visible;display:block;background:#fff;border:0;border-radius:0}
+.paper h3.st,body.paper-on .paper h3.st{display:inline;margin:0 6pt 0 0}
+.paper h3.st + .dirs{display:inline}
+.paper .ce{display:flex;gap:10pt;align-items:stretch}
+.paper .cecol{flex:1 1 0;min-width:0;margin:0;padding-top:var(--cp,5px);padding-bottom:var(--cp,5px)}
+.paper .dirs{font-size:10.5pt;margin:0 0 4pt}
+.paper .dirs b{font-weight:400}
+.paper .opt{display:flex;gap:8pt;align-items:flex-start;margin:0 0 var(--og,3px);break-inside:avoid;page-break-inside:avoid}
+.paper .opt .lt{flex:0 0 18pt;font-weight:700}
+.paper .pc{display:flex;gap:8pt;align-items:center;margin:0 0 3pt;break-inside:avoid;page-break-inside:avoid}
+.paper .numbox{flex:0 0 var(--nb,0.38in);width:var(--nb,0.38in);height:var(--nb,0.38in);border:1px solid #000;background:#fff}
+.paper .wbox{border:1px solid #000;background:#fff;height:2in;margin:3pt 0 5pt}
+.paper .wbox.short{height:1.7in}
+.paper .chk{list-style:none;margin:2pt 0 0;padding:0;font-size:10pt;column-count:2;column-gap:14pt}
+.paper .chk li{display:flex;gap:7pt;align-items:flex-start;margin:0 0 2pt;break-inside:avoid;page-break-inside:avoid}
+.paper .tick{flex:0 0 0.15in;width:0.15in;height:0.15in;border:1px solid #000;background:#fff;margin-top:2pt}
+.paper .weakbox{background:#E4DFEF;border:1px solid #7B6BAF;border-left:3px solid #7B6BAF;padding:5pt 8pt;margin:0 0 8pt}
+.paper .weakbox .lbl{margin-top:0}
+.paper .key{font-size:10.5pt;line-height:1.3}
+.paper .key ol,.paper .key li{font-size:10pt}
+.paper .keyitem{padding:0 0 3pt;margin:0 0 8px}
+.paper .keyitem p,.paper .keyitem li{break-inside:avoid;page-break-inside:avoid;orphans:2;widows:2}
+.paper .keyitem h3.kt{break-after:avoid;page-break-after:avoid}
+.paper .keyitem p{margin:0 0 2pt}
+.paper .keyitem ol{margin:1pt 0 2pt;padding-left:18pt}
+.paper .keyitem li{margin:0}
+@media (max-width:700px){body.paper-on .paper .sheet{padding:0.25in}}
+@media print{
+  body.paper-on{background:#fff !important}
+  body.paper-on #paper{padding:0}
+  body.paper-on .paper .paper-bar{display:none}
+  body.paper-on .paper .sheet{box-shadow:none;margin:0;padding:0;width:auto;max-width:none;break-before:page;page-break-before:always}
+  body.paper-on .paper .blk.pb{break-before:page;page-break-before:always}
+  body.paper-on .paper .blk.pb::before{display:none}
+  #pmeasure{display:none}
+  body.paper-on .paper .sheet.first{break-before:auto;page-break-before:auto}
+}
+</style>
+<style id="canvas-theme">
+/* KTUFSD Canvas look. Values read from ktufsd.instructure.com on 2026-11-14.
+   Screen body text is 14px (Canvas uses 16px; Mary Beth asked for smaller). Paper views set their own 12pt. */
+:root{--bg:#FFFFFF;--ink:#273540;--muted:#47535C;--mast:#0033A0;--lav:#0E68B3;--lav-deep:#0033A0;--lav-soft:#EEF2FA;--blue:#0E68B3;--blue-ink:#0B5A9C;--blue-soft:#E3EEF8;--line:#C7CDD1;--white:#fff;--card:#fff;
+--font:"Lato","Lato Extended","Helvetica Neue",Helvetica,Arial,sans-serif}
+html{font-size:87.5%}
+body{font-family:var(--font);font-size:14px;line-height:1.5;color:#273540;background:#fff}
+a{color:#0E68B3}
+h1,h2,h3,h4{color:#273540;letter-spacing:0}
+h2,.card h2{font-size:1.5rem;font-weight:400;line-height:1.3;color:#273540}
+h3,.card h3{font-size:1.125rem;font-weight:700;color:#273540}
+.mast{background-color:#0033A0;background-image:linear-gradient(90deg,rgba(0,24,90,.62),rgba(0,24,90,.18)),url(data:image/jpeg;base64,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);background-size:cover;background-position:center;color:#fff}
+.mast .in{min-height:72px;padding:12px 24px;justify-content:flex-start;gap:8px 16px}
+.mast .in::before{content:"";flex:0 0 48px;width:48px;height:48px;background:url(data:image/png;base64,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) center/contain no-repeat}
+.mast h1{font-size:1.5rem;font-weight:700;letter-spacing:0;line-height:1.2;margin:0;margin-right:auto;color:#fff;text-shadow:0 1px 3px rgba(0,0,40,.6)}
+.mast .org{font-size:.75rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:#fff;text-shadow:0 1px 3px rgba(0,0,40,.6)}
+.wrap,main{padding:24px 24px 48px}
+.card{border:1px solid #C7CDD1;border-radius:4px;padding:24px;box-shadow:none}
+.btn{background:#0033A0;color:#fff;border:1px solid #002C88;border-radius:3px;padding:8px 14px;font-size:1rem;font-weight:400;line-height:22px;min-height:40px}
+.btn:hover{background:#002C88}
+.btn.sec,.btn.ghost,.btn.alt{background:#F2F4F4;color:#273540;border:1px solid #C7CDD1}
+.btn.sec:hover,.btn.ghost:hover,.btn.alt:hover{background:#E8EAEC}
+textarea,input[type=text],input[type=date],input[type=number],select{border:1px solid #8D959F;border-radius:3px;padding:8px;background:#fff;color:#273540}
+th{font-weight:700}
+:focus-visible{outline:2px solid #0E68B3;outline-offset:2px}
+@media (max-width:768px){.wrap,main{padding:16px 12px 40px}.card{padding:16px}.mast .in{padding:10px 12px;min-height:60px}.mast .in::before{flex-basis:38px;width:38px;height:38px}.mast h1{font-size:1.25rem}.mast .org{display:none}}
+/* Anything printed follows the burple skill: Calibri, 6-8 band sizes, page-number footer. Paper views (body.paper-on) carry their own burple rules. */
+@media print{
+.mast{background:#6B9BCC !important;background-image:none !important;color:#fff;position:static;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.mast .in{min-height:0;padding:6px 14px}
+.mast .in::before{display:none}
+.mast h1{color:#fff !important;font-size:14pt;text-shadow:none;font-family:Calibri,Carlito,"Lato",Arial,sans-serif}
+.mast .org{display:inline;color:#fff !important;font-size:10pt;font-weight:400;letter-spacing:0;text-transform:none;text-shadow:none}
+body:not(.paper-on){font-family:Calibri,Carlito,"Lato",Arial,sans-serif;color:#1A160D;font-size:10.5pt;line-height:1.35}
+body:not(.paper-on) h2,body:not(.paper-on) .card h2{font-size:13pt;font-weight:700;color:#6B9BCC;border-bottom:1.5px solid #6B9BCC;padding-bottom:2px}
+body:not(.paper-on) h3,body:not(.paper-on) .card h3{font-size:11pt;font-weight:700;color:#7B6BAF}
+body:not(.paper-on) th{background:#D6E5F2 !important;color:#6B9BCC;font-size:10pt;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+body:not(.paper-on) th,body:not(.paper-on) td{border-color:#CCCCCC}
+body:not(.paper-on) a{color:#1A160D}
+}
+</style>
+</head>
+<body>
+<script id="student-copy">/* Public student copy: the teacher answer key is not offered here. Teachers get it from the science hub. */
+(function(){function fixHash(){if(/^#paper-key/.test(location.hash)){try{history.replaceState(null,'',location.pathname+location.search+location.hash.replace('#paper-key','#paper'))}catch(e){location.hash=location.hash.replace('#paper-key','#paper')}}}
+fixHash();window.addEventListener('hashchange',fixHash,true);
+function hide(){var els=document.querySelectorAll('label,a,button');for(var i=0;i<els.length;i++){var e=els[i];if(/answer key/i.test(e.textContent||'')&&e.textContent.length<120){var c=e.querySelector&&e.querySelector('input[type=checkbox]');if(c)c.checked=false;e.style.display='none';if(e.htmlFor){var t=document.getElementById(e.htmlFor);if(t){t.checked=false;t.style.display='none'}}}}
+var ks=document.querySelectorAll('input[type=checkbox][id*="Key"],input[type=checkbox][id*="key"]');for(var j=0;j<ks.length;j++){ks[j].checked=false;ks[j].style.display='none'}}
+new MutationObserver(hide).observe(document.documentElement,{childList:true,subtree:true});document.addEventListener('DOMContentLoaded',hide)})();</script>
+<script id="paper-docs">window.PAPER_DOCS={"student":{},"key":{}};</script>
+<header class="mast"><div class="in">
+  <div class="brand"><small>KTUFSD Science</small><b>Reasoning Builder</b></div>
+  <nav class="mnav" aria-label="App">
+    <button class="mbtn" data-act="home">Home</button>
+    <button class="mbtn" data-act="explain" aria-expanded="false" id="explainBtn">What is reasoning?</button>
+  </nav>
+</div></header>
+<main id="app" aria-live="off"></main>
+<footer><span>Nothing you type leaves this device.</span><button class="linkbtn" data-act="reset">Start over</button></footer>
+<div id="paperOpts" hidden></div>
+<div id="paper" class="paper" hidden></div>
+
+<script id="data">
+/* ===== DATA AND CHECKER (pure, tested in node) ===== */
+var TASKS = [
+{
+ id:"meta1", unit:"Metabolism", pe:"MS-LS1-7", title:"Why breathing speeds up",
+ phenomenon:"After a hard sprint, a student breathes fast and feels hot. Scientists measured her body at rest, while jogging, and while sprinting. (Scenario data.)",
+ table:{caption:"Whole body measurements per minute", head:["Activity","Oxygen used (mL)","Carbon dioxide released (mL)","Breaths"],
+  rows:[["Resting","250","200","14"],["Jogging","1,500","1,300","30"],["Sprinting","3,000","2,700","45"]]},
+ question:"Why does the body use so much more oxygen during exercise?",
+ claim:"During exercise, muscle cells release energy from food faster than they do at rest.",
+ evidence:["Oxygen used rose from 250 mL per minute at rest to 3,000 mL per minute while sprinting.","Carbon dioxide released rose from 200 mL to 2,700 mL per minute."],
+ choices:[
+  {t:"Muscles are made of cells with proteins that let them squeeze and pull on bones.",ok:false,fb:"That is true, but it does not connect to the data. Nothing in it explains why oxygen use and carbon dioxide release go up together."},
+  {t:"Oxygen use and carbon dioxide release both go up when a person exercises.",ok:false,fb:"This only restates the evidence. A bridge has to explain why the data look this way, not say them again."},
+  {t:"In cellular respiration, cells use oxygen to break down food molecules such as glucose into carbon dioxide and water, and this releases energy.",ok:true,fb:"Yes. This idea links both measurements to the claim. Oxygen goes in, carbon dioxide comes out, and energy is released from food. More of both means faster energy release."},
+  {t:"Breathing faster pumps extra oxygen into the muscles, where it is stored as energy.",ok:false,fb:"This is a common misconception. Oxygen is not energy and it is not stored as energy. Cells use oxygen to release energy from food molecules."}
+ ],
+ pieces:[
+  {role:"evidence",t:"The body used 250 mL of oxygen per minute at rest and 3,000 mL per minute while sprinting, and it released more carbon dioxide too."},
+  {role:"idea",t:"In cellular respiration, cells use oxygen to break down food molecules such as glucose, which releases energy and makes carbon dioxide."},
+  {role:"link",t:"More oxygen used and more carbon dioxide made means food molecules are being broken down at a faster rate."},
+  {role:"claim",t:"So muscle cells release energy from food faster during exercise than at rest."}
+ ], start:[2,0,3,1],
+ fix:{weak:"The oxygen went from 250 to 3,000 and the carbon dioxide went from 200 to 2,700. This shows that muscle cells release energy faster.",
+  choices:[
+   {t:"It leaves out numbers from the data.",ok:false,fb:"Look again. It does include numbers: 250, 3,000, 200, and 2,700. The numbers are fine."},
+   {t:"It repeats the data and the claim but never names the science idea that connects them.",ok:true,fb:"Right. It jumps from the numbers straight to the claim. The missing piece is the idea: cells use oxygen to break down food and release energy."},
+   {t:"It disagrees with the claim.",ok:false,fb:"It does not. It says muscle cells release energy faster, which matches the claim. The problem is how it gets there."},
+   {t:"It is too short, so it cannot be right.",ok:false,fb:"Length is not the problem. A short answer can be strong if it has the science idea and the link. This one has neither."}],
+  goal:"Rewrite it so it names the science idea and explains how the oxygen and carbon dioxide data support the claim."},
+ rubric:{
+  ideaGroups:["respirat|break|rearrang|react|burn|convert","food|glucose|sugar|nutrient|molecule","oxygen","energy"],
+  ev:["oxygen","carbon dioxide|co2","breath","sprint|jog|exercis"], nums:["250","3000","2700","200","1500","1300"], evNeed:2,
+  claim:"faster|more energy|quick|rate|exercis|sprint|active|working|releas",
+  ideaHint:"Name the science idea. What do cells do with oxygen and food molecules, and what does that process release?",
+  evHint:"Use the data. Mention the oxygen used or the carbon dioxide released, with a number if you can.",
+  linkHint:"Link it. Use because, so, or this shows, and mention both the oxygen and carbon dioxide data and the claim about energy being released faster.",
+  misc:[
+   {re:"oxygen (is|becomes|turns into|gives|provides) (the )?energy|oxygen is stored|stor(e|es|ed|ing) (the )?oxygen",hint:"Oxygen is not energy. Energy is released when cells break down food molecules, and oxygen is needed for that reaction."},
+   {re:"(make|makes|made|create|creates|created|produce|produces|produced) (the )?energy",hint:"Energy is not made. Cellular respiration releases energy that was stored in food molecules."}]},
+ model:{evidence:"The body used 250 mL of oxygen per minute at rest but 3,000 mL per minute while sprinting, and carbon dioxide release rose from 200 mL to 2,700 mL.",
+  idea:"In cellular respiration, cells use oxygen to break down food molecules such as glucose into carbon dioxide and water, and that releases energy.",
+  link:"Because both the oxygen used and the carbon dioxide released went up so much, food molecules must be broken down faster in exercising muscles, so they release energy faster."},
+ starters:["The data show that ...","Scientists know that cells use oxygen to ...","This idea explains the data because ...","So the claim is true because ..."]
+},
+{
+ id:"plate1", unit:"Plate Motion", pe:"MS-ESS2-3", title:"A reptile on two continents",
+ phenomenon:"Fossils of Mesosaurus, a small reptile, have been found in Brazil and in South Africa. Today about 6,000 km of salt water lies between those two places. (Scenario summary.)",
+ table:{caption:"Mesosaurus fossil sites", head:["Site","Continent","Rock age","Fossils found"],
+  rows:[["A","South America (Brazil)","About 280 million years","Mesosaurus, same species"],["B","Africa (South Africa)","About 280 million years","Mesosaurus, same species"]],
+  note:"Mesosaurus lived in fresh water. Its body could not survive in salt water. It was about 1 meter long."},
+ question:"How can the same freshwater reptile be fossilized on two continents that are now far apart?",
+ claim:"South America and Africa were once joined, and they have moved apart.",
+ evidence:["The same species of Mesosaurus, from rock of the same age, is found in both places.","Mesosaurus could not live in salt water, but 6,000 km of salt water separates the sites today."],
+ choices:[
+  {t:"Fossils form when the remains of living things are buried in sediment and the sediment hardens into rock.",ok:false,fb:"True, but it only explains how fossils form. It says nothing about why the same species is on two continents."},
+  {t:"Continents sit on tectonic plates that move slowly over millions of years, so land that is far apart now can once have been connected.",ok:true,fb:"Yes. Moving plates carry continents. If the continents were once joined, one freshwater habitat could have stretched across both."},
+  {t:"The continents have stayed in place, and Mesosaurus swam across the Atlantic Ocean.",ok:false,fb:"This is a misconception that the evidence rules out. Mesosaurus lived in fresh water and could not survive 6,000 km of salt water."},
+  {t:"Mesosaurus fossils were found in both Brazil and South Africa.",ok:false,fb:"This only restates the evidence. It does not give a science idea that explains why the fossils are in both places."}
+ ],
+ pieces:[
+  {role:"evidence",t:"The same freshwater reptile, from rock of the same age, is fossilized in Brazil and in South Africa, with 6,000 km of salt water between them now."},
+  {role:"idea",t:"Tectonic plates move slowly, carrying the continents with them, so continents can drift apart or come together over millions of years."},
+  {role:"claim",t:"So South America and Africa were once joined, which let the reptile live across both, and they have since moved apart."}
+ ], start:[1,2,0],
+ fix:{weak:"Plates move over time. Mesosaurus fossils are in Brazil and South Africa.",
+  choices:[
+   {t:"It names a science idea and gives data, but it never connects them to the claim.",ok:true,fb:"Right. Both parts are on the page, but nothing says how plate movement makes the fossil evidence fit the claim. There is no because or so."},
+   {t:"The science idea is wrong because plates do not move.",ok:false,fb:"Plates do move, slowly. The idea is fine. What is missing is the link to the data."},
+   {t:"It uses too many numbers.",ok:false,fb:"It uses no numbers at all. Adding data such as the 6,000 km of salt water would help."},
+   {t:"It does not mention the claim and does not need to.",ok:false,fb:"Good reasoning always ends by tying back to the claim. Here, say what the plate idea means for South America and Africa."}],
+  goal:"Rewrite it so the plate idea and the fossil evidence are connected, and end by supporting the claim."},
+ rubric:{
+  ideaGroups:["plate|tectonic|continental drift|pangaea|continents? (is|are|was|were|have|had)? ?(move|moving|moved|drift|drifted|shift|shifted)","mov|drift|shift|slow|apart|spread|split|join|connect|together"],
+  ev:["mesosaurus","fossil","fresh ?water","salt|ocean|atlantic","same (species|reptile|age)","brazil|south america","africa"], nums:["280","6000"], evNeed:2,
+  claim:"join|connect|together|one (land|continent)|supercontinent|pangaea|apart|once|used to",
+  ideaHint:"Name the science idea. What do tectonic plates do, and what does that mean for where continents are over millions of years?",
+  evHint:"Use the evidence. Mention the Mesosaurus fossils, the rock age, or the salt water between the continents.",
+  linkHint:"Link it. Use because, so, or this shows, and connect the fossils to the idea that the continents were once joined.",
+  misc:[{re:"(swam|swim|swum|swims|swimming) (across|over)|crossed the (ocean|atlantic)|walked across",hint:"Mesosaurus lived in fresh water, so it could not cross 6,000 km of salt water. Use that fact to rule out swimming and support the claim."}]},
+ model:{evidence:"The same freshwater reptile, in rock of the same age, is fossilized in both Brazil and South Africa, even though 6,000 km of salt water now separates them.",
+  idea:"Tectonic plates move slowly and carry continents with them, so continents that are far apart now can once have been connected.",
+  link:"Because Mesosaurus could not cross salt water, the best explanation is that the two continents were joined when it lived, so they must have moved apart since."},
+ starters:["The evidence shows ...","Tectonic plates ...","This explains the fossils because ...","So the claim is true because ..."]
+},
+{
+ id:"rock1", unit:"Rock Transformations", pe:"MS-ESS2-1", title:"Marble at the quarry",
+ phenomenon:"A quarry has two kinds of rock. Limestone is found 5 km from a large body of cooled magma. Marble touches the edge of that same magma body. (Scenario data.)",
+ table:{caption:"Comparing the two rocks", head:["Property","Limestone","Marble"],
+  rows:[["Location","5 km from the magma body","Touching the edge of the magma body"],["Fossil shells","Many","None visible"],["Texture","Tiny grains pressed together","Large interlocking crystals"],["Fizzes with acid","Yes","Yes"],["Main mineral","Calcite","Calcite"]]},
+ question:"How did the marble form?",
+ claim:"The marble formed from limestone that was changed by heat.",
+ evidence:["Both rocks are mostly calcite and both fizz with acid.","The marble touches the magma and has large crystals and no fossils. The limestone has fossils and tiny grains."],
+ choices:[
+  {t:"Marble has large crystals and no fossils, and limestone has fossil shells and tiny grains.",ok:false,fb:"This is a good description of the evidence, but it only restates it. A bridge needs an idea that explains why heat would cause these changes."},
+  {t:"Sedimentary rocks form when bits of sediment are pressed and cemented together in layers.",ok:false,fb:"True, and it explains how limestone formed. It does not explain how the marble changed from limestone."},
+  {t:"Marble formed when limestone melted into magma and then cooled again.",ok:false,fb:"This is a common misconception. If the rock melted and cooled it would be an igneous rock. Marble kept the same mineral, calcite, so it changed while still solid."},
+  {t:"Heat and pressure can change a rock into a new rock without melting it. Minerals recrystallize into new textures, so the rock changes but can keep the same minerals.",ok:true,fb:"Yes. This idea (metamorphism) explains why the marble is still calcite but has a new texture and no fossils, right next to a heat source."}
+ ],
+ pieces:[
+  {role:"evidence",t:"Marble and limestone are both mostly calcite, and the marble touches a body of hot magma while the limestone does not."},
+  {role:"idea",t:"Heat can change a rock without melting it. Minerals recrystallize into larger interlocking crystals, and features such as fossils are lost."},
+  {role:"link",t:"That matches the marble: the same mineral as limestone, but a new texture and no fossils, in the spot next to the heat."},
+  {role:"claim",t:"So the marble formed when heat changed limestone into a new type of rock."}
+ ], start:[3,1,0,2],
+ fix:{weak:"The marble came from limestone because the limestone turned into marble. We know this because the marble used to be limestone.",
+  choices:[
+   {t:"It gives too much data.",ok:false,fb:"It gives no data at all. Mention what you observed, such as calcite, crystals, fossils, or the magma."},
+   {t:"It is circular. It uses the claim as its own reason and never names a science idea.",ok:true,fb:"Right. It says the claim three times in different words. A reason has to be something new: how heat changes a rock without melting it."},
+   {t:"It names the wrong rock type.",ok:false,fb:"The rock types are fine. The trouble is that nothing explains how or why limestone turns into marble."},
+   {t:"It needs to be much longer to be correct.",ok:false,fb:"Length does not fix it. Replace the repeated claim with evidence and a science idea, then link them."}],
+  goal:"Rewrite it with real evidence from the table and the science idea about what heat does to rock, linked to the claim."},
+ rubric:{
+  ideaGroups:["heat|hot|pressure|temperature|metamorph","chang|transform|recrystal|alter|turn|bak|rearrang"],
+  ev:["calcite","fizz|acid|react","fossil","crystal|texture|grain","magma|intrusion","touch|next to|edge|contact|near|close"], nums:[], evNeed:2,
+  claim:"limestone|marble",
+  ideaHint:"Name the science idea. What can heat and pressure do to a rock without melting it?",
+  evHint:"Use the evidence. Mention calcite, the crystals, the missing fossils, or that the marble touches the magma.",
+  linkHint:"Link it. Use because, so, or this shows, and connect the changes in the marble to the claim that limestone was changed by heat.",
+  misc:[{re:"melt|melted|melting|molten",hint:"The marble formed without melting. If limestone melted and cooled it would be an igneous rock. Heat and pressure changed it while it stayed solid."}]},
+ model:{evidence:"The marble and the limestone are both mostly calcite and both fizz with acid, but the marble touches the magma and has large crystals and no fossils.",
+  idea:"Heat and pressure can change a rock into a new rock without melting it, because the minerals recrystallize into larger crystals and fossils are lost.",
+  link:"Because the marble kept the same mineral as limestone but has a new texture right beside a heat source, it makes sense that heat changed limestone into marble."},
+ starters:["The data show ...","Heat and pressure can ...","This explains the marble because ...","So the claim is true because ..."]
+},
+{
+ id:"weather1", unit:"Weather Patterns", pe:"MS-ESS2-5", title:"The afternoon weather change",
+ phenomenon:"On a warm morning, a town's weather station recorded a sudden change in the afternoon. The temperature dropped, heavy rain fell, and the wind changed direction. (Scenario data.)",
+ table:{caption:"Weather station readings", head:["Time","Temperature (C)","Air pressure (hPa)","Wind from","Sky"],
+  rows:[["8:00 am","24","1008","Southwest","Clear"],["10:00 am","24","1006","Southwest","Some clouds"],["12:00 pm","23","1005","Southwest","Thick clouds"],["1:00 pm","18","1007","Northwest","Heavy rain"],["2:00 pm","14","1011","Northwest","Clearing"],["4:00 pm","12","1014","Northwest","Clear"]]},
+ chart:{kind:"line",title:"Temperature during the day",xlabel:"Time of day (hour of the day, 24 hour clock)",ylabel:"Temperature (C)",
+  xs:[8,10,12,13,14,16],ys:[24,24,23,18,14,12],xmin:8,xmax:16,xticks:[8,10,12,14,16],ymin:10,ymax:26,ystep:4,invert:false},
+ question:"What caused the sudden weather change at about 1 pm?",
+ claim:"A cold air mass moved into the area around 1 pm and replaced the warm air mass.",
+ evidence:["From 12 pm to 4 pm, the temperature fell from 23 C to 12 C and the pressure rose from 1005 to 1014 hPa.","The wind shifted from southwest to northwest, and heavy rain fell at 1 pm."],
+ choices:[
+  {t:"Rain falling from the clouds cooled the air, and that cooling is what pushed the winds around.",ok:false,fb:"This reverses cause and effect. The rain was a result of the cold air meeting warm air, not the cause of the change."},
+  {t:"Weather is the condition of the atmosphere at one time and place, and climate is the pattern over many years.",ok:false,fb:"True, but it does not explain these readings. It does not tell us why the temperature, wind, and rain changed together."},
+  {t:"Between 12 pm and 4 pm the temperature fell from 23 to 12 degrees and the wind changed direction.",ok:false,fb:"This restates the evidence. It does not give the science idea that explains why those changes happen together."},
+  {t:"When a cold air mass meets a warm air mass, the denser cold air pushes under the warm air and lifts it. That brings clouds and rain at the front, then cooler air behind it.",ok:true,fb:"Yes. This idea explains every piece of evidence: the rain at the front, the drop in temperature, and the new wind direction as the cold air mass moves in."}
+ ],
+ pieces:[
+  {role:"evidence",t:"From 12 pm to 4 pm the temperature fell from 23 C to 12 C, the pressure rose, the wind shifted from southwest to northwest, and heavy rain fell at 1 pm."},
+  {role:"idea",t:"When a cold air mass meets a warm air mass, the denser cold air moves in under the warm air and lifts it, which causes clouds and rain."},
+  {role:"link",t:"The rain at 1 pm, followed by cooler air, higher pressure, and a new wind direction, is what we expect when the front passes the station."},
+  {role:"claim",t:"So a cold air mass moved into the area around 1 pm and replaced the warm air."}
+ ], start:[1,3,2,0],
+ fix:{weak:"It got cold because the cold air came and made it cold, and the rain came after.",
+  choices:[
+   {t:"It uses everyday words like \"cold air came\" and never names the air mass idea or explains why it rained.",ok:true,fb:"Right. The science idea is how a cold air mass and a warm air mass interact. It also has no data from the table."},
+   {t:"It has the order of events wrong.",ok:false,fb:"The order of events is not the issue. The issue is that it describes events in everyday words without the science idea."},
+   {t:"It contradicts the temperature data.",ok:false,fb:"It does not contradict the data. In fact it does not use the data at all."},
+   {t:"It is too long.",ok:false,fb:"It is short, and that is fine. It needs different content: evidence and the science idea."}],
+  goal:"Rewrite it using the data and the idea about what happens when a cold air mass meets a warm air mass."},
+ rubric:{
+  ideaGroups:["air mass|front|cold air.{0,40}warm air|warm air.{0,40}cold air","dens|heav|push|under|lift|rise|collid|meet"],
+  ev:["temperature|degrees","pressure","wind","rain|cloud","northwest|southwest|shift"], nums:["23","12","18","14","1005","1011","1014","1007"], evNeed:2,
+  claim:"cold air mass|cold front|front|replac|moved in|moved into|air mass|cold air",
+  ideaHint:"Name the science idea. What happens when a cold air mass meets a warm air mass?",
+  evHint:"Use the data. Mention the temperature drop, the pressure, the wind shift, or the heavy rain, with numbers if you can.",
+  linkHint:"Link it. Use because, so, or this shows, and connect the changes in the data to the claim that a cold air mass moved in.",
+  misc:[
+   {re:"cold air (rises|rose|goes up|went up)",hint:"Check the direction. The denser cold air stays low and slides under the warm air. The warm air is what gets lifted."},
+   {re:"sun (went down|set|moved away|goes down)",hint:"The Sun setting does not explain a drop of 11 degrees in a few hours along with rain and a wind shift. Look at what the air masses did."}]},
+ model:{evidence:"From 12 pm to 4 pm the temperature fell from 23 C to 12 C, the air pressure rose from 1005 to 1014 hPa, the wind shifted from southwest to northwest, and heavy rain fell at 1 pm.",
+  idea:"When a cold air mass meets a warm air mass, the denser cold air pushes under the warm air and lifts it, which causes clouds and rain.",
+  link:"Because rain was followed by cooler air, higher pressure, and a new wind direction, a cold air mass must have moved in and replaced the warm air."},
+ starters:["The readings show ...","When a cold air mass meets a warm air mass ...","This explains the data because ...","So the claim is true because ..."]
+},
+{
+ id:"ocean1", unit:"Ocean, Atmosphere, and Climate", pe:"MS-ESS2-6", title:"Two cities, one latitude",
+ phenomenon:"Harbor City is on the coast. Inland City is 400 km from the ocean. Both are at the same latitude, so the Sun hits them at the same angle all year. (Scenario data.)",
+ chart:{kind:"bars",title:"Average monthly temperature",ylabel:"Temperature (C)",ymin:-10,ymax:30,ystep:10,
+  groups:[{label:"January",bars:[{name:"Harbor City",v:6},{name:"Inland City",v:-4}]},{label:"July",bars:[{name:"Harbor City",v:19},{name:"Inland City",v:27}]}]},
+ table:{caption:"Temperature range", head:["City","January average (C)","July average (C)","Difference (C)"],
+  rows:[["Harbor City (coast)","6","19","13"],["Inland City","-4","27","31"]],
+  note:"Ocean surface water near Harbor City changes only from 8 C in January to 15 C in July."},
+ question:"Why do the two cities have different yearly temperature ranges even though they are at the same latitude?",
+ claim:"The ocean keeps the climate of Harbor City milder than the climate of Inland City.",
+ evidence:["Harbor City is warmer than Inland City in January (6 C and -4 C) and cooler in July (19 C and 27 C).","Harbor City's temperature changes by 13 C over the year. Inland City's changes by 31 C."],
+ choices:[
+  {t:"Earth is tilted, so the hemisphere tilted toward the Sun gets more direct sunlight and has summer.",ok:false,fb:"True, and it explains seasons. But both cities are at the same latitude and get the same tilt, so it cannot explain the difference between them."},
+  {t:"Water absorbs and releases a lot of thermal energy while its temperature changes only a little, so the ocean warms and cools more slowly than land and moderates nearby air.",ok:true,fb:"Yes. This idea explains both parts of the evidence: milder winters and cooler summers at the coast, and a smaller yearly range."},
+  {t:"The ocean is always colder than the land, so it makes the coast colder all year.",ok:false,fb:"This is a misconception, and the data disagree with it. Harbor City is warmer than Inland City in January. The ocean does not simply cool the coast."},
+  {t:"Harbor City is 6 C in January and 19 C in July, and Inland City is -4 C and 27 C.",ok:false,fb:"This restates the evidence. It does not say what the ocean does that would cause these numbers."}
+ ],
+ pieces:[
+  {role:"evidence",t:"Harbor City is warmer than Inland City in January and cooler in July, and its yearly range is 13 C compared with 31 C."},
+  {role:"idea",t:"Water takes in and gives off a lot of thermal energy while its own temperature changes only a little, so oceans warm and cool slowly compared with land."},
+  {role:"claim",t:"So the ocean next to Harbor City softens both its cold winters and its hot summers, which keeps its climate milder."}
+ ], start:[2,0,1],
+ fix:{weak:"The seasons happen because of Earth's tilt, so the cities have different temperatures.",
+  choices:[
+   {t:"It names a true idea, but that idea cannot explain a difference between two cities at the same latitude.",ok:true,fb:"Right. Tilt affects both cities in the same way. The idea has to be something that is different between the two places, such as the ocean next to one of them."},
+   {t:"It does not use any data.",ok:false,fb:"That is also true, and it matters. But the bigger problem is that the idea does not fit this evidence."},
+   {t:"Earth is not tilted.",ok:false,fb:"Earth is tilted, and the tilt does cause seasons. The idea is true. It just does not match this claim."},
+   {t:"It should have said the ocean is cold.",ok:false,fb:"The ocean being cold is not the key idea. What matters is how water takes in and releases thermal energy slowly."}],
+  goal:"Rewrite it with an idea about the ocean that fits the data, and connect it to the claim."},
+ rubric:{
+  ideaGroups:["ocean|water|sea\\b","absorb|stor|hold|releas|slow|gradual|moderat|current|specific heat|thermal energy|take in|give off","heat|energy|temperature|warm|thermal"],
+  ev:["january|winter","july|summer","range|difference|swing","coast|harbor","inland"], nums:["27","19","13","31","6"], evNeed:2,
+  claim:"milder|mild|moderat|coast|harbor|climate",
+  ideaHint:"Name the science idea. What does water do with thermal energy, and how does that change how fast the ocean warms or cools compared with land?",
+  evHint:"Use the data. Compare the two cities in January or July, or use the yearly range, 13 C and 31 C.",
+  linkHint:"Link it. Use because, so, or this shows, and connect the ocean idea to the smaller temperature range at Harbor City.",
+  misc:[
+   {re:"(ocean|water|sea) (is|are) (always )?(colder|cooler)",hint:"In January the coast was warmer than the inland city, so cold ocean water cannot be the whole story. Water changes temperature slowly, so it keeps coasts warmer in winter and cooler in summer."},
+   {re:"salt|salty",hint:"Saltiness is not what moderates temperature. Think about how water takes in and gives off thermal energy."}]},
+ model:{evidence:"Harbor City is warmer than Inland City in January (6 C and -4 C) and cooler in July (19 C and 27 C), so its yearly range is 13 C instead of 31 C.",
+  idea:"Water takes in and gives off a lot of thermal energy while its own temperature changes only a little, so the ocean warms and cools more slowly than land.",
+  link:"Because the ocean next to Harbor City warms slowly in summer and cools slowly in winter, it softens the coast's temperature swings, so the ocean keeps the coast's climate milder."},
+ starters:["The temperatures show ...","Water takes in and gives off thermal energy, so ...","This explains the difference because ...","So the claim is true because ..."]
+},
+{
+ id:"eco1", unit:"Matter and Energy in Ecosystems", pe:"MS-LS1-6", title:"Where does a tree's mass come from?",
+ phenomenon:"A student planted a small tree in a pot. For five years she added only water. At the end she measured the tree and the dry soil. (Scenario data.)",
+ table:{caption:"Mass at the start and after five years", head:["Item","Start (kg)","After 5 years (kg)","Change (kg)"],
+  rows:[["Tree","2.00","77.00","+75.00"],["Dry soil in the pot","90.00","89.94","-0.06"]]},
+ question:"Where did most of the tree's added mass come from?",
+ claim:"Most of the mass the tree gained came from air and water, not from the soil.",
+ evidence:["The tree gained 75.00 kg of mass.","The soil lost only 0.06 kg, from 90.00 kg to 89.94 kg."],
+ choices:[
+  {t:"Plants take in food from the soil through their roots, just like animals eat food.",ok:false,fb:"This is a common misconception. Plants make their own food. The soil lost only 0.06 kg, so it cannot be the source of 75 kg of new mass."},
+  {t:"Plants are producers, and consumers get energy by eating them.",ok:false,fb:"True, but it is about food chains. It does not tell us where the tree's mass came from."},
+  {t:"The tree gained 75 kg while the soil lost only 0.06 kg.",ok:false,fb:"This restates the evidence. It does not say what the tree does with air and water to build mass."},
+  {t:"In photosynthesis, plants use light energy to rearrange the atoms in carbon dioxide from the air and in water into sugars, and plants build their bodies from those sugars.",ok:true,fb:"Yes. Matter is conserved, so the atoms for the new mass had to come from somewhere. Carbon dioxide and water are the inputs of photosynthesis."}
+ ],
+ pieces:[
+  {role:"evidence",t:"The tree gained 75.00 kg, but the soil lost only 0.06 kg."},
+  {role:"idea",t:"In photosynthesis, plants use light energy to rearrange the atoms in carbon dioxide and water into sugars, which the plant uses to build its body."},
+  {role:"link",t:"Since the soil lost almost no mass, the atoms for the new mass had to come from somewhere else, and carbon dioxide from the air and water are the inputs of photosynthesis."},
+  {role:"claim",t:"So most of the tree's added mass came from air and water, not from the soil."}
+ ], start:[3,0,2,1],
+ fix:{weak:"Photosynthesis happens in plants. The tree grew and the soil lost a little.",
+  choices:[
+   {t:"It names photosynthesis but never says what photosynthesis does with air and water, or links it to the data.",ok:true,fb:"Right. Naming an idea is not the same as using it. Say what goes in, what is made, and how that explains where the 75 kg came from."},
+   {t:"It uses the wrong word for the process.",ok:false,fb:"Photosynthesis is the right process. The problem is that it is only named, not explained."},
+   {t:"It has too many numbers.",ok:false,fb:"It has none. Add the 75 kg gain and 0.06 kg soil loss."},
+   {t:"It should say the soil is the main source.",ok:false,fb:"The data say the opposite. The soil lost only 0.06 kg while the tree gained 75 kg."}],
+  goal:"Rewrite it so photosynthesis is explained, uses the mass data, and ends by supporting the claim."},
+ rubric:{
+  ideaGroups:["photosynth|carbon dioxide|co2","air|water|atmosphere|gas","sugar|glucose|food|rearrang|build|atoms|matter"],
+  ev:["soil","tree|plant","mass|kg","gain|grew|grow|lost"], nums:["75","77","0.06","89.94","90"], evNeed:2,
+  claim:"air|water|carbon dioxide|not (from )?(the )?soil|came from",
+  ideaHint:"Name the science idea. What does a plant take in from the air and from water, and what does it make from them during photosynthesis?",
+  evHint:"Use the data. Mention how much mass the tree gained and how little the soil lost.",
+  linkHint:"Link it. Use because, so, or this shows, and connect the small soil loss and big tree gain to the claim about air and water.",
+  misc:[{re:"(food|nutrients?|minerals?) (from|in) the soil|roots? (take|absorb|eat)s? (in )?(food|the soil)|eats? (the )?soil|soil (is|was) (the )?(food|source|used up)",hint:"Plants make their own food through photosynthesis. The soil lost only 0.06 kg, so it cannot be the source of 75 kg of new mass."}]},
+ model:{evidence:"The tree gained 75.00 kg of mass, but the soil lost only 0.06 kg, going from 90.00 kg to 89.94 kg.",
+  idea:"In photosynthesis, plants use light energy to rearrange the atoms in carbon dioxide from the air and in water into sugars, and the plant builds its body from those sugars.",
+  link:"Because the soil lost almost no mass, the tree's new mass cannot have come from soil, so it must have come from the carbon dioxide and water that go into photosynthesis."},
+ starters:["The data show ...","In photosynthesis, plants take in ...","This explains the data because ...","So the claim is true because ..."]
+},
+{
+ id:"mars1", unit:"Geology on Mars", pe:"MS-ESS2-2", title:"Round pebbles on Mars",
+ phenomenon:"A rover on Mars photographed rock made of small pebbles cemented together. Scientists counted pebble shapes and compared them with two places on Earth. (Scenario data.)",
+ table:{caption:"Pebble shapes in samples of 100 pebbles", head:["Sample","Rounded pebbles","Sharp-edged pebbles"],
+  rows:[["Mars rock","89","11"],["Earth river bed","92","8"],["Earth rockslide pile","6","94"]]},
+ question:"What do the rounded pebbles tell us about Mars long ago?",
+ claim:"Liquid water once flowed across the surface of Mars where the pebbles were found.",
+ evidence:["89 of 100 Mars pebbles were rounded, close to 92 of 100 in an Earth river bed.","Only 6 of 100 pebbles in an Earth rockslide pile were rounded."],
+ choices:[
+  {t:"Mars is the fourth planet from the Sun, and a day on Mars is about 24.6 hours.",ok:false,fb:"True facts about Mars, but they have nothing to do with how pebbles get round, so they cannot connect the evidence to the claim."},
+  {t:"Rounded pebbles form when rocks fall from a cliff and crack apart.",ok:false,fb:"This is a misconception, and the data disagree. Rockslide pebbles were mostly sharp-edged, 94 out of 100."},
+  {t:"Moving water carries pebbles so they bump into each other and the bottom, which wears off their corners and makes them round.",ok:true,fb:"Yes. Erosion by flowing water explains why river pebbles are round, so round Mars pebbles point to flowing water."},
+  {t:"89 of 100 Mars pebbles were rounded, and 92 of 100 river bed pebbles were rounded.",ok:false,fb:"This restates the evidence. It does not tell us what process makes pebbles round."}
+ ],
+ pieces:[
+  {role:"evidence",t:"89 of 100 pebbles in the Mars rock were rounded, close to 92 of 100 in an Earth river bed and very different from 6 of 100 in a rockslide pile."},
+  {role:"idea",t:"When flowing water carries pebbles, they bump into each other and the streambed, which wears off their corners and rounds them."},
+  {role:"link",t:"Mars pebbles that match river pebbles, and not rockslide pebbles, show that they were moved by flowing water."},
+  {role:"claim",t:"So liquid water once flowed across the surface of Mars where the pebbles were found."}
+ ], start:[1,3,0,2],
+ fix:{weak:"The Mars pebbles are smooth like the ones in a river, so there must have been water, because they look the same.",
+  choices:[
+   {t:"It says the pebbles look alike but never explains how water makes pebbles round.",ok:true,fb:"Right. Looking alike is not a reason by itself. The reason is the process: moving water makes pebbles collide and wear smooth."},
+   {t:"It makes a claim that is not about water.",ok:false,fb:"It is about water, and it matches the claim. The trouble is the reason it gives."},
+   {t:"It uses too many numbers.",ok:false,fb:"It uses no numbers. Add counts such as 89 of 100 rounded."},
+   {t:"It disagrees with the evidence.",ok:false,fb:"It agrees with the evidence. It just does not explain it with a science idea."}],
+  goal:"Rewrite it so it explains how flowing water changes pebbles and uses the counts to support the claim."},
+ rubric:{
+  ideaGroups:["water|river|stream|flow","erod|collid|bump|tumbl|wear|worn|rubb|scrap|abrad|knock|grind|chip"],
+  ev:["pebble","rounded|round","sharp","rockslide|rock slide|landslide","river bed|riverbed|river"], nums:["89","92","94","11","6"], evNeed:2,
+  claim:"water",
+  ideaHint:"Name the science idea. What does moving water do to pebbles that makes them round?",
+  evHint:"Use the data. Compare the Mars pebbles with the river bed or the rockslide pile, using the counts.",
+  linkHint:"Link it. Use because, so, or this shows, and connect the round Mars pebbles to the claim that liquid water flowed there.",
+  misc:[{re:"(rockslides?|landslides?|cliff falls?|falling rocks?) (make|makes|made|cause|causes|caused|round|rounds|rounded)",hint:"Rockslide pebbles were mostly sharp-edged, 94 out of 100. A rockslide breaks rock into sharp pieces. It does not round them."}]},
+ model:{evidence:"89 of 100 Mars pebbles were rounded, close to 92 of 100 in an Earth river bed, while only 6 of 100 in a rockslide pile were rounded.",
+  idea:"When flowing water carries pebbles, they collide with each other and the streambed, which wears off their corners and makes them round.",
+  link:"Because the Mars pebbles match river pebbles and not rockslide pebbles, they were most likely rounded by moving water, so liquid water once flowed there."},
+ starters:["The counts show ...","Flowing water ...","This explains the pebbles because ...","So the claim is true because ..."]
+},
+{
+ id:"plate2", unit:"Plate Motion", pe:"MS-ESS2-3", title:"Earthquakes that get deeper",
+ phenomenon:"Near a deep ocean trench, scientists recorded the depth of earthquakes at different distances inland from the trench. (Scenario data.)",
+ table:{caption:"Earthquake depth by distance from the trench", head:["Distance inland from trench (km)","0","100","200","300","400"],
+  rows:[["Earthquake depth (km)","10","45","95","150","210"]]},
+ chart:{kind:"line",title:"Earthquake depth increases with distance from the trench",xlabel:"Distance inland from the trench (km)",ylabel:"Earthquake depth (km, deeper is lower)",
+  xs:[0,100,200,300,400],ys:[10,45,95,150,210],xmin:0,xmax:400,xticks:[0,100,200,300,400],ymin:0,ymax:250,ystep:50,invert:true},
+ question:"What do the earthquake depths tell us about what is happening at this boundary?",
+ claim:"One tectonic plate is sinking beneath another plate along this boundary.",
+ evidence:["Earthquakes get deeper the farther inland they are: 10 km at the trench and 210 km at 400 km inland.","The depths line up along a slope that goes downward away from the trench."],
+ choices:[
+  {t:"Earthquakes release energy as seismic waves that travel through Earth and are recorded by seismographs.",ok:false,fb:"True, and it explains how we detect earthquakes. It does not explain why their depth changes with distance."},
+  {t:"Earthquakes are deeper inland because the ocean floor is spreading apart there and making new crust.",ok:false,fb:"This is a misconception. Spreading and new crust happen at divergent boundaries. A trench is where a plate goes down."},
+  {t:"The earthquakes get deeper farther from the trench, from 10 km to 210 km.",ok:false,fb:"This restates the evidence. It does not explain why the depth increases in such a steady way."},
+  {t:"At a convergent boundary, a denser plate sinks into the mantle beneath another plate. Earthquakes happen along the sinking plate, so their depths trace the path it takes downward.",ok:true,fb:"Yes. If a plate is sinking at a slant, earthquakes along it will be deeper and deeper farther from the trench."}
+ ],
+ pieces:[
+  {role:"evidence",t:"Earthquake depth increases steadily from 10 km at the trench to 210 km at 400 km inland, along a slope that goes down."},
+  {role:"idea",t:"At a convergent boundary a denser plate sinks beneath another plate, and earthquakes happen along the sinking plate, so their depths trace its downward path."},
+  {role:"claim",t:"So one tectonic plate is sinking beneath another along this boundary."}
+ ], start:[2,0,1],
+ fix:{weak:"The plate is denser so it sinks under the other plate at a trench. This is what happens at convergent boundaries.",
+  choices:[
+   {t:"The science idea is wrong.",ok:false,fb:"The idea is correct. A denser plate does sink beneath the other plate at a convergent boundary."},
+   {t:"It explains the idea but never uses the earthquake data to show that it is happening here.",ok:true,fb:"Right. A reason needs both sides of the bridge. Add what the depth data show and say how they match a sinking plate."},
+   {t:"It has too many numbers.",ok:false,fb:"It has none. Use depths like 10 km and 210 km."},
+   {t:"It should not mention the trench.",ok:false,fb:"Mentioning the trench is fine. The missing piece is the evidence and the link."}],
+  goal:"Rewrite it so it keeps the plate idea, adds the earthquake depth data, and links them to the claim."},
+ rubric:{
+  ideaGroups:["plate|subduct|slab|ocean(ic)? (crust|floor)","dens|heav|convergent|subduct|mantle|slant|slope|angle|trace|along|grind|slid","earthquake|quake|seismic|depth|deep"],
+  ev:["earthquake","depth|deep|deeper","trench|distance|farther|inland","angle|slope|slant|line|steady"], nums:["10","45","95","150","210"], evNeed:2,
+  claim:"sink|subduct|beneath|under|plate",
+  ideaHint:"Name the science idea. What happens to a denser plate at a convergent boundary, and where do earthquakes happen along it?",
+  evHint:"Use the data. Mention how the earthquake depth changes with distance from the trench, with numbers.",
+  linkHint:"Link it. Use because, so, or this shows, and connect the increasing depths to the claim that a plate is sinking.",
+  misc:[{re:"spreading|spread apart|pull(s|ed|ing)? apart|new crust|new ocean crust|new ocean floor",hint:"Spreading apart and making new crust happen at divergent boundaries. Here the depths show a plate going down, which is subduction at a convergent boundary."}]},
+ model:{evidence:"Earthquake depth increases steadily from 10 km at the trench to 210 km at 400 km inland, along a slope that angles downward.",
+  idea:"At a convergent boundary a denser plate sinks into the mantle beneath another plate, and earthquakes happen along the sinking plate, so their depths trace its path downward.",
+  link:"Because the earthquakes get deeper in a steady line away from the trench, they match a plate sliding down at a slant, so one plate is sinking beneath the other."},
+ starters:["The earthquake depths show ...","At a convergent boundary ...","This explains the depths because ...","So the claim is true because ..."]
+}
+];
+
+var CONNECT = /\b(because|so|therefore|thus|this shows|that shows|which shows|which means|this means|that means|as a result|that is why|this is why|which is why|this explains|that explains|shows that|show that|since|leads to|due to)\b/;
+
+function norm(t){
+  return String(t).toLowerCase().replace(/[’']/g,"").replace(/(\d),(?=\d{3})/g,"$1")
+    .replace(/[^a-z0-9.\s%]/g," ").replace(/(?<!\d)\.|\.(?!\d)/g," ").replace(/\s+/g," ").trim();
+}
+function rx(src){ return new RegExp("\\b(?:"+src+")","i"); }
+function numHit(n,text){ return new RegExp("(?<![0-9.])"+n.replace(/\./g,"\\.")+"(?![0-9])").test(text); }
+function negBefore(text,idx){ return /\b(not|never|cannot|couldnt|cant|wouldnt|didnt|doesnt|dont|isnt|wasnt|no|without|unable|neither|nor)\b/.test(text.slice(Math.max(0,idx-35),idx)); }
+
+function check(task,raw){
+  var R=task.rubric, text=norm(raw), words=text?text.split(" ").length:0;
+  if(words<8){ return {tooShort:true,words:words}; }
+  var groupHits=R.ideaGroups.map(function(g){return rx(g).test(text);});
+  var ideaAll=groupHits.every(Boolean), ideaCount=groupHits.filter(Boolean).length;
+  var evTerms=R.ev.filter(function(e){return rx(e).test(text);}).length;
+  var evNums=(R.nums||[]).filter(function(n){return numHit(n,text);}).length;
+  var evHits=evTerms+evNums;
+  var evOk=evHits>=(R.evNeed||2);
+  var conn=CONNECT.test(text), claimMention=rx(R.claim).test(text);
+  var n=R.ideaGroups.length, ideaStrong=ideaAll;
+  var linkOk=conn && evHits>=1 && claimMention && ideaStrong;
+  var beyond=ideaStrong && words>=12;
+  var crit=[
+    {id:"idea",label:"Names the science idea",met:ideaAll,hint:R.ideaHint},
+    {id:"evidence",label:"Uses the evidence",met:evOk,hint:R.evHint},
+    {id:"link",label:"Links the evidence to the claim with connecting words",met:linkOk,hint:R.linkHint},
+    {id:"beyond",label:"Does more than restate the claim or the data",met:beyond,hint:"Your answer mostly repeats the data or the claim. Add the science idea that explains why the data make the claim true."}
+  ];
+  var misc=[];
+  (R.misc||[]).forEach(function(m){ var mm=new RegExp(m.re,"i").exec(text); if(mm && !negBefore(text,mm.index)) misc.push(m.hint); });
+  return {tooShort:false,words:words,crit:crit,misc:misc,parts:crit.filter(function(c){return c.met;}).length,total:crit.length};
+}
+if(typeof module!=="undefined"){ module.exports={TASKS:TASKS,check:check,norm:norm}; }
+</script>
+
+<script>
+/* ===== UI ===== */
+(function(){
+var KEY="ktufsd-g7-reasoning-builder-v1";
+var ROLE={evidence:["evidence","what the data show"],idea:["science idea","the science idea that explains why"],link:["link","the sentence that connects the idea back to the data"],claim:["claim","the conclusion, which comes last because the chain leads to it"]};
+var S={view:"home",unit:"all",mode:"build",taskId:null,starters:false,explain:false,done:{build:{},fix:{}},t:{},limitKey:null,focus:null};
+var $app=document.getElementById("app");
+var SELFCHK=["names the science idea in my own words.","uses at least one piece of evidence from the data.","uses a connecting word such as because, so, or this shows.","explains how the idea connects the evidence to the claim, not just that they go together.","could be followed by someone who did not see the data."];
+
+function load(){ try{ var j=JSON.parse(localStorage.getItem(KEY)||"null"); if(j){ S.done=j.done||S.done; S.starters=!!j.starters; S.unit=j.unit||"all"; S.mode=j.mode||"build"; } }catch(e){} }
+function save(){ try{ localStorage.setItem(KEY,JSON.stringify({done:S.done,starters:S.starters,unit:S.unit,mode:S.mode})); }catch(e){} }
+function esc(s){ return String(s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];}); }
+var IC_OK='<svg class="ic" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3.2 3L13 4.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+var IC_OPEN='<svg class="ic" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="5.5" fill="none" stroke="currentColor" stroke-width="2"/></svg>';
+
+function unitList(){ var u=[]; TASKS.forEach(function(t){ if(u.indexOf(t.unit)<0) u.push(t.unit); }); return u; }
+function setTasks(){ return TASKS.filter(function(t){return S.unit==="all"||t.unit===S.unit;}); }
+function task(id){ return TASKS.filter(function(t){return t.id===id;})[0]; }
+function tkey(){ return S.taskId+":"+S.mode; }
+function ts(){
+  var k=tkey(); if(S.t[k]) return S.t[k];
+  var t=task(S.taskId);
+  S.t[k]={step:1,picked:[],solved1:false,order:t.start.slice(),bridgeMsg:null,bridgeOk:false,text:"",checks:0,res:null,unlocked:false,self:{},finished:false};
+  return S.t[k];
+}
+
+/* charts */
+function lineChart(c){
+  var W=600,H=300,L=62,R=20,T=34,B=58, pw=W-L-R, ph=H-T-B;
+  function X(v){return L+(v-c.xmin)/(c.xmax-c.xmin)*pw;}
+  function Y(v){var f=(v-c.ymin)/(c.ymax-c.ymin); return c.invert? T+f*ph : T+(1-f)*ph;}
+  var s='<svg viewBox="0 0 '+W+' '+H+'" role="img" aria-label="'+esc(c.title+". Points: "+c.xs.map(function(x,i){return x+" and "+c.ys[i];}).join("; "))+'">';
+  s+='<text x="'+(W/2)+'" y="20" text-anchor="middle" font-size="15" font-weight="600" fill="#273540">'+esc(c.title)+'</text>';
+  for(var v=c.ymin; v<=c.ymax+0.001; v+=c.ystep){ s+='<line x1="'+L+'" x2="'+(W-R)+'" y1="'+Y(v)+'" y2="'+Y(v)+'" stroke="#C7CDD1"/><text x="'+(L-8)+'" y="'+(Y(v)+5)+'" text-anchor="end" font-size="13" fill="#273540">'+v+'</text>'; }
+  c.xticks.forEach(function(x){ s+='<line x1="'+X(x)+'" x2="'+X(x)+'" y1="'+(T+ph)+'" y2="'+(T+ph+5)+'" stroke="#273540"/><text x="'+X(x)+'" y="'+(T+ph+20)+'" text-anchor="middle" font-size="13" fill="#273540">'+x+'</text>'; });
+  s+='<line x1="'+L+'" x2="'+L+'" y1="'+T+'" y2="'+(T+ph)+'" stroke="#273540"/><line x1="'+L+'" x2="'+(W-R)+'" y1="'+(T+ph)+'" y2="'+(T+ph)+'" stroke="#273540"/>';
+  s+='<text x="'+(L+pw/2)+'" y="'+(H-10)+'" text-anchor="middle" font-size="13" fill="#273540">'+esc(c.xlabel)+'</text>';
+  s+='<text transform="translate(16 '+(T+ph/2)+') rotate(-90)" text-anchor="middle" font-size="13" fill="#273540">'+esc(c.ylabel)+'</text>';
+  var pts=c.xs.map(function(x,i){return X(x)+","+Y(c.ys[i]);}).join(" ");
+  s+='<polyline points="'+pts+'" fill="none" stroke="#0033A0" stroke-width="2.5"/>';
+  c.xs.forEach(function(x,i){ var up=c.invert?-10:-9; s+='<circle cx="'+X(x)+'" cy="'+Y(c.ys[i])+'" r="5" fill="#fff" stroke="#0033A0" stroke-width="2.5"/><text x="'+X(x)+'" y="'+(Y(c.ys[i])+(c.invert?20:-10))+'" text-anchor="middle" font-size="12" fill="#273540">'+c.ys[i]+'</text>'; });
+  return s+'</svg>';
+}
+function barChart(c){
+  var W=600,H=320,L=62,R=20,T=40,B=64, pw=W-L-R, ph=H-T-B;
+  function Y(v){return T+(1-(v-c.ymin)/(c.ymax-c.ymin))*ph;}
+  var s='<svg viewBox="0 0 '+W+' '+H+'" role="img" aria-label="'+esc(c.title+". "+c.groups.map(function(g){return g.label+": "+g.bars.map(function(b){return b.name+" "+b.v+" degrees";}).join(", ");}).join(". "))+'">';
+  s+='<defs><pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="#E3EEF8"/><line x1="0" y1="0" x2="0" y2="6" stroke="#0B5A9C" stroke-width="2.5"/></pattern></defs>';
+  s+='<text x="'+(W/2)+'" y="20" text-anchor="middle" font-size="15" font-weight="600" fill="#273540">'+esc(c.title)+'</text>';
+  for(var v=c.ymin; v<=c.ymax; v+=c.ystep){ s+='<line x1="'+L+'" x2="'+(W-R)+'" y1="'+Y(v)+'" y2="'+Y(v)+'" stroke="'+(v===0?"#273540":"#C7CDD1")+'"/><text x="'+(L-8)+'" y="'+(Y(v)+5)+'" text-anchor="end" font-size="13" fill="#273540">'+v+'</text>'; }
+  s+='<text transform="translate(16 '+(T+ph/2)+') rotate(-90)" text-anchor="middle" font-size="13" fill="#273540">'+esc(c.ylabel)+'</text>';
+  var gw=pw/c.groups.length, bw=Math.min(70,gw/3);
+  c.groups.forEach(function(g,gi){
+    var cx=L+gw*gi+gw/2;
+    g.bars.forEach(function(b,bi){
+      var x=cx+(bi===0?-bw-4:4), y0=Y(0), y1=Y(b.v), top=Math.min(y0,y1), h=Math.abs(y1-y0);
+      s+='<rect x="'+x+'" y="'+top+'" width="'+bw+'" height="'+h+'" fill="'+(bi===0?"#0E68B3":"url(#hatch)")+'" stroke="'+(bi===0?"#0033A0":"#0B5A9C")+'" stroke-width="1.5"/>';
+      s+='<text x="'+(x+bw/2)+'" y="'+(b.v>=0?top-6:top+h+16)+'" text-anchor="middle" font-size="14" font-weight="600" fill="#273540">'+b.v+'</text>';
+    });
+    s+='<text x="'+cx+'" y="'+(H-B+36)+'" text-anchor="middle" font-size="14" font-weight="600" fill="#273540">'+esc(g.label)+'</text>';
+  });
+  s+='<rect x="'+(L+10)+'" y="'+(T+4)+'" width="16" height="16" fill="#0E68B3" stroke="#0033A0"/><text x="'+(L+32)+'" y="'+(T+17)+'" font-size="13" fill="#273540">Harbor City (coast)</text>';
+  s+='<rect x="'+(L+170)+'" y="'+(T+4)+'" width="16" height="16" fill="url(#hatch)" stroke="#0B5A9C"/><text x="'+(L+192)+'" y="'+(T+17)+'" font-size="13" fill="#273540">Inland City</text>';
+  return s+'</svg>';
+}
+function tableHTML(tb){
+  if(!tb) return "";
+  var h='<div class="tablewrap"><table class="data"><caption>'+esc(tb.caption)+'</caption><thead><tr>'+tb.head.map(function(x){return '<th scope="col">'+esc(x)+'</th>';}).join("")+'</tr></thead><tbody>';
+  tb.rows.forEach(function(r){ h+='<tr>'+r.map(function(c,i){return i===0?'<th scope="row">'+esc(c)+'</th>':'<td>'+esc(c)+'</td>';}).join("")+'</tr>'; });
+  h+='</tbody></table></div>';
+  if(tb.note) h+='<p class="note">'+esc(tb.note)+'</p>';
+  return h;
+}
+
+/* views */
+function homeView(){
+  var ts_=setTasks(), m=S.mode, doneN=ts_.filter(function(t){return S.done[m][t.id];}).length;
+  var pct=ts_.length?Math.round(doneN/ts_.length*100):0;
+  var h='<section class="card"><div class="row" style="justify-content:flex-end;margin:0 0 6px"><button class="btn ghost" type="button" data-p="open">Print a paper version</button></div><h2>Practice the reasoning part of CER</h2>'
+   +'<p>In every task, the claim and the evidence are already given. Your job is only the reasoning: the science idea that connects the evidence to the claim. You get feedback at each step.</p>'
+   +'<p class="muted">Pick a unit, pick a mode, then start.</p>'
+   +'<div class="units" role="group" aria-label="Choose a unit"><button class="unitbtn" data-act="unit" data-v="all" aria-pressed="'+(S.unit==="all")+'">Mixed (all units)</button>'
+   +unitList().map(function(u){return '<button class="unitbtn" data-act="unit" data-v="'+esc(u)+'" aria-pressed="'+(S.unit===u)+'">'+esc(u)+'</button>';}).join("")+'</div>'
+   +'<div class="row"><span id="modelab"><b>Mode</b></span><div class="seg" role="group" aria-labelledby="modelab"><button data-act="mode" data-v="build" aria-pressed="'+(m==="build")+'">Build it</button><button data-act="mode" data-v="fix" aria-pressed="'+(m==="fix")+'">Fix it</button></div></div>'
+   +'<p class="note" style="margin-top:8px">'+(m==="build"?"Build it: pick the science idea, put the pieces in order, then write your own reasoning.":"Fix it: find what is wrong with a weak piece of reasoning, then rewrite it.")+'</p>'
+   +'<div style="margin-top:12px"><b>Progress: '+doneN+' of '+ts_.length+' tasks finished</b> <span class="muted">('+(m==="build"?"Build it":"Fix it")+')</span>'
+   +'<div class="prog" role="progressbar" aria-valuemin="0" aria-valuemax="'+ts_.length+'" aria-valuenow="'+doneN+'" aria-label="Tasks finished"><span style="width:'+pct+'%"></span></div></div>'
+   +'<div class="row" style="margin-top:8px"><button class="btn" data-act="startnext">'+(doneN===ts_.length&&ts_.length?"Practice again":(doneN?"Continue":"Start"))+'</button></div></section>';
+  h+='<ul class="tlist" aria-label="Tasks">'+ts_.map(function(t){
+    var d=S.done[m][t.id];
+    return '<li class="trow"><div><h3>'+esc(t.title)+'</h3><span class="chip unit">'+esc(t.unit)+'</span> <span class="chip pe">'+esc(t.pe)+'</span> '+(d?'<span class="chip done">'+IC_OK+' Finished</span>':'')+'</div><button class="btn ghost" data-act="open" data-id="'+t.id+'" aria-label="'+(d?"Redo":"Start")+' '+esc(t.title)+'">'+(d?"Redo":"Start")+'</button></li>';
+  }).join("")+'</ul>';
+  h+='<details class="tnote"><summary>Teacher note</summary><p style="margin-top:8px"><b>To assign:</b> share this file or its link in Canvas. Students open it in any browser. They can work on a Chromebook or a phone.</p>'
+   +'<p><b>Nothing is collected.</b> Answers stay in the student\'s browser and are never sent anywhere. Progress is saved only on that device. Use "Start over" in the footer to clear it, which is helpful on shared devices.</p>'
+   +'<p><b>Scaffold level:</b> Sentence starters for step 3 are off by default. Students can turn them on, or you can tell them when to. The checker is a rule based guide for key parts and cannot replace your feedback.</p></details>';
+  return h;
+}
+function explainPanel(){
+  return '<section class="card explain" id="explainPanel" tabindex="-1"><div class="row" style="justify-content:space-between"><h2 style="margin:0">What is reasoning?</h2><button class="btn ghost" data-act="explain">Close</button></div>'
+  +'<p style="margin-top:8px">The <b>claim</b> answers the question. The <b>evidence</b> is the data you can point to. The <b>reasoning</b> is the bridge between them: a science idea that explains why the evidence makes the claim true.</p>'
+  +'<p>Ask yourself three things. What science idea explains this? How does the idea connect to my data? How does that make my claim true?</p>'
+  +'<h3>Worked example</h3>'
+  +'<div class="given claim"><b>Question:</b> Why did an ice cube melt faster on a metal pan than on a plastic plate? <br><b>Claim:</b> Metal moved thermal energy into the ice faster than plastic did.</div>'
+  +'<div class="given"><b>Evidence:</b> The ice melted in 4 minutes on the metal pan and in 12 minutes on the plastic plate, in the same room.</div>'
+  +'<div class="band i"><span class="t">Science idea</span>Metal is a good conductor, which means thermal energy moves through it quickly. Plastic is an insulator, so thermal energy moves through it slowly.</div>'
+  +'<div class="band l"><span class="t">Link to the claim</span>Because the metal pan moved thermal energy into the ice faster, the ice melted in 4 minutes instead of 12. That is why the data support the claim.</div>'
+  +'<p class="note">Notice what is not reasoning: repeating the data (\"it melted in 4 and 12 minutes\") or repeating the claim (\"metal is faster\"). Reasoning adds the science idea and the link.</p></section>';
+}
+
+function setupCard(t,withWeak){
+  var h='<section class="card setup"><div><span class="chip unit">'+esc(t.unit)+'</span> <span class="chip pe">'+esc(t.pe)+'</span></div>'
+   +'<h2 style="margin-top:8px">'+esc(t.title)+'</h2>'
+   +'<div class="label">Phenomenon</div><p>'+esc(t.phenomenon)+'</p>'
+   +tableHTML(t.table)
+   +(t.chart?'<div class="chartwrap">'+(t.chart.kind==="line"?lineChart(t.chart):barChart(t.chart))+'</div>':'')
+   +'<div class="label">Question</div><p><b>'+esc(t.question)+'</b></p>'
+   +'<div class="label">Given: claim</div><div class="given claim">'+esc(t.claim)+'</div>'
+   +'<div class="label">Given: evidence</div><div class="given"><ul>'+t.evidence.map(function(e){return '<li>'+esc(e)+'</li>';}).join("")+'</ul></div></section>';
+  return h;
+}
+function stepper(labels,cur,doneUpTo){
+  return '<ol class="steps" aria-label="Steps">'+labels.map(function(l,i){
+    var n=i+1, d=n<=doneUpTo, c=n===cur;
+    return '<li class="'+(d?"done":"")+'"'+(c?' aria-current="step"':'')+'><span class="n">'+(d?IC_OK:n)+'</span><span>'+esc(l)+(d?' <span class="note">(done)</span>':'')+'</span></li>';
+  }).join("")+'</ol>';
+}
+function choicesHTML(list,st,actName){
+  var h='<div class="choices" role="group" aria-label="Choices">';
+  list.forEach(function(c,i){
+    var tried=st.picked.indexOf(i)>=0, right=tried&&c.ok;
+    h+='<button class="choice'+(right?" right":(tried?" tried":""))+'" data-act="'+actName+'" data-i="'+i+'"><span class="k">'+"ABCD".charAt(i)+'</span><span>'+esc(c.t)+(tried?'<span class="st">'+(c.ok?IC_OK+" This one fits":IC_OPEN+" Not this one")+'</span>':'')+'</span></button>';
+  });
+  return h+'</div>';
+}
+function fbHTML(c){
+  if(!c) return '<div class="fb" id="fb" tabindex="-1"><span class="note">Choose an answer to see feedback.</span></div>';
+  return '<div class="fb '+(c.ok?"good":"try")+'" id="fb" tabindex="-1"><b class="h">'+(c.ok?IC_OK+" This is the bridge":IC_OPEN+" Not the bridge yet")+'</b>'+esc(c.fb)+'</div>';
+}
+
+function step1(t,st){
+  var last=st.picked.length?t.choices[st.picked[st.picked.length-1]]:null;
+  return '<section class="card"><h2>Step 1: Pick the science idea</h2><p>Which idea actually connects this evidence to this claim? Only one does. Read the feedback for each choice, even the ones that are not right.</p>'
+   +choicesHTML(t.choices,st,"pick1")+fbHTML(last)
+   +(st.solved1?'<button class="btn" data-act="next">Go to step 2: Build the bridge</button>':'')+'</section>';
+}
+function step2(t,st){
+  var n=t.pieces.length;
+  var h='<section class="card"><h2>Step 2: Build the bridge</h2><p>Put the pieces in a logical chain: start with the evidence, then the science idea, then how it connects, ending with the claim. Use the Up and Down buttons to move a piece.</p>'
+   +'<ol class="pieces" aria-label="Sentence pieces, in your current order">';
+  st.order.forEach(function(pi,pos){
+    var p=t.pieces[pi], lock=st.bridgeOk;
+    h+='<li class="piece'+(lock?" locked":"")+'"><span class="pos" aria-hidden="true">'+(pos+1)+'</span><span>'+(lock?'<span class="rolechip">'+IC_OK+' '+esc(ROLE[p.role][0].charAt(0).toUpperCase()+ROLE[p.role][0].slice(1))+'</span>':'')+esc(p.t)+'</span>'
+     +'<span class="mv"><button data-act="mv" data-pos="'+pos+'" data-d="-1" aria-label="Move up, piece now in spot '+(pos+1)+'"'+((pos===0||lock)?" disabled":"")+'>Up</button><button data-act="mv" data-pos="'+pos+'" data-d="1" aria-label="Move down, piece now in spot '+(pos+1)+'"'+((pos===n-1||lock)?" disabled":"")+'>Down</button></span></li>';
+  });
+  h+='</ol>';
+  if(st.bridgeMsg){ h+='<div class="fb '+(st.bridgeOk?"good":"try")+'" id="fb" tabindex="-1" role="status"><b class="h">'+(st.bridgeOk?IC_OK+" The chain works":IC_OPEN+" Not quite yet")+'</b>'+esc(st.bridgeMsg)+'</div>'; }
+  h+='<div class="row">'+(st.bridgeOk?'<button class="btn" data-act="next">Go to step 3: Write it yourself</button>':'<button class="btn" data-act="check2">Check my order</button>')+'</div></section>';
+  return h;
+}
+function writeCard(t,st,isFix,fixWeak){
+  var h='<section class="card"><h2>'+(isFix?"Step 2: Rewrite it":"Step 3: Write it yourself")+'</h2>';
+  if(isFix){ h+='<div class="weak"><b>The weak reasoning:</b> "'+esc(t.fix.weak)+'"</div><p>'+esc(t.fix.goal)+'</p>'; }
+  else h+='<p>Write 2 to 4 sentences of reasoning. Name the science idea, use the evidence, and link them to the claim.</p>';
+  h+='<label class="row" style="margin:6px 0"><input type="checkbox" data-act="starters" '+(S.starters?"checked":"")+' style="width:20px;height:20px;accent-color:#0033A0"> <span>Show sentence starters</span></label>';
+  if(S.starters){ h+='<div class="starters"><b>Sentence starters</b><ul>'+t.starters.map(function(x){return '<li>'+esc(x)+'</li>';}).join("")+'</ul></div>'; }
+  h+='<label for="resp"><b>Your reasoning</b></label><textarea class="write" id="resp" data-act="resp" placeholder="Type your reasoning here.">'+esc(st.text)+'</textarea>'
+   +'<div class="row" style="margin-top:8px"><button class="btn" data-act="check3">Check my reasoning</button>'+(st.checks>=1&&!st.unlocked?'<button class="btn ghost" data-act="unlock">Show the model reasoning</button>':'')+'</div>';
+  var r=st.res;
+  if(r){
+    h+='<div id="fb" tabindex="-1" role="status" style="margin-top:12px">';
+    if(r.tooShort){ h+='<div class="fb try"><b class="h">'+IC_OPEN+' Write a little more</b>Your answer is very short. Write at least a couple of full sentences so the checker has something to look at.</div>'; }
+    else{
+      h+='<div class="fb"><b>The checker found '+r.parts+' of '+r.total+' parts.</b> <span class="note">This is a count of parts found, not a grade.</span></div><ul class="crit">';
+      r.crit.forEach(function(c){ h+='<li class="'+(c.met?"met":"notyet")+'">'+(c.met?IC_OK:IC_OPEN)+'<div><span class="lab">'+(c.met?"Got it: ":"Not yet: ")+esc(c.label)+'</span>'+(c.met?"":'<br>'+esc(c.hint))+'</div></li>'; });
+      h+='</ul>';
+      r.misc.forEach(function(m){ h+='<div class="fb try"><b class="h">'+IC_OPEN+' Check this idea</b>'+esc(m)+'</div>'; });
+      if(S.limitKey===tkey()){ h+='<p class="limit">This checker looks for the key parts of a strong answer. It cannot read like a person. Your teacher has the final say.</p>'; }
+      if(r.parts===r.total && !st.unlocked){ h+='<p>All parts found. You can look at the model and compare.</p>'; }
+    }
+    h+='</div>';
+  }
+  if(st.unlocked){
+    h+='<h3 style="margin-top:16px">Model reasoning</h3><p class="note">One strong example. Yours can be worded differently and still be strong.</p>'
+     +'<div class="band e"><span class="t">Evidence used</span>'+esc(t.model.evidence)+'</div>'
+     +'<div class="band i"><span class="t">Science idea</span>'+esc(t.model.idea)+'</div>'
+     +'<div class="band l"><span class="t">Link to the claim</span>'+esc(t.model.link)+'</div>'
+     +'<h3>Self-check</h3><p>Tick each one that is true for your response.</p><ul class="selfchk">'
+     +SELFCHK.map(function(x,i){
+        return '<li><label><input type="checkbox" data-act="self" data-i="'+i+'" '+(st.self[i]?"checked":"")+'><span>My response '+esc(x)+'</span></label></li>';}).join("")
+     +'</ul><p class="note">'+Object.keys(st.self).filter(function(k){return st.self[k];}).length+' of 5 ticked.</p>'
+     +'<button class="btn" data-act="finish">Finish this task</button>';
+  }
+  return h+'</section>';
+}
+function finishedView(t){
+  var m=S.mode, nxt=nextTask(t.id);
+  return '<section class="card"><h2>Task finished</h2><p>You finished "'+esc(t.title)+'". The idea to keep: reasoning is the science idea plus the link that connects the evidence to the claim.</p><div class="row">'
+   +(nxt?'<button class="btn" data-act="open" data-id="'+nxt.id+'">Next task: '+esc(nxt.title)+'</button>':'')
+   +'<button class="btn ghost" data-act="home">Back to the task list</button></div></section>';
+}
+function nextTask(afterId){
+  var list=setTasks(), i=0; list.forEach(function(t,k){ if(t.id===afterId) i=k; });
+  for(var k=1;k<=list.length;k++){ var c=list[(i+k)%list.length]; if(c.id!==afterId && !S.done[S.mode][c.id]) return c; }
+  return null;
+}
+function taskView(){
+  var t=task(S.taskId), st=ts(), isFix=S.mode==="fix", h="";
+  h+='<div class="row" style="margin-bottom:10px"><button class="btn ghost" data-act="home">All tasks</button><span class="chip">'+(isFix?"Fix it":"Build it")+'</span></div>';
+  h+=setupCard(t);
+  if(st.finished) return h+finishedView(t);
+  if(!isFix){
+    h+=stepper(["Pick the science idea","Build the bridge","Write it yourself"],st.step,st.step-1);
+    h+= st.step===1?step1(t,st): st.step===2?step2(t,st): writeCard(t,st,false);
+  }else{
+    h+=stepper(["Find the problem","Rewrite it"],st.step,st.step-1);
+    if(st.step===1){
+      var lastF=st.picked.length?t.fix.choices[st.picked[st.picked.length-1]]:null;
+      h+='<section class="card"><h2>Step 1: Find the problem</h2><div class="weak"><b>A student wrote:</b> "'+esc(t.fix.weak)+'"</div><p>What is wrong with this reasoning?</p>'
+       +choicesHTML(t.fix.choices,st,"pick1")+fbHTML(lastF)
+       +(st.solved1?'<button class="btn" data-act="next">Go to step 2: Rewrite it</button>':'')+'</section>';
+    } else h+=writeCard(t,st,true);
+  }
+  return h;
+}
+
+function render(){
+  var h="";
+  if(S.explain) h+=explainPanel();
+  h+= S.view==="home"?homeView():taskView();
+  $app.innerHTML=h;
+  document.getElementById("explainBtn").setAttribute("aria-expanded",S.explain?"true":"false");
+  if(S.focus){ var el=document.querySelector(S.focus); if(el){ el.focus({preventScroll:false}); } S.focus=null; }
+}
+
+/* actions */
+function curChoices(){ var t=task(S.taskId); return S.mode==="fix"?t.fix.choices:t.choices; }
+function doCheck(){
+  var t=task(S.taskId), st=ts();
+  var el=document.getElementById("resp"); if(el) st.text=el.value;
+  st.res=check(t,st.text);
+  if(!st.res.tooShort){
+    st.checks++; if(S.limitKey===null) S.limitKey=tkey();
+    if(st.checks>=2) st.unlocked=true;
+  }
+  S.focus="#fb"; render();
+}
+document.addEventListener("click",function(e){
+  var b=e.target.closest("[data-act]"); if(!b) return; var a=b.getAttribute("data-act");
+  if(a==="resp"||a==="starters"||a==="self") return;
+  var st=S.taskId?ts():null;
+  if(a==="home"){ S.view="home"; S.focus=null; render(); window.scrollTo(0,0); return; }
+  if(a==="explain"){ S.explain=!S.explain; S.focus=S.explain?"#explainPanel":null; render(); return; }
+  if(a==="reset"){ if(window.confirm("Clear your progress and answers on this device?")){ S.done={build:{},fix:{}}; S.t={}; S.limitKey=null; S.view="home"; save(); render(); } return; }
+  if(a==="unit"){ S.unit=b.getAttribute("data-v"); save(); render(); return; }
+  if(a==="mode"){ S.mode=b.getAttribute("data-v"); save(); render(); return; }
+  if(a==="open"){ S.taskId=b.getAttribute("data-id"); S.view="task"; delete S.t[tkey()]; render(); window.scrollTo(0,0); return; }
+  if(a==="startnext"){ var list=setTasks(); var n=list.filter(function(t){return !S.done[S.mode][t.id];})[0]||list[0]; if(n){ S.taskId=n.id; S.view="task"; delete S.t[tkey()]; render(); window.scrollTo(0,0);} return; }
+  if(a==="pick1"){ var i=+b.getAttribute("data-i"); if(st.picked.indexOf(i)<0) st.picked.push(i); else { st.picked=st.picked.filter(function(x){return x!==i;}); st.picked.push(i); } if(curChoices()[i].ok) st.solved1=true; S.focus="#fb"; render(); return; }
+  if(a==="next"){ st.step++; render(); window.scrollTo(0,0); return; }
+  if(a==="mv"){ var p=+b.getAttribute("data-pos"), d=+b.getAttribute("data-d"), q=p+d; var o=st.order; var tmp=o[p]; o[p]=o[q]; o[q]=tmp; st.bridgeMsg=null; S.focus='[data-act="mv"][data-pos="'+q+'"][data-d="'+d+'"]'; render(); if(!document.querySelector(S.focus)){} return; }
+  if(a==="check2"){
+    var t=task(S.taskId), wrong=-1, right=0;
+    st.order.forEach(function(pi,pos){ if(pi===pos) right++; else if(wrong<0) wrong=pos; });
+    if(wrong<0){ st.bridgeOk=true; st.bridgeMsg="Every piece is in the right place. The evidence comes first, then the science idea, then the link, then the claim."; }
+    else{ var role=t.pieces[wrong].role; st.bridgeMsg=right+" of "+t.pieces.length+" pieces are in the right spot. Look at spot "+(wrong+1)+". It should hold the "+ROLE[role][0]+": "+ROLE[role][1]+". Try moving a different piece there."; }
+    S.focus="#fb"; render(); return;
+  }
+  if(a==="check3"){ doCheck(); return; }
+  if(a==="unlock"){ var el=document.getElementById("resp"); if(el) st.text=el.value; st.unlocked=true; S.focus="#fb"; render(); return; }
+  if(a==="finish"){ st.finished=true; S.done[S.mode][S.taskId]=true; save(); render(); window.scrollTo(0,0); return; }
+});
+document.addEventListener("input",function(e){
+  var el=e.target; if(!el.getAttribute) return;
+  if(el.getAttribute("data-act")==="resp"){ ts().text=el.value; }
+});
+document.addEventListener("change",function(e){
+  var el=e.target; if(!el.getAttribute) return; var a=el.getAttribute("data-act");
+  if(a==="starters"){ var v=document.getElementById("resp"); if(v) ts().text=v.value; S.starters=el.checked; save(); S.focus='[data-act="starters"]'; render(); }
+  if(a==="self"){ ts().self[el.getAttribute("data-i")]=el.checked; var sc=document.querySelectorAll('[data-act="self"]'); S.focus='[data-act="self"][data-i="'+el.getAttribute("data-i")+'"]'; render(); }
+});
+document.addEventListener("keydown",function(e){ if(e.key==="Escape"&&S.explain){ S.explain=false; render(); } });
+/* ===== Paper version ===== */
+var PAPER_ON=false, PAPER_TITLE="", PAPER_SCROLL=0, PAPER_OPENER=null;
+var LET=["A","B","C","D","E"];
+function pSeed(str){ var h=2166136261; for(var i=0;i<str.length;i++){ h=Math.imul(h^str.charCodeAt(i),16777619); } return h>>>0; }
+function pRng(a){ return function(){ a=(a+0x6D2B79F5)|0; var t=Math.imul(a^(a>>>15),1|a); t=(t+Math.imul(t^(t>>>7),61|t))^t; return ((t^(t>>>14))>>>0)/4294967296; }; }
+function pShuffle(n,key){ var idx=[],i; for(i=0;i<n;i++) idx.push(i); var r=pRng(pSeed(key)); for(i=n-1;i>0;i--){ var j=Math.floor(r()*(i+1)); var tmp=idx[i]; idx[i]=idx[j]; idx[j]=tmp; } return idx; }
+function pSlug(u){ return u.toLowerCase().replace(/[^a-z0-9]+/g," ").trim().split(" ").filter(function(w){return ["and","in","on","of","the"].indexOf(w)<0;}).join("-"); }
+function pGroups(){
+  var g=[{id:"all",label:"All tasks",tasks:TASKS.slice()}];
+  unitList().forEach(function(u){ g.push({id:pSlug(u),label:u,tasks:TASKS.filter(function(t){return t.unit===u;})}); });
+  return g;
+}
+function pGroup(id){ var g=pGroups(); for(var i=0;i<g.length;i++){ if(g[i].id===id) return g[i]; } return g[0]; }
+function pChart(t){
+  if(!t.chart) return "";
+  var s=t.chart.kind==="line"?lineChart(t.chart):barChart(t.chart);
+  s=s.replace(/hatch/g,"phatch").replace(/#0033A0/g,"#000").replace(/#273540/g,"#1A160D").replace(/#0B5A9C/g,"#000").replace(/#E3EEF8/g,"#fff").replace(/#C7CDD1/g,"#999").replace(/fill="#0E68B3"/g,'fill="#666"');
+  s=s.replace(/<text[^>]*>/g,function(tag){ var rot=tag.indexOf("rotate(-90)")>=0; return tag.replace(/font-size="(\d+)"/,function(m,a){return 'font-size="'+(+a+(rot?2:5))+'"';}); });
+  return '<div class="chartwrap">'+s+'</div>';
+}
+function pOpts(list,key){
+  var order=pShuffle(list.length,key), h="";
+  order.forEach(function(oi,k){ h+='<div class="opt"><span class="lt">'+LET[k]+'</span><span>'+esc(list[oi].t)+'</span></div>'; });
+  return {html:h,order:order};
+}
+function pCheck(){ return '<ul class="chk">'+SELFCHK.map(function(x){return '<li><span class="tick"></span><span>My response '+esc(x)+'</span></li>';}).join("")+'</ul>'; }
+function pLetterOf(list,order){ for(var k=0;k<order.length;k++){ if(list[order[k]].ok) return LET[k]; } return "?"; }
+function pReason(fb){ return String(fb).replace(/^(Yes|Right)\.\s*/,""); }
+function pSty(L){
+  var a=[]; if(L.ch!=null) a.push("--ch:"+L.ch+"px"); if(L.g1!=null) a.push("--g1:"+L.g1+"px"); if(L.g2!=null) a.push("--g2:"+L.g2+"px"); if(L.tp!=null) a.push("--tp:"+L.tp+"px"); if(L.og!=null) a.push("--og:"+L.og+"px"); if(L.cp!=null) a.push("--cp:"+L.cp+"px"); if(L.nb!=null) a.push("--nb:"+L.nb+"px"); if(L.lh!=null) a.push("--lh:"+L.lh);
+  return a.length?' style="'+a.join(";")+'"':'';
+}
+function pBlk(L,i,inner,extra){
+  var k=(L.k==null)?99:L.k;
+  return '<div class="blk '+(i>=k?'p2':'p1')+(i===k?' pb':'')+(extra?' '+extra:'')+'" data-i="'+i+'">'+inner+'</div>';
+}
+function pChipData(gl){
+  var ts=TASKS.filter(function(t){return gl==="All units"||t.unit===gl;}), pes=[];
+  ts.forEach(function(t){ if(pes.indexOf(t.pe)<0) pes.push(t.pe); });
+  var c=[["Grade","7"],["Unit",gl]]; if(pes.length===1) c.push(["PE",pes[0]]); c.push(["Format","Reasoning practice"]);
+  return c;
+}
+function pMeta(g){ return g.id==="all"?"All units":g.label; }
+function pChips(arr){ return '<div class="chips">'+arr.map(function(c){return '<div class="chip9"><span class="cl">'+esc(c[0])+'</span><span class="cv">'+esc(c[1])+'</span></div>';}).join("")+'</div>'; }
+function pBar(l1,l2){ return '<div class="hbar"><div class="l1">'+esc(l1)+'</div><div class="l2">'+esc(l2)+'</div></div>'; }
+function pTaskSheet(t,n,first,L,gl){
+  L=L||{};
+  var h='<section class="sheet'+(first?' first':'')+(L.m?' m':'')+'"'+pSty(L)+'>';
+  if(first){
+    h+=pBar("Reasoning Builder","Grade 7 Science  |  "+gl+"  |  Reasoning practice")+pChips(pChipData(gl))+'<div class="nameline">Name ______________________   Date ____________   Class/Period ______</div>'
+     +'<p class="dir">The claim and the evidence are given. Build the reasoning that connects them.</p><div class="remind"><b class="t">What is reasoning?</b>'
+     +'<div>The <b>claim</b> answers the question. The <b>evidence</b> is the data you can point to.</div>'
+     +'<div>The <b>reasoning</b> is the bridge between them: a science idea that explains why the evidence makes the claim true.</div>'
+     +'<div>Ask: What science idea explains this? How does it connect to my data? How does that make my claim true?</div></div>';
+  } else {
+    h+='<div class="nameline small">Name ______________________</div>';
+  }
+  h+='<h2>Task '+n+': '+esc(t.title)+' <span class="unitline">Unit: '+esc(t.unit)+'</span></h2>';
+  h+=pBlk(L,0,'<p><b class="lb">Phenomenon.</b> '+esc(t.phenomenon)+'</p>'+tableHTML(t.table)+pChart(t)+'<p><b class="lb">Question.</b> '+esc(t.question)+'</p>');
+  h+=pBlk(L,1,'<div class="cecol ro"><div class="lbl">Claim (given)</div>'+esc(t.claim)+'</div>'
+   +'<div class="cecol ro"><div class="lbl">Evidence (given)</div><ul>'+t.evidence.map(function(e){return '<li>'+esc(e)+'</li>';}).join("")+'</ul></div>','ce');
+  var o1=pOpts(t.choices,t.id+":idea");
+  h+=pBlk(L,2,'<h3 class="st">Step 1</h3><p class="dirs"><b>Circle the science idea that connects the evidence to the claim.</b></p>'+o1.html);
+  var N=t.pieces.length, pcs='';
+  t.start.forEach(function(pi){ pcs+='<div class="pc"><span class="numbox"></span><span>'+esc(t.pieces[pi].t)+'</span></div>'; });
+  h+=pBlk(L,3,'<h3 class="st">Step 2</h3><p class="dirs"><b>Number the sentences 1 to '+N+' to build the bridge from evidence to claim.</b> Write 1 in the box by the sentence that goes first.</p>'+pcs);
+  h+=pBlk(L,4,'<h3 class="st">Step 3</h3><p class="dirs"><b>Write your own reasoning (2 to 4 sentences).</b></p><div class="wbox" style="height:'+(L.box||192)+'px"></div><div class="lbl">Check your work</div>'+pCheck());
+  return h+'</section>';
+}
+function pFixPage(ts,L){
+  L=L||{};
+  var h='<section class="sheet'+(L.m?' m':'')+'"'+pSty(L)+'><div class="nameline small">Name ______________________</div>';
+  ts.forEach(function(t,i){
+    var o2=pOpts(t.fix.choices,t.id+":fix");
+    h+=pBlk(L,i,'<h2>Fix it: '+esc(t.title)+' <span class="unitline">Unit: '+esc(t.unit)+'</span></h2>'
+      +'<div class="weakbox"><div class="lbl">A student wrote</div>'+esc(t.fix.weak)+'</div>'
+      +'<h3 class="st">Step 1</h3><p class="dirs"><b>What is wrong with this reasoning? Circle one.</b></p>'+o2.html
+      +'<h3 class="st">Step 2</h3><p class="dirs"><b>'+esc(t.fix.goal)+'</b></p><div class="wbox" style="height:'+(L.box||163)+'px"></div><div class="lbl">Check your work</div>'+pCheck());
+  });
+  return h+'</section>';
+}
+/* measured layout: 96 px per inch, 10 in page, 0.15 in safety */
+var PBUD=960, PFOOT=0;
+function pMeasureSheet(html){
+  var m=document.getElementById("pmeasure");
+  if(!m){ m=document.createElement("div"); m.id="pmeasure"; m.className="paper"; m.setAttribute("aria-hidden","true"); document.body.appendChild(m); }
+  m.innerHTML=html; var sec=m.firstElementChild, r0=sec.getBoundingClientRect(), tops=[];
+  [].forEach.call(sec.querySelectorAll(".blk"),function(b){ tops.push(b.getBoundingClientRect().top-r0.top); });
+  return {tops:tops,total:r0.height};
+}
+function pPlan(build,o){
+  var bud=PBUD-(o.foot?PFOOT:0), cands=[{},{ch:163},{ch:163,nb:27},{ch:163,nb:27,g1:3,og:2},{ch:163,nb:27,g1:3,og:1,tp:2,cp:3},{ch:163,nb:27,g1:3,og:1,tp:2,cp:3,lh:1.15}], ci;
+  for(ci=0;ci<cands.length;ci++){
+    if(!o.chart&&ci===1) continue;
+    var cL=Object.assign({m:1,k:null,box:o.min},cands[ci]); if(!o.chart) delete cL.ch;
+    var cm=pMeasureSheet(build(cL));
+    if(cm.total<=bud){
+      var av=bud-(cm.total-o.min), bx=Math.max(o.min,Math.min(av,o.max1)), out=Object.assign({},cands[ci]);
+      if(!o.chart) delete out.ch;
+      out.k=null; out.box=Math.round(bx); return out;
+    }
+  }
+  var base=pMeasureSheet(build({m:1,box:o.base})), nb=base.tops.length;
+  var minTotal=base.total-(o.base-o.min);
+  if(minTotal<=bud){
+    var avail=bud-(base.total-o.base), box=Math.max(o.min,Math.min(avail,o.max1)), lo=avail-box;
+    var L={k:null,box:Math.round(box)}; if(lo>0) L.g1=Math.round(6+Math.min(lo/nb,6));
+    return L;
+  }
+  var ks=o.two?[3,2,4]:[], k=null, i, t=base.tops;
+  var best=1e9;
+  for(i=0;i<ks.length;i++){
+    var kk=ks[i], P1=t[kk]-8, P2=base.total-t[kk]-(o.base-o.min);
+    if(P1>bud||P2>bud) continue;
+    var sink=(o.chart?134:0)+(o.rows?o.rows*2*4:0)+o.opts*3+10+kk*6, bl1=Math.max(0,bud-P1-sink);
+    var room=bud-(base.total-t[kk]), mb=o.max2, bl2=Math.max(0,room-(mb-o.base)-(nb-kk)*6);
+    if(kk===3&&bl1<=243){ k=3; best=-1e9; break; }
+    var worst=Math.max(bl1,bl2);
+    if(worst<best){ best=worst; k=kk; }
+  }
+  if(k==null) k=o.two?3:null;
+  if(k==null){ return {k:null,box:o.min}; }
+  var L2={k:k}, P1b=t[k]-8, s1=bud-P1b;
+  if(o.chart&&s1>0){ var dch=Math.min(s1,307-173); L2.ch=Math.round(173+dch); s1-=dch; }
+  if(s1>0){
+    var capT=o.rows?o.rows*2*4:0, capO=o.opts*3, capP=10, capG=k*6, tot=capT+capO+capP+capG, f=Math.min(1,s1/tot);
+    if(capT) L2.tp=+(4+capT*f/(o.rows*2)).toFixed(1);
+    L2.og=+(3+capO*f/o.opts).toFixed(1);
+    L2.cp=+(5+capP*f/2).toFixed(1);
+    L2.g1=Math.round(6+capG*f/k);
+  }
+  var s2=bud-(base.total-t[k]), bx=o.base;
+  if(s2<0){ bx=Math.max(o.min,o.base+s2); } else { var gr=Math.min(s2,o.max2-o.base); bx=o.base+gr; s2-=gr; if(s2>0) L2.g2=Math.round(6+Math.min(s2/(nb-k),6)); }
+  L2.box=Math.round(bx);
+  /* verify with the real values and back off if anything overflows */
+  for(i=0;i<4;i++){
+    var v=pMeasureSheet(build(Object.assign({m:1},L2))), vt=v.tops[k]-8, v2=v.total-v.tops[k];
+    var o1=vt-bud, oo2=v2-bud;
+    if(o1<=0&&oo2<=0) break;
+    if(o1>0){ L2.g1=6; L2.og=3; L2.cp=5; L2.tp=4; if(L2.ch) L2.ch=Math.max(173,Math.round(L2.ch-o1)); }
+    if(oo2>0){ L2.box=Math.max(o.min,Math.round(L2.box-oo2-1)); if(L2.g2) L2.g2=6; }
+  }
+  return L2;
+}
+function pFit(opts){
+  var g=pGroup(opts.group), LS={tasks:[],fixes:[]};
+  g.tasks.forEach(function(t,i){
+    var lastSheet=(i===g.tasks.length-1)&&!opts.fix&&!opts.key;
+    LS.tasks.push(pPlan(function(L){return pTaskSheet(t,i+1,i===0,L,pMeta(g));},{base:192,min:125,max1:288,max2:4000,two:true,chart:!!t.chart,rows:t.table?t.table.rows.length+1:0,opts:t.choices.length,foot:lastSheet}));
+  });
+  if(opts.fix){
+    for(var q=0;q<g.tasks.length;q+=2){
+      (function(pair){
+        var lastP=(q+2>=g.tasks.length)&&!opts.key, bud=PBUD, n=pair.length, mn=125;
+        var fc=[{},{g1:3,og:2},{g1:3,og:1,lh:1.15},{g1:2,og:1,lh:1.1}], j, pick=fc[fc.length-1], m0;
+        for(j=0;j<fc.length;j++){ m0=pMeasureSheet(pFixPage(pair,Object.assign({m:1,box:mn},fc[j]))); pick=fc[j]; if(m0.total<=bud) break; }
+        var av=(bud-(m0.total-n*mn))/n, bx=Math.max(mn,Math.min(av,288));
+        LS.fixes.push(Object.assign({},pick,{box:Math.round(bx)}));
+      })(g.tasks.slice(q,q+2));
+    }
+  }
+  var m=document.getElementById("pmeasure"); if(m) m.innerHTML="";
+  return LS;
+}
+function pKeyItem(t,n,fixToo){
+  var o1=pShuffle(t.choices.length,t.id+":idea"), L1=pLetterOf(t.choices,o1), good=t.choices.filter(function(c){return c.ok;})[0];
+  var h='<div class="keyitem"><h3 class="kt">Task '+n+': '+esc(t.title)+' <span class="unitline">'+esc(t.unit)+'</span></h3>'
+   +'<p><b class="lb">Step 1:</b> <b>'+L1+'.</b> '+esc(pReason(good.fb))+'</p>'
+   +'<p><b class="lb">Step 2:</b> Numbers in the boxes, top to bottom: <b>'+t.start.map(function(x){return x+1;}).join(", ")+'</b>. Correct order:</p><ol>'
+   +t.pieces.map(function(p){return '<li>'+esc(p.t)+'</li>';}).join("")+'</ol>'
+   +'<p><b class="lb">Step 3 model.</b> <b class="lb">Claim:</b> '+esc(t.claim)+' <b class="lb">Evidence:</b> '+esc(t.model.evidence)+' <b class="lb">Reasoning:</b> '+esc(t.model.idea)+' '+esc(t.model.link)+'</p>';
+  var res=check(t,[t.model.evidence,t.model.idea,t.model.link].join(" "));
+  if(res&&res.crit){ h+='<p><b class="lb">What earns credit:</b> '+res.crit.map(function(c){return esc(c.label);}).join("; ")+'.</p>'; }
+  if(fixToo){
+    var o2=pShuffle(t.fix.choices.length,t.id+":fix"), L2=pLetterOf(t.fix.choices,o2), g2=t.fix.choices.filter(function(c){return c.ok;})[0];
+    h+='<p><b class="lb">Fix it, what is wrong:</b> <b>'+L2+'.</b> '+esc(pReason(g2.fb))+' <b class="lb">Rewrite:</b> '+esc(t.fix.goal)+' A strong rewrite is like the model reasoning above.</p>';
+  }
+  return h+'</div>';
+}
+function pDocUrl(kind,gid){
+  var d=window.PAPER_DOCS&&window.PAPER_DOCS[kind]; if(!d) return "";
+  var u=d[gid]||d.all||""; return /^https:\/\//.test(u)?u:"";
+}
+function pDocTitle(g,key){ return "Reasoning Builder: Paper Version, "+g.label+(key?" (Answer Key)":""); }
+function pBuild(opts,LS){
+  var g=pGroup(opts.group), h='';
+  LS=LS||{tasks:[],fixes:[]};
+  h+='<div class="paper-bar"><span><b>Paper version preview.</b> '+esc(g.label)+(opts.key?", with answer key":"")+'</span><span class="row"><button class="btn ghost" type="button" data-p="back">Back to the app</button>'+(pDocUrl("student",g.id)?'<a class="btn ghost" href="'+esc(pDocUrl("student",g.id))+'" target="_blank" rel="noopener">Open as a Google Doc</a>':'')+'<button class="btn" type="button" data-p="print">Print</button></span></div>';
+  var secs=[];
+  g.tasks.forEach(function(t,i){ secs.push(pTaskSheet(t,i+1,i===0,LS.tasks[i],pMeta(g))); });
+  if(opts.fix){ for(var q=0;q<g.tasks.length;q+=2){ secs.push(pFixPage(g.tasks.slice(q,q+2),LS.fixes[q/2])); } }
+  h+=secs.join("");
+  if(opts.key){
+    h+='<section class="sheet key">'+pBar("Answer Key","Reasoning Builder  |  Grade 7 Science  |  "+pMeta(g)+"  |  Teacher copy")+g.tasks.map(function(t,i){return pKeyItem(t,i+1,opts.fix);}).join("")+'</section>';
+  }
+  return {html:h,group:g};
+}
+var PAPER_TOKEN=0;
+function showPaper(opts){
+  var el=document.getElementById("paper"); if(!el) return Promise.resolve();
+  var b=pBuild(opts);
+  if(!PAPER_ON){ PAPER_TITLE=document.title; PAPER_SCROLL=window.pageYOffset||0; }
+  el.innerHTML=b.html; el.hidden=false;
+  document.body.classList.add("paper-on"); PAPER_ON=true;
+  document.title=pDocTitle(b.group,opts.key);
+  closePaperOpts(true); window.scrollTo(0,0);
+  var tok=++PAPER_TOKEN, rdy=Promise.resolve();
+  if(document.fonts&&document.fonts.load){
+    rdy=Promise.all(['10.5pt Carlito','bold 10.5pt Carlito','italic 10.5pt Carlito'].map(function(f){return document.fonts.load(f).catch(function(){});})).then(function(){return document.fonts.ready;});
+  }
+  return rdy.then(function(){
+    if(tok!==PAPER_TOKEN||!PAPER_ON) return;
+    var LS=pFit(opts), nb=pBuild(opts,LS); el.innerHTML=nb.html;
+  });
+}
+function hidePaper(){
+  var el=document.getElementById("paper");
+  if(el){ el.hidden=true; el.innerHTML=""; }
+  document.body.classList.remove("paper-on");
+  if(PAPER_ON){ document.title=PAPER_TITLE||"Reasoning Builder"; PAPER_ON=false; window.scrollTo(0,PAPER_SCROLL); }
+}
+function parsePaperHash(){
+  var m=/^#paper(-key)?(?:=(.*))?$/.exec(location.hash||""); if(!m) return null;
+  var id="all"; try{ id=m[2]?decodeURIComponent(m[2]):"all"; }catch(e){}
+  return {key:!!m[1],group:id,fix:false};
+}
+function applyPaperHash(){ var p=parsePaperHash(); if(p) showPaper(p); else if(PAPER_ON) hidePaper(); }
+function openPaperOpts(opener){
+  var box=document.getElementById("paperOpts"); if(!box) return;
+  PAPER_OPENER=opener||null;
+  var gs=pGroups(), cur=pSlug(S.unit==="all"?"all":S.unit); if(S.unit==="all") cur="all";
+  box.innerHTML='<div class="pbox" role="dialog" aria-modal="true" aria-labelledby="pTitle"><h2 id="pTitle">Print a paper version</h2>'
+   +'<p class="muted">This makes a worksheet from the same tasks, for students who work on paper.</p>'
+   +'<label class="pl" for="pGroup">What to include</label><select id="pGroup">'+gs.map(function(g){return '<option value="'+esc(g.id)+'"'+(g.id===cur?" selected":"")+'>'+esc(g.label)+' ('+g.tasks.length+(g.tasks.length===1?" task":" tasks")+')</option>';}).join("")+'</select>'
+   +'<div class="pck"><input type="checkbox" id="pFix"><label for="pFix">Include a Fix it page for each task</label></div>'
+   +'<div class="pck"><input type="checkbox" id="pKey"><label for="pKey">Include the answer key (teacher copy)</label></div>'
+   +'<div class="row"><button class="btn" type="button" data-p="print-go">Print</button><button class="btn ghost" type="button" data-p="preview">Preview</button><button class="btn ghost" type="button" data-p="cancel">Cancel</button></div>'
+   +'<div class="pdocs"><div class="row"><a class="btn ghost" id="pDocS" target="_blank" rel="noopener" hidden>Open as a Google Doc</a><a class="btn ghost" id="pDocK" target="_blank" rel="noopener" hidden>Open the answer key as a Google Doc</a></div><p class="note" id="pDocNote" hidden>The Google Doc can be copied and edited. File, then Make a copy.</p></div></div>';
+  updatePaperDocs();
+  box.hidden=false; var s=document.getElementById("pGroup"); if(s) s.focus();
+}
+function updatePaperDocs(){
+  var sel=document.getElementById("pGroup"), key=document.getElementById("pKey"); if(!sel||!key) return;
+  var us=pDocUrl("student",sel.value), uk=key.checked?pDocUrl("key",sel.value):"";
+  var a=document.getElementById("pDocS"), b=document.getElementById("pDocK"), n=document.getElementById("pDocNote");
+  if(a){ if(us){ a.href=us; a.hidden=false; } else { a.removeAttribute("href"); a.hidden=true; } }
+  if(b){ if(uk){ b.href=uk; b.hidden=false; } else { b.removeAttribute("href"); b.hidden=true; } }
+  if(n) n.hidden=!(us||uk);
+}
+document.addEventListener("change",function(e){ var id=e.target&&e.target.id; if(id==="pGroup"||id==="pKey") updatePaperDocs(); });
+function closePaperOpts(quiet){
+  var box=document.getElementById("paperOpts"); if(!box||box.hidden) return;
+  box.hidden=true; box.innerHTML="";
+  if(!quiet&&PAPER_OPENER&&document.body.contains(PAPER_OPENER)){ try{ PAPER_OPENER.focus(); }catch(e){} }
+}
+function readPaperOpts(){
+  return {group:document.getElementById("pGroup").value,fix:document.getElementById("pFix").checked,key:document.getElementById("pKey").checked};
+}
+document.addEventListener("click",function(e){
+  var b=e.target.closest&&e.target.closest("[data-p]"); if(!b) return; var a=b.getAttribute("data-p");
+  if(a==="open"){ openPaperOpts(b); return; }
+  if(a==="cancel"){ closePaperOpts(); return; }
+  if(a==="preview"){ showPaper(readPaperOpts()); return; }
+  if(a==="print-go"){ showPaper(readPaperOpts()).then(function(){ window.setTimeout(function(){ window.print(); },50); }); return; }
+  if(a==="print"){ window.print(); return; }
+  if(a==="back"){
+    hidePaper();
+    if(parsePaperHash()){ try{ history.replaceState(null,"",location.pathname+location.search); }catch(err){ location.hash=""; } }
+    return;
+  }
+});
+document.addEventListener("keydown",function(e){ if(e.key==="Escape"){ var bx=document.getElementById("paperOpts"); if(bx&&!bx.hidden){ closePaperOpts(); } } });
+window.addEventListener("hashchange",applyPaperHash);
+
+load(); render(); applyPaperHash();
+})();
+</script>
+</body>
+</html>
