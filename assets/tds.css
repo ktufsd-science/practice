@@ -57,6 +57,9 @@ button:focus-visible, [tabindex]:focus-visible { outline: 3px solid #ffbf47; out
 .progress-tag { font-size: 12px; background: var(--review-flag); padding: 2px 8px; border: 1px solid #c9a93a; }
 .progress-tag.done { background: #e3f5e1; border-color: #3c8a36; }
 .home-foot { margin-top: 30px; font-size: 12.5px; color: #66727b; line-height: 1.5; }
+.privacy { margin-top: 12px; font-size: 12.5px; color: #4a565e; line-height: 1.55; }
+.privacy summary { cursor: pointer; font-weight: 600; color: #334049; }
+.privacy p { margin: 8px 0 0; max-width: 70ch; }
 .empty-note { color: #5a6670; font-size: 15px; }
 
 /* ---------- Test shell ---------- */

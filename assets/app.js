@@ -63,6 +63,14 @@
         </label>
         <div class="cluster-list" id="grid" role="list"><p class="empty-note">Loading clusters...</p></div>
         <p class="home-foot">Your answers are saved only in this browser on this Chromebook. Nothing is sent anywhere. Every question on this site comes from a released New York State Elementary-Level or Intermediate-Level Science Test (New York State Education Department). The screen is modeled on the NYS computer-based test so students can practice with its tools. This site is not affiliated with NYSED, NWEA, or Questar.</p>
+        <details class="privacy">
+          <summary>Privacy statement</summary>
+          <p>This site does not collect, store, or share any student information. There are no accounts, no logins, no name or email fields, no surveys, and no tracking or analytics of any kind. The site sets no cookies and loads nothing from other websites.</p>
+          <p>While a student works, the answers, notes, and tool settings are saved in that student's own browser on that device so the work is not lost if the page closes. That information is never sent to the school, the teacher, or anyone else. It can be erased at any time with the Start over button or by clearing the browser's site data.</p>
+          <p>To turn in work, the student copies a results summary and pastes it into a teacher's assignment in Canvas. The summary has no name on it. Canvas, not this site, identifies the student.</p>
+          <p>This site is hosted on GitHub Pages. Like any web host, GitHub may keep standard server logs, such as the network address of a device that loads the page. This site cannot see those logs, does not use them, and has no way to connect them to a student. Text-to-speech, if a student turns it on, uses the voice built into the device or browser.</p>
+          <p>Every question comes from a released New York State Elementary-Level or Intermediate-Level Science Test. The site is a classroom practice tool for Ken-Ton Union Free School District science students and teachers.</p>
+        </details>
       </div></main>`;
     app.append(home);
     home.querySelectorAll('.grade-tabs button').forEach(b => b.addEventListener('click', () => { store.set('grade', +b.dataset.g); showHome(); }));
