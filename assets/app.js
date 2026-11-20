@@ -30,10 +30,10 @@
   // released Grade 5 or Grade 8 clusters whose science that grade has already
   // learned (the "grades" list in clusters/index.json, built by tools/build-index.js).
   const GRADE_NOTE = {
-    3: 'Most clusters come from past Grade 5 state tests; clusters marked in yellow were written by KTUFSD teachers. They only use science you learn in Grade 3, but the reading is written for Grade 5.',
-    4: 'Most clusters come from past Grade 5 state tests; clusters marked in yellow were written by KTUFSD teachers. They only use science you learn by the end of Grade 4, but the reading is written for Grade 5.',
-    6: 'Most clusters come from past Grade 8 state tests; clusters marked in yellow were written by KTUFSD teachers. They only use science you learn in Grade 6.',
-    7: 'Most clusters come from past Grade 8 state tests; clusters marked in yellow were written by KTUFSD teachers. They only use science you learn by the end of Grade 7.'
+    3: 'Most clusters come from past Grade 5 state tests; clusters marked in yellow are KTUFSD practice clusters. They only use science you learn in Grade 3, but the reading is written for Grade 5.',
+    4: 'Most clusters come from past Grade 5 state tests; clusters marked in yellow are KTUFSD practice clusters. They only use science you learn by the end of Grade 4, but the reading is written for Grade 5.',
+    6: 'Most clusters come from past Grade 8 state tests; clusters marked in yellow are KTUFSD practice clusters. They only use science you learn in Grade 6.',
+    7: 'Most clusters come from past Grade 8 state tests; clusters marked in yellow are KTUFSD practice clusters. They only use science you learn by the end of Grade 7.'
   };
   const onTab = (c, g) => (c.grades || [c.grade]).includes(g);
 
@@ -72,14 +72,14 @@
           <input id="find" type="search" autocomplete="off" spellcheck="false" placeholder="Type the cluster name, for example Meerkats">
         </label>
         <div class="cluster-list" id="grid" role="list"><p class="empty-note">Loading clusters...</p></div>
-        <p class="home-foot">Your answers are saved only in this browser on this Chromebook. Nothing is sent anywhere. Most clusters on this site are released New York State Elementary-Level or Intermediate-Level Science Test clusters (New York State Education Department). Clusters marked in yellow as KTUFSD practice clusters were written by Ken-Ton science teachers and are not from a state test. The screen is modeled on the NYS computer-based test so students can practice with its tools. This site is not affiliated with NYSED, NWEA, or Questar.</p>
+        <p class="home-foot">Your answers are saved only in this browser on this Chromebook. Nothing is sent anywhere. Most clusters on this site are released New York State Elementary-Level or Intermediate-Level Science Test clusters (New York State Education Department). Clusters marked in yellow as KTUFSD practice clusters are practice questions, not state test questions. The screen is modeled on the NYS computer-based test so students can practice with its tools. This site is not affiliated with NYSED, NWEA, or Questar.</p>
         <details class="privacy">
           <summary>Privacy statement</summary>
           <p>This site does not collect, store, or share any student information. There are no accounts, no logins, no name or email fields, no surveys, and no tracking or analytics of any kind. The site sets no cookies and loads nothing from other websites.</p>
           <p>While a student works, the answers, notes, and tool settings are saved in that student's own browser on that device so the work is not lost if the page closes. That information is never sent to the school, the teacher, or anyone else. It can be erased at any time with the Start over button or by clearing the browser's site data.</p>
           <p>To turn in work, the student copies a results summary and pastes it into a teacher's assignment in Canvas. The summary has no name on it. Canvas, not this site, identifies the student.</p>
           <p>This site is hosted on GitHub Pages. Like any web host, GitHub may keep standard server logs, such as the network address of a device that loads the page. This site cannot see those logs, does not use them, and has no way to connect them to a student. Text-to-speech, if a student turns it on, uses the voice built into the device or browser.</p>
-          <p>Clusters labeled "Released NYS test" are released New York State Elementary-Level or Intermediate-Level Science Test clusters. Clusters labeled "KTUFSD practice cluster" (shown in yellow) were written by Ken-Ton Union Free School District science teachers using public domain images and real data, and are not official state test questions. The site is a classroom practice tool for Ken-Ton Union Free School District science students and teachers.</p>
+          <p>Clusters labeled "Released NYS test" are released New York State Elementary-Level or Intermediate-Level Science Test clusters. Clusters labeled "KTUFSD practice cluster" (shown in yellow) use public domain images and real data and are not official state test questions. The site is a classroom practice tool for Ken-Ton Union Free School District science students and teachers.</p>
         </details>
       </div></main>`;
     app.append(home);
@@ -261,7 +261,7 @@
         <div class="test-name">${T.name}</div>
         <div class="top-links"><button type="button" id="dir-link">Directions</button><button type="button" id="signout">II/ Sign out</button></div>
       </div>
-      ${T.cl.source === 'ktufsd' ? '<div class="authored-strip" role="note">KTUFSD practice cluster. Written by Ken-Ton science teachers. This is not an official NYS test.</div>' : ''}
+      ${T.cl.source === 'ktufsd' ? '<div class="authored-strip" role="note">KTUFSD practice cluster</div>' : ''}
       <div class="nav-bar">
         <button class="btn-review" type="button" id="review">Review</button>
         <h1 id="qtitle" aria-live="polite"></h1>
@@ -683,7 +683,7 @@
       const selfPts = selfItems.reduce((a, x) => a + (+st.selfScores[x.it.n] || 0), 0);
       const scored = selfItems.filter(x => st.selfScores[x.it.n] != null).length;
       card.innerHTML = `<h2>${cl.title}: Grade ${cl.grade} Science</h2>
-        ${cl.source === 'ktufsd' ? '<p class="authored-strip in-card" role="note">KTUFSD practice cluster. Written by Ken-Ton science teachers. This is not an official NYS test.</p>' : ''}
+        ${cl.source === 'ktufsd' ? '<p class="authored-strip in-card" role="note">KTUFSD practice cluster</p>' : ''}
         <div class="meta">Submitted ${new Date(st.submittedAt || Date.now()).toLocaleString()}</div>
         ${showKey ? `<p class="score-big">${autoPts + selfPts} / ${totalPts} points</p>
         <p>${auto.length} question${auto.length === 1 ? ' was' : 's were'} scored automatically. ${selfItems.length ? `${selfItems.length} written or model question${selfItems.length === 1 ? '' : 's'} need${selfItems.length === 1 ? 's' : ''} you to check your work against the scoring guide below (${scored} of ${selfItems.length} checked).` : ''}</p>`
