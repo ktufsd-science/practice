@@ -1,0 +1,264 @@
+{
+  "id": "g6-ktufsd-salmon",
+  "title": "Chinook Salmon",
+  "grade": 6,
+  "subject": "Science",
+  "year": null,
+  "source": "ktufsd",
+  "citation": "KTUFSD practice cluster, written 2026 (see sources.md). Photos: U.S. Fish and Wildlife Service, public domain. Data: Myrick and Cech 2002.",
+  "pes": [
+    "MS-LS1-4",
+    "MS-LS1-5"
+  ],
+  "directions": "Base your answers to questions 1 through 6 on the information below and on your knowledge of science.",
+  "showKeyAfterSubmit": true,
+  "stimuli": {
+    "intro": [
+      {
+        "type": "title",
+        "text": "Chinook Salmon"
+      },
+      {
+        "type": "p",
+        "html": "Chinook salmon hatch in cold streams and rivers. Young Chinook salmon live in fresh water for 1 to 18 months, then swim downstream to the Pacific Ocean, where they feed and grow. Most adults return to fresh water to spawn (reproduce) when they are 3 to 4 years old. Adult salmon use their sense of smell to find the same stream where they hatched. After adult salmon enter fresh water, they usually stop eating. They die a few weeks after spawning."
+      },
+      {
+        "type": "p",
+        "html": "Scientists have observed the behaviors of Chinook salmon at their spawning sites. A female chooses a spot with gravel and flowing water. She turns on her side and flexes her body and tail again and again. This lifts gravel and fine sediment (silt and sand) into the moving water, which carries the fine sediment a short distance downstream. The result is a nest, a shallow pit in the gravel."
+      },
+      {
+        "type": "p",
+        "html": "A large male stays next to the female and aggressively chases away other males that try to come near. The female and male release eggs and sperm into the nest at the same time. The female then moves a short distance upstream and digs another nest. The gravel she digs up covers the eggs in the nest below. She repeats this several times. When she is finished, her fertilized eggs are buried 20 to 60 centimeters below the surface of the gravel. This group of nests is called a redd."
+      },
+      {
+        "type": "figure",
+        "caption": "Adult Chinook Salmon in a River Before Spawning",
+        "src": "adult-chinook-staging.jpg",
+        "alt": "Photograph of several large adult salmon swimming close together in a shallow, clear river over a gravel bottom.",
+        "width": 420
+      },
+      {
+        "type": "p",
+        "html": "<small>Photo: Michael Humling, U.S. Fish and Wildlife Service (public domain)</small>"
+      }
+    ],
+    "eggs": [
+      {
+        "type": "subtitle",
+        "text": "New Information: Eggs in the Gravel"
+      },
+      {
+        "type": "p",
+        "html": "Chinook salmon eggs stay buried in the gravel for several weeks before they hatch. The young salmon then stay in the gravel for 4 to 6 weeks more. Scientists have identified several causes of death for eggs in the gravel, including:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "fine sediment (silt and sand) filling the spaces in the gravel around the eggs",
+          "low amounts of oxygen in the water around the eggs",
+          "insects or fish eating the eggs",
+          "another female digging a nest in the same spot, which digs up the eggs",
+          "water temperature that is too high"
+        ]
+      },
+      {
+        "type": "p",
+        "html": "After spawning, a female Chinook salmon may stay at her redd and defend it from other females for 5 to 9 days. Scientists report that under poor conditions, as many as 95% of the eggs in a redd may die. Under ideal conditions, as few as 10% of the eggs may die."
+      }
+    ],
+    "growth": [
+      {
+        "type": "subtitle",
+        "text": "New Data: How Young Salmon Grow"
+      },
+      {
+        "type": "p",
+        "html": "After young Chinook salmon leave the gravel, they feed and grow in the river before they swim to the ocean. Scientists investigated how water temperature and the amount of food affect the growth of young Chinook salmon."
+      },
+      {
+        "type": "p",
+        "html": "The scientists used 720 young Chinook salmon that all hatched at the same hatchery from the same population of salmon. At the start, the fish had an average mass of 1.7 grams. Groups of fish were kept in tanks of water at 11°C, 15°C, or 19°C. At each temperature, some fish were given as much food as they would eat (full food supply). Other fish were given 25% of that amount (reduced food supply). After 30 days, the scientists calculated the average growth of the fish in each group."
+      },
+      {
+        "type": "p",
+        "html": "The graph below shows the results. A negative value means that the fish lost mass."
+      },
+      {
+        "type": "figure",
+        "src": "growth-graph.png",
+        "alt": "Bar graph titled Growth of Young Chinook Salmon After 30 Days. Water temperatures 11, 15, and 19 degrees Celsius are on the horizontal axis. Average growth in percent of body mass per day is on the vertical axis. At each temperature there is one solid bar for the full food supply and one striped bar for the reduced food supply, each labeled with its value.",
+        "width": 560
+      },
+      {
+        "type": "p",
+        "html": "<small>Data source: Myrick and Cech, California Fish and Game, 2002. Graph drawn by KTUFSD from the published values.</small>"
+      },
+      {
+        "type": "figure",
+        "caption": "Young Chinook Salmon at a Fish Hatchery",
+        "src": "juvenile-chinook-raceway.jpg",
+        "alt": "Photograph of many small young salmon swimming in a long concrete tank of water at a fish hatchery.",
+        "width": 420
+      },
+      {
+        "type": "p",
+        "html": "<small>Photo: Laura Mahoney, U.S. Fish and Wildlife Service (public domain)</small>"
+      }
+    ]
+  },
+  "items": [
+    {
+      "n": 1,
+      "stimulus": [
+        "intro"
+      ],
+      "type": "mc",
+      "pe": "MS-LS1-4",
+      "points": 1,
+      "stem": "Which statement best explains how the large male’s behavior of chasing away other males increases his probability of successful reproduction?",
+      "options": [
+        "It lets him eat the food that the other males would have eaten, so he has more energy left over for spawning with the female.",
+        "It increases the chance that his sperm, and not another male’s sperm, fertilizes the female’s eggs, so more of the offspring are his.",
+        "It keeps the other males from digging nests in the gravel, so the female has more places where she can lay her eggs.",
+        "It protects the buried eggs from being eaten by the other males, so all of the eggs will be able to hatch into young salmon."
+      ],
+      "key": "B",
+      "explanation": "Chasing away other males is a characteristic behavior that raises the chance that the guarding male fertilizes the eggs the female releases. More of the offspring then carry his genetic information, which is what successful reproduction means for the male."
+    },
+    {
+      "n": 2,
+      "stimulus": [
+        "intro",
+        "eggs"
+      ],
+      "type": "dragdrop",
+      "pe": "MS-LS1-4",
+      "points": 1,
+      "stem": "Each behavior of the female Chinook salmon in the table below helps protect her eggs from one cause of egg death. Complete the table by placing the letter of the cause of egg death that each behavior reduces. Each letter may be used only once, and one letter will not be used. [1]",
+      "adapted": "The printed verb “writing the letter” became “placing the letter”: each cause of egg death is dragged into the table.",
+      "bankTitle": "Causes of Egg Death",
+      "reuse": false,
+      "choices": [
+        {
+          "id": "W",
+          "text": "W: Another female digs a nest in the same spot"
+        },
+        {
+          "id": "X",
+          "text": "X: Fine sediment fills the spaces in the gravel around the eggs"
+        },
+        {
+          "id": "Y",
+          "text": "Y: The water temperature becomes too high"
+        },
+        {
+          "id": "Z",
+          "text": "Z: Insects or fish eat the eggs"
+        }
+      ],
+      "target": {
+        "html": "<div style=\"display:flex;flex-direction:column;gap:14px\"><div><b>Behavior of the Female Chinook Salmon</b> and the <b>letter of the cause of egg death it reduces</b></div><div style=\"border-top:1px solid #000;padding-top:8px\"><div style=\"margin-bottom:6px\">Flexing her body and tail to lift gravel and fine sediment into the moving water</div><div>[[z1]]</div></div><div style=\"border-top:1px solid #000;padding-top:8px\"><div style=\"margin-bottom:6px\">Covering her fertilized eggs with gravel so they are 20 to 60 centimeters deep</div><div>[[z2]]</div></div><div style=\"border-top:1px solid #000;padding-top:8px\"><div style=\"margin-bottom:6px\">Staying at her redd and defending it for 5 to 9 days after spawning</div><div>[[z3]]</div></div></div>",
+        "zoneNames": {
+          "z1": "Lifting sediment",
+          "z2": "Covering eggs with gravel",
+          "z3": "Defending the redd"
+        }
+      },
+      "key": {
+        "z1": "X",
+        "z2": "Z",
+        "z3": "W"
+      },
+      "explanation": "Lifting fine sediment into the current removes silt and sand from the nest (X). Burying eggs 20 to 60 centimeters deep puts them out of reach of insects and fish that eat eggs (Z). Defending the redd keeps other females from digging nests in the same spot (W). None of the described behaviors changes water temperature (Y)."
+    },
+    {
+      "n": 3,
+      "stimulus": [
+        "intro",
+        "eggs"
+      ],
+      "type": "cr",
+      "pe": "MS-LS1-4",
+      "points": 1,
+      "stem": "Scientists claim that the nest-building and guarding behaviors of female Chinook salmon increase the probability of successful reproduction. Suppose a female lays 5,000 eggs. Use evidence from the information to support this claim. In your answer, be sure to:<ul><li>identify one behavior of the female and the cause of egg death it reduces</li><li>use the percentages of eggs that die to compare about how many of the 5,000 eggs could survive under poor conditions and under ideal conditions</li><li>explain how the behavior affects the number of offspring that survive [1]</li></ul>",
+      "parts": [
+        {
+          "label": "Behavior and Evidence:",
+          "exemplar": "The female guards her redd for 5 to 9 days, which stops other females from digging in the same spot and digging up her eggs. In poor conditions 95% of eggs die, so only about 250 of 5,000 eggs live. In ideal conditions only 10% die, so about 4,500 eggs live."
+        },
+        {
+          "label": "Explanation:",
+          "exemplar": "Guarding removes one thing that kills eggs, so her redd is closer to ideal conditions. That means thousands more of her eggs can survive and hatch, so she has more offspring."
+        }
+      ],
+      "rubric": [
+        "1 Point: The response does all three: (1) identifies one female behavior and the cause of egg death it reduces (lifting fine sediment reduces sediment filling the gravel; burying eggs deep reduces insects or fish eating them; defending the redd reduces other females digging up the eggs); (2) uses the percentages to compare survival, about 250 eggs survive under poor conditions (5% of 5,000) and about 4,500 survive under ideal conditions (90% of 5,000), or an equivalent comparison such as “about 18 times more”; and (3) explains that by reducing a cause of egg death, the behavior keeps conditions closer to ideal, so more eggs survive and more offspring hatch. Reasonable estimates of the numbers are acceptable.",
+        "0 Points: The response is missing any of the three parts, for example it names a behavior with no matching cause of egg death, gives no numerical comparison or calculates it incorrectly (such as stating that 95 eggs survive), or restates the claim without explaining how the behavior changes the number of offspring.",
+        "0-point sample: “The salmon digs a nest so the eggs are safe and more of them live.” (Names a behavior but does not identify the cause of egg death it reduces and does not use the percentages to compare survival.)"
+      ],
+      "exemplar": "Behavior and Evidence: The female guards her redd for 5 to 9 days, which stops other females from digging in the same spot and digging up her eggs. In poor conditions 95% of eggs die, so only about 250 of 5,000 eggs live. In ideal conditions only 10% die, so about 4,500 eggs live.<br>Explanation: Guarding removes one thing that kills eggs, so her redd is closer to ideal conditions. That means thousands more of her eggs can survive and hatch, so she has more offspring."
+    },
+    {
+      "n": 4,
+      "stimulus": [
+        "growth"
+      ],
+      "type": "mc",
+      "pe": "MS-LS1-5",
+      "points": 1,
+      "stem": "Which claim is best supported by the data in the graph?",
+      "options": [
+        "Water temperature affected the growth of the fish only when they were given a reduced food supply, and not when they were given a full food supply.",
+        "Fish grew the fastest in 11°C water, because the cold water lowered the amount of food that the fish needed each day in order to grow.",
+        "The amount of food did not affect the growth of the fish, because the fish in both food groups were kept in water at the same three temperatures.",
+        "With a full food supply, fish grew faster as the water temperature increased, but with a reduced food supply, fish lost mass at every temperature."
+      ],
+      "key": "D",
+      "explanation": "With a full food supply, growth rose from 2.68 to 3.60 to 4.38 percent of body mass per day as temperature rose from 11°C to 15°C to 19°C. With a reduced food supply, all three values were negative (-0.28, -0.75, -0.53), so those fish lost mass."
+    },
+    {
+      "n": 5,
+      "stimulus": [
+        "growth"
+      ],
+      "type": "mc",
+      "pe": "MS-LS1-5",
+      "points": 1,
+      "stem": "All of the young salmon in the investigation hatched at the same hatchery from the same population of Chinook salmon. Why was this an important part of the investigation?",
+      "options": [
+        "Using fish from one population made it more likely that differences in growth were caused by temperature and food, not by inherited genetic differences.",
+        "Fish from one population all have identical genes, so every fish in the same tank would grow to exactly the same size during the investigation.",
+        "Fish raised in a hatchery do not inherit any genes that affect growth, so only the water temperature and food could change their size.",
+        "Using fish from one population made sure that the water in every tank stayed at the correct temperature for the whole investigation."
+      ],
+      "key": "A",
+      "explanation": "Genetic factors also influence growth. Using fish from one hatchery population reduces the chance that inherited differences between groups, instead of the environmental factors being tested, explain the results."
+    },
+    {
+      "n": 6,
+      "stimulus": [
+        "growth"
+      ],
+      "type": "cr",
+      "pe": "MS-LS1-5",
+      "points": 1,
+      "stem": "Construct a scientific explanation, based on evidence from the graph, for how water temperature and the amount of food affect the growth of young Chinook salmon. In your answer, be sure to:<ul><li>use data from the graph to describe how water temperature affected the growth of fish given a full food supply</li><li>use data from the graph to describe how the amount of food affected growth</li><li>explain why young salmon need enough food in order to grow [1]</li></ul>",
+      "parts": [
+        {
+          "label": "Evidence:",
+          "exemplar": "With full food, the fish grew 2.68% per day at 11°C, 3.60% at 15°C, and 4.38% at 19°C, so warmer water made them grow faster. With reduced food, the fish lost mass at every temperature, like -0.53% at 19°C."
+        },
+        {
+          "label": "Explanation:",
+          "exemplar": "Fish need food because food gives them the energy and the materials to build their bodies. When they had plenty of food, warmer water helped them grow more, but without enough food they could not grow at any temperature."
+        }
+      ],
+      "rubric": [
+        "1 Point: The response does all three: (1) uses data to show that with a full food supply, growth increased as water temperature increased (for example, 2.68 at 11°C to 4.38 at 19°C); (2) uses data to show that fish with a reduced food supply lost mass at every temperature, or grew much less than full food fish at the same temperature (for example, -0.53 compared with 4.38 at 19°C); and (3) explains that food provides the materials (matter) and energy the fish need to build body mass, so warmer water only increased growth when there was enough food. Values read approximately from the graph are acceptable.",
+        "0 Points: The response is missing any of the three parts, for example it describes only one factor, gives no numbers from the graph, misreads the trend (such as stating fish grew fastest at 11°C), or gives no reason why food is needed for growth.",
+        "0-point sample: “The fish grew more when the water was warmer, so temperature is the most important factor.” (Uses no data, ignores the effect of food, and gives no reason why food is needed for growth.)"
+      ],
+      "exemplar": "Evidence: With full food, the fish grew 2.68% per day at 11°C, 3.60% at 15°C, and 4.38% at 19°C, so warmer water made them grow faster. With reduced food, the fish lost mass at every temperature, like -0.53% at 19°C.<br>Explanation: Fish need food because food gives them the energy and the materials to build their bodies. When they had plenty of food, warmer water helped them grow more, but without enough food they could not grow at any temperature."
+    }
+  ]
+}

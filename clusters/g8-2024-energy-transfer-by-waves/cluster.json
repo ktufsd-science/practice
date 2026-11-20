@@ -4,7 +4,7 @@
   "grade": 8,
   "subject": "Science",
   "year": "2024",
-  "source": "NYSED 2024 Grade 8 ILS Released Items, Questions 1-5",
+  "source": "released", "citation": "NYSED 2024 Grade 8 ILS Released Items, Questions 1-5",
   "pes": ["MS-PS4-1", "MS-PS4-2"],
   "directions": "Base your answers to questions 1 through 5 on the information below and on your knowledge of science.",
   "showKeyAfterSubmit": true,

@@ -364,3 +364,11 @@ mark.hl { background: var(--hl); color: inherit; padding: 0; }
   .results { height: auto; overflow: visible; background: #fff; }
   .no-print { display: none !important; }
 }
+
+/* KTUFSD-authored practice clusters: yellow, dark text for contrast */
+.src-tag { display: inline-block; font-size: 12px; font-weight: 600; padding: 1px 8px; border: 1px solid #cfd6db; background: #f3f5f6; color: #2b343a; }
+.src-tag.authored { background: #ffe14d; border-color: #b89b00; color: #1a1a1a; }
+.cluster-row.authored { background: #fff9d6; border-color: #d9c24a; }
+.authored-strip { flex: none; background: #ffe14d; color: #1a1a1a; border-bottom: 1px solid #b89b00; padding: 5px 16px; font-size: 14px; font-weight: 600; text-align: center; }
+.authored-strip.in-card { border: 1px solid #b89b00; text-align: left; margin: 0 0 10px; }
+@media print { .authored-strip { border: 1px solid #000; } }
