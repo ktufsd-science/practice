@@ -40,6 +40,7 @@ button:focus-visible, [tabindex]:focus-visible { outline: 3px solid #ffbf47; out
 .grade-tabs { display: flex; gap: 8px; margin-bottom: 22px; flex-wrap: wrap; }
 .grade-tabs button { border: 1px solid var(--nav-bar); background: #fff; color: var(--nav-bar); font-size: 16px; font-weight: 700; padding: 9px 20px; }
 .grade-tabs button[aria-pressed="true"] { background: var(--btn); }
+.grade-tabs + .grade-note { margin: -12px 0 20px; max-width: 860px; font-size: 15px; color: #333; }
 .step { display: flex; align-items: center; gap: 10px; font-size: 19px; color: var(--nav-bar); margin: 6px 0 10px; }
 .step span { width: 28px; height: 28px; border-radius: 50%; background: var(--nav-bar); color: #fff; display: grid; place-items: center; font-size: 15px; flex: none; }
 .find { display: block; margin-bottom: 14px; }

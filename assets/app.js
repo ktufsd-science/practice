@@ -26,6 +26,16 @@
   }
 
   let T = null; // current test session
+  // Grades 3, 4, 6, and 7 have no state test of their own. Their tabs list the
+  // released Grade 5 or Grade 8 clusters whose science that grade has already
+  // learned (the "grades" list in clusters/index.json, built by tools/build-index.js).
+  const GRADE_NOTE = {
+    3: 'These clusters come from past Grade 5 state tests. They only use science you learn in Grade 3, but the reading is written for Grade 5.',
+    4: 'These clusters come from past Grade 5 state tests. They only use science you learn by the end of Grade 4, but the reading is written for Grade 5.',
+    6: 'These clusters come from past Grade 8 state tests. They only use science you learn in Grade 6.',
+    7: 'These clusters come from past Grade 8 state tests. They only use science you learn by the end of Grade 7.'
+  };
+  const onTab = (c, g) => (c.grades || [c.grade]).includes(g);
 
   // ---------- router ----------
   window.addEventListener('hashchange', route);
@@ -54,9 +64,9 @@
       <main class="home-main"><div class="wrap">
         <h2 class="step"><span>1</span> Choose your grade</h2>
         <div class="grade-tabs" role="group" aria-label="Choose your grade">
-          <button type="button" data-g="5" aria-pressed="${grade === 5}">Grade 5</button>
-          <button type="button" data-g="8" aria-pressed="${grade === 8}">Grade 8</button>
+          ${[3, 4, 5, 6, 7, 8].map(g => `<button type="button" data-g="${g}" aria-pressed="${grade === g}">Grade ${g}</button>`).join('')}
         </div>
+        ${GRADE_NOTE[grade] ? `<p class="grade-note">${GRADE_NOTE[grade]}</p>` : ''}
         <h2 class="step"><span>2</span> Find the cluster your teacher gave you</h2>
         <label class="find"><span class="sr">Cluster name</span>
           <input id="find" type="search" autocomplete="off" spellcheck="false" placeholder="Type the cluster name, for example Meerkats">
@@ -90,7 +100,7 @@
         const done = st && st.submitted;
         const row = h('div', { class: 'cluster-row', role: 'listitem' });
         row.innerHTML = `<div class="cr-name"><h3>${c.title}</h3>
-          <div class="meta">${c.year ? `${c.year} NYS test` : ''}${c.numbers ? ` · Questions ${c.numbers}` : ''} · ${c.questions} questions</div></div>
+          <div class="meta">${c.year ? `${c.year}${c.grade !== grade ? ` Grade ${c.grade}` : ''} NYS test` : ''}${c.numbers ? ` · Questions ${c.numbers}` : ''} · ${c.questions} questions</div></div>
           <div class="cr-actions"></div>`;
         const act = row.querySelector('.cr-actions');
         if (inProg) act.append(h('span', { class: 'progress-tag' }, 'In progress'));
@@ -119,7 +129,7 @@
     });
     try {
       const idx = await loadJSON('clusters/index.json');
-      list = idx.clusters.filter(c => c.grade === grade).sort((a, b) => norm(a.title).localeCompare(norm(b.title)));
+      list = idx.clusters.filter(c => onTab(c, grade)).sort((a, b) => norm(a.title).localeCompare(norm(b.title)));
       paint();
       find.focus();
     } catch (e) {
@@ -733,7 +743,8 @@
           ql.append(b); if (i < g.items.length - 1) ql.append(', ');
         });
         if (!pending && got < max) {
-          const more = siteIndex.filter(c => c.id !== id && c.grade === cl.grade && (c.pes || []).some(p => g.pes.includes(p))).slice(0, 3);
+          const tab = siteIndex.some(c => c.id === id && onTab(c, store.get('grade'))) ? store.get('grade') : cl.grade;
+          const more = siteIndex.filter(c => c.id !== id && onTab(c, tab) && (c.pes || []).some(p => g.pes.includes(p))).slice(0, 3);
           const next = h('div', { class: 'topic-next' }, '<b>Next step:</b> reread the questions above and the scoring guide, then try this skill again.');
           if (more.length) {
             next.append(' More practice: ');
